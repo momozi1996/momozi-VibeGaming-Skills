@@ -1,0 +1,6 @@
+{
+  "checks": [],
+  "errors": [],
+  "external": [],
+  "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(moved.player.z>start.player.z+2)\n"
+}

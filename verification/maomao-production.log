@@ -1,0 +1,15 @@
+CHECK menu_ready_and_six_characters
+CHECK all_character_choices_change_simulation_and_hero
+CHECK help_dialog
+CHECK mute_and_quality_settings
+CHECK countdown_and_no_implicit_autopilot
+CHECK native_keyboard_acceleration_steering_brake_rescue
+CHECK race_camera_and_pause_freeze_resume
+CHECK item_key_consumes_explicit_fixture_item
+CHECK three_laps_and_eight_result_entries
+CHECK restart_and_return_to_menu
+CHECK photo_mode_orbit_and_real_png_download
+CHECK mobile_layout_and_native_touch_press_release
+CHECK no_runtime_javascript_or_console_errors
+Report: /Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/maomao-production/report.json
+PASS

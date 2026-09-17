@@ -1,0 +1,4 @@
+interface:
+  display_name: "maomao3Dgame"
+  short_description: "完整猫猫卡丁车工程与程序化美术，可复现、换主题并真实验收"
+  default_prompt: "使用 $maomao3dgame 制作一款可玩的樱花主题猫猫卡丁车游戏，保留完整比赛闭环并实际测试。"

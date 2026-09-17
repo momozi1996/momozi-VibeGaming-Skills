@@ -1,0 +1,8 @@
+{
+  "skill": "moshougame",
+  "mode": "variant",
+  "preset": "autumn",
+  "baselineManifestSha256": "a4fb214cb6e13183afd06fd8b41290c9f80160071d336aa3b5625c28c8323e9d",
+  "tested": false,
+  "notice": "Inherited docs/reports describe the baseline, not this new game. Run fresh tests."
+}

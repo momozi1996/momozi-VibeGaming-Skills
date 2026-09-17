@@ -1,0 +1,4 @@
+interface:
+  display_name: "moshougame"
+  short_description: "完整第三人称奇幻任务游戏工坊，内置素材与换场景构建流程"
+  default_prompt: "使用 $moshougame 制作秋日哨站主题的单人奇幻游戏，保留战斗任务存档闭环并实际验收。"

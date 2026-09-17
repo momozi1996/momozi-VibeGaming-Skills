@@ -1,0 +1,12 @@
+[
+  {
+    "family": "racing",
+    "exitCode": 0,
+    "mobile": true
+  },
+  {
+    "family": "adventure",
+    "exitCode": 0,
+    "mobile": false
+  }
+]

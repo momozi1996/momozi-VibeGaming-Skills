@@ -1,0 +1,9 @@
+PASS Sculpted terrain has a writable GPU height buffer, not a flat rendered plane
+PASS Camera movement preserves orbit radius
+PASS Settings retain values and Escape works with input focus
+PASS Bag potion consumption updates the open inventory immediately
+PASS Photo mode freezes gameplay, keeps orbit active and exports a real PNG
+PASS Reset requires a confirmation and supports cancel
+PASS Confirmed reset is not undone by beforeunload autosave
+PASS Edge interactions produce no page errors
+PASS Missing required art stops loading instead of presenting placeholder material

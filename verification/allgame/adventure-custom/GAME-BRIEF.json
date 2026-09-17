@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "title": "New adventure game",
+  "family": "adventure",
+  "recipe": "quest-adventure",
+  "style": "沿用基线；由agent按用户需求更新",
+  "coreLoop": [
+    "沿用基线完整可玩循环"
+  ],
+  "keep": [
+    "保留完整输入、暂停、重开和验证能力"
+  ],
+  "change": [
+    "由agent填写本轮主题或功能变更"
+  ],
+  "targetDevices": [
+    "桌面WebGL2浏览器"
+  ],
+  "acceptance": [
+    "运行本轮单元、构建、浏览器流程并查看截图"
+  ],
+  "nonGoals": [
+    "不自动添加联机或后端"
+  ]
+}

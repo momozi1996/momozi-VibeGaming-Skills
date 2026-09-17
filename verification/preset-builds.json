@@ -1,0 +1,78 @@
+[
+  {
+    "project": "maomao-sakura",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exitCode": 0,
+    "log": "maomao-sakura-unit.log"
+  },
+  {
+    "project": "maomao-sakura",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "log": "maomao-sakura-build.log"
+  },
+  {
+    "project": "maomao-sunset",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exitCode": 0,
+    "log": "maomao-sunset-unit.log"
+  },
+  {
+    "project": "maomao-sunset",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "log": "maomao-sunset-build.log"
+  },
+  {
+    "project": "moshou-autumn",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exitCode": 0,
+    "log": "moshou-autumn-unit.log"
+  },
+  {
+    "project": "moshou-autumn",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "log": "moshou-autumn-build.log"
+  },
+  {
+    "project": "moshou-frost",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exitCode": 0,
+    "log": "moshou-frost-unit.log"
+  },
+  {
+    "project": "moshou-frost",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "log": "moshou-frost-build.log"
+  }
+]

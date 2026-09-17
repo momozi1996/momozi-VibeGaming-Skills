@@ -1,0 +1,8 @@
+
+  VITE v8.3.0  ready in 1194 ms
+
+  ➜  Local:   http://127.0.0.1:4383/
+2:07:01 PM [vite] (client) [console.error] Required texture failed: /assets/textures/roof.jpg
+2:07:01 PM [vite] (client) [console.error] Required texture failed: /assets/textures/roof.jpg
+2:07:05 PM [vite] (client) [console.error] Northshire initialization failed Error: Required scene textures did not load
+    at Game.init (http://127.0.0.1:4383/src/app/game.ts:280:31)

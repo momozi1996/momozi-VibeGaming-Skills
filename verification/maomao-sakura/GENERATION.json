@@ -1,0 +1,8 @@
+{
+  "skill": "maomao3dgame",
+  "mode": "variant",
+  "preset": "sakura",
+  "baselineManifestSha256": "6aa1bf15de500ca28785574c96adea3aacc36f7c90580b68bc9ed467e5257127",
+  "tested": false,
+  "notice": "Inherited docs/reports describe the baseline, not this new game. Run fresh tests."
+}

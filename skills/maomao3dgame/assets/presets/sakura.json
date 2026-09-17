@@ -1,0 +1,99 @@
+{
+  "brand": "SAKURA",
+  "title": "樱色猫猫大奖赛",
+  "season": "SAKURA CIRCUIT",
+  "tagline": "一起出发！",
+  "seed": 6202611,
+  "trackPoints": [
+    [
+      -128,
+      20
+    ],
+    [
+      -123,
+      78
+    ],
+    [
+      -92,
+      129
+    ],
+    [
+      -34,
+      154
+    ],
+    [
+      26,
+      147
+    ],
+    [
+      75,
+      110
+    ],
+    [
+      100,
+      65
+    ],
+    [
+      88,
+      18
+    ],
+    [
+      117,
+      -28
+    ],
+    [
+      132,
+      -82
+    ],
+    [
+      99,
+      -125
+    ],
+    [
+      43,
+      -137
+    ],
+    [
+      -5,
+      -115
+    ],
+    [
+      -53,
+      -124
+    ],
+    [
+      -103,
+      -94
+    ],
+    [
+      -126,
+      -47
+    ]
+  ],
+  "colors": {
+    "sky": "#a7c9e0",
+    "horizon": "#efdbdf",
+    "fog": "#dedde8",
+    "ambient": "#e6ecff",
+    "bounce": "#c4a0a8",
+    "sun": "#ffe6dc",
+    "sandTexture": "#f1ddcb",
+    "sand": "#ffe6d4",
+    "wetSand": "#d7c2c3",
+    "grass": "#abc8a2",
+    "road": "#f3ddcf",
+    "leaves": "#e9aabd",
+    "leavesDark": "#bd829d",
+    "leavesLight": "#f5c5cd",
+    "accent": "#d790b4"
+  },
+  "ui": {
+    "cream": "#fff5ef",
+    "paper": "#f8e9e3",
+    "navy": "#503b59",
+    "muted": "#937694",
+    "mint": "#e3cbdc",
+    "coral": "#c87a9f",
+    "yellow": "#edca93"
+  }
+}

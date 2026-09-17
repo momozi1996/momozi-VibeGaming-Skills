@@ -1,0 +1,15 @@
+FAIL AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert(moved.player.z>start.player.z+2)
+
+    at file:///Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/moshou-autumn/.shibing-tests-qE36CV/test-playthrough.mjs:12:142
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:472:9) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+STATE {"state":{"version":1,"level":1,"xp":0,"hp":100,"gold":0,"potions":3,"herbs":0,"kills":0,"quest":"available","position":{"x":-0.03482987162106373,"z":-25.607095396182054},"elapsed":0.5513999999761583},"player":{"x":-0.03482987162106373,"y":0,"z":-25.607095396182054},"enemies":[{"id":"wolf-1","hp":70,"x":30.33354244577674,"z":-19.805993994017623},{"id":"wolf-2","hp":70,"x":40.34346417747071,"z":-31.175844397938437},{"id":"wolf-3","hp":70,"x":48.037606528364314,"z":-17.384024273342654},{"id":"wolf-4","hp":70,"x":34.69717361051117,"z":-39.23913400285431},{"id":"wolf-5","hp":70,"x":52.635157878598605,"z":-29.87438503296466}],"meshes":75,"fps":7.4678880812727835,"drawCalls":17205,"ready":true,"animations":["player_Attack","player_Block","player_Death","player_Hit","player_Idle","player_Run"]}

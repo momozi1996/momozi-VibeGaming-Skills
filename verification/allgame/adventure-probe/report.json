@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-16T07:41:19.571Z",
+  "project": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/adventure-custom",
+  "url": "http://127.0.0.1:4492/",
+  "smokeOnly": true,
+  "mobile": false,
+  "angle": "metal",
+  "errors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "externalRequests": [],
+  "checks": [
+    {
+      "name": "visible canvas",
+      "pass": true
+    },
+    {
+      "name": "native start click",
+      "pass": true
+    },
+    {
+      "name": "no observed runtime or HTTP failures",
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    "01-initial.png",
+    "02-started.png"
+  ],
+  "unverified": [
+    "win/lose loop",
+    "collision",
+    "save integrity",
+    "visual quality",
+    "actual device performance",
+    "audio listening"
+  ],
+  "canvas": {
+    "width": 1440,
+    "height": 900,
+    "displayWidth": 1440,
+    "displayHeight": 900
+  },
+  "pageTitle": "雾蓝谷 · 经典之境 | Northshire",
+  "horizontalOverflow": false,
+  "browser": "152.0.7977.83",
+  "status": "passed",
+  "error": null
+}

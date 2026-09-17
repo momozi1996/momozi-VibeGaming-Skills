@@ -1,0 +1,78 @@
+{
+  "skill": "allgame",
+  "date": "2026-09-16T07:37:34.054Z",
+  "project": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/racing-custom",
+  "family": "racing",
+  "suite": "all",
+  "status": "passed",
+  "error": null,
+  "stages": [
+    {
+      "name": "package-integrity",
+      "command": "python3",
+      "args": [
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/skills/allgame/scripts/game.py",
+        "verify"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "asset-tests-pins",
+      "command": "python3",
+      "args": [
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/skills/allgame/scripts/game.py",
+        "compare",
+        "--family",
+        "racing",
+        "--project",
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/racing-custom"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "unit",
+      "command": "npm",
+      "args": [
+        "test"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "build",
+      "command": "npm",
+      "args": [
+        "run",
+        "build"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "development",
+      "command": "/opt/homebrew/Cellar/node/25.8.1_1/bin/node",
+      "args": [
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/skills/allgame/assets/kits/racing/scripts/browser_verify.mjs",
+        "--project",
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/racing-custom",
+        "--out",
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/racing-check/development"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "production",
+      "command": "/opt/homebrew/Cellar/node/25.8.1_1/bin/node",
+      "args": [
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/skills/allgame/assets/kits/racing/scripts/browser_verify.mjs",
+        "--project",
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/racing-custom",
+        "--preview",
+        "--out",
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/racing-check/production"
+      ],
+      "exitCode": 0
+    }
+  ],
+  "scope": "Bundled baseline behavior and unchanged runtime assets/pins; new mechanics/maps require their own tests.",
+  "node": "v25.8.1",
+  "platform": "darwin"
+}

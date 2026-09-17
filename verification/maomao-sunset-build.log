@@ -1,0 +1,18 @@
+
+> aloha-kart@1.0.0 build
+> vite build
+
+vite v6.3.5 building for production...
+transforming...
+✓ 30 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.81 kB │ gzip:   1.08 kB
+dist/assets/index-CeiShvhn.css   44.77 kB │ gzip:   9.45 kB
+dist/assets/index-_aTivO5l.js   706.84 kB │ gzip: 195.90 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 5.17s

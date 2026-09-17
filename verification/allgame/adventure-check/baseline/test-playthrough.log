@@ -1,0 +1,18 @@
+PASS WASD moves player {"x":-0.11691981996533636,"y":0,"z":-22.324181573819168}
+PASS Jump and landing true
+PASS Abbey collision blocks passage {"x":-0.18399233273371787,"y":0.96,"z":3.6099567574339586}
+PASS Quest accepted through NPC dialogue true
+PASS Map renders and pauses world true
+PASS Defeated wolf 1 {"version":1,"level":1,"xp":30,"hp":80,"gold":0,"potions":3,"herbs":0,"kills":1,"quest":"active","position":{"x":32.070962650134305,"z":-22.964929918512695},"elapsed":9.23270000001788}
+PASS Potion heals and is consumed true
+PASS Defeated wolf 2 {"version":1,"level":1,"xp":60,"hp":80,"gold":3,"potions":2,"herbs":0,"kills":2,"quest":"active","position":{"x":39.87684814526419,"z":-35.78711990410948},"elapsed":12.415599999994042}
+PASS Defeated wolf 3 {"version":1,"level":1,"xp":90,"hp":60,"gold":3,"potions":2,"herbs":0,"kills":3,"quest":"active","position":{"x":45.91378941296557,"z":-19.83803037295584},"elapsed":14.53300000000001}
+PASS Gathering advances quest to return true
+PASS Quest completion, XP, level and rewards {"version":1,"level":2,"xp":70,"hp":120,"gold":18,"potions":4,"herbs":2,"kills":3,"quest":"complete","position":{"x":-4.8,"z":-9},"elapsed":16.066599999994047}
+PASS Save survives reload and continue true
+PASS Death/respawn retains progress true
+PASS Quality and volume controls true
+PASS Mouse orbit camera true
+PASS 1280×720 layout has no horizontal overflow true
+PASS Renderer ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)
+PASS No runtime console errors or external asset requests true

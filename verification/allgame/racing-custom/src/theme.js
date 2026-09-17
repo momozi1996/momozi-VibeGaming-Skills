@@ -1,0 +1,100 @@
+// Editable palette, seed and XZ control points. Mechanics remain in simulation.js.
+export const THEME = {
+  "brand": "PINE",
+  "title": "松风猫猫大奖赛",
+  "season": "PINE CIRCUIT",
+  "tagline": "沿着松风出发",
+  "seed": 6202611,
+  "trackPoints": [
+    [
+      -128,
+      20
+    ],
+    [
+      -123,
+      78
+    ],
+    [
+      -92,
+      129
+    ],
+    [
+      -34,
+      154
+    ],
+    [
+      26,
+      147
+    ],
+    [
+      75,
+      110
+    ],
+    [
+      100,
+      65
+    ],
+    [
+      88,
+      18
+    ],
+    [
+      117,
+      -28
+    ],
+    [
+      132,
+      -82
+    ],
+    [
+      99,
+      -125
+    ],
+    [
+      43,
+      -137
+    ],
+    [
+      -5,
+      -115
+    ],
+    [
+      -53,
+      -124
+    ],
+    [
+      -103,
+      -94
+    ],
+    [
+      -126,
+      -47
+    ]
+  ],
+  "colors": {
+    "sky": "#80b5d3",
+    "horizon": "#d5e9dd",
+    "fog": "#e8bbaa",
+    "ambient": "#c9c6e8",
+    "bounce": "#b98070",
+    "sun": "#ffd0a1",
+    "sandTexture": "#dfb57e",
+    "sand": "#edc191",
+    "wetSand": "#c6a993",
+    "grass": "#869b6b",
+    "road": "#e8c29b",
+    "leaves": "#719a69",
+    "leavesDark": "#345e4b",
+    "leavesLight": "#a6bc78",
+    "accent": "#e89a68"
+  },
+  "ui": {
+    "cream": "#fff2d8",
+    "paper": "#f0dfc5",
+    "navy": "#244e45",
+    "muted": "#746272",
+    "mint": "#b9d3b4",
+    "coral": "#c98b62",
+    "yellow": "#e5b96b"
+  }
+};

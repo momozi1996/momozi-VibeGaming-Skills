@@ -1,0 +1,74 @@
+{
+  "skill": "maomao3dgame",
+  "passed": 17,
+  "checks": [
+    {
+      "name": "sealed skill integrity",
+      "passed": true
+    },
+    {
+      "name": "exact restoration",
+      "passed": true
+    },
+    {
+      "name": "exact bytes match",
+      "passed": true
+    },
+    {
+      "name": "nonempty output refused",
+      "passed": true
+    },
+    {
+      "name": "skill input refused",
+      "passed": true
+    },
+    {
+      "name": "skill ancestor refused",
+      "passed": true
+    },
+    {
+      "name": "symlink output refused",
+      "passed": true
+    },
+    {
+      "name": "unknown preset refused before creating output",
+      "passed": true
+    },
+    {
+      "name": "exact cannot accept preset",
+      "passed": true
+    },
+    {
+      "name": "rebuild scaffold",
+      "passed": true
+    },
+    {
+      "name": "rebuild preserves assets and tests",
+      "passed": true
+    },
+    {
+      "name": "materialize preset sakura",
+      "passed": true
+    },
+    {
+      "name": "preset retains baseline assets/tests sakura",
+      "passed": true
+    },
+    {
+      "name": "materialize preset sunset",
+      "passed": true
+    },
+    {
+      "name": "preset retains baseline assets/tests sunset",
+      "passed": true
+    },
+    {
+      "name": "detect changed baseline file",
+      "passed": true
+    },
+    {
+      "name": "skill remains intact",
+      "passed": true
+    }
+  ]
+}

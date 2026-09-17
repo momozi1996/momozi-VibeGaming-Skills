@@ -1,0 +1,10 @@
+{
+  "skill": "allgame",
+  "family": "adventure",
+  "mode": "variant",
+  "preset": "frost",
+  "customTheme": true,
+  "baselineManifestSha256": "a4fb214cb6e13183afd06fd8b41290c9f80160071d336aa3b5625c28c8323e9d",
+  "tested": false,
+  "notice": "Design goals are not implementation; inherited docs/reports are historical."
+}

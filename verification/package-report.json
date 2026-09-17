@@ -1,0 +1,20 @@
+{
+  "maomao3dgame": {
+    "installed": "/Users/jyxc-dz-0100378/.stepcode/codex/skills/maomao3dgame",
+    "zip": "maomao3Dgame.zip",
+    "bytes": 18116226,
+    "sha256": "9c24c6be0ea2b5c1a5336bfe5b4415c773b15984999ba468420fa2de961f1f6f",
+    "baselineUnchanged": true,
+    "isolatedZipSelftests": 17,
+    "installedIntegrity": true
+  },
+  "moshougame": {
+    "installed": "/Users/jyxc-dz-0100378/.stepcode/codex/skills/moshougame",
+    "zip": "moshougame.zip",
+    "bytes": 28421762,
+    "sha256": "6a2fda723f4e99bdb38a6a2fa17cbd39e4b97b81f4f9ea915f02d8b61b02ce89",
+    "baselineUnchanged": true,
+    "isolatedZipSelftests": 17,
+    "installedIntegrity": true
+  }
+}

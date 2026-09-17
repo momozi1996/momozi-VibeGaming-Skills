@@ -1,0 +1,89 @@
+{
+  "ok": true,
+  "errors": [],
+  "checkedFiles": 279
+}
+{
+  "command": "compare",
+  "project": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/racing-custom",
+  "checked": 11,
+  "differences": [],
+  "ok": true
+}
+
+> aloha-kart@1.0.0 test
+> node --test tests/simulation.test.mjs
+
+✔ contract: 8 stable racers, exact characters, fresh state and defensive inputs (4.172959ms)
+✔ countdown emits 3, 2, 1, GO; pause restores the exact countdown and racing clock (4.939917ms)
+✔ manual throttle is not auto-driving; explicit assist follows the course (87.046125ms)
+✔ positive steering turns right, negative turns left, brake slows and controls remain analog (1.143833ms)
+✔ drift charges in a turn, announces tiers, and releases a temporary boost (1.779708ms)
+✔ holding drift in a straight line does not farm boost (0.579417ms)
+✔ coins/items collect by proximity, cooldown is simulation-owned and pauses freeze it (7.377666ms)
+✔ item input is edge-triggered; boost and shield work and cannot be spent while paused (0.429792ms)
+✔ projectiles travel, home and hit and slow another kart (0.723833ms)
+✔ projectiles travel, home and are blocked by a shield (0.54075ms)
+✔ boost pads activate once on entry, rather than on every physics tick (2.336833ms)
+✔ sand is slower; respawn centers safely without granting checkpoints or a boost (0.770958ms)
+✔ kart contacts separate overlapping karts and report a knock (0.143792ms)
+✔ reverse movement and respawn cannot farm start-line laps or forged progress (0.25375ms)
+✔ a complete race has correct ordered checkpoints, ranks and meaningful estimated results (150.330459ms)
+✔ AI hold varied road lanes and fixed substeps agree at 30/120 fps (48.191875ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 480.293917
+
+> aloha-kart@1.0.0 build
+> vite build
+
+vite v6.3.5 building for production...
+transforming...
+✓ 30 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.80 kB │ gzip:   1.08 kB
+dist/assets/index-CIuedyFL.css   44.77 kB │ gzip:   9.45 kB
+dist/assets/index-MVne0gkJ.js   706.82 kB │ gzip: 195.89 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 1.43s
+CHECK menu_ready_and_six_characters
+CHECK all_character_choices_change_simulation_and_hero
+CHECK help_dialog
+CHECK mute_and_quality_settings
+CHECK countdown_and_no_implicit_autopilot
+CHECK native_keyboard_acceleration_steering_brake_rescue
+CHECK race_camera_and_pause_freeze_resume
+CHECK item_key_consumes_explicit_fixture_item
+CHECK three_laps_and_eight_result_entries
+CHECK restart_and_return_to_menu
+CHECK photo_mode_orbit_and_real_png_download
+CHECK mobile_layout_and_native_touch_press_release
+CHECK no_runtime_javascript_or_console_errors
+Report: /Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/racing-check/development/report.json
+PASS
+CHECK menu_ready_and_six_characters
+CHECK all_character_choices_change_simulation_and_hero
+CHECK help_dialog
+CHECK mute_and_quality_settings
+CHECK countdown_and_no_implicit_autopilot
+CHECK native_keyboard_acceleration_steering_brake_rescue
+CHECK race_camera_and_pause_freeze_resume
+CHECK item_key_consumes_explicit_fixture_item
+CHECK three_laps_and_eight_result_entries
+CHECK restart_and_return_to_menu
+CHECK photo_mode_orbit_and_real_png_download
+CHECK mobile_layout_and_native_touch_press_release
+CHECK no_runtime_javascript_or_console_errors
+Report: /Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/racing-check/production/report.json
+PASS
+Report: /Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/racing-check

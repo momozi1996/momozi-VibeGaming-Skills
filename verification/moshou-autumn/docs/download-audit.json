@@ -1,0 +1,203 @@
+[
+  {
+    "file": "nature.zip",
+    "url": "https://opengameart.org/sites/default/files/stylized_nature_megakitstandard.zip",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "ui-borders.zip",
+    "status": 200,
+    "bytes": 358780,
+    "url": "https://kenney.nl/media/pages/assets/fantasy-ui-borders/ab29cd0165-1701602367/kenney_fantasy-ui-borders.zip",
+    "final_url": "https://kenney.nl/media/pages/assets/fantasy-ui-borders/ab29cd0165-1701602367/kenney_fantasy-ui-borders.zip",
+    "type": "application/zip",
+    "sha256": "59532da3bd61195a425585455b40baa6cbf1eda8227c42adcef31a535a737769",
+    "zip_ok": true,
+    "files": 302,
+    "sample": [
+      "PNG/",
+      "PNG/Default/",
+      "PNG/Default/Border/",
+      "PNG/Default/Border/panel-border-000.png",
+      "PNG/Default/Border/panel-border-001.png",
+      "PNG/Default/Border/panel-border-002.png",
+      "PNG/Default/Border/panel-border-003.png",
+      "PNG/Default/Border/panel-border-004.png"
+    ],
+    "license_files": [
+      "License.txt"
+    ]
+  },
+  {
+    "file": "rpg-audio.zip",
+    "status": 200,
+    "bytes": 964837,
+    "url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+    "final_url": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+    "type": "application/zip",
+    "sha256": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
+    "zip_ok": true,
+    "files": 56,
+    "sample": [
+      "License.txt",
+      "Preview.ogg",
+      "Visit Kenney.url",
+      "Visit Patreon.url",
+      "Audio/",
+      "Audio/beltHandle1.ogg",
+      "Audio/beltHandle2.ogg",
+      "Audio/bookClose.ogg"
+    ],
+    "license_files": [
+      "License.txt"
+    ]
+  },
+  {
+    "file": "impact-sounds.zip",
+    "status": 200,
+    "bytes": 800850,
+    "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "final_url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "type": "application/zip",
+    "sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
+    "zip_ok": true,
+    "files": 134,
+    "sample": [
+      "Audio/",
+      "Audio/footstep_carpet_000.ogg",
+      "Audio/footstep_carpet_001.ogg",
+      "Audio/footstep_carpet_002.ogg",
+      "Audio/footstep_carpet_003.ogg",
+      "Audio/footstep_carpet_004.ogg",
+      "Audio/footstep_concrete_000.ogg",
+      "Audio/footstep_concrete_001.ogg"
+    ],
+    "license_files": [
+      "License.txt"
+    ]
+  },
+  {
+    "file": "Bricks058_2K-JPG.zip",
+    "status": 200,
+    "bytes": 25884040,
+    "url": "https://ambientcg.com/get?file=Bricks058_2K-JPG.zip",
+    "final_url": "https://acg-download.struffelproductions.com/file/ambientCG-Web/download/Bricks058_e5YQh3BC/Bricks058_2K-JPG.zip",
+    "type": "application/zip",
+    "sha256": "503c5bd37eb396a58f6b573185940be7776a4c933e8073d6fbe56f50a6b5a70f",
+    "zip_ok": true,
+    "files": 11,
+    "sample": [
+      "Bricks058_2K-JPG.usdc",
+      "Bricks058_2K-JPG_AmbientOcclusion.jpg",
+      "Bricks058_2K-JPG_Color.jpg",
+      "Bricks058_2K-JPG_Displacement.jpg",
+      "Bricks058_2K-JPG_NormalDX.jpg",
+      "Bricks058_2K-JPG_NormalGL.jpg",
+      "Bricks058_2K-JPG_Roughness.jpg",
+      "Bricks058_2K-JPG.blend"
+    ],
+    "license_files": []
+  },
+  {
+    "file": "Ground037_2K-JPG.zip",
+    "status": 200,
+    "bytes": 37874033,
+    "url": "https://ambientcg.com/get?file=Ground037_2K-JPG.zip",
+    "final_url": "https://acg-download.struffelproductions.com/file/ambientCG-Web/download/Ground037_MosY1mCU/Ground037_2K-JPG.zip",
+    "type": "application/zip",
+    "sha256": "defa9f880ec692eb3ef5435fd7bc7b8721c0d577f7824ea18ac68537f01ab65b",
+    "zip_ok": true,
+    "files": 11,
+    "sample": [
+      "Ground037_2K-JPG.usdc",
+      "Ground037_2K-JPG_AmbientOcclusion.jpg",
+      "Ground037_2K-JPG_Color.jpg",
+      "Ground037_2K-JPG_Displacement.jpg",
+      "Ground037_2K-JPG_NormalDX.jpg",
+      "Ground037_2K-JPG_NormalGL.jpg",
+      "Ground037_2K-JPG_Roughness.jpg",
+      "Ground037_2K-JPG.blend"
+    ],
+    "license_files": []
+  },
+  {
+    "file": "forest-ambience.mp3",
+    "status": 200,
+    "bytes": 716670,
+    "url": "https://opengameart.org/sites/default/files/Forest_Ambience.mp3",
+    "final_url": "https://opengameart.org/sites/default/files/Forest_Ambience.mp3",
+    "type": "audio/mpeg",
+    "sha256": "9850aa1d0d5d66bd9c5daf8bb77c6d852e01f2f4de22f283bd5621e8bed13b75"
+  },
+  {
+    "file": "forest_slope_2k.hdr",
+    "status": 200,
+    "bytes": 7562873,
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/forest_slope_2k.hdr",
+    "final_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/forest_slope_2k.hdr",
+    "type": "application/octet-stream",
+    "sha256": "aa76871c301a2ea5977043e48036b53bb3f26eff0d96fa833789a7738569c279",
+    "md5_ok": true
+  },
+  {
+    "file": "crate/wooden_crate_01_2k.gltf",
+    "status": 200,
+    "bytes": 5612,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wooden_crate_01/wooden_crate_01_2k.gltf",
+    "final_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wooden_crate_01/wooden_crate_01_2k.gltf",
+    "type": "model/gltf+json",
+    "sha256": "747c26810ddcca99454ccd27fa0079b3718edda34c75d2a792b2c9bd28772a20",
+    "md5_ok": true
+  },
+  {
+    "file": "crate/wooden_crate_01.bin",
+    "status": 200,
+    "bytes": 189408,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/wooden_crate_01/wooden_crate_01.bin",
+    "final_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/wooden_crate_01/wooden_crate_01.bin",
+    "type": "application/octet-stream",
+    "sha256": "85f381f8035f7a6f2f3b848640894c6d3333b261946dd8a338c0fe19e0bea21e",
+    "md5_ok": true
+  },
+  {
+    "file": "crate/textures/wooden_crate_01_arm_2k.jpg",
+    "status": 200,
+    "bytes": 2808807,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_crate_01/wooden_crate_01_arm_2k.jpg",
+    "final_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_crate_01/wooden_crate_01_arm_2k.jpg",
+    "type": "image/jpeg",
+    "sha256": "00568882a62e4870a3ca9bbaad72606381bf3da857f0cb7a71b004edde39653c",
+    "md5_ok": true
+  },
+  {
+    "file": "crate/textures/wooden_crate_01_nor_gl_2k.jpg",
+    "status": 200,
+    "bytes": 2553649,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_crate_01/wooden_crate_01_nor_gl_2k.jpg",
+    "final_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_crate_01/wooden_crate_01_nor_gl_2k.jpg",
+    "type": "image/jpeg",
+    "sha256": "d163fac0801aa15a6153a8b19de898442b849f82bd720ce1418e300fee9f2c75",
+    "md5_ok": true
+  },
+  {
+    "file": "crate/textures/wooden_crate_01_diff_2k.jpg",
+    "status": 200,
+    "bytes": 2728494,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_crate_01/wooden_crate_01_diff_2k.jpg",
+    "final_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_crate_01/wooden_crate_01_diff_2k.jpg",
+    "type": "image/jpeg",
+    "sha256": "0ba1a7745837c7b5495b6a90051ddb92b25224476526ebd19418286afc3d429b",
+    "md5_ok": true
+  },
+  {
+    "file": "source-wolf.zip",
+    "url": "https://opengameart.org/sites/default/files/wolf.zip",
+    "bytes": 115769,
+    "sha256": "ec20c49aa127b40e532b9ff5c09d8c021779dec7423e3d7b54709232e5a17129",
+    "zip_ok": true,
+    "files": [
+      "wolf.blend"
+    ],
+    "notes": "Downloaded and validated locally; missing external photo references are not included or used."
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-16T07:40:58.927Z",
+  "project": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/racing-custom",
+  "url": "http://127.0.0.1:4491/",
+  "smokeOnly": true,
+  "mobile": true,
+  "angle": "metal",
+  "errors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "externalRequests": [],
+  "checks": [
+    {
+      "name": "visible canvas",
+      "pass": true
+    },
+    {
+      "name": "native start click",
+      "pass": true
+    },
+    {
+      "name": "no observed runtime or HTTP failures",
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    "01-initial.png",
+    "02-started.png"
+  ],
+  "unverified": [
+    "win/lose loop",
+    "collision",
+    "save integrity",
+    "visual quality",
+    "actual device performance",
+    "audio listening"
+  ],
+  "canvas": {
+    "width": 390,
+    "height": 844,
+    "displayWidth": 390,
+    "displayHeight": 844
+  },
+  "pageTitle": "PINE KART — 松风猫猫大奖赛",
+  "horizontalOverflow": false,
+  "browser": "152.0.7977.83",
+  "status": "passed",
+  "error": null
+}

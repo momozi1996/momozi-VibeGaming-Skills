@@ -1,0 +1,17 @@
+PASS production {
+  date: '2026-09-16',
+  startupMs: 7156,
+  fps: '60',
+  assetRequests: 133,
+  productionDebugInterface: false,
+  errors: [],
+  external: [],
+  checks: [
+    'Production load',
+    'Title and world screenshot',
+    'Map and bag',
+    'Settings and save',
+    'No dev-only debug API',
+    'No external runtime asset requests'
+  ]
+}

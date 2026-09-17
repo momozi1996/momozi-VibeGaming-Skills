@@ -1,0 +1,10 @@
+{
+  "skill": "allgame",
+  "family": "racing",
+  "mode": "variant",
+  "preset": "sunset",
+  "customTheme": true,
+  "baselineManifestSha256": "6aa1bf15de500ca28785574c96adea3aacc36f7c90580b68bc9ed467e5257127",
+  "tested": false,
+  "notice": "Design goals are not implementation; inherited docs/reports are historical."
+}

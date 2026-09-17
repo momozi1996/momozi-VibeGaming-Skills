@@ -1,0 +1,227 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 30,
+    "sha256": "8ffe9de56bd30c1a95cd945262d6e3ac355ada4111551dde41f67851b9f1fc55"
+  },
+  {
+    "path": "CONTRACT.md",
+    "bytes": 5979,
+    "sha256": "8738991415e3c6da1cf9f71afa770753e95290ee0432815e2d04baf57005596a"
+  },
+  {
+    "path": "DESIGN.md",
+    "bytes": 963,
+    "sha256": "368bce8ac9a51efb52c2c231223fb8ec828f4a79a98113f0767364f9ace6aa3b"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4388,
+    "sha256": "c3a5e769eff3d20d13dcb7719416f57bf3e32b5b152e7ed7efe0070bdbe3a5a3"
+  },
+  {
+    "path": "dist/assets/OFL-Barlow.txt",
+    "bytes": 4377,
+    "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+  },
+  {
+    "path": "dist/assets/barlow-800-italic.ttf",
+    "bytes": 89652,
+    "sha256": "94cf666814140f0e3d0785fdedbc82a3ddb0791ce0001f13c5477fd80439ed23"
+  },
+  {
+    "path": "dist/assets/barlow-800-normal.ttf",
+    "bytes": 87556,
+    "sha256": "73bc9e17231e9073780d3c81574c7253cecd5645c93544df1a935054b39a364f"
+  },
+  {
+    "path": "dist/assets/barlow-900-italic.ttf",
+    "bytes": 89324,
+    "sha256": "75338266e60b15dfc5ac0bae8b78fdc5535ea50703ed73c14dc598498ffe8173"
+  },
+  {
+    "path": "dist/assets/barlow-900-normal.ttf",
+    "bytes": 88228,
+    "sha256": "0ec6b3cca2df54f108f8dc239597e0eab386343a230afad8a0f445c7d21c3e77"
+  },
+  {
+    "path": "dist/assets/index-BhvPOhOf.css",
+    "bytes": 44620,
+    "sha256": "25641aedd2422086f3468f729ed430f55693988020f79e85b4096b2f46e232cf"
+  },
+  {
+    "path": "dist/assets/index-CU3SJ8PH.js",
+    "bytes": 706392,
+    "sha256": "769e4aac5e40d9c6be209877beb265e6bd678b4ad457ca69dec882f4a99dd372"
+  },
+  {
+    "path": "dist/assets/paw.svg",
+    "bytes": 366,
+    "sha256": "259bbfd5c1578e9c57f39f8084a3bd7a9246eecd70b3f356f338b1a9e1c82578"
+  },
+  {
+    "path": "dist/index.html",
+    "bytes": 1805,
+    "sha256": "e059b8793dc2b18b8a12aec482c8655e05e972eceae97f51b60b24e376607ad5"
+  },
+  {
+    "path": "index.html",
+    "bytes": 1708,
+    "sha256": "f8493ca3515b1dd1595906490903b5498a36e753be6f361e0bc61fa283cbe84c"
+  },
+  {
+    "path": "package-lock.json",
+    "bytes": 38041,
+    "sha256": "b4fd44337e41ef9e4856487e7e56fc988fcbfb44944469d20fdcd2a444ee5fc0"
+  },
+  {
+    "path": "package.json",
+    "bytes": 449,
+    "sha256": "bb26c2e1733e361df053b573d60d5740719a5ef70502e6f7f619b1e09c83f3db"
+  },
+  {
+    "path": "public/assets/OFL-Barlow.txt",
+    "bytes": 4377,
+    "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+  },
+  {
+    "path": "public/assets/barlow-800-italic.ttf",
+    "bytes": 89652,
+    "sha256": "94cf666814140f0e3d0785fdedbc82a3ddb0791ce0001f13c5477fd80439ed23"
+  },
+  {
+    "path": "public/assets/barlow-800-normal.ttf",
+    "bytes": 87556,
+    "sha256": "73bc9e17231e9073780d3c81574c7253cecd5645c93544df1a935054b39a364f"
+  },
+  {
+    "path": "public/assets/barlow-900-italic.ttf",
+    "bytes": 89324,
+    "sha256": "75338266e60b15dfc5ac0bae8b78fdc5535ea50703ed73c14dc598498ffe8173"
+  },
+  {
+    "path": "public/assets/barlow-900-normal.ttf",
+    "bytes": 88228,
+    "sha256": "0ec6b3cca2df54f108f8dc239597e0eab386343a230afad8a0f445c7d21c3e77"
+  },
+  {
+    "path": "public/assets/paw.svg",
+    "bytes": 366,
+    "sha256": "259bbfd5c1578e9c57f39f8084a3bd7a9246eecd70b3f356f338b1a9e1c82578"
+  },
+  {
+    "path": "screenshots/01-menu.png",
+    "bytes": 1039625,
+    "sha256": "2ff968ca48f613c202ceaefb031444b7bc5fc20adebb12d1c068170352ab0a15"
+  },
+  {
+    "path": "screenshots/02-race.png",
+    "bytes": 860583,
+    "sha256": "e832acc1fe43d4808c102eeee7ec239b2a1a6e2d4c16523b77d3e3cb8c7f0adb"
+  },
+  {
+    "path": "screenshots/03-pause.png",
+    "bytes": 389374,
+    "sha256": "76498443c3cd48a3c30d46557e796cde149fbf0a91b25271a6fec22f482f60a8"
+  },
+  {
+    "path": "screenshots/04-results.png",
+    "bytes": 336430,
+    "sha256": "65656400f984ee6ef4d07cfd2da9e1c2fa8fcab3ae9755b93b51c3cecea29caa"
+  },
+  {
+    "path": "screenshots/05-postcard.png",
+    "bytes": 903484,
+    "sha256": "3033dc8e79892b045443718bebc272a22925beaeb5a84749aebd6dae243a05da"
+  },
+  {
+    "path": "screenshots/06-mobile-menu.png",
+    "bytes": 271279,
+    "sha256": "0beab38d26a2ff072c2ba74622b3d89bac0a7859471fa642dc654d386a0fad82"
+  },
+  {
+    "path": "screenshots/07-mobile-race.png",
+    "bytes": 245420,
+    "sha256": "dbaf356dccc4258f4818644d15e9e5b833f1194a2ab26a2128e97e782428ef41"
+  },
+  {
+    "path": "screenshots/08-live-race.png",
+    "bytes": 891709,
+    "sha256": "881caef3fbd1c79366926ef748bf0a97348d73ae2deb9cc93ddd8c7f27e477d0"
+  },
+  {
+    "path": "src/audio.js",
+    "bytes": 26005,
+    "sha256": "74b21804ec6324cf3fa2171058e876d63eeed3df091f41dc236a56a865ad5b48"
+  },
+  {
+    "path": "src/effects.js",
+    "bytes": 18238,
+    "sha256": "c9aede96e3d2381b99357c590d41c3d82bdabab81213ac17bd2aa163ea949c95"
+  },
+  {
+    "path": "src/fonts.css",
+    "bytes": 623,
+    "sha256": "5cd9f37d44a8e725de3ed0661bd30ec9049825991a36eeb858120b93a85442b6"
+  },
+  {
+    "path": "src/main.js",
+    "bytes": 22331,
+    "sha256": "8185f34fe2a69a9829e82c0604111e963a43e52f8a440ebcb603412a3cb440cd"
+  },
+  {
+    "path": "src/racers.js",
+    "bytes": 43937,
+    "sha256": "143b38490a706e5891be085ff86f752c4aff87a6b2b96e1b90a5a18a24bb94e4"
+  },
+  {
+    "path": "src/shell.css",
+    "bytes": 942,
+    "sha256": "47d07214505a88af68ea244b347173c4b949d8c8f0cd1d3afce126c015a1019f"
+  },
+  {
+    "path": "src/simulation.js",
+    "bytes": 29685,
+    "sha256": "e690fcc565fb8c89b22bd87ff5205bc49cd6d1b2afa71eedbffea327baf2c47c"
+  },
+  {
+    "path": "src/track.js",
+    "bytes": 23589,
+    "sha256": "9716443ab8b24543e2726f0e0399524ac2a8c72c79b98800f6dc51ca591bd24c"
+  },
+  {
+    "path": "src/ui.css",
+    "bytes": 50687,
+    "sha256": "a1489ee5219f36bba732ae72da0e9ce084f8608f1428447b590f1384697ae9b1"
+  },
+  {
+    "path": "src/ui.js",
+    "bytes": 44286,
+    "sha256": "a2a1e46b651cf281049b7eb4598b0c3e3f82214485bcac9357eeb4d1235c30e4"
+  },
+  {
+    "path": "tests/browser-report.json",
+    "bytes": 3799,
+    "sha256": "efd0d52d16fcfb78fe8b80e520aa8e65b0d30fab8813ed558f020a4ede4f20ba"
+  },
+  {
+    "path": "tests/browser-smoke.mjs",
+    "bytes": 4997,
+    "sha256": "53a085e3fc34572afe01d69694e4437d4011f4b1d089fc09ba61d3854482f27b"
+  },
+  {
+    "path": "tests/capture-live.mjs",
+    "bytes": 2074,
+    "sha256": "5252081f965c0a78ae57b67990077056a11fbf0d8f8fbef1e815c1112f259b99"
+  },
+  {
+    "path": "tests/simulation.test.mjs",
+    "bytes": 15611,
+    "sha256": "c1505c341147ae23915b181bede1b169d864c1d38e230dea9737689cb29a757d"
+  },
+  {
+    "path": "启动游戏.command",
+    "bytes": 292,
+    "sha256": "0cd92b45ed2754d17055da72d8fee78b3ceae6580ad9a3e5bbaf44e653120b26"
+  }
+]

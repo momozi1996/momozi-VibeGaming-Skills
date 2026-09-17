@@ -1,0 +1,28 @@
+
+> aloha-kart@1.0.0 test
+> node --test tests/simulation.test.mjs
+
+✔ contract: 8 stable racers, exact characters, fresh state and defensive inputs (3.408417ms)
+✔ countdown emits 3, 2, 1, GO; pause restores the exact countdown and racing clock (23.883334ms)
+✔ manual throttle is not auto-driving; explicit assist follows the course (103.248042ms)
+✔ positive steering turns right, negative turns left, brake slows and controls remain analog (0.941708ms)
+✔ drift charges in a turn, announces tiers, and releases a temporary boost (4.145042ms)
+✔ holding drift in a straight line does not farm boost (0.793542ms)
+✔ coins/items collect by proximity, cooldown is simulation-owned and pauses freeze it (16.954667ms)
+✔ item input is edge-triggered; boost and shield work and cannot be spent while paused (0.294917ms)
+✔ projectiles travel, home and hit and slow another kart (0.727417ms)
+✔ projectiles travel, home and are blocked by a shield (6.849417ms)
+✔ boost pads activate once on entry, rather than on every physics tick (1.93125ms)
+✔ sand is slower; respawn centers safely without granting checkpoints or a boost (1.465375ms)
+✔ kart contacts separate overlapping karts and report a knock (1.27875ms)
+✔ reverse movement and respawn cannot farm start-line laps or forged progress (2.855625ms)
+✔ a complete race has correct ordered checkpoints, ranks and meaningful estimated results (219.912167ms)
+✔ AI hold varied road lanes and fixed substeps agree at 30/120 fps (159.016375ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 937.873583

@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "project": "ALOHA KART · 夏日猫猫大奖赛",
+  "snapshotDate": "2026-09-14",
+  "provenance": {
+    "type": "extracted-and-curated-from-local-source",
+    "contentId": "86d32cde5eb9795c87d946bf7a858568b7b2735997ae704735df479bc62fb7ac",
+    "authoritativeForExact": "assets/reference-project/",
+    "note": "数值摘要不代替完整源码；不是新的玩法设计"
+  },
+  "stack": {
+    "three": "0.180.0",
+    "vite": "6.3.5",
+    "@playwright/test": "1.51.1",
+    "modules": "native ESM",
+    "backend": false,
+    "networkAtRuntime": false
+  },
+  "coordinates": {
+    "up": "+Y",
+    "vehicleForward": "+Z",
+    "speedUnit": "racers[i].speed: m/s",
+    "hudSpeedUnit": "km/h",
+    "sampleRightNormal": [
+      "tangent.z",
+      0,
+      "-tangent.x"
+    ],
+    "snapshotSpeedUnit": "km/h (integer, already converted)"
+  },
+  "screens": {
+    "desktop": {
+      "width": 1600,
+      "height": 1000,
+      "dpr": 1
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "touch": true
+    }
+  },
+  "palette": {
+    "cream": "#fff6e5",
+    "paper": "#f5edda",
+    "navy": "#173d45",
+    "muted": "#587477",
+    "mint": "#b7e4d2",
+    "coral": "#ec7963",
+    "yellow": "#f1cd78"
+  },
+  "fonts": {
+    "bundled": "Barlow Condensed 800/900 normal/italic",
+    "bodyFallbacks": [
+      "Avenir Next",
+      "Avenir",
+      "Trebuchet MS",
+      "PingFang SC",
+      "Microsoft YaHei"
+    ],
+    "chineseFontBundled": false
+  },
+  "characters": [
+    {
+      "id": "mochi",
+      "name": "Mochi",
+      "subtitle": "奶油团子 · 椰风领航员",
+      "color": "#81d8bd",
+      "fur": "#fff0d3",
+      "accent": "#ff8e91",
+      "eyes": "#657d67",
+      "muzzle": "#fff8e9",
+      "ear": "#e6b898",
+      "number": "01",
+      "emoji": "🌺"
+    },
+    {
+      "id": "mango",
+      "name": "Mango",
+      "subtitle": "橘子汽水 · 阳光冲浪手",
+      "color": "#ff956f",
+      "fur": "#eda555",
+      "accent": "#ffdc72",
+      "eyes": "#548b7b",
+      "muzzle": "#ffedcd",
+      "ear": "#d18443",
+      "number": "02",
+      "emoji": "🥭"
+    },
+    {
+      "id": "luna",
+      "name": "Luna",
+      "subtitle": "月光乌龙 · 星夜追风者",
+      "color": "#a7a1e5",
+      "fur": "#393b50",
+      "accent": "#ffdb85",
+      "eyes": "#b6c6ed",
+      "muzzle": "#8c869d",
+      "ear": "#303347",
+      "number": "03",
+      "emoji": "🌙"
+    },
+    {
+      "id": "oreo",
+      "name": "Oreo",
+      "subtitle": "黑糖奶盖 · 海盐小队长",
+      "color": "#79bee9",
+      "fur": "#333741",
+      "accent": "#8ce0da",
+      "eyes": "#c6a968",
+      "muzzle": "#fff5e3",
+      "ear": "#30323b",
+      "number": "04",
+      "emoji": "🐾"
+    },
+    {
+      "id": "sakura",
+      "name": "Sakura",
+      "subtitle": "樱花三色 · 花岛漫游家",
+      "color": "#eea5b5",
+      "fur": "#ffedcf",
+      "accent": "#ee789d",
+      "eyes": "#829374",
+      "muzzle": "#fff7e7",
+      "ear": "#be794e",
+      "number": "05",
+      "emoji": "🌸"
+    },
+    {
+      "id": "coco",
+      "name": "Coco",
+      "subtitle": "可可布丁 · 椰林探险家",
+      "color": "#e3bf85",
+      "fur": "#dfbd92",
+      "accent": "#6dc9be",
+      "eyes": "#79cbd7",
+      "muzzle": "#a17b65",
+      "ear": "#695044",
+      "number": "06",
+      "emoji": "🥥"
+    }
+  ],
+  "world": {
+    "source": "src/track.js",
+    "seed": 6202611,
+    "prng": {
+      "multiplier": 1664525,
+      "increment": 1013904223,
+      "modulus": 4294967296,
+      "callOrderMatters": true
+    },
+    "track": {
+      "pointsXZ": [
+        [
+          -128,
+          20
+        ],
+        [
+          -123,
+          78
+        ],
+        [
+          -92,
+          129
+        ],
+        [
+          -34,
+          154
+        ],
+        [
+          26,
+          147
+        ],
+        [
+          75,
+          110
+        ],
+        [
+          100,
+          65
+        ],
+        [
+          88,
+          18
+        ],
+        [
+          117,
+          -28
+        ],
+        [
+          132,
+          -82
+        ],
+        [
+          99,
+          -125
+        ],
+        [
+          43,
+          -137
+        ],
+        [
+          -5,
+          -115
+        ],
+        [
+          -53,
+          -124
+        ],
+        [
+          -103,
+          -94
+        ],
+        [
+          -126,
+          -47
+        ]
+      ],
+      "y": 0.24,
+      "width": 16,
+      "length": 914.3483378108921,
+      "curve": "CatmullRomCurve3",
+      "closed": true,
+      "curveType": "centripetal",
+      "tension": 0.5,
+      "arcLengthDivisions": 4096,
+      "sampling": "getPointAt / getTangentAt",
+      "nearestSegments": 1200,
+      "mapPoints": 160,
+      "ribbonSegments": 1000
+    },
+    "ground": {
+      "rings": 24,
+      "segments": 256,
+      "y": -0.08,
+      "sandTextureSize": 512,
+      "sandTextureDots": 42000,
+      "sandTextureRepeat": 30
+    },
+    "ocean": {
+      "size": 3600,
+      "segments": 100,
+      "y": -1.34,
+      "foamRings": 4,
+      "foamSegments": 512,
+      "alpha": 1
+    },
+    "counts": {
+      "palms": 69,
+      "umbrellas": 12,
+      "loungers": 24,
+      "huts": 4,
+      "shrubs": 145,
+      "rocks": 57,
+      "sailboats": 3,
+      "coinPickups": 45,
+      "itemPickups": 15,
+      "boostPads": 3
+    },
+    "locations": {
+      "umbrellaU": [
+        0.024,
+        0.064,
+        0.104,
+        0.186,
+        0.247,
+        0.345,
+        0.471,
+        0.645,
+        0.732,
+        0.78,
+        0.88,
+        0.94
+      ],
+      "umbrellaLateral": -19,
+      "lighthouse": [
+        0.405,
+        -20
+      ],
+      "coinBaseU": [
+        0.045,
+        0.085,
+        0.17,
+        0.245,
+        0.31,
+        0.36,
+        0.43,
+        0.485,
+        0.55,
+        0.62,
+        0.7,
+        0.76,
+        0.825,
+        0.91,
+        0.96
+      ],
+      "coinPerRow": 3,
+      "coinUSpacing": 0.0065,
+      "itemU": [
+        0.125,
+        0.285,
+        0.455,
+        0.655,
+        0.855
+      ],
+      "itemLateral": [
+        -4.8,
+        0,
+        4.8
+      ],
+      "boostU": [
+        0.205,
+        0.52,
+        0.805
+      ],
+      "boostSize": [
+        8,
+        5
+      ],
+      "sailboatsXZScale": [
+        [
+          -238,
+          110,
+          1.3
+        ],
+        [
+          -290,
+          -82,
+          0.9
+        ],
+        [
+          245,
+          110,
+          1.2
+        ]
+      ]
+    }
+  },
+  "kart": {
+    "source": "src/racers.js",
+    "approxBoundsXYZ": [
+      2.53,
+      3.3,
+      3.7
+    ],
+    "options": [
+      "color",
+      "scale",
+      "shadows",
+      "accessories"
+    ],
+    "menuScaleDesktop": 1.52,
+    "menuScaleMobile": 1.15,
+    "menuScaleBreakpoint": 700,
+    "measuredBoundsXYZ": [
+      2.5334484038352967,
+      3.297707943241076,
+      3.6948843002319336
+    ],
+    "boundsMeasurement": "unscaled createKart; no animation; visible geometry; XYZ = width,height,length"
+  },
+  "renderer": {
+    "source": "src/main.js",
+    "antialias": true,
+    "alpha": false,
+    "preserveDrawingBuffer": true,
+    "colorSpace": "SRGBColorSpace",
+    "toneMapping": "ACESFilmicToneMapping",
+    "exposure": 1.12,
+    "fogColor": "#b8e4e9",
+    "fogDensity": 0.00165,
+    "hemisphere": {
+      "sky": "#c4f1ff",
+      "ground": "#c49867",
+      "intensity": 1.7
+    },
+    "sun": {
+      "color": "#fff1d5",
+      "intensity": 2.9,
+      "offset": [
+        -75,
+        120,
+        -55
+      ]
+    },
+    "environment": {
+      "type": "RoomEnvironment / PMREM",
+      "sigma": 0.025,
+      "intensity": 0.32
+    },
+    "bloom": {
+      "strength": 0.16,
+      "radius": 0.4,
+      "threshold": 1.35
+    },
+    "quality": {
+      "high": {
+        "maxDpr": 1.5,
+        "shadowMap": 2048,
+        "bloom": true
+      },
+      "balanced": {
+        "maxDpr": 1.1,
+        "shadowMap": 1024,
+        "bloom": true
+      },
+      "low": {
+        "maxDpr": 0.85,
+        "shadows": false,
+        "bloom": false
+      }
+    }
+  },
+  "camera": {
+    "near": 0.15,
+    "far": 1900,
+    "menu": {
+      "sampleU": 0.006,
+      "lateral": -1,
+      "forward": 12.4,
+      "right": 8,
+      "height": 6.6,
+      "lookRight": -5.1,
+      "lookHeight": 1.8,
+      "fov": 44
+    },
+    "menuMobile": {
+      "forward": 12.5,
+      "height": 7.8,
+      "lookRight": -0.7,
+      "lookHeight": 1.7,
+      "fov": 57
+    },
+    "raceModes": [
+      {
+        "back": 8.3,
+        "height": 4.7,
+        "fov": 58
+      },
+      {
+        "back": 15.5,
+        "height": 8.8,
+        "fov": 58
+      },
+      {
+        "back": 1.5,
+        "height": 3.05,
+        "fov": 79
+      }
+    ],
+    "raceMobileFov": 73,
+    "positionDamping": 6,
+    "lookDamping": 8,
+    "fovDamping": 3,
+    "addPlayerDisplacementBeforeLerp": true
+  },
+  "gameplay": {
+    "source": "src/simulation.js",
+    "seed": 41226,
+    "racers": 8,
+    "laps": 3,
+    "checkpointsPerLap": 24,
+    "countdown": 3,
+    "fixedStep": 0.008333333333333333,
+    "maxUpdateDt": 10,
+    "maxRenderDt": 0.05,
+    "playerBaseSpeed": 39.5,
+    "hardSpeedLimit": 66,
+    "playerAcceleration": 24,
+    "aiAcceleration": 21.5,
+    "braking": 40,
+    "coinLimit": 10,
+    "coinSpeedBonus": 0.18,
+    "roadEdge": 7.2,
+    "outerEdge": 16.8,
+    "drift": {
+      "minStartSpeed": 12,
+      "minStartSteer": 0.14,
+      "thresholdSeconds": [
+        0.6,
+        1.3,
+        2.25
+      ],
+      "boostDuration": [
+        0.85,
+        1.45,
+        2.15
+      ]
+    },
+    "items": {
+      "boost": {
+        "duration": 2.5,
+        "power": 16
+      },
+      "shield": {
+        "duration": 6,
+        "absorbsHits": 1
+      },
+      "projectile": {
+        "speed": 76,
+        "life": 2.5
+      }
+    },
+    "boostPad": {
+      "duration": 1.05,
+      "cooldown": 0.8
+    },
+    "aiResultEstimatesExplicit": true,
+    "automaticDrivingByDefault": false
+  },
+  "controls": {
+    "throttle": [
+      "W",
+      "ArrowUp"
+    ],
+    "brake": [
+      "S",
+      "ArrowDown"
+    ],
+    "left": [
+      "A",
+      "ArrowLeft"
+    ],
+    "right": [
+      "D",
+      "ArrowRight"
+    ],
+    "drift": [
+      "Space",
+      "ShiftLeft"
+    ],
+    "item": [
+      "E"
+    ],
+    "reset": [
+      "R"
+    ],
+    "pause": [
+      "Escape"
+    ],
+    "camera": [
+      "C"
+    ],
+    "photo": [
+      "P"
+    ],
+    "mute": [
+      "M"
+    ],
+    "fullscreen": [
+      "F"
+    ],
+    "start": [
+      "Enter"
+    ],
+    "touch": [
+      "left",
+      "right",
+      "throttle",
+      "brake",
+      "drift",
+      "item"
+    ]
+  },
+  "apis": {
+    "track": [
+      "createTrack"
+    ],
+    "racers": [
+      "CHARACTERS",
+      "createKart",
+      "createPortrait"
+    ],
+    "simulation": [
+      "createSimulation"
+    ],
+    "ui": [
+      "createUI"
+    ],
+    "effects": [
+      "createEffects"
+    ],
+    "audio": [
+      "createAudio"
+    ],
+    "testHooks": [
+      "window.__ready",
+      "window.__game",
+      "window.__autoDrive"
+    ],
+    "detailedContract": "contracts.md"
+  },
+  "limits": [
+    "不是商业AAA或Nintendo官方游戏",
+    "没有独立GLB/FBX/MP3/HDR素材",
+    "源文件一致不保证跨GPU/字体像素一致",
+    "依赖未离线打包",
+    "自动化不替代音频试听/真机/真实帧率测量"
+  ]
+}

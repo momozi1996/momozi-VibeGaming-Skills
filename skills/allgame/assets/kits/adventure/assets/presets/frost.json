@@ -1,0 +1,19 @@
+{
+  "title": "霜雾谷",
+  "brand": "FROST VALE",
+  "fog": "#b5c8d9",
+  "fogDensity": 0.008,
+  "exposure": 1.08,
+  "sun": "#d7e8ff",
+  "sunIntensity": 1.85,
+  "ground": "#b7c9c9",
+  "seed": 417,
+  "materials": {
+    "stone": "#c0d0df",
+    "trim": "#d2deec",
+    "roof": "#8eabd5",
+    "leaves": "#b8c8d7",
+    "grass": "#a9bcbc",
+    "cloth": "#adc4df"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "skill": "allgame",
+  "date": "2026-09-16T07:39:18.192Z",
+  "project": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/adventure-custom",
+  "family": "adventure",
+  "suite": "all",
+  "status": "passed",
+  "error": null,
+  "stages": [
+    {
+      "name": "package-integrity",
+      "command": "python3",
+      "args": [
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/skills/allgame/scripts/game.py",
+        "verify"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "adventure",
+      "command": "/opt/homebrew/Cellar/node/25.8.1_1/bin/node",
+      "args": [
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/skills/allgame/assets/kits/adventure/scripts/run_acceptance.mjs",
+        "--project",
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/adventure-custom",
+        "--suite",
+        "all",
+        "--report-dir",
+        "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/adventure-check/baseline",
+        "--dev-port",
+        "4483",
+        "--prod-port",
+        "4484"
+      ],
+      "exitCode": 0
+    }
+  ],
+  "scope": "Bundled baseline behavior and unchanged runtime assets/pins; new mechanics/maps require their own tests.",
+  "node": "v25.8.1",
+  "platform": "darwin"
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+tools/.sources/
+*.blend1
+*.log
+.DS_Store
+
+release/

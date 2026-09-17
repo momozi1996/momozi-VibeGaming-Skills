@@ -1,0 +1,27 @@
+
+> northshire-reborn@0.1.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+✔ clamp, lerp and horizontal distances (1.317291ms)
+✔ angles interpolate over the short arc across the 360 degree seam (0.171208ms)
+✔ seeded world placement is reproducible and bounded (0.853125ms)
+✔ fresh saves do not share nested position state (1.189709ms)
+✔ save parser rejects malformed, unsupported and nonfinite input (1.155458ms)
+✔ save parser clamps health to current level, counts and world coordinates (2.062625ms)
+✔ quest only enters return stage when BOTH objectives are met (0.234ms)
+✔ available and completed quests cannot be reactivated by objective updates (0.5625ms)
+✔ XP from the playable quest causes one level-up and full healing (0.476708ms)
+✔ large XP grants respect the demo level cap and do not overflow the UI bar (0.996042ms)
+✔ damage and healing are bounded, death disables auto-attack (0.118292ms)
+✔ save/load and continue preserve quest and position (0.153333ms)
+✔ blocked browser storage does not crash loading or saving (0.121958ms)
+✔ death save resumes at full health instead of getting stuck dead (0.518334ms)
+✔ log history stays bounded (0.098958ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 310.46825

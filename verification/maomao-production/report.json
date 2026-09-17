@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-09-16T06:10:29.104Z",
+  "ok": true,
+  "project": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/maomao-sakura",
+  "options": {
+    "browser": "chrome",
+    "angle": "metal",
+    "gallery": false,
+    "preview": true,
+    "project": "game-skill-packages/verification/maomao-sakura",
+    "out": "game-skill-packages/verification/maomao-production"
+  },
+  "environment": {
+    "node": "v25.8.1",
+    "platform": "darwin",
+    "release": "25.6.0",
+    "arch": "arm64",
+    "browserVersion": "152.0.7977.83",
+    "webgl": {
+      "vendor": "WebKit",
+      "renderer": "WebKit WebGL",
+      "unmasked": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)"
+    }
+  },
+  "fixture": {
+    "version": 1,
+    "scriptSha256": "5855c241446413b87b518888f5ffb62ae39772060961c3d97fd1abd38a6f65dc",
+    "stepSeconds": 0.016666666666666666,
+    "startMilliseconds": 1000,
+    "randomSeed": 6202611,
+    "dpr": 1,
+    "cssAnimations": false,
+    "virtualRafAndTimeouts": true,
+    "realPerformanceMeasurement": false
+  },
+  "checks": [
+    {
+      "name": "menu_ready_and_six_characters",
+      "pass": true,
+      "wallMs": 474,
+      "detail": null
+    },
+    {
+      "name": "all_character_choices_change_simulation_and_hero",
+      "pass": true,
+      "wallMs": 1415,
+      "detail": null
+    },
+    {
+      "name": "help_dialog",
+      "pass": true,
+      "wallMs": 115,
+      "detail": null
+    },
+    {
+      "name": "mute_and_quality_settings",
+      "pass": true,
+      "wallMs": 363,
+      "detail": {
+        "audioContexts": [
+          {
+            "state": "running",
+            "sampleRate": 44100
+          }
+        ],
+        "audition": "not performed"
+      }
+    },
+    {
+      "name": "countdown_and_no_implicit_autopilot",
+      "pass": true,
+      "wallMs": 1706,
+      "detail": null
+    },
+    {
+      "name": "native_keyboard_acceleration_steering_brake_rescue",
+      "pass": true,
+      "wallMs": 1089,
+      "detail": {
+        "moving": {
+          "speedMps": 26.980782686902778,
+          "speedKmh": 97,
+          "progress": -0.0026469227326308808
+        },
+        "hudKmh": 97,
+        "reset": {
+          "speed": 0,
+          "lateral": 0
+        }
+      }
+    },
+    {
+      "name": "race_camera_and_pause_freeze_resume",
+      "pass": true,
+      "wallMs": 1957,
+      "detail": null
+    },
+    {
+      "name": "item_key_consumes_explicit_fixture_item",
+      "pass": true,
+      "wallMs": 79,
+      "detail": {
+        "item": null,
+        "boost": 2.4666666666666677,
+        "itemSource": "test fixture; not claimed to be naturally collected"
+      }
+    },
+    {
+      "name": "three_laps_and_eight_result_entries",
+      "pass": true,
+      "wallMs": 1051,
+      "detail": {
+        "phase": "finished",
+        "lap": 3,
+        "elapsed": 71.99499021115344,
+        "position": 2,
+        "results": [
+          {
+            "id": "ai5",
+            "name": "Mochi Jr.",
+            "characterId": "mochi",
+            "isPlayer": false,
+            "coins": 10,
+            "progress": 3,
+            "finished": true,
+            "estimated": false,
+            "time": 70.91247709585909,
+            "finishTime": 70.91247709585909,
+            "lap": 3,
+            "rank": 1,
+            "position": 1,
+            "gap": 0
+          },
+          {
+            "id": "player",
+            "name": "Mochi",
+            "characterId": "mochi",
+            "isPlayer": true,
+            "coins": 0,
+            "progress": 3,
+            "finished": true,
+            "estimated": false,
+            "time": 71.99499021115344,
+            "finishTime": 71.99499021115344,
+            "lap": 3,
+            "rank": 2,
+            "position": 2,
+            "gap": 1.082513115294347
+          },
+          {
+            "id": "ai0",
+            "name": "Mango",
+            "characterId": "mango",
+            "isPlayer": false,
+            "coins": 10,
+            "progress": 2.9399257672887087,
+            "finished": false,
+            "estimated": true,
+            "time": 73.4315814599671,
+            "finishTime": 73.4315814599671,
+            "lap": 3,
+            "rank": 3,
+            "position": 3,
+            "gap": 2.519104364108017
+          },
+          {
+            "id": "ai1",
+            "name": "Luna",
+            "characterId": "luna",
+            "isPlayer": false,
+            "coins": 10,
+            "progress": 2.9378709628414397,
+            "finished": false,
+            "estimated": true,
+            "time": 73.50346301773835,
+            "finishTime": 73.50346301773835,
+            "lap": 3,
+            "rank": 4,
+            "position": 4,
+            "gap": 2.590985921879266
+          },
+          {
+            "id": "ai6",
+            "name": "Mango Jr.",
+            "characterId": "mango",
+            "isPlayer": false,
+            "coins": 7,
+            "progress": 2.9267312673112347,
+            "finished": false,
+            "estimated": true,
+            "time": 73.73141106704159,
+            "finishTime": 73.73141106704159,
+            "lap": 3,
+            "rank": 5,
+            "position": 5,
+            "gap": 2.8189339711825028
+          },
+          {
+            "id": "ai2",
+            "name": "Oreo",
+            "characterId": "oreo",
+            "isPlayer": false,
+            "coins": 6,
+            "progress": 2.830240419645228,
+            "finished": false,
+            "estimated": true,
+            "time": 76.2421971921832,
+            "finishTime": 76.2421971921832,
+            "lap": 3,
+            "rank": 6,
+            "position": 6,
+            "gap": 5.32972009632411
+          },
+          {
+            "id": "ai4",
+            "name": "Coco",
+            "characterId": "coco",
+            "isPlayer": false,
+            "coins": 2,
+            "progress": 2.805003934691324,
+            "finished": false,
+            "estimated": true,
+            "time": 76.92567693287182,
+            "finishTime": 76.92567693287182,
+            "lap": 3,
+            "rank": 7,
+            "position": 7,
+            "gap": 6.013199837012735
+          },
+          {
+            "id": "ai3",
+            "name": "Sakura",
+            "characterId": "sakura",
+            "isPlayer": false,
+            "coins": 0,
+            "progress": 2.728580480882362,
+            "finished": false,
+            "estimated": true,
+            "time": 79.16097906132826,
+            "finishTime": 79.16097906132826,
+            "lap": 3,
+            "rank": 8,
+            "position": 8,
+            "gap": 8.248501965469174
+          }
+        ],
+        "completionInput": "explicit assist, not human-driven footage"
+      }
+    },
+    {
+      "name": "restart_and_return_to_menu",
+      "pass": true,
+      "wallMs": 475,
+      "detail": null
+    },
+    {
+      "name": "photo_mode_orbit_and_real_png_download",
+      "pass": true,
+      "wallMs": 1569,
+      "detail": {
+        "bytes": 1557080,
+        "suggestedFilename": "Aloha-Kart-2026-09-16T06-10-45.464Z.png"
+      }
+    },
+    {
+      "name": "mobile_layout_and_native_touch_press_release",
+      "pass": true,
+      "wallMs": 3756,
+      "detail": {
+        "pressed": {
+          "speedKmh": 97,
+          "speedMps": 26.980782686902778,
+          "input": {
+            "throttle": 1,
+            "brake": 0,
+            "steer": 0,
+            "drift": false,
+            "item": false
+          }
+        },
+        "releaseThrottle": 0,
+        "touchMethod": "trusted Chromium CDP touch events, not dispatchEvent"
+      }
+    },
+    {
+      "name": "no_runtime_javascript_or_console_errors",
+      "pass": true,
+      "wallMs": 0,
+      "detail": {
+        "warnings": 0
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "01-menu.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "phase": "menu",
+      "elapsed": 0,
+      "visualClock": 2500.0000000000005,
+      "character": "mochi",
+      "stats": {
+        "fps": 59.9999999999998,
+        "drawCalls": 149,
+        "triangles": 1001840,
+        "quality": "high",
+        "phase": "menu",
+        "meshes": 8
+      },
+      "statsWarning": "fps is fixture-derived, NOT measured throughput"
+    },
+    {
+      "file": "02-race.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "phase": "racing",
+      "elapsed": 10.016666666666628,
+      "visualClock": 9800.000000000002,
+      "character": "mochi",
+      "stats": {
+        "fps": 60.00000000000172,
+        "drawCalls": 793,
+        "triangles": 1800642,
+        "quality": "high",
+        "phase": "racing",
+        "meshes": 8
+      },
+      "statsWarning": "fps is fixture-derived, NOT measured throughput"
+    },
+    {
+      "file": "03-pause.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "phase": "paused",
+      "elapsed": 10.016666666666628,
+      "visualClock": 10549.999999999975,
+      "character": "mochi",
+      "stats": {
+        "fps": 60.0000000000022,
+        "drawCalls": 792,
+        "triangles": 1800428,
+        "quality": "high",
+        "phase": "paused",
+        "meshes": 8
+      },
+      "statsWarning": "fps is fixture-derived, NOT measured throughput"
+    },
+    {
+      "file": "04-results.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "phase": "finished",
+      "elapsed": 71.99499021115344,
+      "visualClock": 11599.999999999936,
+      "character": "mochi",
+      "stats": {
+        "fps": 60.0000000000022,
+        "drawCalls": 494,
+        "triangles": 1478750,
+        "quality": "high",
+        "phase": "finished",
+        "meshes": 8
+      },
+      "statsWarning": "fps is fixture-derived, NOT measured throughput"
+    },
+    {
+      "file": "05-postcard.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "phase": "menu",
+      "elapsed": 0,
+      "visualClock": 13133.333333333214,
+      "character": "mochi",
+      "stats": {
+        "fps": 60.0000000000022,
+        "drawCalls": 165,
+        "triangles": 1002428,
+        "quality": "high",
+        "phase": "menu",
+        "meshes": 8
+      },
+      "statsWarning": "fps is fixture-derived, NOT measured throughput"
+    },
+    {
+      "file": "06-mobile-menu.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "menu",
+      "elapsed": 0,
+      "visualClock": 2500.0000000000005,
+      "character": "mochi",
+      "stats": {
+        "fps": 59.9999999999998,
+        "drawCalls": 141,
+        "triangles": 1001439,
+        "quality": "balanced",
+        "phase": "menu",
+        "meshes": 8
+      },
+      "statsWarning": "fps is fixture-derived, NOT measured throughput"
+    },
+    {
+      "file": "07-mobile-race.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "phase": "racing",
+      "elapsed": 1.5166666666666637,
+      "visualClock": 7016.666666666706,
+      "character": "mochi",
+      "stats": {
+        "fps": 59.99999999999899,
+        "drawCalls": 737,
+        "triangles": 1814651,
+        "quality": "balanced",
+        "phase": "racing",
+        "meshes": 8
+      },
+      "statsWarning": "fps is fixture-derived, NOT measured throughput"
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "unverified": [
+    "音频听感/混音",
+    "真实手机/GPU性能",
+    "全屏权限与真机手柄",
+    "跨平台像素一致性"
+  ],
+  "url": "http://127.0.0.1:51704/",
+  "finishedAt": "2026-09-16T06:11:17.428Z"
+}

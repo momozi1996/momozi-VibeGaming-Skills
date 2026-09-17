@@ -1,0 +1,177 @@
+{
+  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)",
+  "angle": "metal",
+  "date": "2026-09-16T06:09:45.205Z",
+  "project": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/moshou-autumn",
+  "url": "http://127.0.0.1:4392",
+  "browser": "152.0.7977.83",
+  "viewport": {
+    "width": 1600,
+    "height": 1000
+  },
+  "dpr": 1,
+  "randomSeed": 20260914,
+  "freeze": "game time=0; simulation + bone animation paused; idle frame=0; CSS animation disabled; FPS/discovery/toast masked",
+  "views": [
+    {
+      "name": "01-courtyard",
+      "x": 0,
+      "z": -27,
+      "alpha": -1.5457963267948966,
+      "beta": 1.48,
+      "radius": 10.8,
+      "actual": {
+        "alpha": -1.5457963267948966,
+        "beta": 1.48,
+        "radius": 10.8,
+        "player": [
+          0,
+          0,
+          -27
+        ],
+        "target": [
+          0,
+          1.7,
+          -27
+        ],
+        "time": 0,
+        "hp": 100,
+        "quest": "available"
+      }
+    },
+    {
+      "name": "02-abbey-close",
+      "x": 0,
+      "z": -10,
+      "alpha": -1.5457963267948966,
+      "beta": 1.48,
+      "radius": 10.8,
+      "actual": {
+        "alpha": -1.5457963267948966,
+        "beta": 1.48,
+        "radius": 10.8,
+        "player": [
+          0,
+          0,
+          -10
+        ],
+        "target": [
+          0,
+          1.7,
+          -10
+        ],
+        "time": 0,
+        "hp": 100,
+        "quest": "available"
+      }
+    },
+    {
+      "name": "03-east-forest",
+      "x": 30,
+      "z": -24,
+      "alpha": -1.72,
+      "beta": 1.3,
+      "radius": 10.8,
+      "actual": {
+        "alpha": -1.72,
+        "beta": 1.3,
+        "radius": 10.8,
+        "player": [
+          30,
+          -0.08754084914289498,
+          -24
+        ],
+        "target": [
+          30,
+          1.612459150857105,
+          -24
+        ],
+        "time": 0,
+        "hp": 100,
+        "quest": "available"
+      }
+    },
+    {
+      "name": "04-quest",
+      "x": -4.8,
+      "z": -9,
+      "alpha": -1.5457963267948966,
+      "beta": 1.48,
+      "radius": 10.8,
+      "modal": "npc",
+      "actual": {
+        "alpha": -1.5457963267948966,
+        "beta": 1.48,
+        "radius": 10.8,
+        "player": [
+          -4.8,
+          0,
+          -9
+        ],
+        "target": [
+          -4.8,
+          1.7,
+          -9
+        ],
+        "time": 0,
+        "hp": 100,
+        "quest": "available"
+      }
+    },
+    {
+      "name": "05-map",
+      "x": 0,
+      "z": -27,
+      "alpha": -1.5457963267948966,
+      "beta": 1.48,
+      "radius": 10.8,
+      "modal": "map",
+      "actual": {
+        "alpha": -1.5457963267948966,
+        "beta": 1.48,
+        "radius": 10.8,
+        "player": [
+          0,
+          0,
+          -27
+        ],
+        "target": [
+          0,
+          1.7,
+          -27
+        ],
+        "time": 0,
+        "hp": 100,
+        "quest": "available"
+      }
+    },
+    {
+      "name": "06-bag",
+      "x": 0,
+      "z": -27,
+      "alpha": -1.5457963267948966,
+      "beta": 1.48,
+      "radius": 10.8,
+      "modal": "bag",
+      "actual": {
+        "alpha": -1.5457963267948966,
+        "beta": 1.48,
+        "radius": 10.8,
+        "player": [
+          0,
+          0,
+          -27
+        ],
+        "target": [
+          0,
+          1.7,
+          -27
+        ],
+        "time": 0,
+        "hp": 100,
+        "quest": "available"
+      }
+    }
+  ],
+  "errors": []
+}

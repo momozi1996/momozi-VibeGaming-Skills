@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-16T07:39:16.695Z",
+  "project": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/allgame/adventure-custom",
+  "suite": "all",
+  "devPort": 4483,
+  "prodPort": 4484,
+  "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "platform": "darwin",
+  "node": "v25.8.1",
+  "angle": "metal",
+  "stages": [
+    {
+      "name": "preflight-asset-tests-pins",
+      "exitCode": 0
+    },
+    {
+      "name": "unit-tests",
+      "exitCode": 0
+    },
+    {
+      "name": "build",
+      "exitCode": 0
+    },
+    {
+      "name": "baseline-art-audit",
+      "exitCode": 0
+    },
+    {
+      "name": "target-asset-pins",
+      "exitCode": 0
+    },
+    {
+      "name": "test-playthrough",
+      "exitCode": 0
+    },
+    {
+      "name": "test-edges",
+      "exitCode": 0
+    },
+    {
+      "name": "test-production",
+      "exitCode": 0
+    }
+  ],
+  "status": "passed",
+  "error": null
+}

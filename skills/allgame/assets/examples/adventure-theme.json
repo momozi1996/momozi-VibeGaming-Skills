@@ -1,0 +1,12 @@
+{
+  "title": "雾蓝谷",
+  "brand": "MIST VALE",
+  "fog": "#aabfce",
+  "sun": "#e0edff",
+  "ground": "#9aad9e",
+  "materials": {
+    "leaves": "#8fa995",
+    "grass": "#8fa583",
+    "roof": "#9ba9bd"
+  }
+}

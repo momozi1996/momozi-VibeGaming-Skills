@@ -1,0 +1,214 @@
+{
+  "date": "2026-09-16",
+  "checks": [
+    {
+      "name": "WASD moves player",
+      "data": {
+        "x": -0.11691981996533636,
+        "y": 0,
+        "z": -22.324181573819168
+      }
+    },
+    {
+      "name": "Jump and landing",
+      "data": true
+    },
+    {
+      "name": "Abbey collision blocks passage",
+      "data": {
+        "x": -0.18399233273371787,
+        "y": 0.96,
+        "z": 3.6099567574339586
+      }
+    },
+    {
+      "name": "Quest accepted through NPC dialogue",
+      "data": true
+    },
+    {
+      "name": "Map renders and pauses world",
+      "data": true
+    },
+    {
+      "name": "Defeated wolf 1",
+      "data": {
+        "version": 1,
+        "level": 1,
+        "xp": 30,
+        "hp": 80,
+        "gold": 0,
+        "potions": 3,
+        "herbs": 0,
+        "kills": 1,
+        "quest": "active",
+        "position": {
+          "x": 32.070962650134305,
+          "z": -22.964929918512695
+        },
+        "elapsed": 9.23270000001788
+      }
+    },
+    {
+      "name": "Potion heals and is consumed",
+      "data": true
+    },
+    {
+      "name": "Defeated wolf 2",
+      "data": {
+        "version": 1,
+        "level": 1,
+        "xp": 60,
+        "hp": 80,
+        "gold": 3,
+        "potions": 2,
+        "herbs": 0,
+        "kills": 2,
+        "quest": "active",
+        "position": {
+          "x": 39.87684814526419,
+          "z": -35.78711990410948
+        },
+        "elapsed": 12.415599999994042
+      }
+    },
+    {
+      "name": "Defeated wolf 3",
+      "data": {
+        "version": 1,
+        "level": 1,
+        "xp": 90,
+        "hp": 60,
+        "gold": 3,
+        "potions": 2,
+        "herbs": 0,
+        "kills": 3,
+        "quest": "active",
+        "position": {
+          "x": 45.91378941296557,
+          "z": -19.83803037295584
+        },
+        "elapsed": 14.53300000000001
+      }
+    },
+    {
+      "name": "Gathering advances quest to return",
+      "data": true
+    },
+    {
+      "name": "Quest completion, XP, level and rewards",
+      "data": {
+        "version": 1,
+        "level": 2,
+        "xp": 70,
+        "hp": 120,
+        "gold": 18,
+        "potions": 4,
+        "herbs": 2,
+        "kills": 3,
+        "quest": "complete",
+        "position": {
+          "x": -4.8,
+          "z": -9
+        },
+        "elapsed": 16.066599999994047
+      }
+    },
+    {
+      "name": "Save survives reload and continue",
+      "data": true
+    },
+    {
+      "name": "Death/respawn retains progress",
+      "data": true
+    },
+    {
+      "name": "Quality and volume controls",
+      "data": true
+    },
+    {
+      "name": "Mouse orbit camera",
+      "data": true
+    },
+    {
+      "name": "1280×720 layout has no horizontal overflow",
+      "data": true
+    },
+    {
+      "name": "Renderer",
+      "data": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)"
+    },
+    {
+      "name": "No runtime console errors or external asset requests",
+      "data": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "final": {
+    "state": {
+      "version": 1,
+      "level": 2,
+      "xp": 70,
+      "hp": 120,
+      "gold": 18,
+      "potions": 4,
+      "herbs": 2,
+      "kills": 3,
+      "quest": "complete",
+      "position": {
+        "x": 0,
+        "z": -27
+      },
+      "elapsed": 20.831699999988015
+    },
+    "player": {
+      "x": 0,
+      "y": 0,
+      "z": -27
+    },
+    "enemies": [
+      {
+        "id": "wolf-1",
+        "hp": 70,
+        "x": 32.06377557357711,
+        "z": -20.011145422900956
+      },
+      {
+        "id": "wolf-2",
+        "hp": 70,
+        "x": 41.10568415121347,
+        "z": -32.74262916201368
+      },
+      {
+        "id": "wolf-3",
+        "hp": 70,
+        "x": 47.13103181934791,
+        "z": -18.871947686117142
+      },
+      {
+        "id": "wolf-4",
+        "hp": 70,
+        "x": 32.955304825321775,
+        "z": -39.28020614053357
+      },
+      {
+        "id": "wolf-5",
+        "hp": 70,
+        "x": 51.65946114529987,
+        "z": -28.430844361580274
+      }
+    ],
+    "meshes": 75,
+    "fps": 58.69692819477588,
+    "drawCalls": 40336,
+    "ready": true,
+    "animations": [
+      "player_Attack",
+      "player_Block",
+      "player_Death",
+      "player_Hit",
+      "player_Idle",
+      "player_Run"
+    ]
+  }
+}

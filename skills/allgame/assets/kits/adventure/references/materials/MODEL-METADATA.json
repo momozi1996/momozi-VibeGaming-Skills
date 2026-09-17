@@ -1,0 +1,35 @@
+[
+  {
+    "file": "models/knight.glb",
+    "bytes": 1734212,
+    "glbVersion": 2,
+    "meshes": 1,
+    "nodes": 19,
+    "skins": 1,
+    "materials": 8,
+    "indexedTriangles": 23952,
+    "animations": [
+      "Attack",
+      "Block",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run"
+    ],
+    "generator": "Khronos glTF Blender I/O v5.2.40",
+    "verification": "Parsed from packaged GLB JSON chunk, not inferred from Blender source"
+  },
+  {
+    "file": "models/wolf.glb",
+    "bytes": 769248,
+    "glbVersion": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "skins": 0,
+    "materials": 1,
+    "indexedTriangles": 13248,
+    "animations": [],
+    "generator": "Khronos glTF Blender I/O v5.2.40",
+    "verification": "Parsed from packaged GLB JSON chunk, not inferred from Blender source"
+  }
+]

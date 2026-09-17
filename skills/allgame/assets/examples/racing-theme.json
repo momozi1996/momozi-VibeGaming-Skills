@@ -1,0 +1,18 @@
+{
+  "title": "松风猫猫大奖赛",
+  "brand": "PINE",
+  "season": "PINE CIRCUIT",
+  "tagline": "沿着松风出发",
+  "colors": {
+    "leaves": "#719a69",
+    "leavesDark": "#345e4b",
+    "leavesLight": "#a6bc78",
+    "sky": "#80b5d3",
+    "horizon": "#d5e9dd"
+  },
+  "ui": {
+    "navy": "#244e45",
+    "mint": "#b9d3b4",
+    "coral": "#c98b62"
+  }
+}

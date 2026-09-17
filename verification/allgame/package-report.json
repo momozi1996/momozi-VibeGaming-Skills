@@ -1,0 +1,16 @@
+{
+  "skill": "allgame",
+  "displayName": "allGame",
+  "zip": "allGame.zip",
+  "bytes": 46600004,
+  "sha256": "670ea2a87a29123e857ffed08e3e4ca91c5739fb4a8c89ef37160dbf20d81002",
+  "checkedPackagedFiles": 280,
+  "isolatedSelftestPasses": 48,
+  "corruptionDetection": true,
+  "baselineSourceFilesUnchanged": 183,
+  "discoverableSkills": 1,
+  "pythonSyntax": true,
+  "nodeHelperSyntax": true,
+  "markdownLinks": true,
+  "requiresOtherInstalledSkills": false
+}

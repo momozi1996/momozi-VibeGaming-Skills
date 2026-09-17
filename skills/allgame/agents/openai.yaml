@@ -1,0 +1,4 @@
+interface:
+  display_name: "allGame"
+  short_description: "独立通用3D游戏工坊，内置两套完整工程、素材、玩法改造与验收"
+  default_prompt: "使用 $allgame 按我的主题和玩法选择合适基础，制作可玩的3D游戏，完成场景改造并实际验收。"

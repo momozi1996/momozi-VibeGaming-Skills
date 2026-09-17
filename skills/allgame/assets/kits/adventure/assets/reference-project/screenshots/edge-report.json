@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-14",
+  "checks": [
+    "Sculpted terrain has a writable GPU height buffer, not a flat rendered plane",
+    "Camera movement preserves orbit radius",
+    "Settings retain values and Escape works with input focus",
+    "Bag potion consumption updates the open inventory immediately",
+    "Photo mode freezes gameplay, keeps orbit active and exports a real PNG",
+    "Reset requires a confirmation and supports cancel",
+    "Confirmed reset is not undone by beforeunload autosave",
+    "Edge interactions produce no page errors",
+    "Missing required art stops loading instead of presenting placeholder material"
+  ],
+  "errors": [],
+  "terrain": {
+    "lo": -3.2857160568237305,
+    "hi": 21.96579933166504,
+    "updatable": true
+  }
+}

@@ -1,0 +1,20 @@
+// Editable atmosphere/material tints and vegetation seed, not a complete biome swap.
+export const THEME = {
+  "title": "琥珀谷",
+  "brand": "AMBER VALE",
+  "fog": "#b1a58b",
+  "fogDensity": 0.008,
+  "exposure": 1.08,
+  "sun": "#ffe1a5",
+  "sunIntensity": 1.85,
+  "ground": "#bda567",
+  "seed": 417,
+  "materials": {
+    "stone": "#e0d5bd",
+    "trim": "#e5d9bb",
+    "roof": "#b6a190",
+    "leaves": "#da9250",
+    "grass": "#aa955e",
+    "cloth": "#d2c49d"
+  }
+} as const;

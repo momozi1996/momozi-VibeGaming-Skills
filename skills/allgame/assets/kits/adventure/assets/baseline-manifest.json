@@ -1,0 +1,692 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 71,
+    "sha256": "660ee76765c23dc8dce47583cb9969e2d1c5e4adaa41cad8353e09e9d2a59567"
+  },
+  {
+    "path": "ASSETS-LICENSE.md",
+    "bytes": 1410,
+    "sha256": "843053626271b4615b18a111129a141fd1a9916836259f43f950fdd89e5e10c7"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1236,
+    "sha256": "4ba49ced1c9dafca02b85d3b6b8c7e7aab491e79f65f410b73431d0027279ebe"
+  },
+  {
+    "path": "README.md",
+    "bytes": 7920,
+    "sha256": "9deaa421ec23bdb36455cd7cf6a7538c10f3c2b9d10264a3c9e36da64f487062"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 826,
+    "sha256": "a5b3b9f0e6a4796a48993c7509157aed321706541f52f618d1de3770ede6e096"
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "bytes": 3941,
+    "sha256": "246146ebb942bdc9e40c11a23aa19b878b229511df9dd37c1b5475b8ade003e9"
+  },
+  {
+    "path": "docs/REFERENCES.md",
+    "bytes": 2892,
+    "sha256": "6b95a5ed286ab2303e399d6750deda4cd0d4249ec8aaa69fbe345ac433178434"
+  },
+  {
+    "path": "docs/TESTING.md",
+    "bytes": 4994,
+    "sha256": "7958155302fd61d7c9051e351f6930ce36c24a6868c26cd838f28ef64dc093d5"
+  },
+  {
+    "path": "docs/download-audit.json",
+    "bytes": 7630,
+    "sha256": "c61a6c24b8c50b43b0dc7d94491a9864fa862a12a1d521d3e5ff7f05c867fd8d"
+  },
+  {
+    "path": "docs/license-fantasy-ui-borders.txt",
+    "bytes": 794,
+    "sha256": "f7185bbb59c1a5dec131621e76bddde6855035224119927bba21f3b0bbc3ca83"
+  },
+  {
+    "path": "docs/license-impact-sounds.zip.txt",
+    "bytes": 608,
+    "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
+  },
+  {
+    "path": "docs/license-rpg-audio.zip.txt",
+    "bytes": 478,
+    "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539"
+  },
+  {
+    "path": "docs/licenses/ambientcg-license.html",
+    "bytes": 34106,
+    "sha256": "60138e09b277c89977841462634b36e99d7bae5b77174777813502069c59461c"
+  },
+  {
+    "path": "docs/licenses/forest-ambience.html",
+    "bytes": 37527,
+    "sha256": "0c4c17a53ce77032088b65ac30729b29f2eb028b3e9f477a88957149fbf954c0"
+  },
+  {
+    "path": "docs/licenses/kenney-impact.html",
+    "bytes": 16606,
+    "sha256": "2689be9c7d2d48b1d6c7d9836570391fa6947590eaf260291697053d9f86b354"
+  },
+  {
+    "path": "docs/licenses/kenney-rpg.html",
+    "bytes": 16768,
+    "sha256": "51fdf514e0401f83261a8ab99f182acb321cef53e379035154ca3cd7589445e4"
+  },
+  {
+    "path": "docs/licenses/polyhaven-license.html",
+    "bytes": 72336,
+    "sha256": "f530abb18e6317a9b0f2a128b94150e372c8456d7491a14e4860c4ed5f5fe69a"
+  },
+  {
+    "path": "docs/licenses/verification.json",
+    "bytes": 3613,
+    "sha256": "9b883f7e02b50ca0c7cfc7fafc29f79d4780e79c4f09215f1dcdd5b3607253bc"
+  },
+  {
+    "path": "docs/licenses/wolf.html",
+    "bytes": 29009,
+    "sha256": "4478adbb4636b7eef928fb4cbb2555fa60189199cd00eab6510b01af55dee002"
+  },
+  {
+    "path": "docs/references/abbey-gameplay.jpg",
+    "bytes": 250444,
+    "sha256": "4bd6694cc3a787c83812f9a24130cf3cdbbf4f0af4aa31964e5a033d6e8016f0"
+  },
+  {
+    "path": "docs/references/abbey-page.html",
+    "bytes": 5524,
+    "sha256": "cbbf893f37938c61921634a80cd88eb886019a7a150131a30730ee7ac2d5fef9"
+  },
+  {
+    "path": "docs/references/wolf-page.html",
+    "bytes": 29009,
+    "sha256": "3a29e784b059bbb5bb058a0a5cf565c7e69b62ac32f922607b589c4bab00ea36"
+  },
+  {
+    "path": "docs/references/wolf.html",
+    "bytes": 29009,
+    "sha256": "833defc929e4262e135c207ca7cc17613989f95229f8d3c6b9de782669f1b17f"
+  },
+  {
+    "path": "index.html",
+    "bytes": 884,
+    "sha256": "61f684b6752c377d72e97615940b0912bc511e725e5117484ffb266bf6e837b4"
+  },
+  {
+    "path": "package-lock.json",
+    "bytes": 40548,
+    "sha256": "25e7d7592093a66cdafbfbdff7126d13c95020f4aea3fe086326ebfda18896be"
+  },
+  {
+    "path": "package.json",
+    "bytes": 509,
+    "sha256": "1e66565e19723c71eb9dfa748ad21b36c3d6165e00132b7da29cebf699b7edac"
+  },
+  {
+    "path": "public/assets/audio/bookClose.ogg",
+    "bytes": 9292,
+    "sha256": "81e976532565f4372abd14e83d2684195fa548d0a28d345de221e56052454f32"
+  },
+  {
+    "path": "public/assets/audio/bookOpen.ogg",
+    "bytes": 8273,
+    "sha256": "953390534377222bee89ac8cd9e60a58fdc037c71a4d7c18c43cd647c7f34ba8"
+  },
+  {
+    "path": "public/assets/audio/chop.ogg",
+    "bytes": 9370,
+    "sha256": "d00c2b3c9fff07e376145c8c8c45c90e5084ec192f6ce0387db233f7b86f1486"
+  },
+  {
+    "path": "public/assets/audio/cloth1.ogg",
+    "bytes": 16508,
+    "sha256": "ddb93a3671233f95da0e0b10367f082f7eb42fa6caaddcf776410aa8833c747d"
+  },
+  {
+    "path": "public/assets/audio/footstep_grass_000.ogg",
+    "bytes": 8290,
+    "sha256": "9d49497777405d78d7cf7f2888e28277f3a23192300cfd1d79d54876b20f479f"
+  },
+  {
+    "path": "public/assets/audio/footstep_grass_001.ogg",
+    "bytes": 8313,
+    "sha256": "fb28781bd22b2eefdc14077f1adf5c94d7fe9c3a130194633b55f3e0d39d9f04"
+  },
+  {
+    "path": "public/assets/audio/footstep_wood_000.ogg",
+    "bytes": 5949,
+    "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e"
+  },
+  {
+    "path": "public/assets/audio/forest.mp3",
+    "bytes": 716670,
+    "sha256": "9850aa1d0d5d66bd9c5daf8bb77c6d852e01f2f4de22f283bd5621e8bed13b75"
+  },
+  {
+    "path": "public/assets/audio/handleCoins.ogg",
+    "bytes": 25394,
+    "sha256": "8a91f969e932df709df80ee124d86a51389eed9b67f22e5e716bc2bbf60d8dab"
+  },
+  {
+    "path": "public/assets/audio/impactMetal_heavy_000.ogg",
+    "bytes": 6110,
+    "sha256": "e07045693e4a2b3d165c424e3dab4c781d9ff8880a386880ac89a51315d7f831"
+  },
+  {
+    "path": "public/assets/audio/knifeSlice.ogg",
+    "bytes": 15532,
+    "sha256": "4cd96dc630bed9840c15f1dd2306da2cc56a4da26a5d3f1a03c5a7265ac5e54f"
+  },
+  {
+    "path": "public/assets/audio/knifeSlice2.ogg",
+    "bytes": 15099,
+    "sha256": "6c2064d0ef988d1ec3d56868e823ea8823a5cac00f2742560052633529407def"
+  },
+  {
+    "path": "public/assets/audio/metalClick.ogg",
+    "bytes": 13615,
+    "sha256": "9851a69d0c613e13bceef08060ecc4148f098ef487927cbebe270d642398a3b3"
+  },
+  {
+    "path": "public/assets/manifest.json",
+    "bytes": 24493,
+    "sha256": "711e23d36851da4cc6fdcefb7f0301bce781dd5f64152789ef16833732077d17"
+  },
+  {
+    "path": "public/assets/models/knight.glb",
+    "bytes": 1734212,
+    "sha256": "21bc45ded64ad5c32a61b135903e8b82820edbb7eaf0d680e43f16f8fe98c5bc"
+  },
+  {
+    "path": "public/assets/models/wolf.glb",
+    "bytes": 769248,
+    "sha256": "68da89da2e6769c0ae8982b8489819b0a93d7e80b72a350e34c0e037f0439397"
+  },
+  {
+    "path": "public/assets/textures/banner.jpg",
+    "bytes": 136885,
+    "sha256": "8c92cc11bbe06e03c746456f23544cee53711c0394acc497ad12122b300c9b66"
+  },
+  {
+    "path": "public/assets/textures/bark.jpg",
+    "bytes": 210157,
+    "sha256": "f832491230b56b7cf95ecb3814bdff7605692869b3fcec219b0aa0f5194c134d"
+  },
+  {
+    "path": "public/assets/textures/chainmail.jpg",
+    "bytes": 155409,
+    "sha256": "dae4980226a469150cbd1b3e47272599066123adb6cbff108242f1f92d00d725"
+  },
+  {
+    "path": "public/assets/textures/cloth.jpg",
+    "bytes": 56712,
+    "sha256": "88381a697326c692ae33f6d746c8971b519986c141bc0a5b2585a06b07c23a13"
+  },
+  {
+    "path": "public/assets/textures/contact.png",
+    "bytes": 9363,
+    "sha256": "bb615e78959ecb9462ae673f7f4def95266ca33fc409fcc3a29de6495ea3ce00"
+  },
+  {
+    "path": "public/assets/textures/flowers.png",
+    "bytes": 3093,
+    "sha256": "d05fe87991280099d92660e1b4ce32b9093f53e5b16483987874c94ce1d85804"
+  },
+  {
+    "path": "public/assets/textures/forest.hdr",
+    "bytes": 7562873,
+    "sha256": "aa76871c301a2ea5977043e48036b53bb3f26eff0d96fa833789a7738569c279"
+  },
+  {
+    "path": "public/assets/textures/glass.png",
+    "bytes": 14909,
+    "sha256": "d3d5e41f31f7747533094dd0cf2c16fac7a60e8e66893af684973afd26017fdf"
+  },
+  {
+    "path": "public/assets/textures/gold.jpg",
+    "bytes": 49003,
+    "sha256": "c3ebd35b4e97d193e66da4e71f65be3ef059f18e46bac84d9021a73fc74b0ce4"
+  },
+  {
+    "path": "public/assets/textures/grass.png",
+    "bytes": 6994,
+    "sha256": "3d17ecc6e623beb272eb68e1a0014a5f184d509dff99758f16c9ccfc89eb9108"
+  },
+  {
+    "path": "public/assets/textures/ground-normal.jpg",
+    "bytes": 664079,
+    "sha256": "8eeb31a9982d977f700f9fd4339a00c2f9112b3578db5aa01ce8731b0b5acb0e"
+  },
+  {
+    "path": "public/assets/textures/ground-rough.jpg",
+    "bytes": 381306,
+    "sha256": "f65bdc098d4f1f74930fd7f487b0a2179f1a7d4f275d1f3e927c9986dd314e89"
+  },
+  {
+    "path": "public/assets/textures/ground.jpg",
+    "bytes": 649169,
+    "sha256": "d00ca2613ab5f052ce34c84920b952e866fb12bf55dba7cd5f3c1711c4f7b38f"
+  },
+  {
+    "path": "public/assets/textures/leather.jpg",
+    "bytes": 57568,
+    "sha256": "15561aef9f0872aa88243b7cce363f6628ef76f28fc6995bb55cc96888ef2483"
+  },
+  {
+    "path": "public/assets/textures/leaves.png",
+    "bytes": 11667,
+    "sha256": "7030753faafbc0e692cfa0389d9e9f694c88814baf256063e03178582e4d9ed1"
+  },
+  {
+    "path": "public/assets/textures/limestone-normal.jpg",
+    "bytes": 79019,
+    "sha256": "3d2aacdc93a9e9b5e6fb719ed09854e932e4bbf1ca6c1f6a321fbbacd3fb652a"
+  },
+  {
+    "path": "public/assets/textures/limestone.jpg",
+    "bytes": 291737,
+    "sha256": "bed592a30165124cf1d633735c26c7596901d6dcd05e5935f5cc353e96d376f9"
+  },
+  {
+    "path": "public/assets/textures/parchment.jpg",
+    "bytes": 65339,
+    "sha256": "f29f3e03dcd4d10740177f351541463f4c9707076bb7e5547f3213eadf73d0d0"
+  },
+  {
+    "path": "public/assets/textures/path.jpg",
+    "bytes": 474238,
+    "sha256": "cfe29eeb191e461239ba792e511c1d9a1472dae02c0584534ef5c5dad40a394b"
+  },
+  {
+    "path": "public/assets/textures/rock-normal.jpg",
+    "bytes": 328595,
+    "sha256": "5107091b2ee180acd1000df45021670dd91d30aa9ddca22038b759c9e6f491fe"
+  },
+  {
+    "path": "public/assets/textures/rock.jpg",
+    "bytes": 189285,
+    "sha256": "d9b0be507fefb2f0246cb4d163af3fa7208f380edf810eac2714918eec8e35c1"
+  },
+  {
+    "path": "public/assets/textures/roof.jpg",
+    "bytes": 322246,
+    "sha256": "938938c8d1eb7960f61c82fd8a51aaec23bce76f7d10952f6185ca0598b58110"
+  },
+  {
+    "path": "public/assets/textures/rune.png",
+    "bytes": 7178,
+    "sha256": "6e75d2c77c4d1cfca6165339660c3d82f6940c0126353ed6efaed39d4c3742fb"
+  },
+  {
+    "path": "public/assets/textures/skin.jpg",
+    "bytes": 48956,
+    "sha256": "fa0530fcc0872a03c225ed485427ed380a2db17263894e216dd6ba92e49f9432"
+  },
+  {
+    "path": "public/assets/textures/sky.jpg",
+    "bytes": 107752,
+    "sha256": "2900f8a2f5688545c4308614a6e776f1d253ce57a502fd8dc73933f1ddcb3d72"
+  },
+  {
+    "path": "public/assets/textures/steel.jpg",
+    "bytes": 48874,
+    "sha256": "44009f05395f3aa01d4977dc6e7b436882fcc6f64d6b87a984dc8ecaf2fa5182"
+  },
+  {
+    "path": "public/assets/textures/ui-hide.jpg",
+    "bytes": 66627,
+    "sha256": "d5a70a693585bef3313aa30d3080ca1790c4232c744e6f479866e732091de14d"
+  },
+  {
+    "path": "public/assets/textures/wolf-fur.png",
+    "bytes": 422636,
+    "sha256": "1259a956a79c18b42ba5722a1d45717520470b17f82e7172b9cb76d6b61a94c5"
+  },
+  {
+    "path": "public/assets/textures/wood-normal.jpg",
+    "bytes": 266921,
+    "sha256": "0212f66741ff4cb107f587e7c6f967ed68b60d054a48859dc277bafa11347351"
+  },
+  {
+    "path": "public/assets/textures/wood-rough.jpg",
+    "bytes": 311447,
+    "sha256": "62bd98ba2f07d63b3e728b8cd0be484644f2d3ef61f433c61fdbab63b7bb573c"
+  },
+  {
+    "path": "public/assets/textures/wood.jpg",
+    "bytes": 177834,
+    "sha256": "aa5c1c547d2cbc53697351cb614e0f1d6bbc66dacd9696df266eb019cd8ce0e6"
+  },
+  {
+    "path": "public/assets/ui/bag.png",
+    "bytes": 18925,
+    "sha256": "418a3e54a6e87144c601fbec4adba216589ab95faa87ac8b1146b4086fcb4b65"
+  },
+  {
+    "path": "public/assets/ui/book.png",
+    "bytes": 23429,
+    "sha256": "d59c5f138456193f56ef2b0a0f290ce1ee843caf005069bee8e43fc833f135a1"
+  },
+  {
+    "path": "public/assets/ui/coin.png",
+    "bytes": 26601,
+    "sha256": "0ac76ca01ab4622ebdbeeba1e18c45ee73a830f087517af20f5f4bbad9bf27e1"
+  },
+  {
+    "path": "public/assets/ui/herb.png",
+    "bytes": 27909,
+    "sha256": "01ca8ab2761ee05fa6f819924d03b2abff01f61a9b220633696afeb54410a697"
+  },
+  {
+    "path": "public/assets/ui/map-tree.png",
+    "bytes": 13142,
+    "sha256": "0549d55321af086e34f83c2ea1b0dc96675984e6ef05ec26540d7efdc33619b2"
+  },
+  {
+    "path": "public/assets/ui/panel-border-000.png",
+    "bytes": 159,
+    "sha256": "af13d7d5d6026cd1642104ceb8eb4b9b11c5607e026f4c1b40633b51770c7988"
+  },
+  {
+    "path": "public/assets/ui/portrait.png",
+    "bytes": 146611,
+    "sha256": "0a7136a631f5981874ceddfb816b5bd01be9cb8f67ddb8b5088259e5a92145cb"
+  },
+  {
+    "path": "public/assets/ui/potion.png",
+    "bytes": 23886,
+    "sha256": "604a6ac924b337d192894df26dbab55cc3d78d8c82506aa6c64456b19c567bc9"
+  },
+  {
+    "path": "public/assets/ui/shield.png",
+    "bytes": 22152,
+    "sha256": "92005f5d1a6b7d8272dc3ec999939cb67410b7862db6a042ee5f1f1e88e985c9"
+  },
+  {
+    "path": "public/assets/ui/sword.png",
+    "bytes": 25954,
+    "sha256": "8a4ecf786cf204dae9be38f52f147b4bbdbcfc8782afbd3291367847c1abf316"
+  },
+  {
+    "path": "public/assets/ui/whirl.png",
+    "bytes": 30870,
+    "sha256": "f9723be5c3e8f32c1438db9d1a88cd84aebb310cecd40ef39967e182a513146f"
+  },
+  {
+    "path": "public/assets/ui/wolf-portrait.png",
+    "bytes": 46313,
+    "sha256": "99f80c12b6da5fe099d2bda96b65f3213bec838dad26418c658bea80b2ac9a50"
+  },
+  {
+    "path": "public/favicon.svg",
+    "bytes": 286,
+    "sha256": "ebc5bbecbb9c137a33bf2ac28f4ba85b7b82990f1c21fcb5628ef594b01c472f"
+  },
+  {
+    "path": "public/licenses/ASSETS-LICENSE.md",
+    "bytes": 1410,
+    "sha256": "843053626271b4615b18a111129a141fd1a9916836259f43f950fdd89e5e10c7"
+  },
+  {
+    "path": "public/licenses/babylon-NOTICE.md",
+    "bytes": 793,
+    "sha256": "7f85d099ce3c6e1900a45ee8d5b8fa405e760c746af687b3ee2081416e48f183"
+  },
+  {
+    "path": "public/licenses/babylon-apache-2.0.md",
+    "bytes": 9226,
+    "sha256": "9362ea9ea17cb221a20cbbd63f404710834cc273d2a9a7b60314fd68ab702cd6"
+  },
+  {
+    "path": "public/licenses/kenney-fantasy-ui-borders.txt",
+    "bytes": 794,
+    "sha256": "f7185bbb59c1a5dec131621e76bddde6855035224119927bba21f3b0bbc3ca83"
+  },
+  {
+    "path": "public/licenses/kenney-impact-sounds.txt",
+    "bytes": 608,
+    "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
+  },
+  {
+    "path": "public/licenses/kenney-rpg-audio.txt",
+    "bytes": 478,
+    "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539"
+  },
+  {
+    "path": "public/licenses/project-MIT.txt",
+    "bytes": 1236,
+    "sha256": "4ba49ced1c9dafca02b85d3b6b8c7e7aab491e79f65f410b73431d0027279ebe"
+  },
+  {
+    "path": "public/licenses/third-party-art.md",
+    "bytes": 1472,
+    "sha256": "9e58a69a461ccbb0038531104e7ecfae176b12e9d71d27a80587b877ad96a4e4"
+  },
+  {
+    "path": "screenshots/console-errors.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "screenshots/edge-report.json",
+    "bytes": 755,
+    "sha256": "3e32fc464185aba691713aae92d42d7f3cd05e3e176119b6bae352d2a4baf99b"
+  },
+  {
+    "path": "screenshots/playthrough-report.json",
+    "bytes": 4256,
+    "sha256": "1d008d6dcece1d2afe675e25e65c5e9082d7d7008808c5f7af358108c3a10565"
+  },
+  {
+    "path": "screenshots/preview.jpg",
+    "bytes": 424075,
+    "sha256": "706242a4ec9148db9f3efd496a135294721221b94074fa6a4781a49ec27b9e7c"
+  },
+  {
+    "path": "screenshots/production-report.json",
+    "bytes": 347,
+    "sha256": "3fde12905ebfb59347dbf26386c27bba6e8f973f7aa65f4a4f5ba3ea06abc777"
+  },
+  {
+    "path": "src/actors/actor.ts",
+    "bytes": 3215,
+    "sha256": "c545a250435a31fa9ae30699cc18966d7ea18c081081afab23b6a0aeb00d33c2"
+  },
+  {
+    "path": "src/actors/player.ts",
+    "bytes": 3084,
+    "sha256": "5623870ed4a6412d801d9d2acb9f6d0289e10b3e13e9ecc1c0313ae93127af16"
+  },
+  {
+    "path": "src/app/game.ts",
+    "bytes": 24945,
+    "sha256": "09b5c56d529eef71ce50758af613332de3a431766ae9b1d76d595671d5ac295e"
+  },
+  {
+    "path": "src/core/input.ts",
+    "bytes": 2601,
+    "sha256": "9a5aae30b833731d883cbd450240e595128311bacd8c4b27c8597f6d94f94ca4"
+  },
+  {
+    "path": "src/core/math.ts",
+    "bytes": 682,
+    "sha256": "1e73493930ebc0bef5d413b07a1189eff0f0e7889dc7d1d263ae91273e8b2beb"
+  },
+  {
+    "path": "src/core/state.ts",
+    "bytes": 4009,
+    "sha256": "4aaddefccbcbe3cda20691a6e6e25dafc4475f672f1d21b34ccdafd680f1da23"
+  },
+  {
+    "path": "src/data/content.ts",
+    "bytes": 2099,
+    "sha256": "ec36a724c86bd47703f7bf690be5bf2d74abcc85dc2d8a8ff5ade0c7c70fbef0"
+  },
+  {
+    "path": "src/gameplay/combat.ts",
+    "bytes": 8792,
+    "sha256": "97d0023240637cf31ca293dddb93168a3f004db288ad17ef296f41f8d5396f7a"
+  },
+  {
+    "path": "src/main.ts",
+    "bytes": 518,
+    "sha256": "775350a33c291e272a918d3e320d959ddf79e5e4042053a076d7a8ff51f24340"
+  },
+  {
+    "path": "src/presentation/audio.ts",
+    "bytes": 1134,
+    "sha256": "471b2abcdd36a3492210adde4999aa20c23a7c10a41d2fc8568431a0fae4db88"
+  },
+  {
+    "path": "src/presentation/effects.ts",
+    "bytes": 2312,
+    "sha256": "04e93c805f6795b7c892ed82739ad5e1d8635c1e8c11469f2646ed9696ea65d8"
+  },
+  {
+    "path": "src/ui/minimap.ts",
+    "bytes": 5389,
+    "sha256": "e453fe9a1a733a5328d8a71e802a46948c20e7a0ec02c830c4f9b66c26cdea18"
+  },
+  {
+    "path": "src/ui/style.css",
+    "bytes": 28855,
+    "sha256": "73c9d7c4ed4e8a20a7a266bdb11e23921bb5f249c148101c0e24887ffc55aaf8"
+  },
+  {
+    "path": "src/ui/ui.ts",
+    "bytes": 23476,
+    "sha256": "996322dc61424ff4982ec6e7b45406077295ea9a447c37b7b1631894381cf10c"
+  },
+  {
+    "path": "src/world/abbey.ts",
+    "bytes": 11234,
+    "sha256": "63126c8502e1d967948c909b00e8177b04c1a528a2aa8438d8a286d1e7879f61"
+  },
+  {
+    "path": "src/world/geometry.ts",
+    "bytes": 2971,
+    "sha256": "73768e6652e43e573a57555729c4c96b1918406ab6cb8fc8ab7c76580ec660d7"
+  },
+  {
+    "path": "src/world/materials.ts",
+    "bytes": 3476,
+    "sha256": "2cbec11ff76d0d3a5c9d818553fe380a7bab28b91511453015536c9480ab92f1"
+  },
+  {
+    "path": "src/world/props.ts",
+    "bytes": 8622,
+    "sha256": "21ce149d9ee437dedb473f7e984c3ebc220fb8426db0270a1c9ad0f248540877"
+  },
+  {
+    "path": "src/world/terrain.ts",
+    "bytes": 5243,
+    "sha256": "5b9f4dba3b853699f1e86927d52b46ac22581aa0222b42c05262e5fe4a8d1766"
+  },
+  {
+    "path": "src/world/vegetation.ts",
+    "bytes": 7194,
+    "sha256": "3ce8ecb9489c53c0b23fab885dfef84ad32912da494a41ba9c380f096193dc86"
+  },
+  {
+    "path": "tests/math.test.ts",
+    "bytes": 799,
+    "sha256": "1934987ab2563a8b4e0e559fc99afe8f9be5eac771125fcee687d08909bff79a"
+  },
+  {
+    "path": "tests/state.test.ts",
+    "bytes": 4519,
+    "sha256": "b4ed7e36cbc60bb5205732504100ec0e7cd372a8ef854feb0c57757b471ec22d"
+  },
+  {
+    "path": "tools/audit_assets.py",
+    "bytes": 3490,
+    "sha256": "1a40ea152f2c56ae42d3c6d74c93d63b2cbb4b9f54db173fe17c902a0dbe74b7"
+  },
+  {
+    "path": "tools/build_knight.py",
+    "bytes": 13649,
+    "sha256": "039bbb4fb9e5d9d7bcecca9fe635f0b0c359f5ab99338cbb5711d4313196d3aa"
+  },
+  {
+    "path": "tools/build_surface_details.py",
+    "bytes": 3477,
+    "sha256": "8289e0f747da57eb339bf8869e33c241bacf551ab6f24dcec8d84a5028264f1e"
+  },
+  {
+    "path": "tools/build_ui.py",
+    "bytes": 6103,
+    "sha256": "1c4316848fb01f19b3e6330c5e7c4df5295fb0e2d15eda34b4ddf4f1f33f0140"
+  },
+  {
+    "path": "tools/build_wolf.py",
+    "bytes": 4924,
+    "sha256": "e9c13ea52c046248ad946a919091bcce8fefa50c385b0ba77ac2af813a26f6a0"
+  },
+  {
+    "path": "tools/download_sources.py",
+    "bytes": 1281,
+    "sha256": "e51b438efb078f283cd49cfcabc084aec234b2e11d0e1e08d00f0d425631b70d"
+  },
+  {
+    "path": "tools/inspect.mjs",
+    "bytes": 1517,
+    "sha256": "e5c9d441ae3a3bc9dd9f6cdd82741dc16d7e72ffc1964120a3d79a74cfb9c5b5"
+  },
+  {
+    "path": "tools/knight-source.blend",
+    "bytes": 463397,
+    "sha256": "680228bb1c8ac885b6c30d92f25a9c307ce7bf10e2ca308d15f361e14c28c5c0"
+  },
+  {
+    "path": "tools/package_release.py",
+    "bytes": 1839,
+    "sha256": "712aadf0e8735fdfb33eee2ac36f8453364070a3d2a8dc26aff44fc4b882640e"
+  },
+  {
+    "path": "tools/prepare_assets.py",
+    "bytes": 10977,
+    "sha256": "6c87da1d0ea01263b95f2c79371f225314c8189c129dff94e3e8b7f222259417"
+  },
+  {
+    "path": "tools/probe.mjs",
+    "bytes": 917,
+    "sha256": "98f1ba1a6ccda452f0dc090baa7d26d672879d71982a3d20fbe66ce550685b7e"
+  },
+  {
+    "path": "tools/source-wolf.zip",
+    "bytes": 115769,
+    "sha256": "ec20c49aa127b40e532b9ff5c09d8c021779dec7423e3d7b54709232e5a17129"
+  },
+  {
+    "path": "tools/test-edges.mjs",
+    "bytes": 5247,
+    "sha256": "48ac7dd404de2339020c6fba48242564c8c3a69e6e9c79ed0ffd286b0980f1a0"
+  },
+  {
+    "path": "tools/test-playthrough.mjs",
+    "bytes": 6821,
+    "sha256": "1815665261290948a71fdb945f57a6b9239ed6eb4bbb42aa9d6dd039e1ee63d7"
+  },
+  {
+    "path": "tools/test-production.mjs",
+    "bytes": 2594,
+    "sha256": "c5d66970713468b5fa72b838fac9ebe327427acd34b05f9aecafadcc7af4d8a8"
+  },
+  {
+    "path": "tools/wolf-source/wolf.blend",
+    "bytes": 625544,
+    "sha256": "0a8c5be20ee8010eb15286a4f2f5f08950bbf4d7c79dd941c6cfcf4ba4b9a956"
+  },
+  {
+    "path": "tsconfig.json",
+    "bytes": 332,
+    "sha256": "f8e5e24677cce6cbe430822407e9141fde7994f1014f1db4e50cbd389a928382"
+  }
+]

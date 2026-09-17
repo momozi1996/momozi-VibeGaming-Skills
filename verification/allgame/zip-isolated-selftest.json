@@ -1,0 +1,198 @@
+{
+  "skill": "allgame",
+  "passed": 48,
+  "checks": [
+    {
+      "name": "sealed package",
+      "pass": true
+    },
+    {
+      "name": "family and recipe listing",
+      "pass": true
+    },
+    {
+      "name": "racing exact",
+      "pass": true
+    },
+    {
+      "name": "racing exact byte match",
+      "pass": true
+    },
+    {
+      "name": "racing nonempty protection",
+      "pass": true
+    },
+    {
+      "name": "racing rebuild",
+      "pass": true
+    },
+    {
+      "name": "racing rebuild retains art and tests",
+      "pass": true
+    },
+    {
+      "name": "racing preset sakura",
+      "pass": true
+    },
+    {
+      "name": "racing preset pins sakura",
+      "pass": true
+    },
+    {
+      "name": "racing preset sunset",
+      "pass": true
+    },
+    {
+      "name": "racing preset pins sunset",
+      "pass": true
+    },
+    {
+      "name": "racing validate design brief",
+      "pass": true
+    },
+    {
+      "name": "racing custom theme and brief",
+      "pass": true
+    },
+    {
+      "name": "racing custom variant reports differences",
+      "pass": true
+    },
+    {
+      "name": "racing detects altered baseline",
+      "pass": true
+    },
+    {
+      "name": "adventure exact",
+      "pass": true
+    },
+    {
+      "name": "adventure exact byte match",
+      "pass": true
+    },
+    {
+      "name": "adventure nonempty protection",
+      "pass": true
+    },
+    {
+      "name": "adventure rebuild",
+      "pass": true
+    },
+    {
+      "name": "adventure rebuild retains art and tests",
+      "pass": true
+    },
+    {
+      "name": "adventure preset autumn",
+      "pass": true
+    },
+    {
+      "name": "adventure preset pins autumn",
+      "pass": true
+    },
+    {
+      "name": "adventure preset frost",
+      "pass": true
+    },
+    {
+      "name": "adventure preset pins frost",
+      "pass": true
+    },
+    {
+      "name": "adventure validate design brief",
+      "pass": true
+    },
+    {
+      "name": "adventure custom theme and brief",
+      "pass": true
+    },
+    {
+      "name": "adventure custom variant reports differences",
+      "pass": true
+    },
+    {
+      "name": "adventure detects altered baseline",
+      "pass": true
+    },
+    {
+      "name": "requires family",
+      "pass": true
+    },
+    {
+      "name": "reject cross-family preset",
+      "pass": true
+    },
+    {
+      "name": "reject exact theme",
+      "pass": true
+    },
+    {
+      "name": "reject exact design brief",
+      "pass": true
+    },
+    {
+      "name": "reject family/brief mismatch",
+      "pass": true
+    },
+    {
+      "name": "protect root",
+      "pass": true
+    },
+    {
+      "name": "protect ancestor",
+      "pass": true
+    },
+    {
+      "name": "protect sibling-kit",
+      "pass": true
+    },
+    {
+      "name": "symlink destination",
+      "pass": true
+    },
+    {
+      "name": "symlink ancestor into package",
+      "pass": true
+    },
+    {
+      "name": "reject theme unknown",
+      "pass": true
+    },
+    {
+      "name": "reject theme color",
+      "pass": true
+    },
+    {
+      "name": "reject theme code",
+      "pass": true
+    },
+    {
+      "name": "reject theme markup",
+      "pass": true
+    },
+    {
+      "name": "reject theme boolean-seed",
+      "pass": true
+    },
+    {
+      "name": "reject theme degenerate-track",
+      "pass": true
+    },
+    {
+      "name": "reject theme coincident-track",
+      "pass": true
+    },
+    {
+      "name": "reject theme NaN",
+      "pass": true
+    },
+    {
+      "name": "nested kit protects sibling inputs",
+      "pass": true
+    },
+    {
+      "name": "package stays intact",
+      "pass": true
+    }
+  ]
+}

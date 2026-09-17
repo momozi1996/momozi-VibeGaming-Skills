@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <!-- Original, playable summer cat-kart racer. Assumptions and art direction: DESIGN.md. -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#64d9cb" />
+  <meta name="description" content="Aloha Kart · 落日猫猫大奖赛 — 一场发生在夏威夷海岸的猫咪卡丁车假日。" />
+  <link rel="icon" type="image/svg+xml" href="/assets/paw.svg" />
+  <title>SUNSET KART — 落日猫猫大奖赛</title>
+  <style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#94dbe7}#game-canvas{position:fixed;inset:0;width:100%;height:100%;display:block;outline:none}#boot{position:fixed;inset:0;display:grid;place-content:center;text-align:center;background:#fcf6e8;color:#153e40;z-index:100;font-family:'Trebuchet MS',sans-serif;transition:opacity .6s}#boot strong{font-size:40px;font-weight:900;font-style:italic;letter-spacing:-2px}#boot p{font-size:12px;letter-spacing:3px}#boot span{width:48px;height:4px;background:#ef846c;display:block;margin:22px auto;animation:loading 1s ease-in-out infinite alternate}@keyframes loading{to{transform:scaleX(2.2);background:#51bbaa}}#boot[hidden]{display:none}</style>
+</head>
+<body>
+  <canvas id="game-canvas" aria-label="夏威夷猫咪卡丁车 3D 游戏画面" tabindex="0"></canvas>
+  <div id="ui-root"></div>
+  <div id="boot" role="status"><strong>SUNSET KART</strong><span></span><p>正在装箱一整个夏天</p></div>
+  <noscript>请启用 JavaScript 以开始落日猫猫大奖赛。</noscript>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
