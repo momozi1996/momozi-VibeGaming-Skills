@@ -1,0 +1,4 @@
+interface:
+  display_name: "farmGame"
+  short_description: "完整可玩工程、原创美术与创作经验，独立制作风物农场同类游戏"
+  default_prompt: "使用 $farmgame 制作海岛香草花园，重新设计植物、小屋与邻居订单，保留种植经营、修缮和存档闭环并启动。"

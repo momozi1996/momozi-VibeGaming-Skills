@@ -1,0 +1,50 @@
+[
+  {
+    "id": "survivorgame",
+    "errors": [],
+    "stage": "playing"
+  },
+  {
+    "id": "towerdefensegame",
+    "errors": [],
+    "stage": "playing"
+  },
+  {
+    "id": "platformgame",
+    "errors": [],
+    "stage": "playing"
+  },
+  {
+    "id": "farmgame",
+    "errors": [],
+    "stage": "playing"
+  },
+  {
+    "id": "survivorgame",
+    "mode": "mobile-landscape",
+    "errors": [],
+    "debugExposed": false,
+    "menuClosed": true
+  },
+  {
+    "id": "towerdefensegame",
+    "mode": "mobile-landscape",
+    "errors": [],
+    "debugExposed": false,
+    "menuClosed": true
+  },
+  {
+    "id": "platformgame",
+    "mode": "mobile-landscape",
+    "errors": [],
+    "debugExposed": false,
+    "menuClosed": true
+  },
+  {
+    "id": "farmgame",
+    "mode": "mobile-landscape",
+    "errors": [],
+    "debugExposed": false,
+    "menuClosed": true
+  }
+]

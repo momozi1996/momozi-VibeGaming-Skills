@@ -1,0 +1,273 @@
+{
+  "schema": 1,
+  "name": "aniimo-windmeadow",
+  "version": "1.0.0",
+  "frozenAt": "2026-09-18T04:07:27.378868+00:00",
+  "sourceFiles": {
+    ".gitignore": {
+      "bytes": 24,
+      "sha256": "6c7d15d2ab1a0b51ebcae7e88b9ad01f0713d0833bc2dbe8f3bcc7a81b66b344"
+    },
+    "ASSETS-AND-RIGHTS.md": {
+      "bytes": 1760,
+      "sha256": "4170d1b4e20aa6147207b22e8b2412bbd9211278fe546a4be4a443e18dc432ee"
+    },
+    "GAME-CONTRACT.md": {
+      "bytes": 1966,
+      "sha256": "0fd99a3c2b614d3a1107ce97baa8d8c4bfb7e6d95a7c7f4d279de35471fbd56d"
+    },
+    "PROGRESS.md": {
+      "bytes": 1328,
+      "sha256": "5895e1e7618593b469f5ae66c1820791f853fde731d553293afe41d41094f3a9"
+    },
+    "README.md": {
+      "bytes": 4611,
+      "sha256": "b22167d3578930f55cdd65de3995f0e68bb756fdf470576612d22e7aad0bb65e"
+    },
+    "TEST-REPORT.md": {
+      "bytes": 2175,
+      "sha256": "3e05d6471193cb4a6bbdf4f618072f4d0a86842c6a8be4505890f69e7e4b2755"
+    },
+    "dist/assets/engine-DPj69CRH.js": {
+      "bytes": 488582,
+      "sha256": "40e2c1a82608196832165debf58917940cb16b54e6a4fc4028d9630256f19b58"
+    },
+    "dist/assets/index-CkWwsK_5.js": {
+      "bytes": 58358,
+      "sha256": "7adf6be49305e093a4e32f53857b8f57fc59f47dfd5ca75b57af705e7406f06d"
+    },
+    "dist/assets/index-MWbxZ5BI.css": {
+      "bytes": 30293,
+      "sha256": "b8dee63c95cdc7880e3b46ff811362e35a69d8816ca4dcc92622615ade798fe1"
+    },
+    "dist/favicon.svg": {
+      "bytes": 281,
+      "sha256": "17ab73feae46811fb2b0d612b97966418603e545ca6606a1800191af586d7a6d"
+    },
+    "dist/index.html": {
+      "bytes": 778,
+      "sha256": "97f74c7257b2f0d5b13d898a2c8cc6b582678f33ad374224bf7e4b6bbd7bd7dc"
+    },
+    "dist/licenses/THREE-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "index.html": {
+      "bytes": 603,
+      "sha256": "c9ff5872ec3c61492c1f3bc17eb6239a6439c2ed341004b26e685c51941884a7"
+    },
+    "package-lock.json": {
+      "bytes": 38055,
+      "sha256": "1bf955b0b24d1f5e0816a61c6b10522d554d245a9420c2fccc665bd11a9a2235"
+    },
+    "package.json": {
+      "bytes": 359,
+      "sha256": "e9fbef31ddb7d3611bfbd23a2ee67792868df8b0cf3a849534ca0d1ac024d72e"
+    },
+    "public/favicon.svg": {
+      "bytes": 281,
+      "sha256": "17ab73feae46811fb2b0d612b97966418603e545ca6606a1800191af586d7a6d"
+    },
+    "public/licenses/THREE-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "references/contact-sheet.jpg": {
+      "bytes": 330505,
+      "sha256": "f4141d15331f2f0da171c6b42a8aa14f37d74b4ec14e8d7bb19badf7b78def78"
+    },
+    "references/index.html": {
+      "bytes": 6487,
+      "sha256": "c8b7b9bc4687284fb8a325653bdfb0029b3aa8a6f474334a77af5dae88b13597"
+    },
+    "references/official-site.html": {
+      "bytes": 60417,
+      "sha256": "55809a7092d394a6b13a34d49b8cd85f1a1914ad5544320093b49a9a99be6542"
+    },
+    "references/sources.json": {
+      "bytes": 7869,
+      "sha256": "e193f49dca1db42ebef07c073d7608588be7656436ac77f3dfb589bb69630406"
+    },
+    "references/steam-00.jpg": {
+      "bytes": 649602,
+      "sha256": "397c3dfa10d7e1b769254ee3eaa18617ec57ef0041d7272031e7df3362b8b5fa"
+    },
+    "references/steam-01.jpg": {
+      "bytes": 511509,
+      "sha256": "950537dcc79831c973effb8e6b994c0710ea39e96524c89b1f01c5ff3013ff5e"
+    },
+    "references/steam-02.jpg": {
+      "bytes": 399152,
+      "sha256": "e548a45aa46458a2753f9fd2a9d450600cebf56b96e628c62554bd07e93c99b7"
+    },
+    "references/steam-03.jpg": {
+      "bytes": 571887,
+      "sha256": "fa5fb9808ad2b7a5711373f3928d9ae3726470aa5f3ebd3e6577654c951bd114"
+    },
+    "references/steam-04.jpg": {
+      "bytes": 341258,
+      "sha256": "0f529549f0fb479197352723a55a5aee75d76baaa5784069ccbad8e1249ec29d"
+    },
+    "references/steam-05.jpg": {
+      "bytes": 283579,
+      "sha256": "f8f93f5698f8418e1192ef3a9f013778e6012b5580807dfaea5855258cb14ac0"
+    },
+    "references/steam-06.jpg": {
+      "bytes": 408696,
+      "sha256": "ba1e579212937b40ad2e2e9ac54b7c6f6cb31b0003dbfa9bfc557b6939a71a34"
+    },
+    "references/steam-07.jpg": {
+      "bytes": 498696,
+      "sha256": "19473f960e2422b821062d7404c2291c20cc4f026a0dc8282818cf603b99ca7a"
+    },
+    "references/steam-08.jpg": {
+      "bytes": 875790,
+      "sha256": "2d9a8ecb3763c74f71c7ef6758d4d4d31ae45c2c4917711e6df6cb0b4bce649a"
+    },
+    "references/steam-09.jpg": {
+      "bytes": 616048,
+      "sha256": "6df6ad02bd3a986c7b191a5419e13a5404bb00b1631d1351408d26320b22dab3"
+    },
+    "references/steam-10.jpg": {
+      "bytes": 321788,
+      "sha256": "86e86ef66a491a5c501300392ee7996f081c97a7f9b30f6ad33c40131e0b3363"
+    },
+    "references/steam-11.jpg": {
+      "bytes": 509569,
+      "sha256": "bd9499a92d09ebac56896057b2cb9a71b0f25f9c3c438ffba8c661f61d7492ce"
+    },
+    "references/steam-12.jpg": {
+      "bytes": 267757,
+      "sha256": "dc0513a0698affb08a0573af6ed9b7267f13da5b6b4ba609458ca93ec4987dff"
+    },
+    "references/steam-13.jpg": {
+      "bytes": 579973,
+      "sha256": "85b85450fb8bd3fe79e497038b51d525d80337b15aa9d4a89564f0f2cf26d7fe"
+    },
+    "references/steam-appdetails.json": {
+      "bytes": 36541,
+      "sha256": "ca722bd1a4bba0bcedb11d9970a3d28901b5f247918d52fdaa63d8ce701d0bcb"
+    },
+    "reports/01-first-look.png": {
+      "bytes": 1668271,
+      "sha256": "44433a729d92c0f82a4ba4154522ee1ad32c8ed658989bd3f51e8616100bc098"
+    },
+    "reports/02-dex.png": {
+      "bytes": 644252,
+      "sha256": "78adde33ab2ef072e843829df36d7c3bcc5bbe2b50d7cd9ba53e3ad0bb4f183b"
+    },
+    "reports/03-encounter.png": {
+      "bytes": 1662361,
+      "sha256": "46d30781e897adb148346b259d1af20824d3c09f5deaf7b6f747b98765256cbd"
+    },
+    "reports/04-captured.png": {
+      "bytes": 1688333,
+      "sha256": "24c9e65591eed65f98a8407e3a07b2b8ffddf6e46679c96aee4014e8c4b8d666"
+    },
+    "reports/05-linked.png": {
+      "bytes": 1705467,
+      "sha256": "e69e4e407d913eba1a25f9beb8939d2f4bc14ee20efb2baa1c50fa60f27733bf"
+    },
+    "reports/06-map.png": {
+      "bytes": 596984,
+      "sha256": "5c404e234982d18789274847055eb3647a74a57a813b2764497a2acf6eee4bda"
+    },
+    "reports/07-owned-dex.png": {
+      "bytes": 701800,
+      "sha256": "52d1d9ef7af9a74f9e109d2bb88c5ae29c73f6f4b76fef5bbe1436edf08c6f1f"
+    },
+    "reports/08-complete.png": {
+      "bytes": 607496,
+      "sha256": "98110dcd195ae65cbb7d21dfcadc77cd81e0358e72180105f3a3819c2dc881ae"
+    },
+    "reports/09-production.png": {
+      "bytes": 1668615,
+      "sha256": "13addb6ad1e980a6150957cff406d8c66d7a30eeeda5173dfa1476d1dc7bf652"
+    },
+    "reports/10-production-dex.png": {
+      "bytes": 669337,
+      "sha256": "475ad8fa1e63708c58c5fe51963b0d0a858b2a76a4f42a19415e737c283c5f71"
+    },
+    "reports/11-mobile.png": {
+      "bytes": 412826,
+      "sha256": "b4264ccab81c6eed8d43cc990c33fac9b55b6d5b9a285f2dff6fc19f2d4afff7"
+    },
+    "reports/12-mobile-map.png": {
+      "bytes": 135211,
+      "sha256": "91f79ec12d8f167dba826f3b3f51616fb65bd3ae9adf51306398633beb2b0013"
+    },
+    "reports/browser-report.json": {
+      "bytes": 1579,
+      "sha256": "5038e92541cd6e1760c733441025e7cdc4bfcf1b0f8f568607f2fef2592c77af"
+    },
+    "reports/photo-export.png": {
+      "bytes": 1835237,
+      "sha256": "99a135cabe5b4cf8504c571c955139a8de1f875d4ab59c4d78e3a807dad3f0e3"
+    },
+    "reports/production-report.json": {
+      "bytes": 749,
+      "sha256": "0b2aa931c90bdfb066fda3118ffaa08428457a3869d4b6cca321500d56515017"
+    },
+    "reports/unit-tests.txt": {
+      "bytes": 993,
+      "sha256": "54603764746159f9fad3a5e90d2644ac10dc390a67c0e6f5133289da71e6b467"
+    },
+    "src/actors.js": {
+      "bytes": 8797,
+      "sha256": "b6288bf153259a5c34ba0913a2485cce29e68970a8b05846b11a927882094dd8"
+    },
+    "src/audio.js": {
+      "bytes": 958,
+      "sha256": "43a44a49e8072d4f565f0ec9f499fbe0a2485e3ddf9b0dd867d199280dee2cf8"
+    },
+    "src/input.js": {
+      "bytes": 2641,
+      "sha256": "0d787cddd0f89e17376ed2ab395eb41195317cc37cc9f01a78fe160f455c3fbd"
+    },
+    "src/main.js": {
+      "bytes": 14252,
+      "sha256": "ef538a65daa6986d9b8c37edfff05e168bcfa032d8441debf29735128059fc90"
+    },
+    "src/state.js": {
+      "bytes": 3830,
+      "sha256": "cf08b7c9043b8aa2799a15d39de95b880416fd8032014bea5f7d8c1256cfb515"
+    },
+    "src/style.css": {
+      "bytes": 30072,
+      "sha256": "9c87c3b2ef1bdee4bec93107ad7cc3a69a08a3f8ca0268095fd950a76df007b3"
+    },
+    "src/terrain.js": {
+      "bytes": 698,
+      "sha256": "e4e2a1e5fcf6967d45e96b222a97e0fb26302b35d81399336bbfd60c43301501"
+    },
+    "src/ui.js": {
+      "bytes": 19596,
+      "sha256": "18db4c8fc2a6687551b9806f99e62aaae4736bcf1e07870b6d93ddab60ce653d"
+    },
+    "src/world.js": {
+      "bytes": 16675,
+      "sha256": "6778c5025ef512a5d2589793c9affbcceba6fd52d1d16e43f25eb9ae8e297b51"
+    },
+    "tests/browser.mjs": {
+      "bytes": 7133,
+      "sha256": "fc0da8df3f466984264e0d473d3a5254699ab90a26d88c306a47e42e88c148ec"
+    },
+    "tests/production.mjs": {
+      "bytes": 3834,
+      "sha256": "5c1ce52b1733e4fa1b7165fd218a1297f43e3fd2f87fbcb35a581b36d4abbe16"
+    },
+    "tests/state.test.mjs": {
+      "bytes": 3710,
+      "sha256": "b842edb07b80f141d56a05c688e47c119146d1513d3fe625ffd9c4af8b2472ec"
+    },
+    "tests/visual.mjs": {
+      "bytes": 849,
+      "sha256": "d82bc65c6a49845fd9c960e802bd0732778da891f198d2a15fca3ef7b863d010"
+    },
+    "vite.config.js": {
+      "bytes": 132,
+      "sha256": "5a86ce7853b0a2b8a99125f67b7bbb317f7614a9131365d866480eb1438921b0"
+    }
+  },
+  "notes": "Byte-accurate snapshot of current aniimo-world, excluding node_modules. reports are historical; fresh validation belongs outside this immutable snapshot."
+}

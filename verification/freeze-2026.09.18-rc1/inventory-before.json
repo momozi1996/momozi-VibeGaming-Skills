@@ -1,0 +1,372 @@
+{
+  "fileCount": 51780,
+  "counts": {
+    ".DS_Store": 1,
+    "allGame-使用说明.md": 1,
+    "allGame-验证报告.md": 1,
+    "allGame.zip": 1,
+    "allGame.zip.sha256": 1,
+    "farmGame.zip": 1,
+    "farmGame.zip.sha256": 1,
+    "maomao3Dgame.zip": 1,
+    "maomao3Dgame.zip.sha256": 1,
+    "moshougame.zip": 1,
+    "moshougame.zip.sha256": 1,
+    "platformGame.zip": 1,
+    "platformGame.zip.sha256": 1,
+    "quanwangGame-交付记录.md": 1,
+    "quanwangGame-使用说明.md": 1,
+    "quanwangGame-实机预览.jpg": 1,
+    "quanwangGame.zip": 1,
+    "quanwangGame.zip.sha256": 1,
+    "survivorGame.zip": 1,
+    "survivorGame.zip.sha256": 1,
+    "towerDefenseGame.zip": 1,
+    "towerDefenseGame.zip.sha256": 1,
+    "yimoGame-交付记录.md": 1,
+    "yimoGame-使用说明.md": 1,
+    "yimoGame-实机预览.jpg": 1,
+    "yimoGame.zip": 1,
+    "yimoGame.zip.sha256": 1,
+    "使用说明.md": 1,
+    "创作游戏-交付记录.md": 1,
+    "创作游戏-使用说明.md": 1,
+    "创作游戏-实机总览.jpg": 1,
+    "验证报告.md": 1,
+    "playable-games": 348,
+    "skills": 1139,
+    "verification": 50210
+  },
+  "bytes": 2462473433,
+  "largeFiles": [
+    {
+      "path": "quanwangGame.zip",
+      "bytes": 173200783
+    },
+    {
+      "path": "yimoGame.zip",
+      "bytes": 171266327
+    },
+    {
+      "path": "skills/yimogame/vendor/npm-cache.tar.gz",
+      "bytes": 140602813
+    }
+  ],
+  "symlinks": [
+    {
+      "path": "verification/allgame/adventure-custom/node_modules/.bin/nanoid",
+      "target": "../nanoid/bin/nanoid.cjs",
+      "broken": false
+    },
+    {
+      "path": "verification/allgame/adventure-custom/node_modules/.bin/playwright",
+      "target": "../@playwright/test/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/allgame/adventure-custom/node_modules/.bin/playwright-core",
+      "target": "../playwright-core/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/allgame/adventure-custom/node_modules/.bin/rolldown",
+      "target": "../rolldown/bin/cli.mjs",
+      "broken": false
+    },
+    {
+      "path": "verification/allgame/adventure-custom/node_modules/.bin/tsc",
+      "target": "../typescript/bin/tsc",
+      "broken": false
+    },
+    {
+      "path": "verification/allgame/adventure-custom/node_modules/.bin/vite",
+      "target": "../vite/bin/vite.js",
+      "broken": false
+    },
+    {
+      "path": "verification/allgame/racing-custom/node_modules/.bin/esbuild",
+      "target": "../esbuild/bin/esbuild",
+      "broken": false
+    },
+    {
+      "path": "verification/allgame/racing-custom/node_modules/.bin/nanoid",
+      "target": "../nanoid/bin/nanoid.cjs",
+      "broken": false
+    },
+    {
+      "path": "verification/allgame/racing-custom/node_modules/.bin/playwright",
+      "target": "../@playwright/test/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/allgame/racing-custom/node_modules/.bin/playwright-core",
+      "target": "../playwright-core/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/allgame/racing-custom/node_modules/.bin/rollup",
+      "target": "../rollup/dist/bin/rollup",
+      "broken": false
+    },
+    {
+      "path": "verification/allgame/racing-custom/node_modules/.bin/vite",
+      "target": "../vite/bin/vite.js",
+      "broken": false
+    },
+    {
+      "path": "verification/maomao-sakura/node_modules/.bin/esbuild",
+      "target": "../esbuild/bin/esbuild",
+      "broken": false
+    },
+    {
+      "path": "verification/maomao-sakura/node_modules/.bin/nanoid",
+      "target": "../nanoid/bin/nanoid.cjs",
+      "broken": false
+    },
+    {
+      "path": "verification/maomao-sakura/node_modules/.bin/playwright",
+      "target": "../@playwright/test/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/maomao-sakura/node_modules/.bin/playwright-core",
+      "target": "../playwright-core/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/maomao-sakura/node_modules/.bin/rollup",
+      "target": "../rollup/dist/bin/rollup",
+      "broken": false
+    },
+    {
+      "path": "verification/maomao-sakura/node_modules/.bin/vite",
+      "target": "../vite/bin/vite.js",
+      "broken": false
+    },
+    {
+      "path": "verification/maomao-sunset/node_modules/.bin/esbuild",
+      "target": "../esbuild/bin/esbuild",
+      "broken": false
+    },
+    {
+      "path": "verification/maomao-sunset/node_modules/.bin/nanoid",
+      "target": "../nanoid/bin/nanoid.cjs",
+      "broken": false
+    },
+    {
+      "path": "verification/maomao-sunset/node_modules/.bin/playwright",
+      "target": "../@playwright/test/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/maomao-sunset/node_modules/.bin/playwright-core",
+      "target": "../playwright-core/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/maomao-sunset/node_modules/.bin/rollup",
+      "target": "../rollup/dist/bin/rollup",
+      "broken": false
+    },
+    {
+      "path": "verification/maomao-sunset/node_modules/.bin/vite",
+      "target": "../vite/bin/vite.js",
+      "broken": false
+    },
+    {
+      "path": "verification/moshou-autumn/node_modules/.bin/nanoid",
+      "target": "../nanoid/bin/nanoid.cjs",
+      "broken": false
+    },
+    {
+      "path": "verification/moshou-autumn/node_modules/.bin/playwright",
+      "target": "../@playwright/test/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/moshou-autumn/node_modules/.bin/playwright-core",
+      "target": "../playwright-core/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/moshou-autumn/node_modules/.bin/rolldown",
+      "target": "../rolldown/bin/cli.mjs",
+      "broken": false
+    },
+    {
+      "path": "verification/moshou-autumn/node_modules/.bin/tsc",
+      "target": "../typescript/bin/tsc",
+      "broken": false
+    },
+    {
+      "path": "verification/moshou-autumn/node_modules/.bin/vite",
+      "target": "../vite/bin/vite.js",
+      "broken": false
+    },
+    {
+      "path": "verification/moshou-frost/node_modules/.bin/nanoid",
+      "target": "../nanoid/bin/nanoid.cjs",
+      "broken": false
+    },
+    {
+      "path": "verification/moshou-frost/node_modules/.bin/playwright",
+      "target": "../@playwright/test/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/moshou-frost/node_modules/.bin/playwright-core",
+      "target": "../playwright-core/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/moshou-frost/node_modules/.bin/rolldown",
+      "target": "../rolldown/bin/cli.mjs",
+      "broken": false
+    },
+    {
+      "path": "verification/moshou-frost/node_modules/.bin/tsc",
+      "target": "../typescript/bin/tsc",
+      "broken": false
+    },
+    {
+      "path": "verification/moshou-frost/node_modules/.bin/vite",
+      "target": "../vite/bin/vite.js",
+      "broken": false
+    },
+    {
+      "path": "verification/quanwanggame/project/node_modules/.bin/esbuild",
+      "target": "../esbuild/bin/esbuild",
+      "broken": false
+    },
+    {
+      "path": "verification/quanwanggame/project/node_modules/.bin/nanoid",
+      "target": "../nanoid/bin/nanoid.cjs",
+      "broken": false
+    },
+    {
+      "path": "verification/quanwanggame/project/node_modules/.bin/playwright",
+      "target": "../@playwright/test/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/quanwanggame/project/node_modules/.bin/playwright-core",
+      "target": "../playwright-core/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/quanwanggame/project/node_modules/.bin/rollup",
+      "target": "../rollup/dist/bin/rollup",
+      "broken": false
+    },
+    {
+      "path": "verification/quanwanggame/project/node_modules/.bin/tsc",
+      "target": "../typescript/bin/tsc",
+      "broken": false
+    },
+    {
+      "path": "verification/quanwanggame/project/node_modules/.bin/tsserver",
+      "target": "../typescript/bin/tsserver",
+      "broken": false
+    },
+    {
+      "path": "verification/quanwanggame/project/node_modules/.bin/tsx",
+      "target": "../tsx/dist/cli.mjs",
+      "broken": false
+    },
+    {
+      "path": "verification/quanwanggame/project/node_modules/.bin/vite",
+      "target": "../vite/bin/vite.js",
+      "broken": false
+    },
+    {
+      "path": "verification/yimogame/project/node_modules/.bin/esbuild",
+      "target": "../esbuild/bin/esbuild",
+      "broken": false
+    },
+    {
+      "path": "verification/yimogame/project/node_modules/.bin/nanoid",
+      "target": "../nanoid/bin/nanoid.cjs",
+      "broken": false
+    },
+    {
+      "path": "verification/yimogame/project/node_modules/.bin/playwright",
+      "target": "../@playwright/test/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/yimogame/project/node_modules/.bin/playwright-core",
+      "target": "../playwright-core/cli.js",
+      "broken": false
+    },
+    {
+      "path": "verification/yimogame/project/node_modules/.bin/rollup",
+      "target": "../rollup/dist/bin/rollup",
+      "broken": false
+    },
+    {
+      "path": "verification/yimogame/project/node_modules/.bin/vite",
+      "target": "../vite/bin/vite.js",
+      "broken": false
+    }
+  ],
+  "machinePathTextFiles": [
+    "skills/allgame/assets/kits/adventure/assets/golden/capture.json",
+    "skills/moshougame/assets/golden/capture.json",
+    "skills/yimogame/references/source-verification/cache-build.log",
+    "verification/maomao-browser.log",
+    "verification/maomao-production.log",
+    "verification/moshou-browser-metal.log",
+    "verification/moshou-browser-retry.log",
+    "verification/moshou-browser.log",
+    "verification/moshou-capture.log",
+    "verification/package-report.json",
+    "verification/allgame/adventure-check.log",
+    "verification/allgame/adventure-probe.log",
+    "verification/allgame/racing-check.log",
+    "verification/allgame/racing-probe.log",
+    "verification/allgame/adventure-check/adventure.log",
+    "verification/allgame/adventure-check/summary.json",
+    "verification/allgame/adventure-check/baseline/preflight-asset-tests-pins.log",
+    "verification/allgame/adventure-check/baseline/summary.json",
+    "verification/allgame/adventure-check/baseline/target-asset-pins.log",
+    "verification/allgame/adventure-probe/report.json",
+    "verification/allgame/racing-check/asset-tests-pins.log",
+    "verification/allgame/racing-check/development.log",
+    "verification/allgame/racing-check/production.log",
+    "verification/allgame/racing-check/summary.json",
+    "verification/allgame/racing-check/development/report.json",
+    "verification/allgame/racing-check/production/report.json",
+    "verification/allgame/racing-probe/report.json",
+    "verification/creative-games/delivered-check.mjs",
+    "verification/creative-games/gallery.mjs",
+    "verification/creative-games/package-report.json",
+    "verification/creative-games/platform-bot-development.mjs",
+    "verification/creative-games/test-alt.mjs",
+    "verification/creative-games/test-browser.mjs",
+    "verification/maomao-browser/report.json",
+    "verification/maomao-production/report.json",
+    "verification/moshou-browser/preflight-asset-tests-pins.log",
+    "verification/moshou-browser/summary.json",
+    "verification/moshou-browser/target-asset-pins.log",
+    "verification/moshou-browser/test-playthrough.log",
+    "verification/moshou-browser-metal/preflight-asset-tests-pins.log",
+    "verification/moshou-browser-metal/summary.json",
+    "verification/moshou-browser-metal/target-asset-pins.log",
+    "verification/moshou-browser-retry/preflight-asset-tests-pins.log",
+    "verification/moshou-browser-retry/summary.json",
+    "verification/moshou-browser-retry/target-asset-pins.log",
+    "verification/moshou-browser-retry/test-playthrough.log",
+    "verification/moshou-capture/capture.json",
+    "verification/quanwanggame/capture.log",
+    "verification/quanwanggame/core-after-build.json",
+    "verification/quanwanggame/dist-after-build.json",
+    "verification/quanwanggame/exact-restore.json",
+    "verification/quanwanggame/extracted-kit-path.txt",
+    "verification/quanwanggame/playable-compare.json",
+    "verification/yimogame/extracted-kit-path.txt",
+    "verification/yimogame/check/check-report.json"
+  ],
+  "secretCandidates": [],
+  "trackedFiles": 43900,
+  "trackedNodeModules": 41808
+}

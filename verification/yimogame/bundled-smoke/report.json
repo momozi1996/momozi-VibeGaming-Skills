@@ -1,0 +1,35 @@
+{
+  "started": "2026-09-18T05:55:38.927Z",
+  "url": "http://127.0.0.1:4493",
+  "production": true,
+  "fixtures": false,
+  "checks": [
+    "Bundled production WebGL boots without DEV bridge",
+    "Fresh start has no companions",
+    "Real keyboard moves player",
+    "Native first capture consumes exactly one orb",
+    "Native Q switches linked form",
+    "Dex opens",
+    "Map opens",
+    "Capture persists through reload",
+    "No external runtime requests",
+    "No JS/HTTP failures"
+  ],
+  "requests": [
+    "http://127.0.0.1:4493/",
+    "http://127.0.0.1:4493/assets/index-CkWwsK_5.js",
+    "http://127.0.0.1:4493/assets/engine-DPj69CRH.js",
+    "http://127.0.0.1:4493/assets/index-MWbxZ5BI.css",
+    "http://127.0.0.1:4493/favicon.svg",
+    "http://127.0.0.1:4493/",
+    "http://127.0.0.1:4493/assets/index-CkWwsK_5.js",
+    "http://127.0.0.1:4493/assets/engine-DPj69CRH.js",
+    "http://127.0.0.1:4493/assets/index-MWbxZ5BI.css",
+    "http://127.0.0.1:4493/favicon.svg"
+  ],
+  "blocked": [],
+  "errors": [],
+  "success": true,
+  "browser": "153.0.8010.50",
+  "finished": "2026-09-18T05:55:53.981Z"
+}

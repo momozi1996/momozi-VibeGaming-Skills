@@ -1,0 +1,50 @@
+[
+  {
+    "file": "human-fighter.gif",
+    "url": "https://opengameart.org/sites/default/files/human%20fighter.gif",
+    "page": "https://opengameart.org/content/generic-woman-for-fighting-games-stardrinkers-style",
+    "author": "Puffolotti",
+    "license": "CC0-1.0",
+    "sha256": "3dab74bec218bf89f2886068b78bb5308d7148d481f68355618c858f2a5a354b"
+  },
+  {
+    "file": "karate.gif",
+    "url": "https://opengameart.org/sites/default/files/1_8.gif",
+    "page": "https://opengameart.org/content/fighting-character-template-mustermann-2-a001aaaa001-karate",
+    "author": "Puffolotti",
+    "license": "CC0-1.0",
+    "sha256": "14f224bdd947c12c8f78749713ddce3cf63a2ae7a16d0417c0329595819db625"
+  },
+  {
+    "file": "streets-of-fight.zip",
+    "url": "https://opengameart.org/sites/default/files/streets_of_fight_files.zip",
+    "page": "https://opengameart.org/content/streets-of-fight",
+    "author": "ansimuz",
+    "license": "CC0-1.0",
+    "sha256": "3dead7bae39dd5b250504e6a4dd636d8f05243a6f766c85f4b4ebfeed27c51bc"
+  },
+  {
+    "file": "fighter-icons.zip",
+    "url": "https://opengameart.org/sites/default/files/Icon%20assets%20%28fighter%29.zip",
+    "page": "https://opengameart.org/content/game-icons-fighter-expansion",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "sha256": "20a853640d0eb471c4898a5cbc54785b74cda9c7b1d737f434107757a07ab273"
+  },
+  {
+    "file": "impact-sounds.zip",
+    "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "page": "https://kenney.nl/assets/impact-sounds",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8"
+  },
+  {
+    "file": "voiceover-fighter.zip",
+    "url": "https://kenney.nl/media/pages/assets/voiceover-pack-fighter/6ceb77c6f1-1677589837/kenney_voiceover-pack-fighter.zip",
+    "page": "https://kenney.nl/assets/voiceover-pack-fighter",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "sha256": "368ac0711e59521aff965a833e22e2b5218c397cf8b059ce3cb72e8d13219ee2"
+  }
+]

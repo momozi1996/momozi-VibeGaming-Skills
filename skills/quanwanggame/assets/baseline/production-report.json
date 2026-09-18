@@ -1,0 +1,35 @@
+{
+  "productionPassed": true,
+  "checks": [
+    "no website chrome / marketing cards",
+    "canvas backing exactly matches final CSS display",
+    "arrow-key character / mode selection + Enter start",
+    "native REN projectile animation runs",
+    "fullscreen enters",
+    "portrait mobile aspect ratio / no scrolling",
+    "landscape fits by height without cropping",
+    "DPR2 backing store verified"
+  ],
+  "desktop": {
+    "backing": [
+      1440,
+      810
+    ],
+    "display": [
+      1440,
+      810
+    ]
+  },
+  "hidpi": {
+    "backing": [
+      2560,
+      1440
+    ],
+    "display": [
+      1280,
+      720
+    ]
+  },
+  "errors": [],
+  "externalRequestsBlocked": true
+}

@@ -1,0 +1,41 @@
+
+> neon-impact@1.0.0 test
+> tsx --test tests/*.test.ts
+
+✔ ava: native-resolution, tightly packed textures have no overlaps or lost margins (3.411291ms)
+✔ ava: animation startup / contact / recovery use exact combat ages (0.2915ms)
+✔ ava: idle ping-pong includes descending frames (0.054333ms)
+✔ ren: native-resolution, tightly packed textures have no overlaps or lost margins (4.300667ms)
+✔ ren: animation startup / contact / recovery use exact combat ages (0.129375ms)
+✔ ren: idle ping-pong includes descending frames (0.033792ms)
+✔ startup: 4 non-hitting ticks, first active tick 5 (1.530334ms)
+✔ one attack cannot damage repeatedly across active frames (0.247542ms)
+✔ simultaneous attacks trade; no P1 update advantage (0.755ms)
+✔ whiff never damages (0.241209ms)
+✔ back direction blocks mids without chip (0.47175ms)
+✔ standing back cannot block a low attack (0.171209ms)
+✔ down-back blocks a low attack (0.192125ms)
+✔ hitstop freezes state age, still records inputs (0.082ms)
+✔ connected light can cancel into special, whiff cannot (0.229416ms)
+✔ quarter-circle command mirrored by facing (0.133625ms)
+✔ expired motion is not a special (0.057417ms)
+✔ jump returns to ground without frame-rate timeouts (0.920417ms)
+✔ pushboxes separate against the arena corner (0.073708ms)
+✔ projectile can hit once, not repeatedly (0.329583ms)
+✔ KO awards round, first to two resolves a match (0.297875ms)
+✔ mirrored hitbox retains size and reflects around root (0.066042ms)
+✔ identical input traces produce identical states (3.047834ms)
+✔ rendered attack age is the exact collision age (no one-frame lead) (0.076875ms)
+✔ air attacks end when landing; no grounded floating kick (0.073333ms)
+✔ input buffering expires, held keys do not auto-retrigger (0.02975ms)
+✔ a command entered during heavy hitstop survives until cancel window (0.0535ms)
+✔ 30, 60 and 144Hz displays all execute 60 combat ticks per second (0.91375ms)
+✔ rendering frequency does not become attack frequency (0.2895ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 222.98575

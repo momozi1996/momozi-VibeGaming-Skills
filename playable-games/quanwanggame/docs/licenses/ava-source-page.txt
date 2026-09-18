@@ -1,0 +1,31 @@
+Retrieved 2026-09-18
+https://opengameart.org/content/ava-lee-for-mugen-alpha-strike
+
+Ava Lee for MUGEN: Alpha Strike
+Author:
+Puffolotti
+Monday, November 4, 2019 - 15:38
+Art Type:
+2D Art
+Tags:
+mugen
+fighting
+fighter
+32bits
+License(s):
+CC0
+Collections:
+16 Or More Frame Walk Cycles
+Alpha strikers
+Favorites:
+4
+Preview:
+This sprite was created for a MUGEN project in a rather unique scale (As seen in the second preview image)
+All the characters for that project will be in the same scale, so i guess it will be possible to create different games, with said sprites.
+I'll eventually create a collection to help put together the sprites in the same scale
+File(s):
+AvaLee-sheet.gif
+508.4 Kb
+[
+332
+download(s)]

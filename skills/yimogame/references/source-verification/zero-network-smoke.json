@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-18T04:27:54.740Z",
+  "passed": true,
+  "checks": [
+    "Frozen dist served by Python boots real WebGL canvas without DEV API",
+    "Real keyboard movement with no npm game server",
+    "Capture consumes one orb in frozen production artifact",
+    "Linked form reached without external assets",
+    "No attempted non-local request with external requests explicitly blocked",
+    "No browser exception, failed HTTP or failed asset request"
+  ],
+  "blocked": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:4378/",
+    "http://127.0.0.1:4378/assets/index-CkWwsK_5.js",
+    "http://127.0.0.1:4378/assets/engine-DPj69CRH.js",
+    "http://127.0.0.1:4378/assets/index-MWbxZ5BI.css",
+    "http://127.0.0.1:4378/favicon.svg"
+  ],
+  "browser": "153.0.8010.50",
+  "server": "Python stdlib http.server via reproduce.py serve; frozen dist, no npm runtime server",
+  "scope": "External HTTP(S) requests blocked at browser routing; not an OS-level network sandbox; Playwright and Chrome are test apparatus, not game runtime dependencies."
+}

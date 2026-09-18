@@ -1,0 +1,16 @@
+{
+  "browser": "153.0.8010.50",
+  "viewport": [
+    1280,
+    800
+  ],
+  "dpr": 1,
+  "mobile": [
+    390,
+    844
+  ],
+  "rainTime": 0,
+  "cssAnimations": false,
+  "errors": [],
+  "note": "Posed active frames are visual references, not hit/damage tests. Use run-checks.mjs for gameplay."
+}

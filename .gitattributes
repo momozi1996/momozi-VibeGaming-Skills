@@ -1,0 +1,8 @@
+# Frozen hashes require byte-preserving checkout on all platforms.
+* -text
+# Required only if publishing this full repository through Git.
+# These 3 complete binaries exceed GitHub's normal 100 MiB per-file limit.
+/yimoGame.zip filter=lfs diff=lfs merge=lfs -text
+/quanwangGame.zip filter=lfs diff=lfs merge=lfs -text
+/skills/yimogame/vendor/npm-cache.tar.gz filter=lfs diff=lfs merge=lfs -text
+# Preserve frozen source bytes; no global text/eol normalization before hash checks.

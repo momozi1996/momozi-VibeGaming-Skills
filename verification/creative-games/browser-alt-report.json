@@ -1,0 +1,91 @@
+[
+  {
+    "id": "survivorgame",
+    "checks": [
+      "pause/resume",
+      "real keyboard movement",
+      "input-bot full run, including XP choices and terminal state"
+    ],
+    "errors": [],
+    "actionScreenshot": true,
+    "playthrough": {
+      "stage": "result",
+      "time": 135.50676666666666,
+      "hp": 130,
+      "kills": 232,
+      "level": 10
+    },
+    "ok": true
+  },
+  {
+    "id": "towerdefensegame",
+    "checks": [
+      "pause/resume",
+      "real pointer build",
+      "full normal-budget tower strategy"
+    ],
+    "errors": [],
+    "playthrough": {
+      "stage": "result",
+      "lives": 15,
+      "wave": 8,
+      "kills": 120,
+      "towers": 8
+    },
+    "ok": true
+  },
+  {
+    "id": "platformgame",
+    "checks": [
+      "pause/resume",
+      "real keyboard run and jump",
+      "normal movement/jump input bot, full three-level win"
+    ],
+    "errors": [],
+    "playthrough": {
+      "stage": "result",
+      "level": 3,
+      "lives": 4,
+      "stars": 62,
+      "frames": 4262,
+      "trace": [
+        {
+          "x": 1563.7755044446992,
+          "y": 444.7674088950977,
+          "lastPlatform": 8
+        },
+        {
+          "x": 3048.990639912687,
+          "y": 463.9723570903931,
+          "lastPlatform": 8
+        },
+        {
+          "x": 1545.4423630553981,
+          "y": 432.0002742165803,
+          "lastPlatform": 8
+        }
+      ],
+      "x": 3052.1165205733214,
+      "key": true
+    },
+    "ok": true
+  },
+  {
+    "id": "farmgame",
+    "checks": [
+      "pause/resume",
+      "native plant + watering",
+      "grow, harvest, 3 orders, both restorations, normal economy",
+      "reload save + post-win continuation"
+    ],
+    "errors": [],
+    "playthrough": {
+      "stage": "result",
+      "day": 5,
+      "order": 3,
+      "level": 2,
+      "gold": 47
+    },
+    "ok": true
+  }
+]

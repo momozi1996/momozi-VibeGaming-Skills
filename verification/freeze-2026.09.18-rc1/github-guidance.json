@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+    "retrieved": "2026-09-18",
+    "snippets": [
+      "n 25 MiB. For more information, see Adding a file to a repository . GitHub blocks files larger than 100 MiB. To track files beyond this limit, you must use Git Large File Storage (Git LFS). For more information, see About Git Large File Storage . If you need to distribute large files within your repository",
+      "sitory\\u003c/a\\u003e.\\u003c/p\\u003e\\n\\u003c/div\\u003e\\n\\u003cp\\u003eGitHub blocks files larger than 100 MiB.\\u003c/p\\u003e\\n\\u003cp\\u003eTo track files beyond this limit, you must use Git Large File Storage (Git LFS). For more information, see \\u003ca href=\\\"/en/repositories/working-with-files/managing-lar",
+      "\",\"tagName\":\"p\",\"properties\":{},\"children\":[{\"type\":\"text\",\"value\":\"GitHub blocks files larger than 100 MiB.\"}]},{\"type\":\"text\",\"value\":\"\\n\"},{\"type\":\"element\",\"tagName\":\"p\",\"properties\":{},\"children\":[{\"type\":\"text\",\"value\":\"To track files beyond this limit, you must use Git Large File Storage (Git LFS). ",
+      "e size of files allowed in repositories. If you attempt to add or update a file that is larger than 50 MiB, you will receive a warning from Git. The changes will still successfully push to your repository, but you can consider removing the commit to minimize performance impact. For more information, see R",
+      "e size of files allowed in repositories. If you attempt to add or update a file that is larger than 50 MiB, you will receive a warning from Git. The changes will still successfully push to your repository, but you can consider removing the commit to minimize performance impact. For more information, see \\",
+      "e size of files allowed in repositories. If you attempt to add or update a file that is larger than 50 MiB, you will receive a warning from Git. The changes will still successfully push to your repository, but you can consider removing the commit to minimize performance impact. For more information, see \"",
+      "borator Repository permissions Remove yourself Ownership continuity Customize your repository About READMEs Licensing a repository Display a sponsor button Social media preview Classify with topics About code owners Repository languages About CITATION files Enable features Disabling issues Disabling pull ",
+      "\"/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes\",\"title\":\"About READMEs\",\"childPages\":[]},{\"href\":\"/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository\",\"title\":\"Licensing a repositor",
+      "ng-your-repositorys-settings-and-features/customizing-your-repository/about-readmes\",\"title\":\"About READMEs\",\"childPages\":[]},{\"href\":\"/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository\",\"title\":\"Licensing a repository\",\"childPages\":[]},{\"hr"
+    ]
+  },
+  {
+    "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
+    "retrieved": "2026-09-18",
+    "snippets": [
+      " About the repository README file - GitHub Docs (function(){ var MODES=[\"auto\",\"light\",\"dark\"],THEMES=[\"light\",\"dark\",\"dark_dimmed\",\"dark_high_contrast\"],D={\"colorMode\":\"auto\",\"lightTheme\":\"light\",\"darkTheme\":\"dark\"}; var css=D;",
+      "croll breadcrumbs left Home Repositories Manage repository settings Customize your repository About READMEs Scroll breadcrumbs right Repositories Create &amp; manage repositories About repositories Best practices Quickstart for repositories Repository limits Creating a new repository Access to repositorie",
+      "borator Repository permissions Remove yourself Ownership continuity Customize your repository About READMEs Licensing a repository Display a sponsor button Social media preview Classify with topics About code owners Repository languages About CITATION files Enable features Disabling issues Disabling pull ",
+      "pository to communicate important information about your project. A README, along with a repository license, citation file, contribution guidelines, and a code of conduct, communicates expectations for your project and helps you manage contributions. For more information about providing guidelines for your",
+      "pository to communicate important information about your project. A README, along with a repository license, citation file, contribution guidelines, and a code of conduct, communicates expectations for your project and helps you manage contributions.\\u003c/p\\u003e\\n\\u003cp\\u003eFor more information about p",
+      "pository to communicate important information about your project. A README, along with a repository license, citation file, contribution guidelines, and a code of conduct, communicates expectations for your project and helps you manage contributions.\"}]},{\"type\":\"text\",\"value\":\"\\n\"},{\"type\":\"element\",\"tagN"
+    ]
+  },
+  {
+    "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository",
+    "retrieved": "2026-09-18",
+    "snippets": [
+      "borator Repository permissions Remove yourself Ownership continuity Customize your repository About READMEs Licensing a repository Display a sponsor button Social media preview Classify with topics About code owners Repository languages About CITATION files Enable features Disabling issues Disabling pull ",
+      " here&#x27;s an example from Hubot . Some projects include information about their license in their README. For example, a project&#x27;s README may include a note saying &quot;This project is licensed under the terms of the MIT license.&quot; As a best practice, we encourage you to include the license fi",
+      "ome projects include information about their license in their README. For example, a project&#x27;s README may include a note saying &quot;This project is licensed under the terms of the MIT license.&quot; As a best practice, we encourage you to include the license file with your project. Searching GitHub",
+      "sed to share open source software. For your repository to truly be open source, you&#x27;ll need to license it so that others are free to use, change, and distribute the software. Copy markdown In this article Choosing the right license Determining the location of your license Searching GitHub by license t",
+      " free to use, change, and distribute the software. Copy markdown In this article Choosing the right license Determining the location of your license Searching GitHub by license type Detecting a license Applying a license to a repository with an existing license Disclaimer Further reading Choosing the right",
+      "software. Copy markdown In this article Choosing the right license Determining the location of your license Searching GitHub by license type Detecting a license Applying a license to a repository with an existing license Disclaimer Further reading Choosing the right license We created choosealicense.com , ",
+      "ision. You&#x27;re under no obligation to choose a license. However, without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. If you&#x27;re creating an open source project, we ",
+      "u003cp\\u003eYou're under no obligation to choose a license. However, without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. If you're creating an open source project, we stron",
+      "t\",\"value\":\"You're under no obligation to choose a license. However, without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. If you're creating an open source project, we stron"
+    ]
+  }
+]

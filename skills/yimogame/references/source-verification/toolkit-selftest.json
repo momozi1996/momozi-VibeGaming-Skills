@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "frozen input verification",
+    "exact restores all 66 files byte-for-byte",
+    "nonempty output refuses overwrite",
+    "output inside kit rejected without mutation",
+    "source corruption detected in output",
+    "unexpected source file detected",
+    "rebuild is an honestly empty implementation with dependency/test scaffolding",
+    "PNG diff passes identical image and fails changed image"
+  ]
+}

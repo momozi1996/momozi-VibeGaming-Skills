@@ -1,0 +1,191 @@
+{
+  "success": true,
+  "rows": [
+    {
+      "id": "maomao3dgame",
+      "family": null,
+      "url": "http://127.0.0.1:61425",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "ALOHA KART — 夏日猫猫大奖赛"
+    },
+    {
+      "id": "moshougame",
+      "family": null,
+      "url": "http://127.0.0.1:61468",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "visible": false
+        }
+      ],
+      "title": "北郡 · 经典之境 | Northshire"
+    },
+    {
+      "id": "allgame",
+      "family": "racing",
+      "url": "http://127.0.0.1:61617",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "ALOHA KART — 夏日猫猫大奖赛"
+    },
+    {
+      "id": "allgame",
+      "family": "adventure",
+      "url": "http://127.0.0.1:61653",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "visible": false
+        }
+      ],
+      "title": "北郡 · 经典之境 | Northshire"
+    },
+    {
+      "id": "survivorgame",
+      "family": null,
+      "url": "http://127.0.0.1:61847",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "月灯守夜人 · survivorGame"
+    },
+    {
+      "id": "towerdefensegame",
+      "family": null,
+      "url": "http://127.0.0.1:61887",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "灯火小径 · towerDefenseGame"
+    },
+    {
+      "id": "platformgame",
+      "family": null,
+      "url": "http://127.0.0.1:61932",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "云屿邮差 · platformGame"
+    },
+    {
+      "id": "farmgame",
+      "family": null,
+      "url": "http://127.0.0.1:61992",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "风物小园 · farmGame"
+    },
+    {
+      "id": "yimogame",
+      "family": null,
+      "url": "http://127.0.0.1:62055",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        },
+        {
+          "width": 310,
+          "height": 310,
+          "visible": true
+        }
+      ],
+      "title": "伊莫 · 风栖原野 | 可玩风格原型"
+    },
+    {
+      "id": "quanwanggame",
+      "family": null,
+      "url": "http://127.0.0.1:62083",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 720,
+          "visible": true
+        }
+      ],
+      "title": "NEON IMPACT / 霓虹对决"
+    }
+  ],
+  "note": "Freshly restored/built projects served on isolated localhost ports, nonlocal requests blocked. Desktop boot/canvas smoke only, not full gameplay, all-model, real-phone or performance certification."
+}

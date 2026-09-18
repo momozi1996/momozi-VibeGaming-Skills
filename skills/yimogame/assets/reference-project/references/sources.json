@@ -1,0 +1,123 @@
+{
+  "retrieved": "2026-09-18",
+  "steam": "https://store.steampowered.com/app/4126040/_/",
+  "api": "https://store.steampowered.com/api/appdetails?appids=4126040&l=schinese",
+  "officialSite": "https://www.aniimo.com/",
+  "developer": [
+    "Pawprint Studio"
+  ],
+  "screenshots": [
+    {
+      "file": "steam-00.jpg",
+      "description": "草原捕捉 · 主参考",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/d9576931a38e53a24eccb1ace15a7559e1c8d6fe/ss_d9576931a38e53a24eccb1ace15a7559e1c8d6fe.1920x1080.jpg?t=1789651507",
+      "sha256": "397c3dfa10d7e1b769254ee3eaa18617ec57ef0041d7272031e7df3362b8b5fa",
+      "bytes": 649602,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-01.jpg",
+      "description": "草原探索与战斗",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/25c0c7e6c5c5fd530c056ee032b7ba366fb81c0c/ss_25c0c7e6c5c5fd530c056ee032b7ba366fb81c0c.1920x1080.jpg?t=1789651507",
+      "sha256": "950537dcc79831c973effb8e6b994c0710ea39e96524c89b1f01c5ff3013ff5e",
+      "bytes": 511509,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-02.jpg",
+      "description": "伊莫图鉴 · 卡片布局",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/f6481528a33e65eaf6bfeb72d2ab7e09d04cdabf/ss_f6481528a33e65eaf6bfeb72d2ab7e09d04cdabf.1920x1080.jpg?t=1789651507",
+      "sha256": "e548a45aa46458a2753f9fd2a9d450600cebf56b96e628c62554bd07e93c99b7",
+      "bytes": 399152,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-03.jpg",
+      "description": "秋日森林与生物近景",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/4b7934615abc485253f56e14d4bef1aa636dcd18/ss_4b7934615abc485253f56e14d4bef1aa636dcd18.1920x1080.jpg?t=1789651507",
+      "sha256": "fa5fb9808ad2b7a5711373f3928d9ae3726470aa5f3ebd3e6577654c951bd114",
+      "bytes": 571887,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-04.jpg",
+      "description": "伙伴与大型伊莫",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/519a496bd09ac75d726ac45baa9c9ac44f480acf/ss_519a496bd09ac75d726ac45baa9c9ac44f480acf.1920x1080.jpg?t=1789651507",
+      "sha256": "0f529549f0fb479197352723a55a5aee75d76baaa5784069ccbad8e1249ec29d",
+      "bytes": 341258,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-05.jpg",
+      "description": "进化谱系与造型",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/48555a45adb748849eea04efc29349211398ce38/ss_48555a45adb748849eea04efc29349211398ce38.1920x1080.jpg?t=1789651507",
+      "sha256": "f8f93f5698f8418e1192ef3a9f013778e6012b5580807dfaea5855258cb14ac0",
+      "bytes": 283579,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-06.jpg",
+      "description": "属性战斗特效",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/624f41ad7ea2443274c70ea95cc70d090c8f0011/ss_624f41ad7ea2443274c70ea95cc70d090c8f0011.1920x1080.jpg?t=1789651507",
+      "sha256": "ba1e579212937b40ad2e2e9ac54b7c6f6cb31b0003dbfa9bfc557b6939a71a34",
+      "bytes": 408696,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-07.jpg",
+      "description": "战斗HUD与场地",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/ccccafc7f89e9062094f0ee2b62cf340b1a69fce/ss_ccccafc7f89e9062094f0ee2b62cf340b1a69fce.1920x1080.jpg?t=1789651507",
+      "sha256": "19473f960e2422b821062d7404c2291c20cc4f026a0dc8282818cf603b99ca7a",
+      "bytes": 498696,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-08.jpg",
+      "description": "家园与花园",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/3bffedb9fdd128d059d634583720a69806f11dba/ss_3bffedb9fdd128d059d634583720a69806f11dba.1920x1080.jpg?t=1789651507",
+      "sha256": "2d9a8ecb3763c74f71c7ef6758d4d4d31ae45c2c4917711e6df6cb0b4bce649a",
+      "bytes": 875790,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-09.jpg",
+      "description": "联结飞行 · 探索HUD",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/aeb1e0c1ed3481eb73717113f9de450e5c2edf30/ss_aeb1e0c1ed3481eb73717113f9de450e5c2edf30.1920x1080.jpg?t=1789651507",
+      "sha256": "6df6ad02bd3a986c7b191a5419e13a5404bb00b1631d1351408d26320b22dab3",
+      "bytes": 616048,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-10.jpg",
+      "description": "大陆与远山空间层次",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/7b831079f0ff233d94b7b740fe06a74beb797262/ss_7b831079f0ff233d94b7b740fe06a74beb797262.1920x1080.jpg?t=1789651507",
+      "sha256": "86e86ef66a491a5c501300392ee7996f081c97a7f9b30f6ad33c40131e0b3363",
+      "bytes": 321788,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-11.jpg",
+      "description": "伊莫与生活互动",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/3dda866e9799acffe9cbb019985ab9da19964914/ss_3dda866e9799acffe9cbb019985ab9da19964914.1920x1080.jpg?t=1789651507",
+      "sha256": "bd9499a92d09ebac56896057b2cb9a71b0f25f9c3c438ffba8c661f61d7492ce",
+      "bytes": 509569,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-12.jpg",
+      "description": "夜间水域 · 材质与光",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/bc7eb6c1f00cad1b659b7fbb9cdf67a64924d1e0/ss_bc7eb6c1f00cad1b659b7fbb9cdf67a64924d1e0.1920x1080.jpg?t=1789651507",
+      "sha256": "dc0513a0698affb08a0573af6ed9b7267f13da5b6b4ba609458ca93ec4987dff",
+      "bytes": 267757,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    },
+    {
+      "file": "steam-13.jpg",
+      "description": "遗迹壁画与叙事",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/682ea2dfa7894198407ffcd8de8a6122dd6fe664/ss_682ea2dfa7894198407ffcd8de8a6122dd6fe664.1920x1080.jpg?t=1789651507",
+      "sha256": "85b85450fb8bd3fe79e497038b51d525d80337b15aa9d4a89564f0f2cf26d7fe",
+      "bytes": 579973,
+      "rights": "Official promotional screenshot; local visual reference only. Rights retained by the original owners; not a runtime asset."
+    }
+  ]
+}

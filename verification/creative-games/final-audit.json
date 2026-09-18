@@ -1,0 +1,30 @@
+[
+  {
+    "skill": "survivorgame",
+    "files": 49,
+    "archiveSourceInstalledIdentical": true,
+    "independentZipVerify": true,
+    "noAuthorMachinePaths": true
+  },
+  {
+    "skill": "towerdefensegame",
+    "files": 49,
+    "archiveSourceInstalledIdentical": true,
+    "independentZipVerify": true,
+    "noAuthorMachinePaths": true
+  },
+  {
+    "skill": "platformgame",
+    "files": 49,
+    "archiveSourceInstalledIdentical": true,
+    "independentZipVerify": true,
+    "noAuthorMachinePaths": true
+  },
+  {
+    "skill": "farmgame",
+    "files": 49,
+    "archiveSourceInstalledIdentical": true,
+    "independentZipVerify": true,
+    "noAuthorMachinePaths": true
+  }
+]

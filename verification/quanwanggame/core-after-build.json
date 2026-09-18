@@ -1,0 +1,8 @@
+{
+  "target": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/quanwanggame/project",
+  "scope": "core",
+  "checked": 78,
+  "passed": true,
+  "differences": [],
+  "note": "Checks baseline files only. Extra files are not prohibited. Source equality is not an independent gameplay test."
+}

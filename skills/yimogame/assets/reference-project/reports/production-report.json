@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-18T03:58:27.658Z",
+  "checks": [
+    "Production renderer and UI boot without DEV API",
+    "Production keyboard drives real distance",
+    "Production capture works without fixtures",
+    "Production linked form updates HUD",
+    "Production resources load without errors",
+    "Touch layout renders without horizontal overflow",
+    "Real CDP touch joystick moves player",
+    "Touch release stops movement",
+    "Touch map button opens modal",
+    "Touch controls do not obscure modal",
+    "Touch closes modal",
+    "No production or mobile page exceptions"
+  ],
+  "errors": [],
+  "environment": "Production build; desktop1440x900 + Chrome-emulated touch390x844; ANGLE Metal. Not physical-phone performance certification."
+}

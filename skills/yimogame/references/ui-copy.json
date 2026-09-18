@@ -1,0 +1,69 @@
+{
+  "title": "伊莫 · 风栖原野 | 可玩风格原型",
+  "hud": {
+    "region": "风栖原野",
+    "regionSub": "每一次相遇，都是新的开始",
+    "player": "原野旅人",
+    "playerForm": "探索者",
+    "linkedForm": "联结形态",
+    "prototype": "非官方风格原型 · 单人探索"
+  },
+  "quest": {
+    "initial": "与原野的伊莫成为伙伴",
+    "ready": "循着微风，前往风之门",
+    "detail": "结识 3 种不同的伊莫",
+    "gate": "抵达风之门并按 E 启程",
+    "completed": "原野初遇已完成"
+  },
+  "modals": {
+    "dex": "每个相遇，都值得珍藏",
+    "map": "下一段故事，去哪里？",
+    "pause": "不妨，停下来听听风",
+    "quest": "与原野的伊莫成为伙伴",
+    "complete": "最好的旅途，是有人同行",
+    "reset": "重新出发？"
+  },
+  "species": [
+    {
+      "id": "cloud",
+      "name": "绵云",
+      "tag": "风",
+      "color": "#d7f4ed",
+      "accent": "#6dc2b3",
+      "note": "一朵不肯回到天空的云。喜欢花香，也喜欢慢慢靠近它的你。",
+      "ability": "轻盈跳跃",
+      "where": "初遇花甸"
+    },
+    {
+      "id": "fox",
+      "name": "焰尾",
+      "tag": "火",
+      "color": "#ffd4a5",
+      "accent": "#eb9364",
+      "note": "尾巴里藏着一整个日落。奔跑时，草叶会被它染成温暖的金色。",
+      "ability": "疾风奔跑",
+      "where": "日光小径"
+    },
+    {
+      "id": "aqua",
+      "name": "泡泡",
+      "tag": "水",
+      "color": "#b4e9f2",
+      "accent": "#63bad1",
+      "note": "河湾里的小小旅行家。头顶的鳍会随着流水轻轻摇摆。",
+      "ability": "水上漫步",
+      "where": "映蓝河湾"
+    },
+    {
+      "id": "leaf",
+      "name": "芽芽",
+      "tag": "木",
+      "color": "#e1edb3",
+      "accent": "#9db66a",
+      "note": "森林写给春天的一封信。头上的叶子总指向最有生机的地方。",
+      "ability": "轻盈跳跃",
+      "where": "风语林地"
+    }
+  ],
+  "fullTemplateLocation": "assets/reference-project/src/ui.js and src/main.js; this JSON is an index, not replacement of all conditional strings"
+}

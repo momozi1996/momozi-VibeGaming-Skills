@@ -1,0 +1,23 @@
+
+> aniimo-windmeadow@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ new expedition has no companions and cannot twine (1.264542ms)
+✔ capture validates target, range and remaining supplies (0.08475ms)
+✔ capture requires simulation time, consumes once, and prevents duplicate captures (0.133666ms)
+✔ paused capture freezes and resumes (0.053417ms)
+✔ twining and switching require owned species (0.075791ms)
+✔ three different species unlock objective, not three individuals (0.069042ms)
+✔ paused quest cannot be submitted (0.044458ms)
+✔ save roundtrip persists capture, position, rewards but not transient capture state (0.130625ms)
+✔ corrupt, unknown-version and malicious state cannot break loading (0.354208ms)
+✔ storage permission failures are nonfatal (0.209625ms)
+✔ terrain is finite throughout accessible world; species placed within bounds (1.574667ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 108.8235

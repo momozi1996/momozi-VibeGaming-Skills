@@ -1,0 +1,16 @@
+{
+  "os": "macOS-26.6.2-arm64-arm-64bit",
+  "architecture": "arm64",
+  "node": "v25.8.1",
+  "npm": "11.11.0",
+  "python": "3.9.6",
+  "gpuBackend": "ANGLE Metal",
+  "browserExecutableHint": "Google Chrome",
+  "baselineViewport": [
+    1440,
+    900
+  ],
+  "deviceScaleFactor": 1,
+  "font": "PingFang SC system font on macOS; not bundled",
+  "warning": "Pinned source does not imply 100% identical pixels across GPU/OS/font/browser. Browser binary, OS and system fonts not redistributed."
+}

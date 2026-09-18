@@ -1,0 +1,51 @@
+Retrieved 2026-09-18
+https://opengameart.org/content/fighting-character-template-mustermann-2-a001aaaa001-karate
+
+Fighting character template Mustermann 2 ( A001AAAA001 ) (karate)
+Author:
+Puffolotti
+Thursday, June 13, 2019 - 18:28
+Art Type:
+2D Art
+Tags:
+fighting
+base
+complete
+template
+karate
+License(s):
+CC0
+Collections:
+1 Test
+16 Or More Frame Walk Cycles
+CC0 Walk Cycles
+Ragnar's CC0 Bag of Holding
+reverie lost
+Walk Cycles
+Favorites:
+6
+Preview:
+Both previews are animated, i failed to understand why only one of the 2 displays the label This template represents the frames to create a wide array of fighters or thugs, it resumes the actions seen in various videogames, movies or in real world, since it comes from a 3d model, is composed by Race+Character A001 (the inner name of this model is Anthony Nagasaki, the A means he's human.) Costume AAA Original race + Fighting style A001 (To a certain degree alien fighting style can be applied to humans and vice-versa) Plus there are 2 separate files, one right handed (front to the camera), and the other left handed, (back to the camera) this set is complete, each of the 2 gifs has 997 cels, and they are more than enough to create dozens of different characters, with the other characters and costumes, coming soon. In future it will be possible to combine more characters with more fighting styles, but to begin i'll realize some classic characters and costumes, the code i explained above will allow to request a particular character doing a particular fighting style among the ones listed. Let me know if you need a mute spritesheet in PNG format.
+Copyright/Attribution Notice:
+Sprite created by Puffolotti Accident
+File(s):
+1.gif
+1.9 Mb
+[
+458
+download(s)]
+2.gif
+1.8 Mb
+[
+298
+download(s)]
+Orangeblack.png
+1.7 Mb
+[
+516
+download(s)]
+Blueehite.png
+1.6 Mb
+[
+378
+download(s)]

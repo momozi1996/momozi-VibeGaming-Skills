@@ -1,0 +1,148 @@
+{
+  "name": "platformGame",
+  "tag": "POSTCARDS ABOVE THE CLOUDS",
+  "edition": "把远方，轻轻放进信封。",
+  "movement": true,
+  "controls": "A D / 方向键移动 · 空格二段跳 · 轻按短跳，长按高跳",
+  "hint": "寻找金钥匙 · 点亮中途路标 · 带着星邮穿过三座云岛",
+  "themes": {
+    "cloud": {
+      "sky": "#80b9c4",
+      "horizon": "#f5ddbc",
+      "mountain": "#a5b8bd",
+      "far": "#a3c1bd",
+      "mid": "#7ba8ad",
+      "ground": "#abc9b4",
+      "floor": "#84b2a2",
+      "tree": "blossom",
+      "grass": "#a6b78b",
+      "water": "#8bb9c3",
+      "road": "#dfc59e",
+      "id": "cloud",
+      "title": "云屿邮差",
+      "subtitle": "THE SKY POST",
+      "label": "薄荷云海",
+      "description": "小狐狸背上邮包，沿漂浮的岛屿前行。越过会呼吸的云、收集星邮，找到钥匙，把三封信送到天边。",
+      "seed": 53,
+      "speed": 290,
+      "jump": 630,
+      "gravity": 1450,
+      "layout": [
+        [
+          0,
+          645,
+          420
+        ],
+        [
+          505,
+          585,
+          235
+        ],
+        [
+          825,
+          520,
+          245
+        ],
+        [
+          1150,
+          580,
+          270
+        ],
+        [
+          1505,
+          520,
+          255
+        ],
+        [
+          1840,
+          465,
+          245
+        ],
+        [
+          2170,
+          530,
+          255
+        ],
+        [
+          2510,
+          590,
+          245
+        ],
+        [
+          2840,
+          535,
+          390
+        ]
+      ]
+    },
+    "dusk": {
+      "sky": "#b291af",
+      "horizon": "#fad9b4",
+      "mountain": "#b3a4b4",
+      "far": "#a2a4b3",
+      "mid": "#8b9ca9",
+      "ground": "#b4b998",
+      "floor": "#839e96",
+      "tree": "autumn",
+      "grass": "#c7bf90",
+      "water": "#9fb2bd",
+      "road": "#e5c69d",
+      "id": "dusk",
+      "title": "晚霞邮差",
+      "subtitle": "LETTERS AT SUNSET",
+      "label": "蜜桃晚霞",
+      "description": "最后一班晚霞邮路已经开启。新的浮岛路线与更轻盈的跳跃，带你穿过金色树梢，把信送进晚风里。",
+      "seed": 97,
+      "speed": 305,
+      "jump": 665,
+      "gravity": 1450,
+      "layout": [
+        [
+          0,
+          645,
+          395
+        ],
+        [
+          470,
+          570,
+          260
+        ],
+        [
+          815,
+          485,
+          245
+        ],
+        [
+          1140,
+          545,
+          250
+        ],
+        [
+          1480,
+          460,
+          250
+        ],
+        [
+          1825,
+          535,
+          255
+        ],
+        [
+          2165,
+          465,
+          270
+        ],
+        [
+          2520,
+          540,
+          245
+        ],
+        [
+          2850,
+          485,
+          390
+        ]
+      ]
+    }
+  }
+}

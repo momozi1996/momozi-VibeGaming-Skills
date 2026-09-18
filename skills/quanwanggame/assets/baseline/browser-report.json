@@ -1,0 +1,35 @@
+{
+  "checks": [
+    "P1 movement",
+    "jump and landing",
+    "keyboard light punch damages at frame 4",
+    "light confirm into special combo",
+    "paused single logical frame",
+    "training reset",
+    "CPU approaches and attacks",
+    "help dialog pauses play",
+    "local P2 keyboard movement",
+    "P2 numpad heavy punch",
+    "two-win match completion and result UI",
+    "rematch resets score",
+    "390px layout has no horizontal overflow",
+    "touch direction moves fighter",
+    "zero external runtime requests"
+  ],
+  "errors": [],
+  "externalRuntimeRequests": [],
+  "fps": 60.00555034518389,
+  "frameStep": {
+    "before": 272,
+    "after": 273
+  },
+  "browser": "Chrome / Playwright",
+  "viewport": [
+    1440,
+    1050
+  ],
+  "mobileViewport": [
+    390,
+    844
+  ]
+}

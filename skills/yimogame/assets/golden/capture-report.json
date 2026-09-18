@@ -1,0 +1,425 @@
+{
+  "captures": [
+    {
+      "case": "01-field",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mobile": false,
+      "save": {
+        "version": 1,
+        "x": 0,
+        "z": 19,
+        "captured": [],
+        "selected": 0,
+        "completed": false,
+        "reward": 0,
+        "orbs": 20,
+        "steps": 0
+      },
+      "key": null,
+      "snapshot": {
+        "version": 1,
+        "x": 0,
+        "z": 19,
+        "y": 2.9019942457606653,
+        "vy": 0,
+        "yaw": 3.141592653589793,
+        "time": 4.9999999999999964,
+        "captured": [],
+        "selected": 0,
+        "twined": false,
+        "completed": false,
+        "reward": 0,
+        "orbs": 20,
+        "capture": null,
+        "paused": false,
+        "steps": 0,
+        "owned": [],
+        "fps": 60.00000000000059,
+        "drawCalls": 141,
+        "triangles": 1589542,
+        "camera": {
+          "yaw": 0.02,
+          "pitch": 0.105,
+          "distance": 8.6
+        }
+      }
+    },
+    {
+      "case": "02-encounter",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mobile": false,
+      "save": {
+        "version": 1,
+        "x": 0,
+        "z": 12,
+        "captured": [],
+        "selected": 0,
+        "completed": false,
+        "reward": 0,
+        "orbs": 20,
+        "steps": 0
+      },
+      "key": null,
+      "snapshot": {
+        "version": 1,
+        "x": 0,
+        "z": 12,
+        "y": 2.973682033098245,
+        "vy": 0,
+        "yaw": 3.141592653589793,
+        "time": 4.9999999999999964,
+        "captured": [],
+        "selected": 0,
+        "twined": false,
+        "completed": false,
+        "reward": 0,
+        "orbs": 20,
+        "capture": null,
+        "paused": false,
+        "steps": 0,
+        "owned": [],
+        "fps": 60.00000000000059,
+        "drawCalls": 142,
+        "triangles": 1590214,
+        "camera": {
+          "yaw": 0.02,
+          "pitch": 0.105,
+          "distance": 8.6
+        },
+        "near": "c1"
+      }
+    },
+    {
+      "case": "03-linked",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mobile": false,
+      "save": {
+        "version": 1,
+        "x": 0,
+        "z": 19,
+        "captured": [
+          "c1"
+        ],
+        "selected": 0,
+        "completed": false,
+        "reward": 0,
+        "orbs": 19,
+        "steps": 0
+      },
+      "key": "q",
+      "snapshot": {
+        "version": 1,
+        "x": 0,
+        "z": 19,
+        "y": 2.9019942457606653,
+        "vy": 0,
+        "yaw": 3.141592653589793,
+        "time": 8.99999999999995,
+        "captured": [
+          "c1"
+        ],
+        "selected": 0,
+        "twined": true,
+        "completed": false,
+        "reward": 0,
+        "orbs": 19,
+        "capture": null,
+        "paused": false,
+        "steps": 0,
+        "owned": [
+          0
+        ],
+        "fps": 59.99999999999899,
+        "drawCalls": 105,
+        "triangles": 1567898,
+        "camera": {
+          "yaw": 0.02,
+          "pitch": 0.105,
+          "distance": 8.6
+        }
+      }
+    },
+    {
+      "case": "04-dex",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mobile": false,
+      "save": {
+        "version": 1,
+        "x": 0,
+        "z": 19,
+        "captured": [
+          "c1",
+          "f1",
+          "a1"
+        ],
+        "selected": 0,
+        "completed": false,
+        "reward": 0,
+        "orbs": 17,
+        "steps": 0
+      },
+      "key": "b",
+      "snapshot": {
+        "version": 1,
+        "x": 0,
+        "z": 19,
+        "y": 2.9019942457606653,
+        "vy": 0,
+        "yaw": 3.141592653589793,
+        "time": 4.9999999999999964,
+        "captured": [
+          "c1",
+          "f1",
+          "a1"
+        ],
+        "selected": 0,
+        "twined": false,
+        "completed": false,
+        "reward": 0,
+        "orbs": 17,
+        "capture": null,
+        "paused": true,
+        "steps": 0,
+        "owned": [
+          0,
+          1,
+          2
+        ],
+        "fps": 59.99999999999899,
+        "drawCalls": 130,
+        "triangles": 1582150,
+        "camera": {
+          "yaw": 0.02,
+          "pitch": 0.105,
+          "distance": 8.6
+        }
+      }
+    },
+    {
+      "case": "05-map",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mobile": false,
+      "save": {
+        "version": 1,
+        "x": 0,
+        "z": 19,
+        "captured": [
+          "c1",
+          "f1",
+          "a1"
+        ],
+        "selected": 0,
+        "completed": false,
+        "reward": 0,
+        "orbs": 17,
+        "steps": 0
+      },
+      "key": "m",
+      "snapshot": {
+        "version": 1,
+        "x": 0,
+        "z": 19,
+        "y": 2.9019942457606653,
+        "vy": 0,
+        "yaw": 3.141592653589793,
+        "time": 4.9999999999999964,
+        "captured": [
+          "c1",
+          "f1",
+          "a1"
+        ],
+        "selected": 0,
+        "twined": false,
+        "completed": false,
+        "reward": 0,
+        "orbs": 17,
+        "capture": null,
+        "paused": true,
+        "steps": 0,
+        "owned": [
+          0,
+          1,
+          2
+        ],
+        "fps": 59.99999999999899,
+        "drawCalls": 130,
+        "triangles": 1582150,
+        "camera": {
+          "yaw": 0.02,
+          "pitch": 0.105,
+          "distance": 8.6
+        }
+      }
+    },
+    {
+      "case": "06-complete",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mobile": false,
+      "save": {
+        "version": 1,
+        "x": -13,
+        "z": -29,
+        "captured": [
+          "c1",
+          "f1",
+          "a1"
+        ],
+        "selected": 0,
+        "completed": false,
+        "reward": 0,
+        "orbs": 17,
+        "steps": 0
+      },
+      "key": "e",
+      "snapshot": {
+        "version": 1,
+        "x": -13,
+        "z": -29,
+        "y": 0.9560902428199775,
+        "vy": 0,
+        "yaw": 3.141592653589793,
+        "time": 4.9999999999999964,
+        "captured": [
+          "c1",
+          "f1",
+          "a1"
+        ],
+        "selected": 0,
+        "twined": false,
+        "completed": true,
+        "reward": 300,
+        "orbs": 27,
+        "capture": null,
+        "paused": true,
+        "steps": 0,
+        "owned": [
+          0,
+          1,
+          2
+        ],
+        "fps": 59.99999999999899,
+        "drawCalls": 161,
+        "triangles": 1555262,
+        "camera": {
+          "yaw": 0.02,
+          "pitch": 0.105,
+          "distance": 8.6
+        }
+      }
+    },
+    {
+      "case": "07-mobile",
+      "viewport": [
+        390,
+        844
+      ],
+      "mobile": true,
+      "save": {
+        "version": 1,
+        "x": 0,
+        "z": 19,
+        "captured": [],
+        "selected": 0,
+        "completed": false,
+        "reward": 0,
+        "orbs": 20,
+        "steps": 0
+      },
+      "key": null,
+      "snapshot": {
+        "version": 1,
+        "x": 0,
+        "z": 19,
+        "y": 2.9019942457606653,
+        "vy": 0,
+        "yaw": 3.141592653589793,
+        "time": 4.9999999999999964,
+        "captured": [],
+        "selected": 0,
+        "twined": false,
+        "completed": false,
+        "reward": 0,
+        "orbs": 20,
+        "capture": null,
+        "paused": false,
+        "steps": 0,
+        "owned": [],
+        "fps": 60.00000000000059,
+        "drawCalls": 91,
+        "triangles": 1561998,
+        "camera": {
+          "yaw": 0.02,
+          "pitch": 0.105,
+          "distance": 8.6
+        }
+      }
+    },
+    {
+      "case": "08-mobile-map",
+      "viewport": [
+        390,
+        844
+      ],
+      "mobile": true,
+      "save": {
+        "version": 1,
+        "x": 0,
+        "z": 19,
+        "captured": [],
+        "selected": 0,
+        "completed": false,
+        "reward": 0,
+        "orbs": 20,
+        "steps": 0
+      },
+      "key": "m",
+      "snapshot": {
+        "version": 1,
+        "x": 0,
+        "z": 19,
+        "y": 2.9019942457606653,
+        "vy": 0,
+        "yaw": 3.141592653589793,
+        "time": 4.9999999999999964,
+        "captured": [],
+        "selected": 0,
+        "twined": false,
+        "completed": false,
+        "reward": 0,
+        "orbs": 20,
+        "capture": null,
+        "paused": true,
+        "steps": 0,
+        "owned": [],
+        "fps": 59.99999999999899,
+        "drawCalls": 91,
+        "triangles": 1561998,
+        "camera": {
+          "yaw": 0.02,
+          "pitch": 0.105,
+          "distance": 8.6
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "fixture": true
+}

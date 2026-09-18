@@ -1,0 +1,39 @@
+[
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/scripts/install_skill.py",
+      "--skill",
+      "quanwanggame",
+      "--skills-dir",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/skills"
+    ],
+    "exit": 0,
+    "stdout": "Installed complete skill: /private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/skills/quanwanggame\nRefresh your agent skill list, then use $quanwanggame in chat. No game or global dependency was executed.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/skills/quanwanggame/scripts/game.py",
+      "create",
+      "--out",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/projects/quanwanggame"
+    ],
+    "exit": 0,
+    "stdout": "PASS: 264 package files intact\nCreated /private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/projects/quanwanggame\nVerified and copied 122 files. No npm install was performed.\nPreview: python3 \"/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/projects/quanwanggame/start-demo.py\"\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/skills/quanwanggame/scripts/game.py",
+      "create",
+      "--out",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/projects/quanwanggame"
+    ],
+    "exit": 1,
+    "stdout": "PASS: 264 package files intact\n",
+    "stderr": "Refusing existing destination: /private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/projects/quanwanggame. Choose a new path; no files were overwritten.\nERROR: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/skills/quanwanggame/scripts/materialize.py', '--dest', '/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/projects/quanwanggame']' returned non-zero exit status 1.\n"
+  }
+]

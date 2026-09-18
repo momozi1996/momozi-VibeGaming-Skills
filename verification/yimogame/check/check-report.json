@@ -1,0 +1,84 @@
+{
+  "started": "2026-09-18T05:23:37.829Z",
+  "project": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/verification/yimogame/project",
+  "launch": {
+    "headless": true,
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "args": [
+      "--use-angle=metal",
+      "--enable-webgl",
+      "--ignore-gpu-blocklist"
+    ]
+  },
+  "checks": [
+    "unit tests passed",
+    "production build passed",
+    {
+      "suite": "browser",
+      "result": {
+        "date": "2026-09-18T05:24:07.418Z",
+        "checks": [
+          "Fresh playable world and zero fake companions",
+          "Distant capture rejected",
+          "Real WASD input moves toward a creature",
+          "Nearby wild target acquired",
+          "Capture updates world, inventory, and stock exactly once",
+          "Q enters actual linked form",
+          "Linked pet can jump",
+          "Cloud link has a real second jump",
+          "Pause freezes simulation time",
+          "Paused keyboard cannot move the player",
+          "Dragging orbits the camera",
+          "Three distinct species progress the expedition",
+          "Number key switches captured companion",
+          "Fox linked form selected",
+          "World map shows actual exploration progress",
+          "Dex lists owned creatures",
+          "Portal delivers quest reward and completion once",
+          "Repeated portal submission cannot duplicate rewards",
+          "Reload restores completed expedition and collection",
+          "Photography freezes gameplay",
+          "Photography exports a real PNG",
+          "Confirmed restart clears collection, reward and inventory",
+          "Restart persists without resurrecting old save",
+          "Window blur releases held movement",
+          "No JS errors or failed HTTP assets"
+        ],
+        "errors": [],
+        "requests": [],
+        "performance": {
+          "fps": 55.944055944055926,
+          "drawCalls": 141,
+          "triangles": 1589542
+        },
+        "environment": "Headless Chrome / macOS / ANGLE Metal / 1440x900 DPR1",
+        "fixtureNote": "f1/a1/portal reached via DEV teleport fixture; keyboard movement, first capture, all capture actions, jump, pause, save, UI, reward and export exercised through real inputs."
+      }
+    },
+    "Harness-only: wait for next rendered HUD frame before existing production Q assertion; no assertion removed",
+    {
+      "suite": "production",
+      "result": {
+        "date": "2026-09-18T05:24:55.355Z",
+        "checks": [
+          "Production renderer and UI boot without DEV API",
+          "Production keyboard drives real distance",
+          "Production capture works without fixtures",
+          "Production linked form updates HUD",
+          "Production resources load without errors",
+          "Touch layout renders without horizontal overflow",
+          "Real CDP touch joystick moves player",
+          "Touch release stops movement",
+          "Touch map button opens modal",
+          "Touch controls do not obscure modal",
+          "Touch closes modal",
+          "No production or mobile page exceptions"
+        ],
+        "errors": [],
+        "environment": "Production build; desktop1440x900 + Chrome-emulated touch390x844; ANGLE Metal. Not physical-phone performance certification."
+      }
+    }
+  ],
+  "success": true,
+  "finished": "2026-09-18T05:25:21.573Z"
+}

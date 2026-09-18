@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "id": "allgame",
+      "formatPassed": true,
+      "formatOutput": "Skill is valid!\n",
+      "manifestPassed": true,
+      "manifestOutput": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"checkedFiles\": 279\n}\n"
+    },
+    {
+      "id": "farmgame",
+      "formatPassed": true,
+      "formatOutput": "Skill is valid!\n",
+      "manifestPassed": true,
+      "manifestOutput": "{\n  \"ok\": true,\n  \"checked\": 48,\n  \"errors\": []\n}\n"
+    },
+    {
+      "id": "maomao3dgame",
+      "formatPassed": true,
+      "formatOutput": "Skill is valid!\n",
+      "manifestPassed": true,
+      "manifestOutput": "{\n  \"command\": \"verify\",\n  \"checkedBaselineFiles\": 45,\n  \"errors\": [],\n  \"ok\": true\n}\n"
+    },
+    {
+      "id": "moshougame",
+      "formatPassed": true,
+      "formatOutput": "Skill is valid!\n",
+      "manifestPassed": true,
+      "manifestOutput": "{\n  \"command\": \"verify\",\n  \"checkedBaselineFiles\": 138,\n  \"errors\": [],\n  \"ok\": true\n}\n"
+    },
+    {
+      "id": "platformgame",
+      "formatPassed": true,
+      "formatOutput": "Skill is valid!\n",
+      "manifestPassed": true,
+      "manifestOutput": "{\n  \"ok\": true,\n  \"checked\": 48,\n  \"errors\": []\n}\n"
+    },
+    {
+      "id": "quanwanggame",
+      "formatPassed": true,
+      "formatOutput": "Skill is valid!\n",
+      "manifestPassed": true,
+      "manifestOutput": "PASS: 264 package files intact\n"
+    },
+    {
+      "id": "survivorgame",
+      "formatPassed": true,
+      "formatOutput": "Skill is valid!\n",
+      "manifestPassed": true,
+      "manifestOutput": "{\n  \"ok\": true,\n  \"checked\": 48,\n  \"errors\": []\n}\n"
+    },
+    {
+      "id": "towerdefensegame",
+      "formatPassed": true,
+      "formatOutput": "Skill is valid!\n",
+      "manifestPassed": true,
+      "manifestOutput": "{\n  \"ok\": true,\n  \"checked\": 48,\n  \"errors\": []\n}\n"
+    },
+    {
+      "id": "yimogame",
+      "formatPassed": true,
+      "formatOutput": "Skill is valid!\n",
+      "manifestPassed": true,
+      "manifestOutput": "PASS: package 134 files + reference project 66 files intact\n"
+    }
+  ],
+  "brokenMarkdownLinks": []
+}

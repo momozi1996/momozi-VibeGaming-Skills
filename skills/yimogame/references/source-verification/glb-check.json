@@ -1,0 +1,45 @@
+{
+  "validated": true,
+  "files": [
+    {
+      "file": "aqua.glb",
+      "bytes": 720608,
+      "sha256": "0d81d988a5f8e3fb61aa05dd3c3dbd99e02e60a43d7b79ead805d6b3395675be",
+      "meshes": 12,
+      "skins": 0,
+      "animations": 0
+    },
+    {
+      "file": "cloud.glb",
+      "bytes": 904408,
+      "sha256": "bd334bdf2790f6160761225d379a5ede190ae8d2b1a78e4c6e814a3e5897036d",
+      "meshes": 12,
+      "skins": 0,
+      "animations": 0
+    },
+    {
+      "file": "explorer.glb",
+      "bytes": 2108336,
+      "sha256": "90697e36c860ddc6118db20f8467a51a604517c11d456e0124f92e8c66d8939a",
+      "meshes": 36,
+      "skins": 0,
+      "animations": 0
+    },
+    {
+      "file": "fox.glb",
+      "bytes": 719492,
+      "sha256": "4ffa09f728acb3c8b73c779beb76dc03387aea193092b300d323b12a62fe056a",
+      "meshes": 11,
+      "skins": 0,
+      "animations": 0
+    },
+    {
+      "file": "leaf.glb",
+      "bytes": 623424,
+      "sha256": "8170b596906d9142a97d1e34bd7417b6d845fae7a617dd610da2230e755a9cc2",
+      "meshes": 13,
+      "skins": 0,
+      "animations": 0
+    }
+  ]
+}

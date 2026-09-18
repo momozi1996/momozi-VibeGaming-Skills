@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "inputFilesUnchanged": 299,
+  "previousZipsUnchanged": 8,
+  "singleSkill": "quanwanggame",
+  "packageFiles": 265,
+  "zipBytes": 173200783,
+  "zipSHA256": "5972dc1ce3e285899ad927bc27d06ba1ee4a12d6254d7604888cb5c1f61d7601",
+  "sourceZIPExtractionByteIdentical": true,
+  "globalInstall": false
+}

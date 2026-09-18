@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "images": [
+    {
+      "file": "01-select.png",
+      "mae": 0.0,
+      "maxMAE": 5.0,
+      "passed": true
+    },
+    {
+      "file": "02-idle.png",
+      "mae": 0.0,
+      "maxMAE": 5.0,
+      "passed": true
+    },
+    {
+      "file": "03-light-contact.png",
+      "mae": 0.0,
+      "maxMAE": 5.0,
+      "passed": true
+    },
+    {
+      "file": "04-heavy-kick.png",
+      "mae": 0.0,
+      "maxMAE": 5.0,
+      "passed": true
+    },
+    {
+      "file": "05-ava-special.png",
+      "mae": 0.0,
+      "maxMAE": 5.0,
+      "passed": true
+    },
+    {
+      "file": "06-debug-boxes.png",
+      "mae": 0.0,
+      "maxMAE": 5.0,
+      "passed": true
+    },
+    {
+      "file": "07-mobile.png",
+      "mae": 0.0,
+      "maxMAE": 5.0,
+      "passed": true
+    }
+  ],
+  "note": "RGB MAE 0..255; NOT a percentage fidelity score. Review images and gameplay separately."
+}

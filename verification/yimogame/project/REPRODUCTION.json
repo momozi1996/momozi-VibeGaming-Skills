@@ -1,0 +1,7 @@
+{
+  "mode": "exact",
+  "reference": "yimogame/assets/reference-project",
+  "sourceCopied": true,
+  "tested": false,
+  "note": "Use fresh test outputs; inherited reports are history, not proof of this run."
+}

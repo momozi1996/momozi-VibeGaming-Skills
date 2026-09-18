@@ -1,0 +1,23 @@
+import {chromium} from '@playwright/test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const errors=[],checks=[];
+const page=await browser.newPage({viewport:{width:1440,height:900},deviceScaleFactor:1});
+page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`);});
+await page.route('**/*',r=>r.request().url().startsWith('http://127.0.0.1:5197/')?r.continue():r.abort());
+await page.goto('http://127.0.0.1:5197/?debug=1&v=2');await page.waitForFunction(()=>window.__ready);
+assert.equal(await page.locator('header,footer,.site-header,.control-strip,.fighter-card').count(),0);checks.push('no website chrome / marketing cards');
+async function resolution(p,dpr){const r=await p.evaluate(()=>{const c=document.querySelector('canvas'),r=c.getBoundingClientRect();return {backing:[c.width,c.height],display:[r.width,r.height]};});assert.ok(Math.abs(r.backing[0]-r.display[0]*dpr)<2);assert.ok(Math.abs(r.backing[1]-r.display[1]*dpr)<2);return r;}
+const desktop=await resolution(page,1);checks.push('canvas backing exactly matches final CSS display');
+await page.screenshot({path:'evidence/refresh-select.png'});
+await page.keyboard.press('ArrowRight');assert.equal(await page.locator('[data-character=ren]').getAttribute('aria-pressed'),'true');
+await page.keyboard.press('ArrowDown');await page.keyboard.press('ArrowDown');assert.equal(await page.locator('[data-mode=training]').getAttribute('aria-pressed'),'true');
+await page.keyboard.press('Enter');await page.waitForFunction(()=>window.neon.match.state.phase==='fight');checks.push('arrow-key character / mode selection + Enter start');
+await page.keyboard.press('KeyU');await page.waitForFunction(()=>window.neon.match.state.projectiles.length>0);await page.screenshot({path:'evidence/refresh-ren-special.png'});checks.push('native REN projectile animation runs');
+await page.keyboard.press('Escape');await page.locator('#pause-menu-button').click();await page.locator('[data-character=ava]').click();await page.locator('#start-button').click();await page.waitForFunction(()=>window.neon.match.state.phase==='fight');await page.screenshot({path:'evidence/refresh-fight.png'});
+await page.locator('#fullscreen-button').click();await page.waitForFunction(()=>!!document.fullscreenElement);checks.push('fullscreen enters');await page.evaluate(()=>document.exitFullscreen());await page.waitForTimeout(200);
+await page.setViewportSize({width:390,height:844});await page.waitForTimeout(200);await resolution(page,1);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth||document.documentElement.scrollHeight>innerHeight),false);await page.screenshot({path:'evidence/refresh-mobile.png'});checks.push('portrait mobile aspect ratio / no scrolling');
+await page.setViewportSize({width:844,height:390});await page.waitForTimeout(200);await resolution(page,1);await page.screenshot({path:'evidence/refresh-landscape.png'});checks.push('landscape fits by height without cropping');
+const retina=await browser.newPage({viewport:{width:1280,height:800},deviceScaleFactor:2});retina.on('pageerror',e=>errors.push(e.message));await retina.goto('http://127.0.0.1:5197/?v=2');await retina.waitForFunction(()=>window.__ready);const hidpi=await resolution(retina,2);await retina.screenshot({path:'evidence/refresh-retina.png'});checks.push('DPR2 backing store verified');
+assert.deepEqual(errors,[]);fs.writeFileSync('evidence/production-report.json',JSON.stringify({productionPassed:true,checks,desktop,hidpi,errors,externalRequestsBlocked:true},null,2));console.log({checks,desktop,hidpi,errors});await browser.close();

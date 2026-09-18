@@ -1,0 +1,14 @@
+✔ jump changes vertical speed, second jump consumed (1.1575ms)
+✔ release causes lower jump than holding (0.335667ms)
+✔ fall respawns at checkpoint and costs one life (0.12975ms)
+✔ landing uses feet and restores two jumps (0.073667ms)
+✔ portal requires key (0.124875ms)
+✔ third level portal completes game (0.9395ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 118.7785

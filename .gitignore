@@ -1,0 +1,19 @@
+# Local verification/evidence includes generated projects, caches and machine paths.
+# Some are already tracked in old history: see docs/PUBLISHING.md; ignore is not retroactive.
+/verification/
+/playable-games/
+/release-staging/
+.DS_Store
+__pycache__/
+*.py[cod]
+node_modules/
+.quanwang-npm-cache/
+.yimo-npm-cache/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+# Do NOT ignore dist, assets, source-cache, *.zip or *.tar.gz globally:
+# inside skills they are intentional, required independent-package resources.

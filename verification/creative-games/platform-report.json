@@ -1,0 +1,28 @@
+[
+  {
+    "id": "platformgame",
+    "checks": [
+      "pause/resume",
+      "real keyboard run and jump",
+      "normal movement/jump input bot, full three-level win"
+    ],
+    "errors": [],
+    "playthrough": {
+      "stage": "result",
+      "level": 3,
+      "lives": 4,
+      "stars": 61,
+      "frames": 3658,
+      "trace": [
+        {
+          "x": 1583.0655134267977,
+          "y": 492.0002742165803,
+          "lastPlatform": 8
+        }
+      ],
+      "x": 3042.52842907121,
+      "key": true
+    },
+    "ok": true
+  }
+]

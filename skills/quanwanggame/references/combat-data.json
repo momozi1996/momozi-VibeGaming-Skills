@@ -1,0 +1,351 @@
+{
+  "characters": {
+    "ava": {
+      "name": "AVA",
+      "chinese": "赤燕",
+      "style": "CRIMSON TEMPO",
+      "color": "#ff6557",
+      "speed": 3.8,
+      "jump": 12.5,
+      "special": "赤燕 · 裂空踢",
+      "description": "迅疾、凌厉。以连续踢击撕开防线。",
+      "stats": [
+        5,
+        3,
+        4
+      ]
+    },
+    "ren": {
+      "name": "REN",
+      "chinese": "玄武",
+      "style": "IRON CURRENT",
+      "color": "#c9f660",
+      "speed": 3.2,
+      "jump": 12.1,
+      "special": "玄武 · 破空劲",
+      "description": "沉稳、强劲。以气劲掌控战斗距离。",
+      "stats": [
+        3,
+        5,
+        4
+      ]
+    }
+  },
+  "moves": {
+    "ava": {
+      "lp": {
+        "id": "lp",
+        "clip": "lp",
+        "startup": 4,
+        "active": 3,
+        "recovery": 10,
+        "damage": 42,
+        "stun": 17,
+        "blockstun": 10,
+        "stop": 5,
+        "knockback": 4,
+        "level": "mid",
+        "box": {
+          "x": 22,
+          "y": -146,
+          "w": 75,
+          "h": 32
+        },
+        "cancel": [
+          4,
+          13
+        ]
+      },
+      "lk": {
+        "id": "lk",
+        "clip": "lk",
+        "startup": 6,
+        "active": 4,
+        "recovery": 13,
+        "damage": 58,
+        "stun": 20,
+        "blockstun": 10,
+        "stop": 5,
+        "knockback": 5,
+        "level": "mid",
+        "box": {
+          "x": 15,
+          "y": -125,
+          "w": 111,
+          "h": 38
+        },
+        "cancel": [
+          6,
+          16
+        ]
+      },
+      "hp": {
+        "id": "hp",
+        "clip": "hp",
+        "startup": 9,
+        "active": 4,
+        "recovery": 20,
+        "damage": 94,
+        "stun": 24,
+        "blockstun": 15,
+        "stop": 8,
+        "knockback": 7,
+        "level": "mid",
+        "box": {
+          "x": 15,
+          "y": -149,
+          "w": 98,
+          "h": 43
+        },
+        "cancel": [
+          9,
+          19
+        ]
+      },
+      "hk": {
+        "id": "hk",
+        "clip": "hk",
+        "startup": 11,
+        "active": 5,
+        "recovery": 23,
+        "damage": 112,
+        "stun": 27,
+        "blockstun": 16,
+        "stop": 9,
+        "knockback": 8,
+        "level": "mid",
+        "box": {
+          "x": 20,
+          "y": -145,
+          "w": 126,
+          "h": 45
+        },
+        "cancel": [
+          11,
+          21
+        ]
+      },
+      "low": {
+        "id": "low",
+        "clip": "low",
+        "startup": 7,
+        "active": 4,
+        "recovery": 18,
+        "damage": 65,
+        "stun": 17,
+        "blockstun": 10,
+        "stop": 5,
+        "knockback": 4,
+        "level": "low",
+        "box": {
+          "x": 15,
+          "y": -48,
+          "w": 104,
+          "h": 35
+        },
+        "cancel": [
+          7,
+          17
+        ]
+      },
+      "air": {
+        "id": "air",
+        "clip": "air",
+        "startup": 5,
+        "active": 11,
+        "recovery": 12,
+        "damage": 72,
+        "stun": 22,
+        "blockstun": 10,
+        "stop": 5,
+        "knockback": 4,
+        "level": "high",
+        "box": {
+          "x": 15,
+          "y": -95,
+          "w": 112,
+          "h": 56
+        }
+      },
+      "special": {
+        "id": "special",
+        "clip": "special",
+        "startup": 10,
+        "active": 13,
+        "recovery": 25,
+        "damage": 174,
+        "stun": 35,
+        "blockstun": 10,
+        "stop": 11,
+        "knockback": 12,
+        "level": "mid",
+        "box": {
+          "x": 5,
+          "y": -146,
+          "w": 149,
+          "h": 110
+        },
+        "velocity": 6.5,
+        "launch": true,
+        "cost": 0
+      }
+    },
+    "ren": {
+      "lp": {
+        "id": "lp",
+        "clip": "lp",
+        "startup": 4,
+        "active": 3,
+        "recovery": 10,
+        "damage": 42,
+        "stun": 17,
+        "blockstun": 10,
+        "stop": 5,
+        "knockback": 4,
+        "level": "mid",
+        "box": {
+          "x": 22,
+          "y": -146,
+          "w": 75,
+          "h": 32
+        },
+        "cancel": [
+          4,
+          13
+        ]
+      },
+      "lk": {
+        "id": "lk",
+        "clip": "lk",
+        "startup": 6,
+        "active": 4,
+        "recovery": 13,
+        "damage": 58,
+        "stun": 20,
+        "blockstun": 10,
+        "stop": 5,
+        "knockback": 5,
+        "level": "mid",
+        "box": {
+          "x": 15,
+          "y": -125,
+          "w": 111,
+          "h": 38
+        },
+        "cancel": [
+          6,
+          16
+        ]
+      },
+      "hp": {
+        "id": "hp",
+        "clip": "hp",
+        "startup": 9,
+        "active": 4,
+        "recovery": 20,
+        "damage": 94,
+        "stun": 24,
+        "blockstun": 15,
+        "stop": 8,
+        "knockback": 7,
+        "level": "mid",
+        "box": {
+          "x": 15,
+          "y": -149,
+          "w": 98,
+          "h": 43
+        },
+        "cancel": [
+          9,
+          19
+        ]
+      },
+      "hk": {
+        "id": "hk",
+        "clip": "hk",
+        "startup": 11,
+        "active": 5,
+        "recovery": 23,
+        "damage": 112,
+        "stun": 27,
+        "blockstun": 16,
+        "stop": 9,
+        "knockback": 8,
+        "level": "mid",
+        "box": {
+          "x": 20,
+          "y": -145,
+          "w": 126,
+          "h": 45
+        },
+        "cancel": [
+          11,
+          21
+        ]
+      },
+      "low": {
+        "id": "low",
+        "clip": "low",
+        "startup": 7,
+        "active": 4,
+        "recovery": 18,
+        "damage": 65,
+        "stun": 17,
+        "blockstun": 10,
+        "stop": 5,
+        "knockback": 4,
+        "level": "low",
+        "box": {
+          "x": 15,
+          "y": -48,
+          "w": 104,
+          "h": 35
+        },
+        "cancel": [
+          7,
+          17
+        ]
+      },
+      "air": {
+        "id": "air",
+        "clip": "air",
+        "startup": 5,
+        "active": 11,
+        "recovery": 12,
+        "damage": 72,
+        "stun": 22,
+        "blockstun": 10,
+        "stop": 5,
+        "knockback": 4,
+        "level": "high",
+        "box": {
+          "x": 15,
+          "y": -95,
+          "w": 112,
+          "h": 56
+        }
+      },
+      "special": {
+        "id": "special",
+        "clip": "special",
+        "startup": 14,
+        "active": 1,
+        "recovery": 28,
+        "damage": 145,
+        "stun": 29,
+        "blockstun": 10,
+        "stop": 10,
+        "knockback": 9,
+        "level": "mid",
+        "box": {
+          "x": 30,
+          "y": -115,
+          "w": 100,
+          "h": 60
+        },
+        "projectile": true,
+        "cost": 0
+      }
+    }
+  }
+}

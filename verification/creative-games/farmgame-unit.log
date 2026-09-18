@@ -1,0 +1,15 @@
+✔ plant-water-grow-harvest has real economy (1.216125ms)
+✔ cannot plant without funds or duplicate existing plant (0.079292ms)
+✔ sleep restores energy and has bankruptcy recovery (0.083042ms)
+✔ order consumes inventory once (0.112375ms)
+✔ save restores valid state without injected fields (0.230458ms)
+✔ invalid crop/prototype, invalid energy and corrupt JSON are rejected (0.148083ms)
+✔ completed save can continue as sandbox (0.228333ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 106.766709

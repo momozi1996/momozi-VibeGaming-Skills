@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Creative Game</title>
+    <link rel="icon" href="./public/art/flower.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main id="app">
+      <canvas
+        id="game"
+        width="1280"
+        height="800"
+        aria-label="游戏场景"
+      ></canvas>
+      <div id="hud" hidden>
+        <div class="brand">
+          <span id="brand-tag"></span><strong id="brand-title"></strong>
+        </div>
+        <div id="metrics"></div>
+        <div class="utilities">
+          <button id="sound" title="声音" aria-label="切换声音">♪</button
+          ><button id="pause" title="暂停">Ⅱ</button
+          ><button id="fullscreen" title="全屏">⛶</button>
+        </div>
+      </div>
+      <div id="toolbar" hidden></div>
+      <div id="hint" hidden></div>
+      <div id="touch" hidden>
+        <div id="stick" aria-label="移动摇杆"><i></i></div>
+        <button id="touch-action" aria-label="主要动作">✦</button>
+      </div>
+      <div id="overlay"><div class="loading">正在展开这个小小的世界…</div></div>
+      <div id="toast" role="status"></div>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

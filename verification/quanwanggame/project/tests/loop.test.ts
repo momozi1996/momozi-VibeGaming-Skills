@@ -1,0 +1,4 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {FixedLoop} from '../src/combat/FixedLoop';
+function run(hz:number){let callback:FrameRequestCallback=()=>{},ticks=0,renders=0;globalThis.requestAnimationFrame=((cb:FrameRequestCallback)=>{callback=cb;return 1;}) as any;globalThis.cancelAnimationFrame=()=>{};const loop=new FixedLoop(()=>ticks++,()=>renders++);loop.start();callback(100);for(let i=1;i<=hz;i++)callback(100+i*1000/hz);loop.stop();return {ticks,renders};}
+test('30, 60 and 144Hz displays all execute 60 combat ticks per second',()=>{assert.equal(run(30).ticks,60);assert.equal(run(60).ticks,60);assert.equal(run(144).ticks,60);});
+test('rendering frequency does not become attack frequency',()=>{const fast=run(144),slow=run(30);assert.ok(fast.renders>slow.renders);assert.equal(fast.ticks,slow.ticks);});

@@ -1,0 +1,186 @@
+
+> neon-impact@1.0.0 test
+> tsx --test tests/*.test.ts
+
+✔ ava: native-resolution, tightly packed textures have no overlaps or lost margins (2.2455ms)
+✔ ava: animation startup / contact / recovery use exact combat ages (0.286375ms)
+✔ ava: idle ping-pong includes descending frames (0.057166ms)
+✔ ren: native-resolution, tightly packed textures have no overlaps or lost margins (2.859667ms)
+✔ ren: animation startup / contact / recovery use exact combat ages (0.138959ms)
+✔ ren: idle ping-pong includes descending frames (0.710334ms)
+✔ startup: 4 non-hitting ticks, first active tick 5 (1.311625ms)
+✔ one attack cannot damage repeatedly across active frames (0.303083ms)
+✔ simultaneous attacks trade; no P1 update advantage (1.499042ms)
+✔ whiff never damages (0.50375ms)
+✔ back direction blocks mids without chip (0.915667ms)
+✔ standing back cannot block a low attack (0.426125ms)
+✔ down-back blocks a low attack (0.143917ms)
+✔ hitstop freezes state age, still records inputs (0.09025ms)
+✔ connected light can cancel into special, whiff cannot (0.153834ms)
+✔ quarter-circle command mirrored by facing (0.098375ms)
+✔ expired motion is not a special (0.060125ms)
+✔ jump returns to ground without frame-rate timeouts (2.2855ms)
+✔ pushboxes separate against the arena corner (0.065959ms)
+✔ projectile can hit once, not repeatedly (0.332708ms)
+✔ KO awards round, first to two resolves a match (0.306083ms)
+✔ mirrored hitbox retains size and reflects around root (0.056292ms)
+✔ identical input traces produce identical states (3.123084ms)
+✔ rendered attack age is the exact collision age (no one-frame lead) (0.073417ms)
+✔ air attacks end when landing; no grounded floating kick (0.064959ms)
+✔ input buffering expires, held keys do not auto-retrigger (0.029291ms)
+✔ a command entered during heavy hitstop survives until cancel window (0.051834ms)
+✔ 30, 60 and 144Hz displays all execute 60 combat ticks per second (1.714666ms)
+✔ rendering frequency does not become attack frequency (0.173125ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 313.59625
+
+> neon-impact@1.0.0 build
+> tsc --noEmit && vite build
+
+vite v6.4.1 building for production...
+transforming...
+✓ 688 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                           0.56 kB │ gzip:   0.43 kB
+dist/assets/index-BFGEmbNu.css           14.65 kB │ gzip:   4.30 kB
+dist/assets/colorToUniform-CTw89vsI.js    4.16 kB │ gzip:   1.51 kB
+dist/assets/WebGPURenderer-BOtZnYFL.js   37.43 kB │ gzip:  10.32 kB
+dist/assets/browserAll-BW4AjV6Q.js       43.11 kB │ gzip:  11.32 kB
+dist/assets/SharedSystems-_MfXqvuE.js    51.32 kB │ gzip:  13.92 kB
+dist/assets/webworkerAll-LYfS_Dec.js     62.71 kB │ gzip:  17.67 kB
+dist/assets/WebGLRenderer-Bj_ua37T.js    63.50 kB │ gzip:  17.38 kB
+dist/assets/index-OSNXaq5Y.js           315.03 kB │ gzip: 102.00 kB
+✓ built in 1.73s
+Testing isolated production URL: http://127.0.0.1:58596
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /?debug=1 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/index-BFGEmbNu.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/index-OSNXaq5Y.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/WebGLRenderer-Bj_ua37T.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/colorToUniform-CTw89vsI.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/SharedSystems-_MfXqvuE.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/fighters/ava-portrait.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/fighters/ren-portrait.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/webworkerAll-LYfS_Dec.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/browserAll-BW4AjV6Q.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] code 404, message File not found
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/stage/skyline.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/stage/street.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/stage/road.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/stage/props.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/stage/car.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/stage/hydrant.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/fighters/ava.json HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/fighters/ava.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/fighters/ren.json HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:38] "GET /assets/fighters/ren.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:40] "GET /assets/audio/impactPunch_medium_000.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:40] "GET /assets/audio/impactPunch_heavy_000.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:40] "GET /assets/audio/impactSoft_heavy_000.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:40] "GET /assets/audio/footstep_concrete_000.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:40] "GET /assets/audio/choose_your_character.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:40] "GET /assets/audio/round_1.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:40] "GET /assets/audio/round_2.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:40] "GET /assets/audio/you_lose.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:40] "GET /assets/audio/round_3.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:40] "GET /assets/audio/fight.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:40] "GET /assets/audio/you_win.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:08:40] code 404, message File not found
+127.0.0.1 - - [18/Sep/2026 14:08:40] "GET /favicon.ico HTTP/1.1" 404 -
+{
+  checks: [
+    'P1 movement',
+    'jump and landing',
+    'keyboard light punch damages at frame 4',
+    'light confirm into special combo',
+    'paused single logical frame',
+    'training reset',
+    'CPU approaches and attacks',
+    'help dialog pauses play',
+    'local P2 keyboard movement',
+    'P2 numpad heavy punch',
+    'two-win match completion and result UI',
+    'rematch resets score',
+    '390px layout has no horizontal overflow',
+    'touch direction moves fighter',
+    'zero external runtime requests'
+  ],
+  errors: [],
+  fps: 60.00402955464885
+}
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /?debug=1&v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/index-OSNXaq5Y.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/index-BFGEmbNu.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/colorToUniform-CTw89vsI.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/fighters/ava-portrait.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/SharedSystems-_MfXqvuE.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/WebGLRenderer-Bj_ua37T.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/fighters/ren-portrait.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/browserAll-BW4AjV6Q.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/webworkerAll-LYfS_Dec.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/stage/skyline.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/stage/street.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/stage/road.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/stage/props.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/stage/car.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/stage/hydrant.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/fighters/ava.json HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/fighters/ava.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/fighters/ren.json HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:24] "GET /assets/fighters/ren.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:25] "GET /assets/audio/impactPunch_medium_000.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:25] "GET /assets/audio/impactPunch_heavy_000.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:25] "GET /assets/audio/footstep_concrete_000.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:25] "GET /assets/audio/impactSoft_heavy_000.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:25] "GET /assets/audio/choose_your_character.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:25] "GET /assets/audio/round_1.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:25] "GET /assets/audio/you_win.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:25] "GET /assets/audio/round_3.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:25] "GET /assets/audio/fight.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:25] "GET /assets/audio/round_2.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:25] "GET /assets/audio/you_lose.ogg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:31] "GET /?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:31] "GET /assets/index-OSNXaq5Y.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:31] "GET /assets/index-BFGEmbNu.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:31] "GET /assets/WebGLRenderer-Bj_ua37T.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:31] "GET /assets/SharedSystems-_MfXqvuE.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:31] "GET /assets/fighters/ava-portrait.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:31] "GET /assets/colorToUniform-CTw89vsI.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:31] "GET /assets/fighters/ren-portrait.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:31] "GET /assets/browserAll-BW4AjV6Q.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:31] "GET /assets/webworkerAll-LYfS_Dec.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:31] code 404, message File not found
+127.0.0.1 - - [18/Sep/2026 14:09:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Sep/2026 14:09:32] "GET /assets/stage/skyline.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:32] "GET /assets/stage/street.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:32] "GET /assets/stage/road.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:32] "GET /assets/stage/props.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:32] "GET /assets/stage/car.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:32] "GET /assets/stage/hydrant.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:32] "GET /assets/fighters/ava.json HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:32] "GET /assets/fighters/ava.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:32] "GET /assets/fighters/ren.json HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2026 14:09:32] "GET /assets/fighters/ren.png HTTP/1.1" 200 -
+{
+  checks: [
+    'no website chrome / marketing cards',
+    'canvas backing exactly matches final CSS display',
+    'arrow-key character / mode selection + Enter start',
+    'native REN projectile animation runs',
+    'fullscreen enters',
+    'portrait mobile aspect ratio / no scrolling',
+    'landscape fits by height without cropping',
+    'DPR2 backing store verified'
+  ],
+  desktop: { backing: [ 1440, 810 ], display: [ 1440, 810 ] },
+  hidpi: { backing: [ 2560, 1440 ], display: [ 1280, 720 ] },
+  errors: []
+}
+PASS: unit tests, production build, 15 gameplay checks, 8 visual/resizing checks.

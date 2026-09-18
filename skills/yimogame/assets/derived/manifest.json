@@ -1,0 +1,45 @@
+{
+  "derivedFrom": "assets/reference-project/src/actors.js; rendered static pose, no animation clips",
+  "models": [
+    {
+      "file": "explorer.glb",
+      "meshes": 36,
+      "bytes": 2108336,
+      "animations": 0,
+      "skin": false,
+      "usage": "Static geometry backup. The real game uses actors.js procedural model hierarchy and frame update(), not GLB loading."
+    },
+    {
+      "file": "cloud.glb",
+      "meshes": 12,
+      "bytes": 904408,
+      "animations": 0,
+      "skin": false,
+      "usage": "Static geometry backup. The real game uses actors.js procedural model hierarchy and frame update(), not GLB loading."
+    },
+    {
+      "file": "fox.glb",
+      "meshes": 11,
+      "bytes": 719492,
+      "animations": 0,
+      "skin": false,
+      "usage": "Static geometry backup. The real game uses actors.js procedural model hierarchy and frame update(), not GLB loading."
+    },
+    {
+      "file": "aqua.glb",
+      "meshes": 12,
+      "bytes": 720608,
+      "animations": 0,
+      "skin": false,
+      "usage": "Static geometry backup. The real game uses actors.js procedural model hierarchy and frame update(), not GLB loading."
+    },
+    {
+      "file": "leaf.glb",
+      "meshes": 13,
+      "bytes": 623424,
+      "animations": 0,
+      "skin": false,
+      "usage": "Static geometry backup. The real game uses actors.js procedural model hierarchy and frame update(), not GLB loading."
+    }
+  ]
+}

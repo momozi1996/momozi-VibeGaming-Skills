@@ -1,0 +1,4 @@
+interface:
+  display_name: "quanwangGame"
+  short_description: "完整街机格斗游戏包：离线恢复原生精灵与全部玩法，支持人机、双人、训练和场景改造。"
+  default_prompt: "使用 $quanwanggame，在新目录完整复刻霓虹对决，保留街机画面、角色动画、人机双人、必杀连击和回合胜负，直接生成并启动让我玩。"

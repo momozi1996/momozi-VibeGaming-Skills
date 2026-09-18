@@ -1,5 +1,7 @@
 # allGame · 独立通用3D游戏大包
 
+> 新用户请先看根 [README.md](README.md)：包含全部9包的安装、调用和启动命令。下文保留该批次详细/历史说明；“已安装/已启动”仅指作者当时机器，不是下载后的自动状态。
+
 ## 文件
 
 - [allGame.zip](allGame.zip)：一个独立skill安装包；内层文件夹/调用ID为标准小写`allgame`，显示名`allGame`。

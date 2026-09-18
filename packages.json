@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "release": "2026.09.18-rc1",
+  "status": "private-freeze-candidate-publication-blocked",
+  "packages": [
+    {
+      "id": "maomao3dgame",
+      "display_name": "maomao3Dgame",
+      "genre": "3D 萌系卡丁车",
+      "directory": "skills/maomao3dgame",
+      "zip": "maomao3Dgame.zip",
+      "sha256": "9c24c6be0ea2b5c1a5336bfe5b4415c773b15984999ba468420fa2de961f1f6f",
+      "bytes": 18116226,
+      "guide": "使用说明.md"
+    },
+    {
+      "id": "moshougame",
+      "display_name": "moshougame",
+      "genre": "3D 奇幻任务",
+      "directory": "skills/moshougame",
+      "zip": "moshougame.zip",
+      "sha256": "6a2fda723f4e99bdb38a6a2fa17cbd39e4b97b81f4f9ea915f02d8b61b02ce89",
+      "bytes": 28421762,
+      "guide": "使用说明.md"
+    },
+    {
+      "id": "allgame",
+      "display_name": "allGame",
+      "genre": "赛车 / 第三人称冒险通用创作",
+      "directory": "skills/allgame",
+      "zip": "allGame.zip",
+      "sha256": "670ea2a87a29123e857ffed08e3e4ca91c5739fb4a8c89ef37160dbf20d81002",
+      "bytes": 46600004,
+      "guide": "allGame-使用说明.md"
+    },
+    {
+      "id": "survivorgame",
+      "display_name": "survivorGame",
+      "genre": "2D 生存割草",
+      "directory": "skills/survivorgame",
+      "zip": "survivorGame.zip",
+      "sha256": "6276d8c6e94dd3a281193436194d7b0c02d361afdfab71096e8deefdb381b2da",
+      "bytes": 811770,
+      "guide": "创作游戏-使用说明.md"
+    },
+    {
+      "id": "towerdefensegame",
+      "display_name": "towerDefenseGame",
+      "genre": "2D 路线塔防",
+      "directory": "skills/towerdefensegame",
+      "zip": "towerDefenseGame.zip",
+      "sha256": "857d0253dc06078c1f06a9833929abb5af784bca5d7f0d0bdf7fdfa83b6c96ce",
+      "bytes": 790059,
+      "guide": "创作游戏-使用说明.md"
+    },
+    {
+      "id": "platformgame",
+      "display_name": "platformGame",
+      "genre": "2D 平台跳跃",
+      "directory": "skills/platformgame",
+      "zip": "platformGame.zip",
+      "sha256": "1a19a4ad58e998ee8e502b4cea52358c5c6191031a649ff8a6cb8815b38b6321",
+      "bytes": 667590,
+      "guide": "创作游戏-使用说明.md"
+    },
+    {
+      "id": "farmgame",
+      "display_name": "farmGame",
+      "genre": "2D 农场经营",
+      "directory": "skills/farmgame",
+      "zip": "farmGame.zip",
+      "sha256": "1c877a5f3310541b705ae8883b6fec68b960c6c6705ea56c310b20f5e719e52f",
+      "bytes": 869217,
+      "guide": "创作游戏-使用说明.md"
+    },
+    {
+      "id": "yimogame",
+      "display_name": "yimoGame",
+      "genre": "3D 萌宠探索",
+      "directory": "skills/yimogame",
+      "zip": "yimoGame.zip",
+      "sha256": "aa32c3458cf0fa9884d51098b5d66233f31707f1d8364e92d2162be98ebfc73c",
+      "bytes": 171266327,
+      "guide": "yimoGame-使用说明.md"
+    },
+    {
+      "id": "quanwanggame",
+      "display_name": "quanwangGame",
+      "genre": "2D 街机格斗",
+      "directory": "skills/quanwanggame",
+      "zip": "quanwangGame.zip",
+      "sha256": "5972dc1ce3e285899ad927bc27d06ba1ee4a12d6254d7604888cb5c1f61d7601",
+      "bytes": 173200783,
+      "guide": "quanwangGame-使用说明.md"
+    }
+  ]
+}

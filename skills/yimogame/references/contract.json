@@ -1,0 +1,261 @@
+{
+  "schema": 1,
+  "target": "伊莫·风栖原野 / aniimo-windmeadow@1.0.0",
+  "modeDefault": "exact",
+  "engine": {
+    "three": "0.180.0",
+    "vite": "6.3.5",
+    "playwright": "1.51.1"
+  },
+  "spawn": {
+    "version": 1,
+    "x": 0,
+    "z": 19,
+    "y": 0,
+    "vy": 0,
+    "yaw": 3.141592653589793,
+    "time": 0,
+    "captured": [],
+    "selected": 0,
+    "twined": false,
+    "completed": false,
+    "reward": 0,
+    "orbs": 20,
+    "capture": null,
+    "paused": false,
+    "steps": 0
+  },
+  "save": {
+    "key": "windmeadow-aniimo-prototype-v1",
+    "version": 1,
+    "fields": [
+      "version",
+      "x",
+      "z",
+      "captured",
+      "selected",
+      "completed",
+      "reward",
+      "orbs",
+      "steps"
+    ],
+    "bounds": {
+      "x": [
+        -65,
+        65
+      ],
+      "z": [
+        -80,
+        60
+      ]
+    },
+    "orbs": [
+      1,
+      40
+    ]
+  },
+  "world": {
+    "seed": 2489,
+    "units": "metres and seconds; XZ horizontal, +Y up",
+    "bounds": {
+      "x": [
+        -67,
+        67
+      ],
+      "z": [
+        -87,
+        64
+      ]
+    },
+    "terrain": {
+      "size": 360,
+      "segments": 240
+    },
+    "grassMax": 160000,
+    "flowerMax": 6000,
+    "motes": 300,
+    "portal": {
+      "x": -13,
+      "z": -33
+    }
+  },
+  "species": [
+    {
+      "id": "cloud",
+      "name": "绵云",
+      "tag": "风",
+      "color": "#d7f4ed",
+      "accent": "#6dc2b3",
+      "note": "一朵不肯回到天空的云。喜欢花香，也喜欢慢慢靠近它的你。",
+      "ability": "轻盈跳跃",
+      "where": "初遇花甸"
+    },
+    {
+      "id": "fox",
+      "name": "焰尾",
+      "tag": "火",
+      "color": "#ffd4a5",
+      "accent": "#eb9364",
+      "note": "尾巴里藏着一整个日落。奔跑时，草叶会被它染成温暖的金色。",
+      "ability": "疾风奔跑",
+      "where": "日光小径"
+    },
+    {
+      "id": "aqua",
+      "name": "泡泡",
+      "tag": "水",
+      "color": "#b4e9f2",
+      "accent": "#63bad1",
+      "note": "河湾里的小小旅行家。头顶的鳍会随着流水轻轻摇摆。",
+      "ability": "水上漫步",
+      "where": "映蓝河湾"
+    },
+    {
+      "id": "leaf",
+      "name": "芽芽",
+      "tag": "木",
+      "color": "#e1edb3",
+      "accent": "#9db66a",
+      "note": "森林写给春天的一封信。头上的叶子总指向最有生机的地方。",
+      "ability": "轻盈跳跃",
+      "where": "风语林地"
+    }
+  ],
+  "wild": [
+    {
+      "id": "c1",
+      "species": 0,
+      "x": 1,
+      "z": 7,
+      "phase": 0
+    },
+    {
+      "id": "f1",
+      "species": 1,
+      "x": 13,
+      "z": -4,
+      "phase": 2
+    },
+    {
+      "id": "a1",
+      "species": 2,
+      "x": 29,
+      "z": 2,
+      "phase": 4
+    },
+    {
+      "id": "l1",
+      "species": 3,
+      "x": -18,
+      "z": -13,
+      "phase": 1
+    },
+    {
+      "id": "c2",
+      "species": 0,
+      "x": -15,
+      "z": 14,
+      "phase": 3
+    },
+    {
+      "id": "f2",
+      "species": 1,
+      "x": 8,
+      "z": -37,
+      "phase": 5
+    },
+    {
+      "id": "a2",
+      "species": 2,
+      "x": 34,
+      "z": -31,
+      "phase": 2
+    },
+    {
+      "id": "l2",
+      "species": 3,
+      "x": -31,
+      "z": -40,
+      "phase": 5
+    }
+  ],
+  "player": {
+    "walk": 4.6,
+    "sprint": 7.2,
+    "linked": 7.8,
+    "foxLinked": 11.5,
+    "waterMultiplier": 0.46,
+    "gravity": 18,
+    "jump": 6.1,
+    "linkedJump": 8,
+    "secondJump": 6.8,
+    "doubleJumpSpecies": [
+      0,
+      3
+    ],
+    "dtMax": 0.05,
+    "actorCollisionAdd": 0.3
+  },
+  "capture": {
+    "range": 8,
+    "duration": 1.5,
+    "probability": 1,
+    "cost": 1
+  },
+  "quest": {
+    "requiredUniqueSpecies": 3,
+    "submitRange": 7,
+    "rewardStardust": 300,
+    "rewardOrbs": 10,
+    "oneTime": true
+  },
+  "camera": {
+    "fov": 52,
+    "near": 0.1,
+    "far": 1000,
+    "yaw": 0.02,
+    "pitch": 0.105,
+    "distance": 8.6,
+    "pitchBounds": [
+      0.08,
+      1.1
+    ],
+    "distanceBounds": [
+      4,
+      19
+    ],
+    "humanShoulder": 1.15,
+    "humanTargetY": 2.65,
+    "linkedShoulder": 0.35,
+    "linkedTargetY": 2.1
+  },
+  "render": {
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.12,
+    "outputColorSpace": "SRGB",
+    "dprMax": 1.7,
+    "shadow": "PCFSoft",
+    "shadowMap": 2048
+  },
+  "controls": {
+    "WASD": "move",
+    "Shift": "sprint",
+    "Space": "jump",
+    "E": "capture/portal",
+    "Q": "twine",
+    "C": "scan",
+    "M": "map",
+    "B": "dex",
+    "P": "photo",
+    "Escape": "close/pause",
+    "1-4": "select species"
+  },
+  "nonGoals": [
+    "multiplayer",
+    "combat",
+    "server/account",
+    "city interiors",
+    "official high-detail models"
+  ],
+  "sourcePriority": "When a descriptive field conflicts with frozen JavaScript, frozen source wins; report mismatch rather than altering exact baseline."
+}

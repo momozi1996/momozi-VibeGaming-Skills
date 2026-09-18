@@ -1,0 +1,4 @@
+interface:
+  display_name: "platformGame"
+  short_description: "完整可玩工程、原创美术与创作经验，独立制作云屿平台跳跃同类游戏"
+  default_prompt: "使用 $platformgame 制作星空鲸岛横版冒险，设计新浮岛与机关，主角换成兔子邮差，保留三关可通关流程并启动。"

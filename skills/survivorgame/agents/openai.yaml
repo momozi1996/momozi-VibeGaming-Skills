@@ -1,0 +1,4 @@
+interface:
+  display_name: "survivorGame"
+  short_description: "完整可玩工程、原创美术与创作经验，独立制作月灯生存同类游戏"
+  default_prompt: "使用 $survivorgame 制作萤火森林主题的生存游戏，主角换成小女巫，加入新法术与新敌人，交付完整可玩的游戏并启动。"

@@ -1,0 +1,16 @@
+{
+  "frozenOn": "2026-09-18",
+  "project": "NEON IMPACT / 霓虹对决",
+  "revision": "native-sprites-arcade-ui-v2",
+  "os": "macOS-26.6.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "node": "v25.8.1",
+  "npm": "11.11.0",
+  "python": "3.9.6",
+  "pillow": "11.3.0",
+  "requests": "2.32.5",
+  "browser": "Chrome (local system, Playwright channel chrome)",
+  "logicTests": 29,
+  "browserGameplayChecks": 15,
+  "productionVisualChecks": 8
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "create restores full runnable game",
+    "existing output refused",
+    "inside skill refused",
+    "dangling symbolic link refused",
+    "symlink ancestor into kit refused",
+    "invalid port refused before output",
+    "project source corruption detected"
+  ]
+}

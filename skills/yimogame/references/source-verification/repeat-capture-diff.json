@@ -1,0 +1,71 @@
+{
+  "metricWarning": "These are pixel diagnostics, NOT semantic quality or a 95% game-completeness score. Same OS/GPU/browser/fonts/time/viewport required. All gameplay checks and human visual review also required.",
+  "pixelTolerance": 8,
+  "screenshots": [
+    {
+      "name": "01-field.png",
+      "width": 1440,
+      "height": 900,
+      "normalizedMAE": 0.0,
+      "pixelsWithinTolerance": 1.0,
+      "passed": true
+    },
+    {
+      "name": "02-encounter.png",
+      "width": 1440,
+      "height": 900,
+      "normalizedMAE": 0.0,
+      "pixelsWithinTolerance": 1.0,
+      "passed": true
+    },
+    {
+      "name": "03-linked.png",
+      "width": 1440,
+      "height": 900,
+      "normalizedMAE": 0.0,
+      "pixelsWithinTolerance": 1.0,
+      "passed": true
+    },
+    {
+      "name": "04-dex.png",
+      "width": 1440,
+      "height": 900,
+      "normalizedMAE": 0.0,
+      "pixelsWithinTolerance": 1.0,
+      "passed": true
+    },
+    {
+      "name": "05-map.png",
+      "width": 1440,
+      "height": 900,
+      "normalizedMAE": 0.0,
+      "pixelsWithinTolerance": 1.0,
+      "passed": true
+    },
+    {
+      "name": "06-complete.png",
+      "width": 1440,
+      "height": 900,
+      "normalizedMAE": 0.0,
+      "pixelsWithinTolerance": 1.0,
+      "passed": true
+    },
+    {
+      "name": "07-mobile.png",
+      "width": 390,
+      "height": 844,
+      "normalizedMAE": 0.0,
+      "pixelsWithinTolerance": 1.0,
+      "passed": true
+    },
+    {
+      "name": "08-mobile-map.png",
+      "width": 390,
+      "height": 844,
+      "normalizedMAE": 3.177031334265792e-07,
+      "pixelsWithinTolerance": 1.0,
+      "passed": true
+    }
+  ],
+  "allPassed": true
+}

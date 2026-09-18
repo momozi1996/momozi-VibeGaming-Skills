@@ -1,0 +1,15 @@
+✔ diagonal movement is normalized (1.213333ms)
+✔ dash consumes cooldown and cannot immediately repeat (0.243625ms)
+✔ pulse has cost-free but enforced cooldown (0.193167ms)
+✔ XP opens actual upgrade and applies selected effect (0.131ms)
+✔ boss death yields one victory (0.153583ms)
+✔ lethal damage ends run (0.066708ms)
+✔ player cannot leave the arena (3.487084ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 121.830166

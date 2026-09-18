@@ -1,0 +1,4 @@
+interface:
+  display_name: "yimoGame"
+  short_description: "完整3D萌宠探索游戏包：离线恢复源码与成品，支持捕捉、联结、任务及场景改造。"
+  default_prompt: "使用 $yimogame，在新目录完整复刻风栖原野，保留3D美术、捕捉联结、委托通关和存档，直接生成并启动让我玩。"

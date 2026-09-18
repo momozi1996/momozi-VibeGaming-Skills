@@ -1,0 +1,77 @@
+
+> aniimo-windmeadow@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ new expedition has no companions and cannot twine (1.804334ms)
+✔ capture validates target, range and remaining supplies (0.108334ms)
+✔ capture requires simulation time, consumes once, and prevents duplicate captures (0.136417ms)
+✔ paused capture freezes and resumes (0.0555ms)
+✔ twining and switching require owned species (0.084667ms)
+✔ three different species unlock objective, not three individuals (0.100333ms)
+✔ paused quest cannot be submitted (0.092208ms)
+✔ save roundtrip persists capture, position, rewards but not transient capture state (0.1585ms)
+✔ corrupt, unknown-version and malicious state cannot break loading (0.10875ms)
+✔ storage permission failures are nonfatal (0.594084ms)
+✔ terrain is finite throughout accessible world; species placed within bounds (1.770333ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 142.44775
+
+> aniimo-windmeadow@1.0.0 build
+> vite build
+
+vite v6.3.5 building for production...
+transforming...
+✓ 14 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.78 kB │ gzip:   0.53 kB
+dist/assets/index-MWbxZ5BI.css   30.29 kB │ gzip:   7.59 kB
+dist/assets/index-CkWwsK_5.js    58.36 kB │ gzip:  22.93 kB
+dist/assets/engine-DPj69CRH.js  488.58 kB │ gzip: 122.38 kB
+✓ built in 1.10s
+PASS Fresh playable world and zero fake companions
+PASS Distant capture rejected
+PASS Real WASD input moves toward a creature
+PASS Nearby wild target acquired
+PASS Capture updates world, inventory, and stock exactly once
+PASS Q enters actual linked form
+PASS Linked pet can jump
+PASS Cloud link has a real second jump
+PASS Pause freezes simulation time
+PASS Paused keyboard cannot move the player
+PASS Dragging orbits the camera
+PASS Three distinct species progress the expedition
+PASS Number key switches captured companion
+PASS Fox linked form selected
+PASS World map shows actual exploration progress
+PASS Dex lists owned creatures
+PASS Portal delivers quest reward and completion once
+PASS Repeated portal submission cannot duplicate rewards
+PASS Reload restores completed expedition and collection
+PASS Photography freezes gameplay
+PASS Photography exports a real PNG
+PASS Confirmed restart clears collection, reward and inventory
+PASS Restart persists without resurrecting old save
+PASS Window blur releases held movement
+PASS No JS errors or failed HTTP assets
+Passed 25 checks
+PASS Production renderer and UI boot without DEV API
+PASS Production keyboard drives real distance
+PASS Production capture works without fixtures
+PASS Production linked form updates HUD
+PASS Production resources load without errors
+PASS Touch layout renders without horizontal overflow
+PASS Real CDP touch joystick moves player
+PASS Touch release stops movement
+PASS Touch map button opens modal
+PASS Touch controls do not obscure modal
+PASS Touch closes modal
+PASS No production or mobile page exceptions
+Passed 12 production/mobile checks
+PASS: unit11 + browser25 + production/mobile12; inspect screenshots separately

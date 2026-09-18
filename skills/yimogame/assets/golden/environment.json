@@ -1,0 +1,17 @@
+{
+  "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+  "platform": "MacIntel",
+  "dpr": 1,
+  "font": "\"Noto Sans SC\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+  "browser": "153.0.8010.50",
+  "launch": {
+    "headless": true,
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "args": [
+      "--use-angle=metal",
+      "--enable-webgl",
+      "--ignore-gpu-blocklist"
+    ]
+  },
+  "fixture": "Seed19427; requestAnimationFrame exactly1/60s; timer queue virtual; immutable source; screenshot at t5s initial or t9s following modal/action. Do not interpret fixture fps as real performance."
+}

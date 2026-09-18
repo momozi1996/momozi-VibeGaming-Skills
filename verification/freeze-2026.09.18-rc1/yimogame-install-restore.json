@@ -1,0 +1,43 @@
+[
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/scripts/install_skill.py",
+      "--skill",
+      "yimogame",
+      "--skills-dir",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/skills"
+    ],
+    "exit": 0,
+    "stdout": "Installed complete skill: /private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/skills/yimogame\nRefresh your agent skill list, then use $yimogame in chat. No game or global dependency was executed.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/skills/yimogame/scripts/reproduce.py",
+      "restore",
+      "--mode",
+      "exact",
+      "--out",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/projects/yimogame"
+    ],
+    "exit": 0,
+    "stdout": "PASS: package 134 files + reference project 66 files intact\nCreated exact: /private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/projects/yimogame\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/skills/yimogame/scripts/reproduce.py",
+      "restore",
+      "--mode",
+      "exact",
+      "--out",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze-install-1spkg63q/projects/yimogame"
+    ],
+    "exit": 1,
+    "stdout": "PASS: package 134 files + reference project 66 files intact\n",
+    "stderr": "ERROR: Output exists and is nonempty; refusing overwrite\n"
+  }
+]

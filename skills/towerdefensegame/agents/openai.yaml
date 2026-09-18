@@ -1,0 +1,4 @@
+interface:
+  display_name: "towerDefenseGame"
+  short_description: "完整可玩工程、原创美术与创作经验，独立制作灯火塔防同类游戏"
+  default_prompt: "使用 $towerdefensegame 制作森林精灵守村塔防，重新设计路线、三种防御塔与敌人，保留完整建造经济和通关流程并启动。"

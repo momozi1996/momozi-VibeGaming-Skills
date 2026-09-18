@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "survivorgame",
+    "display": "survivorGame",
+    "archive": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/survivorGame.zip",
+    "bytes": 811770,
+    "sha256": "6276d8c6e94dd3a281193436194d7b0c02d361afdfab71096e8deefdb381b2da",
+    "installed": "/Users/jyxc-dz-0100378/.stepcode/codex/skills/survivorgame",
+    "demo": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/playable-games/survivorgame",
+    "checks": [
+      "independent extracted package integrity",
+      "create moon + 20 assets + native unit checks",
+      "nonempty output preservation moon",
+      "create ember + 20 assets + native unit checks",
+      "nonempty output preservation ember",
+      "safe custom title JSON",
+      "skill/descendant/ancestor output protections",
+      "unknown theme rejection before writes",
+      "invalid title rejection",
+      "symlink refusal",
+      "tamper detection and generator refusal",
+      "installed package integrity"
+    ],
+    "ok": true
+  },
+  {
+    "skill": "towerdefensegame",
+    "display": "towerDefenseGame",
+    "archive": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/towerDefenseGame.zip",
+    "bytes": 790059,
+    "sha256": "857d0253dc06078c1f06a9833929abb5af784bca5d7f0d0bdf7fdfa83b6c96ce",
+    "installed": "/Users/jyxc-dz-0100378/.stepcode/codex/skills/towerdefensegame",
+    "demo": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/playable-games/towerdefensegame",
+    "checks": [
+      "independent extracted package integrity",
+      "create lantern + 20 assets + native unit checks",
+      "nonempty output preservation lantern",
+      "create snow + 20 assets + native unit checks",
+      "nonempty output preservation snow",
+      "safe custom title JSON",
+      "skill/descendant/ancestor output protections",
+      "unknown theme rejection before writes",
+      "invalid title rejection",
+      "symlink refusal",
+      "tamper detection and generator refusal",
+      "installed package integrity"
+    ],
+    "ok": true
+  },
+  {
+    "skill": "platformgame",
+    "display": "platformGame",
+    "archive": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/platformGame.zip",
+    "bytes": 667590,
+    "sha256": "1a19a4ad58e998ee8e502b4cea52358c5c6191031a649ff8a6cb8815b38b6321",
+    "installed": "/Users/jyxc-dz-0100378/.stepcode/codex/skills/platformgame",
+    "demo": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/playable-games/platformgame",
+    "checks": [
+      "independent extracted package integrity",
+      "create cloud + 20 assets + native unit checks",
+      "nonempty output preservation cloud",
+      "create dusk + 20 assets + native unit checks",
+      "nonempty output preservation dusk",
+      "safe custom title JSON",
+      "skill/descendant/ancestor output protections",
+      "unknown theme rejection before writes",
+      "invalid title rejection",
+      "symlink refusal",
+      "tamper detection and generator refusal",
+      "installed package integrity"
+    ],
+    "ok": true
+  },
+  {
+    "skill": "farmgame",
+    "display": "farmGame",
+    "archive": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/farmGame.zip",
+    "bytes": 869217,
+    "sha256": "1c877a5f3310541b705ae8883b6fec68b960c6c6705ea56c310b20f5e719e52f",
+    "installed": "/Users/jyxc-dz-0100378/.stepcode/codex/skills/farmgame",
+    "demo": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/playable-games/farmgame",
+    "checks": [
+      "independent extracted package integrity",
+      "create spring + 20 assets + native unit checks",
+      "nonempty output preservation spring",
+      "create autumn + 20 assets + native unit checks",
+      "nonempty output preservation autumn",
+      "safe custom title JSON",
+      "skill/descendant/ancestor output protections",
+      "unknown theme rejection before writes",
+      "invalid title rejection",
+      "symlink refusal",
+      "tamper detection and generator refusal",
+      "installed package integrity"
+    ],
+    "ok": true
+  }
+]

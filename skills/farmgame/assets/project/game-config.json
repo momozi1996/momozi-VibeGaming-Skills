@@ -1,0 +1,99 @@
+{
+  "name": "farmGame",
+  "tag": "A SLOW LIFE, GENTLY GROWN",
+  "edition": "让平凡的小日子，开出花来。",
+  "movement": false,
+  "start": "开垦新花园 ↗",
+  "controls": "选择种子后点田地 · 浇水生长 · 点成熟作物收获 · 自动存档",
+  "hint": "篮中作物可售卖或交心愿 · 休息推进生长 · 修好风车与温室",
+  "themes": {
+    "spring": {
+      "sky": "#9bc5c0",
+      "horizon": "#f6e6bc",
+      "mountain": "#a5bab0",
+      "far": "#98b0a0",
+      "mid": "#87a58e",
+      "ground": "#b8c49a",
+      "floor": "#8ca485",
+      "tree": "blossom",
+      "water": "#87b8b4",
+      "road": "#daca9f",
+      "id": "spring",
+      "title": "风物小园",
+      "subtitle": "THE LITTLE SEASON",
+      "label": "花信春日",
+      "description": "一间小屋，一篮种子，一块等待春天的田。种下蜜糖萝卜与晚风花，完成邻居的小心愿，让风车与温室重新亮起来。",
+      "seed": 17,
+      "growthRate": 1,
+      "orders": [
+        {
+          "title": "给邻居的第一篮甜",
+          "need": {
+            "carrot": 3
+          },
+          "reward": 35
+        },
+        {
+          "title": "果酱与鲜花的午后",
+          "need": {
+            "berry": 2,
+            "flower": 2
+          },
+          "reward": 60
+        },
+        {
+          "title": "小镇春日野餐",
+          "need": {
+            "carrot": 2,
+            "berry": 2,
+            "flower": 2
+          },
+          "reward": 100
+        }
+      ]
+    },
+    "autumn": {
+      "sky": "#a5bdb7",
+      "horizon": "#f5d7a9",
+      "mountain": "#b0b4a3",
+      "far": "#aaa98d",
+      "mid": "#9ea17f",
+      "ground": "#c3bc8f",
+      "floor": "#a49c79",
+      "tree": "autumn",
+      "water": "#8aaea3",
+      "road": "#e1c79b",
+      "id": "autumn",
+      "title": "丰物小园",
+      "subtitle": "A GOLDEN LITTLE SEASON",
+      "label": "金穗秋日",
+      "description": "金色的季节，适合酿果酱也适合慢下来。秋日作物生长稍慢，邻居们准备了不同的心愿与谢礼，等待你的收成。",
+      "seed": 67,
+      "growthRate": 0.85,
+      "orders": [
+        {
+          "title": "秋日第一瓶果酱",
+          "need": {
+            "berry": 2
+          },
+          "reward": 38
+        },
+        {
+          "title": "窗前的新鲜花束",
+          "need": {
+            "flower": 4
+          },
+          "reward": 65
+        },
+        {
+          "title": "丰收节的小小礼物",
+          "need": {
+            "carrot": 3,
+            "berry": 3
+          },
+          "reward": 108
+        }
+      ]
+    }
+  }
+}

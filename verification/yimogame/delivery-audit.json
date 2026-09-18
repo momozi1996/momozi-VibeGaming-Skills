@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "inputFilesUnchanged": 146,
+  "originalZipCountUnchanged": 7,
+  "packageFiles": 135,
+  "singleSkillId": "yimogame",
+  "zipMatchesSourceAndIsolatedExtraction": true,
+  "zipBytes": 171266327,
+  "zipSha256": "aa32c3458cf0fa9884d51098b5d66233f31707f1d8364e92d2162be98ebfc73c",
+  "sourceSnapshotFilesByteIdentical": 66,
+  "globalInstallPerformed": false
+}
