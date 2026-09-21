@@ -1,0 +1,25 @@
+PASS Menu renders without startup errors
+PASS Real deploy click captures pointer and starts active round
+PASS W input moves forward at bounded speed
+PASS Real pointer movement rotates view
+PASS Player cannot walk through solid facade
+PASS Central arch is walkable using real input
+PASS Crouch changes camera height; jump lands
+PASS World geometry occludes real bullet raycasts
+PASS Real raycast headshot eliminates bot, awards money, and still requires bomb defuse
+PASS R reload transfers reserve ammo and updates HUD
+PASS Sidearm is truly semi-automatic, one shot per mouse press
+PASS Held scoreboard shows current stats and hides on key release
+PASS Pointer unlock pauses objective time and resume recaptures mouse
+PASS Armory charges correct price; sniper has actual scoped aim
+PASS Defuse requires held input and resets on interruption
+PASS Full five-second keyboard defuse wins round
+PASS Next round resets actors and ammo while preserving purchased primary
+PASS Bomb expiration produces a real losing round
+PASS Lethal damage produces death and an opponent point
+PASS First-to-five resolves match and shows result panel
+PASS Replay creates a clean new match
+PASS Blur clears held movement; resume does not leave sticky input
+PASS No browser errors or HTTP failures across full test
+
+23 browser checks passed. Recent observed FPS: 48.0

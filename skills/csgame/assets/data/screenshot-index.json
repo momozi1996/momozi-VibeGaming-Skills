@@ -1,0 +1,95 @@
+{
+  "screenshots": [
+    {
+      "file": "assets/project/artifacts/armory.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "b0ea43a66152186de09b424e2a681cd1170ac433675b4aefbaba46b037a5a124",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    },
+    {
+      "file": "assets/project/artifacts/defusing.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "91222ed62163c46f0f677a17ccfae117fd71ab22ca04d5ac15b2349bdcd40a8a",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    },
+    {
+      "file": "assets/project/artifacts/gameplay.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "ec356774f756505bdc886faedc109c0207dc1b82759194fdb099f8db5480d055",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    },
+    {
+      "file": "assets/project/artifacts/match-win.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "cea8b91a87db000e1d10b1d8f120c759825c577d5046790d070e7b7bd43f3ccb",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    },
+    {
+      "file": "assets/project/artifacts/menu.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "02622b6e5e0732f97dbfe6566e0a85d4d8cfbe78e4b5503921be6fd393280c52",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    },
+    {
+      "file": "assets/project/artifacts/pause.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "39e6089b06979873c4cebc6b79afbbb495013664cc643938ed05dd22d98fe081",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    },
+    {
+      "file": "assets/project/artifacts/production-1280.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "967172b3d5d844c4aed52e6a67bb2224814b25f8c920a1a9be1639871a6dd960",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    },
+    {
+      "file": "assets/project/artifacts/production-1920.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f79cf743af84284551928f8fb458125966215b5931dc2021fa1e3cca38655300",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    },
+    {
+      "file": "assets/project/artifacts/production-gameplay.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "26a66802c48c8b9b54a8f688b6c84653b42dd7393242844ce953adc621127cf9",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    },
+    {
+      "file": "assets/project/artifacts/production-menu.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "d1c47c36f97c20f54f575f0931adcba9b3edd89453f4a2a3b69f24af8c99d2a4",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    },
+    {
+      "file": "assets/project/artifacts/round-win.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "b27e1fb48e2cae5fec8f459d34ee5a394fe7deca18fc56ffbe5cb2388abe63ee",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    },
+    {
+      "file": "assets/project/artifacts/scope.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "f538c8dc78fc7d113ab34a8a1dae7f34b78840051e24351c2adf9b028d2f0ef2",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    },
+    {
+      "file": "assets/project/artifacts/webgl-fallback.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f82335852f3b7d017384f239cf5da652ae5164f868e60d28e6518101b843f257",
+      "provenance": "Original delivered project screenshot; some gameplay states used deterministic DEV fixtures"
+    }
+  ]
+}

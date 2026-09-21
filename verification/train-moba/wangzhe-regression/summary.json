@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "started": "2026-09-21T18:11:10.995920+08:00",
+  "project": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/train-moba-skills-m12o2j_z/wangzhe-output",
+  "suite": "all",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.9.6",
+  "node": "v25.8.1",
+  "npm": "11.11.0",
+  "steps": [
+    {
+      "name": "unit",
+      "command": [
+        "/opt/homebrew/bin/npm",
+        "test"
+      ],
+      "log": "unit.log",
+      "exitCode": 0,
+      "seconds": 1.52
+    },
+    {
+      "name": "build",
+      "command": [
+        "/opt/homebrew/bin/npm",
+        "run",
+        "build"
+      ],
+      "log": "build.log",
+      "exitCode": 0,
+      "seconds": 4.35
+    },
+    {
+      "name": "soak",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/train-moba-skills-m12o2j_z/wangzhe-output/.reproducer-check-6y9c3w2v/tests/soak.mjs"
+      ],
+      "log": "soak.log",
+      "exitCode": 0,
+      "seconds": 11.73
+    },
+    {
+      "name": "natural-match",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/train-moba-skills-m12o2j_z/wangzhe-output/.reproducer-check-6y9c3w2v/tests/natural-match.mjs"
+      ],
+      "log": "natural-match.log",
+      "exitCode": 0,
+      "seconds": 19.1
+    },
+    {
+      "name": "controls-browser",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/train-moba-skills-m12o2j_z/wangzhe-output/.reproducer-check-6y9c3w2v/tests/controls-browser.mjs"
+      ],
+      "log": "controls-browser.log",
+      "exitCode": 0,
+      "seconds": 48.66
+    },
+    {
+      "name": "controls-production",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/train-moba-skills-m12o2j_z/wangzhe-output/.reproducer-check-6y9c3w2v/tests/controls-production.mjs"
+      ],
+      "log": "controls-production.log",
+      "exitCode": 0,
+      "seconds": 10.79
+    },
+    {
+      "name": "browser",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/train-moba-skills-m12o2j_z/wangzhe-output/.reproducer-check-6y9c3w2v/tests/browser.mjs"
+      ],
+      "log": "browser.log",
+      "exitCode": 0,
+      "seconds": 12.34
+    },
+    {
+      "name": "production",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/train-moba-skills-m12o2j_z/wangzhe-output/.reproducer-check-6y9c3w2v/tests/production.mjs"
+      ],
+      "log": "production.log",
+      "exitCode": 0,
+      "seconds": 9.25
+    },
+    {
+      "name": "fault",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/train-moba-skills-m12o2j_z/wangzhe-output/.reproducer-check-6y9c3w2v/tests/fault.mjs"
+      ],
+      "log": "fault.log",
+      "exitCode": 0,
+      "seconds": 2.68
+    }
+  ],
+  "adaptations": [
+    {
+      "test": "soak.mjs",
+      "originalSHA256": "05c105a7ca846fc243d30952402329aac59d5df9db0170148f56051750730ee5",
+      "stagedSHA256": "05c105a7ca846fc243d30952402329aac59d5df9db0170148f56051750730ee5",
+      "changes": []
+    },
+    {
+      "test": "natural-match.mjs",
+      "originalSHA256": "de50c3fd7223dfd26b8acb3f8a5f387d26a6110c5f5969feb3dc37465bbb7a97",
+      "stagedSHA256": "de50c3fd7223dfd26b8acb3f8a5f387d26a6110c5f5969feb3dc37465bbb7a97",
+      "changes": []
+    },
+    {
+      "test": "controls-browser.mjs",
+      "originalSHA256": "24b1cb621f94d806f7694ec69de574657eaad7418cd765978ce16cb9af4136aa",
+      "stagedSHA256": "24cea0e7c61d4a779d75c6c34a2f9529af2b7ac961c1c30c837c786a8c024bff",
+      "changes": [
+        "4411/4412 URLs -> owned ephemeral dev/preview ports",
+        "chromium.launch options -> selected browser/platform"
+      ]
+    },
+    {
+      "test": "controls-production.mjs",
+      "originalSHA256": "b59e2d8ae3c8d4685371a819a181e33a391c742de2d07e7952d3e7ca9f9d3556",
+      "stagedSHA256": "d8c1fbe6153c2a26d92859c3164eaba8bfe49c386d7fddd4c0b263cceadfd809",
+      "changes": [
+        "4411/4412 URLs -> owned ephemeral dev/preview ports",
+        "chromium.launch options -> selected browser/platform"
+      ]
+    },
+    {
+      "test": "browser.mjs",
+      "originalSHA256": "6e3c7a15b8eeb16c0fbd46ba206e3e5c5e771e5b58d8de129dc3427eacc1a961",
+      "stagedSHA256": "6b4e9a435427ac0c4ea21a10fb848434222e3baf6f2b531f76d0146cc522c4e7",
+      "changes": [
+        "4411/4412 URLs -> owned ephemeral dev/preview ports",
+        "chromium.launch options -> selected browser/platform"
+      ]
+    },
+    {
+      "test": "production.mjs",
+      "originalSHA256": "806f5a67a0a1cb34ccb869832835b963b80e96c0ef86c4e4b2c535ff83ad10d2",
+      "stagedSHA256": "aba0333a5bd6a00123670c4eca1a8452f109894f0567ba977106f055713515f7",
+      "changes": [
+        "4411/4412 URLs -> owned ephemeral dev/preview ports",
+        "chromium.launch options -> selected browser/platform"
+      ]
+    },
+    {
+      "test": "fault.mjs",
+      "originalSHA256": "e1f8d22a388d24ff4e62c4816f07da1936b6b8db3db6f7dfea6bc0a5086b35ca",
+      "stagedSHA256": "16c6e0bf1e3e0b17a98be17ce9e703e3e2358b6348b6c4a60d9c61d018c17456",
+      "changes": [
+        "4411/4412 URLs -> owned ephemeral dev/preview ports",
+        "chromium.launch options -> selected browser/platform"
+      ]
+    }
+  ],
+  "ok": true,
+  "scope": "Fresh isolated servers and artifacts; not original League of Legends fidelity proof.",
+  "sourceHashes": {
+    "src/config.js": "2d88cf7e47167efb5785c26a4c1d2288d234939030d54c0f280cd1880d34fed8",
+    "src/controls.js": "ac8ae0a6451b0efbe3ac505b837d9f31898f4448964b73c781dcb41578766256",
+    "src/main.js": "83ddd0ad77c0adfa6ded657738fdc57b2f31a2fad9bf74861af0da4f28b92dc5",
+    "src/simulation.js": "76e31cbee697ed0d4a4a83f67805fde502e0754056f6ad654436eb3e2c12295c",
+    "src/ui.js": "28e0e67a54a248fc6802650c5a9f13e11413da01015463f91a06991cc2999e2c",
+    "src/world.js": "c1760d0df32b8cd6a01418c843527643ccb6c930976bac1e447da33c241b35a1"
+  },
+  "servers": [
+    {
+      "kind": "dev",
+      "port": 60068,
+      "pid": 11951,
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/train-moba-skills-m12o2j_z/wangzhe-output/node_modules/vite/bin/vite.js",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "60068",
+        "--strictPort"
+      ]
+    },
+    {
+      "kind": "preview",
+      "port": 60076,
+      "pid": 11956,
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/train-moba-skills-m12o2j_z/wangzhe-output/node_modules/vite/bin/vite.js",
+        "preview",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "60076",
+        "--strictPort"
+      ]
+    }
+  ],
+  "browserLaunch": {
+    "headless": true,
+    "args": [
+      "--use-angle=metal"
+    ],
+    "channel": "chrome"
+  },
+  "naturalMatchEnded": true,
+  "finished": "2026-09-21T18:13:14.058084+08:00"
+}

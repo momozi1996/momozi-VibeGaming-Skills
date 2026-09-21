@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "vite": "6.3.5",
+    "playwright": "1.55.0"
+  },
+  "sourceNode": "v25.8.1",
+  "sourcePlatform": "darwin",
+  "sourceArch": "arm64",
+  "lockfileVersion": 3,
+  "notes": "Original environment is a provenance record, not a claim that other Node/browser combinations have been tested."
+}

@@ -1,0 +1,140 @@
+{
+  "passed": false,
+  "release": "2026.09.21-rc4",
+  "packages": [
+    {
+      "id": "maomao3dgame",
+      "passed": true,
+      "files": 88,
+      "zip_bytes": 18116226,
+      "sha256": "9c24c6be0ea2b5c1a5336bfe5b4415c773b15984999ba468420fa2de961f1f6f",
+      "errors": []
+    },
+    {
+      "id": "moshougame",
+      "passed": true,
+      "files": 174,
+      "zip_bytes": 28421762,
+      "sha256": "6a2fda723f4e99bdb38a6a2fa17cbd39e4b97b81f4f9ea915f02d8b61b02ce89",
+      "errors": []
+    },
+    {
+      "id": "allgame",
+      "passed": true,
+      "files": 280,
+      "zip_bytes": 46600004,
+      "sha256": "670ea2a87a29123e857ffed08e3e4ca91c5739fb4a8c89ef37160dbf20d81002",
+      "errors": []
+    },
+    {
+      "id": "survivorgame",
+      "passed": true,
+      "files": 49,
+      "zip_bytes": 811770,
+      "sha256": "6276d8c6e94dd3a281193436194d7b0c02d361afdfab71096e8deefdb381b2da",
+      "errors": []
+    },
+    {
+      "id": "towerdefensegame",
+      "passed": true,
+      "files": 49,
+      "zip_bytes": 790059,
+      "sha256": "857d0253dc06078c1f06a9833929abb5af784bca5d7f0d0bdf7fdfa83b6c96ce",
+      "errors": []
+    },
+    {
+      "id": "platformgame",
+      "passed": true,
+      "files": 49,
+      "zip_bytes": 667590,
+      "sha256": "1a19a4ad58e998ee8e502b4cea52358c5c6191031a649ff8a6cb8815b38b6321",
+      "errors": []
+    },
+    {
+      "id": "farmgame",
+      "passed": true,
+      "files": 49,
+      "zip_bytes": 869217,
+      "sha256": "1c877a5f3310541b705ae8883b6fec68b960c6c6705ea56c310b20f5e719e52f",
+      "errors": []
+    },
+    {
+      "id": "yimogame",
+      "passed": true,
+      "files": 135,
+      "zip_bytes": 171266327,
+      "sha256": "aa32c3458cf0fa9884d51098b5d66233f31707f1d8364e92d2162be98ebfc73c",
+      "errors": []
+    },
+    {
+      "id": "quanwanggame",
+      "passed": true,
+      "files": 265,
+      "zip_bytes": 173200783,
+      "sha256": "5972dc1ce3e285899ad927bc27d06ba1ee4a12d6254d7604888cb5c1f61d7601",
+      "errors": []
+    },
+    {
+      "id": "csgame",
+      "passed": true,
+      "files": 98,
+      "zip_bytes": 18334403,
+      "sha256": "7b15e63fdcba32b2fd218d22f9908ff66a944e342457ff2aaf6600ce82773e1f",
+      "errors": []
+    },
+    {
+      "id": "huochegame",
+      "passed": true,
+      "files": 83,
+      "zip_bytes": 8198668,
+      "sha256": "1de66ee4a79d37c5e36ef8f14d064fffdaad669a0fc5993ffbe9c907d6ea79b1",
+      "errors": []
+    },
+    {
+      "id": "wangzhegame",
+      "passed": true,
+      "files": 211,
+      "zip_bytes": 30778287,
+      "sha256": "b13adb777e1c8dde023d834d9c486ceff2049b3c07a824ee3a5b5c39c6cf6342",
+      "errors": []
+    }
+  ],
+  "errors": [
+    "allGame-验证报告.md: verification/allgame/package-report.json",
+    "allGame-验证报告.md: verification/allgame/selftest.json",
+    "allGame-验证报告.md: verification/allgame/zip-isolated-selftest.json",
+    "allGame-验证报告.md: verification/allgame/isolated-corruption-detected.json",
+    "allGame-验证报告.md: verification/allgame/racing-check/summary.json",
+    "allGame-验证报告.md: verification/allgame/racing-check/development/report.json",
+    "allGame-验证报告.md: verification/allgame/racing-check/production/report.json",
+    "allGame-验证报告.md: verification/allgame/adventure-check/summary.json",
+    "allGame-验证报告.md: verification/allgame/adventure-check/baseline/summary.json",
+    "allGame-验证报告.md: verification/allgame/adventure-check/baseline/screenshots/playthrough-report.json",
+    "allGame-验证报告.md: verification/allgame/adventure-check/baseline/screenshots/edge-report.json",
+    "allGame-验证报告.md: verification/allgame/adventure-check/baseline/screenshots/production-report.json",
+    "allGame-验证报告.md: verification/allgame/racing-probe/report.json",
+    "allGame-验证报告.md: verification/allgame/adventure-probe/report.json",
+    "allGame-验证报告.md: verification/allgame/racing-probe/02-started.png",
+    "allGame-验证报告.md: verification/allgame/adventure-probe/02-started.png",
+    "验证报告.md: verification/package-report.json",
+    "验证报告.md: verification/preset-builds.json",
+    "验证报告.md: verification/maomao-browser/report.json",
+    "验证报告.md: verification/maomao-production/report.json",
+    "验证报告.md: verification/moshou-browser-metal/summary.json",
+    "验证报告.md: verification/moshou-browser-metal/screenshots/playthrough-report.json",
+    "验证报告.md: verification/moshou-browser-metal/screenshots/edge-report.json",
+    "验证报告.md: verification/moshou-browser-metal/screenshots/production-report.json",
+    "验证报告.md: verification/moshou-capture/capture.json",
+    "验证报告.md: verification/maomao-helper.json",
+    "验证报告.md: verification/moshou-helper.json",
+    "验证报告.md: verification/maomao3dgame-zip-relocation.json",
+    "验证报告.md: verification/moshougame-zip-relocation.json",
+    "验证报告.md: verification/moshou-browser/summary.json",
+    "验证报告.md: verification/moshou-browser-retry/summary.json",
+    "验证报告.md: verification/maomao-browser/01-menu.png",
+    "验证报告.md: verification/maomao-browser/02-race.png",
+    "验证报告.md: verification/moshou-capture/01-courtyard.png",
+    "验证报告.md: verification/moshou-capture/04-quest.png"
+  ],
+  "scope": "Integrity, archive safety, README navigation. Not a gameplay, legal, vulnerability or privacy certification."
+}

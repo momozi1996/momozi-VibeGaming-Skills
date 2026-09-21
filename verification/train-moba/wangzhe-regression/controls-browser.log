@@ -1,0 +1,115 @@
+PASS Default control scheme is WASD, not colliding QWER
+PASS W really moves the hero from the actual spawn
+PASS KeyW moves correct direction
+PASS KeyW does not cast skills or flash
+PASS KeyW stops immediately on keyup
+PASS KeyS moves correct direction
+PASS KeyS does not cast skills or flash
+PASS KeyS stops immediately on keyup
+PASS KeyA moves correct direction
+PASS KeyA does not cast skills or flash
+PASS KeyA stops immediately on keyup
+PASS KeyD moves correct direction
+PASS KeyD does not cast skills or flash
+PASS KeyD stops immediately on keyup
+PASS ArrowUp moves correct direction
+PASS ArrowUp does not cast skills or flash
+PASS ArrowUp stops immediately on keyup
+PASS ArrowDown moves correct direction
+PASS ArrowDown does not cast skills or flash
+PASS ArrowDown stops immediately on keyup
+PASS ArrowLeft moves correct direction
+PASS ArrowLeft does not cast skills or flash
+PASS ArrowLeft stops immediately on keyup
+PASS ArrowRight moves correct direction
+PASS ArrowRight does not cast skills or flash
+PASS ArrowRight stops immediately on keyup
+PASS Diagonal movement is normalized (not sqrt(2) faster)
+PASS Opposite keys cancel movement
+PASS left ground click moves hero
+PASS right ground click moves hero
+PASS Held right mouse retargets movement
+PASS X stops click-to-move path
+PASS left enemy click sets attack target and deals damage
+PASS right enemy click sets attack target and deals damage
+PASS Hero 0 skill 1 keyboard activates
+PASS Hero 0 skill 1 canvas button activates
+PASS Hero 0 skill 2 keyboard activates
+PASS Hero 0 skill 2 canvas button activates
+PASS Hero 0 skill 3 keyboard activates
+PASS Hero 0 skill 3 canvas button activates
+PASS Hero 0 skill 4 keyboard activates
+PASS Hero 0 skill 4 canvas button activates
+PASS Hero 1 skill 1 keyboard activates
+PASS Hero 1 skill 1 canvas button activates
+PASS Hero 1 skill 2 keyboard activates
+PASS Hero 1 skill 2 canvas button activates
+PASS Hero 1 skill 3 keyboard activates
+PASS Hero 1 skill 3 canvas button activates
+PASS Hero 1 skill 4 keyboard activates
+PASS Hero 1 skill 4 canvas button activates
+PASS Hero 2 skill 1 keyboard activates
+PASS Hero 2 skill 1 canvas button activates
+PASS Hero 2 skill 2 keyboard activates
+PASS Hero 2 skill 2 canvas button activates
+PASS Hero 2 skill 3 keyboard activates
+PASS Hero 2 skill 3 canvas button activates
+PASS Hero 2 skill 4 keyboard activates
+PASS Hero 2 skill 4 canvas button activates
+PASS Hero 3 skill 1 keyboard activates
+PASS Hero 3 skill 1 canvas button activates
+PASS Hero 3 skill 2 keyboard activates
+PASS Hero 3 skill 2 canvas button activates
+PASS Hero 3 skill 3 keyboard activates
+PASS Hero 3 skill 3 canvas button activates
+PASS Hero 3 skill 4 keyboard activates
+PASS Hero 3 skill 4 canvas button activates
+PASS Hero 4 skill 1 keyboard activates
+PASS Hero 4 skill 1 canvas button activates
+PASS Hero 4 skill 2 keyboard activates
+PASS Hero 4 skill 2 canvas button activates
+PASS Hero 4 skill 3 keyboard activates
+PASS Hero 4 skill 3 canvas button activates
+PASS Hero 4 skill 4 keyboard activates
+PASS Hero 4 skill 4 canvas button activates
+PASS C switches to classic bindings
+PASS Classic KeyQ activates skill without movement
+PASS Classic KeyW activates skill without movement
+PASS Classic KeyE activates skill without movement
+PASS Classic KeyR activates skill without movement
+PASS Classic arrows still move hero
+PASS Native scheme button returns to WASD
+PASS keyboard flash moves by 400 and starts cooldown
+PASS keyboard heal starts cooldown
+PASS button flash moves by 400 and starts cooldown
+PASS button heal starts cooldown
+PASS Recall canvas button starts channel
+PASS Movement cancels recall
+PASS B starts channel
+PASS Mouse movement cancels recall
+PASS Right-click on item does not accidentally purchase
+PASS Left-click item buys and equips
+PASS Shop blocks keyboard movement
+PASS Close-shop button works
+PASS P opens shop
+PASS Esc closes shop without pausing
+PASS Esc pause freezes position/time
+PASS Resume does not retain held movement
+PASS Blur releases keyboard and resumes without stuck movement
+PASS Pause canvas button works
+PASS P cannot open hidden shop while paused
+PASS TAB opens scoreboard
+PASS TAB release closes scoreboard
+PASS Score header button opens scoreboard
+PASS Score header button closes scoreboard
+PASS Minimap left click unlocks camera
+PASS Minimap right click sets world route
+PASS Space returns follow camera
+PASS Y toggles follow camera
+PASS Wheel zoom works
+PASS Middle drag pans camera without steering player
+PASS Restart returns to fresh match
+PASS Menu button returns to hero select
+PASS Enter starts again
+PASS No normal-run page or HTTP errors
+{ passed: 114, errors: [], bad: [] }

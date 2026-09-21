@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "Production debug API absent",
+    "Production KeyW changes rendered hero position correctly",
+    "Production KeyS changes rendered hero position correctly",
+    "Production KeyA changes rendered hero position correctly",
+    "Production KeyD changes rendered hero position correctly",
+    "Production ArrowUp changes rendered hero position correctly",
+    "Production ArrowDown changes rendered hero position correctly",
+    "Production ArrowLeft changes rendered hero position correctly",
+    "Production ArrowRight changes rendered hero position correctly",
+    "Production left world click moves hero",
+    "Production right world click moves hero",
+    "Production skill key renders cooldown",
+    "Production shop opens and closes through real input",
+    "Production pause/resume buttons work",
+    "Production C switch updates native UI bindings",
+    "Production contains no HTML UI",
+    "No production runtime errors"
+  ],
+  "errors": [],
+  "browser": "153.0.8010.50",
+  "scope": "Actual dist, real keys/mouse, unmodified match starting at spawn. Test observes drawText positions to verify visible character movement; no simulation debug API."
+}

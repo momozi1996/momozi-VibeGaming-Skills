@@ -1,0 +1,536 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="/"><link rel="icon" href="data:,"><title>README local Markdown preview</title><style>*{box-sizing:border-box}body{margin:0;background:#fff;color:#1f2328;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;line-height:1.5;font-size:16px}.markdown-body{max-width:1012px;margin:24px auto;padding:32px;border:1px solid #d1d9e0;border-radius:6px;overflow-wrap:break-word}.markdown-body img{max-width:100%;height:auto;display:inline-block;vertical-align:middle}.markdown-body h1,.markdown-body h2{border-bottom:1px solid #d1d9e0;padding-bottom:.3em}.markdown-body h1{font-size:2em}.markdown-body h2{font-size:1.5em;margin-top:24px}.markdown-body h3{font-size:1.25em;margin-top:24px}.markdown-body a{color:#0969da;text-decoration:none}.markdown-body p{margin-top:0;margin-bottom:16px}.markdown-body table{display:block;max-width:100%;width:max-content;overflow:auto;border-spacing:0;border-collapse:collapse;margin-bottom:16px}.markdown-body th,.markdown-body td{padding:6px 13px;border:1px solid #d1d9e0}.markdown-body tr:nth-child(2n){background:#f6f8fa}.markdown-body pre{padding:16px;overflow:auto;background:#f6f8fa;border-radius:6px;font-size:85%}.markdown-body code{font-family:ui-monospace,SFMono-Regular,monospace;background:#f6f8fa;padding:.2em .4em;border-radius:6px}.markdown-body pre code{padding:0}.markdown-body blockquote{margin-left:0;padding:0 1em;color:#59636e;border-left:.25em solid #d1d9e0}@media(max-width:767px){.markdown-body{margin:0;padding:16px;border:0}}@media(prefers-color-scheme:dark){body{background:#0d1117;color:#f0f6fc}.markdown-body{border-color:#3d444d}.markdown-body a{color:#4493f8}.markdown-body h1,.markdown-body h2,.markdown-body th,.markdown-body td{border-color:#3d444d}.markdown-body tr:nth-child(2n),.markdown-body pre,.markdown-body code{background:#151b23}}</style></head><body><article class="markdown-body"><h1 id="vibegaming--game-skill-packages">VibeGaming · Game Skill Packages</h1>
+<p><strong>安装一个 skill，从完整工程出发，和 AI 一起做出真正能玩的游戏。</strong></p>
+<p>VibeGaming 是面向游戏创作者与 Code Agent 的独立游戏技能库。每个包都把<strong>完整源码、本地美术、游戏机制、启动工具和制作经验</strong>放在一起：可以先复刻成品，再换角色、改场景、设计新的玩法。</p>
+<p><strong>12 个独立包 · 3D / 2D 多种玩法 · 30 张实机截图 · 按需安装</strong></p>
+<p><a href="#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B">快速开始</a> · <a href="#%E6%B8%B8%E6%88%8F%E7%9B%AE%E5%BD%95">游戏目录</a> · <a href="#%E5%AE%89%E8%A3%85%E4%B8%8E%E6%9B%B4%E6%96%B0">安装与更新</a> · <a href="#%E8%B0%83%E7%94%A8%E7%A4%BA%E4%BE%8B">调用示例</a> · <a href="#%E7%9C%8B%E5%AE%9E%E9%99%85%E7%94%BB%E9%9D%A2">看实际画面</a> · <a href="#%E4%B8%8D%E7%BB%8F%E8%BF%87%E6%A8%A1%E5%9E%8B%E7%9B%B4%E6%8E%A5%E7%94%9F%E6%88%90%E5%92%8C%E5%90%AF%E5%8A%A8">直接运行</a> · <a href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98">常见问题</a></p>
+<p><a href="#%E7%9C%8B%E5%AE%9E%E9%99%85%E7%94%BB%E9%9D%A2"><img src="docs/images/game-skill-cover.jpg" alt="六款游戏实机画面：赛车、云海电车、峡谷、农场、平台跳跃与格斗" /></a></p>
+<h2 id="你会得到什么">你会得到什么</h2>
+<ul>
+<li><strong>一个可玩的起点</strong>：赛车、冒险、格斗、经营、MOBA等，每个包包含自己对应的完整玩法，而不只是菜单或提示词。</li>
+<li><strong>配套画面与资源</strong>：角色、场景、UI、音效及制作资料随包提供，常规运行无需再搜集素材或调用生图服务。</li>
+<li><strong>可以继续创作的源码</strong>：从已完成工程改造，而不是每次从空白页面重写；包内指引解释玩法、美术、镜头与UI如何一起改。</li>
+<li><strong>独立安装、跨 Agent 使用</strong>：只选一个包即可，不依赖其他skill或原始note。支持读取本地文件、执行命令的Code Agent；不支持技能发现时也可以直接读取 <code>SKILL.md</code>。</li>
+</ul>
+<blockquote>
+<p>当前版本：<strong><code>2026.09.21-rc4</code>（预发布）</strong>。各包的运行前置和许可范围不同；请先查看<a href="#%E7%8E%AF%E5%A2%83%E4%B8%8E%E7%A6%BB%E7%BA%BF%E8%83%BD%E5%8A%9B">环境要求</a>与<a href="#%E4%BD%BF%E7%94%A8%E8%AE%B8%E5%8F%AF">使用许可</a>。本项目不代表任何游戏厂商的官方客户端或授权。</p>
+</blockquote>
+<h2 id="快速开始">快速开始</h2>
+<h3 id="1-选一个游戏包">1. 选一个游戏包</h3>
+<p>第一次尝试可选 <a href="huocheGame.zip">huocheGame.zip</a>：云海电车、停站换客和工坊改装。直接试玩只需Python 3.9+与WebGL浏览器，无需npm。也可以从下方<a href="#%E6%B8%B8%E6%88%8F%E7%9B%AE%E5%BD%95">游戏目录</a>选择其他类型。</p>
+<h3 id="2-安装完整-skill">2. 安装完整 skill</h3>
+<p>下载ZIP及对应的 <a href="huocheGame.zip.sha256">SHA-256文件</a>，校验后解压。把整个 <code>huochegame/</code> 放入你的Agent技能目录，刷新技能列表或新开会话。<strong>不要只复制SKILL.md。</strong> <a href="#%E5%AE%89%E8%A3%85%E4%B8%8E%E6%9B%B4%E6%96%B0">完整安装步骤</a></p>
+<h3 id="3-在聊天框调用">3. 在聊天框调用</h3>
+<pre><code class="language-text">使用 $huochegame，在新目录 my-cloudline 完整生成云间慢行。
+保留群岛、电车、手动驾驶、停站换客、工坊改装与存档，直接启动让我玩。
+</code></pre>
+<p>Agent会读取技能、生成独立项目并启动本地游戏。首次运行完成后，你可以继续说：</p>
+<pre><code class="language-text">把它改成雪山邮政电车：改造车厢、站台、建筑和灯光，保留驾驶与停站闭环。
+修改源码后重新构建，给我可玩的地址和新截图。
+</code></pre>
+<p><strong>安装skill不是运行游戏本身</strong>；调用后由Agent执行生成/启动步骤。仅能聊天、不能操作本地文件和终端的模型，需要由你按<a href="#%E4%B8%8D%E7%BB%8F%E8%BF%87%E6%A8%A1%E5%9E%8B%E7%9B%B4%E6%8E%A5%E7%94%9F%E6%88%90%E5%92%8C%E5%90%AF%E5%8A%A8">直接运行</a>中的命令操作。</p>
+<h2 id="游戏目录">游戏目录</h2>
+<table>
+<thead>
+<tr>
+<th>独立包</th>
+<th>安装文件夹 / 调用 ID</th>
+<th>完整游戏起点</th>
+<th style="text-align:right">ZIP 大小</th>
+<th>详细说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="maomao3Dgame.zip">maomao3Dgame.zip</a></td>
+<td><code>maomao3dgame</code> / <code>$maomao3dgame</code></td>
+<td>3D猫猫卡丁车；选人、漂移道具、完赛、触屏、摄影</td>
+<td style="text-align:right">17.3 MiB</td>
+<td><a href="%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">说明</a></td>
+</tr>
+<tr>
+<td><a href="moshougame.zip">moshougame.zip</a></td>
+<td><code>moshougame</code> / <code>$moshougame</code></td>
+<td>3D奇幻冒险；战斗、采集、任务、奖励、存档</td>
+<td style="text-align:right">27.1 MiB</td>
+<td><a href="%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">说明</a></td>
+</tr>
+<tr>
+<td><a href="allGame.zip">allGame.zip</a></td>
+<td><code>allgame</code> / <code>$allgame</code></td>
+<td>赛车＋第三人称冒险两套基础与通用创作方法</td>
+<td style="text-align:right">44.4 MiB</td>
+<td><a href="allGame-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">说明</a></td>
+</tr>
+<tr>
+<td><a href="survivorGame.zip">survivorGame.zip</a></td>
+<td><code>survivorgame</code> / <code>$survivorgame</code></td>
+<td>月灯守夜人；自动攻击、升级选卡、首领终局</td>
+<td style="text-align:right">0.8 MiB</td>
+<td><a href="%E5%88%9B%E4%BD%9C%E6%B8%B8%E6%88%8F-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">说明</a></td>
+</tr>
+<tr>
+<td><a href="towerDefenseGame.zip">towerDefenseGame.zip</a></td>
+<td><code>towerdefensegame</code> / <code>$towerdefensegame</code></td>
+<td>灯火小径；建塔、升级拆除、敌潮和胜负</td>
+<td style="text-align:right">0.8 MiB</td>
+<td><a href="%E5%88%9B%E4%BD%9C%E6%B8%B8%E6%88%8F-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">说明</a></td>
+</tr>
+<tr>
+<td><a href="platformGame.zip">platformGame.zip</a></td>
+<td><code>platformgame</code> / <code>$platformgame</code></td>
+<td>云屿邮差；三关、二段跳、收集、检查点、终点</td>
+<td style="text-align:right">0.6 MiB</td>
+<td><a href="%E5%88%9B%E4%BD%9C%E6%B8%B8%E6%88%8F-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">说明</a></td>
+</tr>
+<tr>
+<td><a href="farmGame.zip">farmGame.zip</a></td>
+<td><code>farmgame</code> / <code>$farmgame</code></td>
+<td>风物小园；种植、浇水、收获、订单、修缮、存档</td>
+<td style="text-align:right">0.8 MiB</td>
+<td><a href="%E5%88%9B%E4%BD%9C%E6%B8%B8%E6%88%8F-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">说明</a></td>
+</tr>
+<tr>
+<td><a href="yimoGame.zip">yimoGame.zip</a></td>
+<td><code>yimogame</code> / <code>$yimogame</code></td>
+<td>风栖原野；3D探索、捕捉、联结变身、委托完成</td>
+<td style="text-align:right">163.3 MiB</td>
+<td><a href="yimoGame-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">说明</a></td>
+</tr>
+<tr>
+<td><a href="quanwangGame.zip">quanwangGame.zip</a></td>
+<td><code>quanwanggame</code> / <code>$quanwanggame</code></td>
+<td>霓虹对决；街机格斗、人机/双人/训练、必杀连击</td>
+<td style="text-align:right">165.2 MiB</td>
+<td><a href="quanwangGame-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">说明</a></td>
+</tr>
+<tr>
+<td><a href="CSGame.zip">CSGame.zip</a></td>
+<td><code>csgame</code> / <code>$csgame</code></td>
+<td>3D单人战术FPS；AI射击、买枪、狙击、拆弹和回合胜负</td>
+<td style="text-align:right">17.5 MiB</td>
+<td><a href="CSGame-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">说明</a></td>
+</tr>
+<tr>
+<td><a href="huocheGame.zip">huocheGame.zip</a></td>
+<td><code>huochegame</code> / <code>$huochegame</code></td>
+<td>3D电车驾驶；群岛线路、停站换客、奖励、工坊改装</td>
+<td style="text-align:right">7.8 MiB</td>
+<td><a href="huocheGame-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">说明</a></td>
+</tr>
+<tr>
+<td><a href="wangzheGame.zip">wangzheGame.zip</a></td>
+<td><code>wangzhegame</code> / <code>$wangzhegame</code></td>
+<td>3D单机5v5 MOBA；五英雄、三路兵线、技能装备、推塔胜负</td>
+<td style="text-align:right">29.4 MiB</td>
+<td><a href="wangzheGame-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md">说明</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>选择建议：</strong> 明确要某种游戏就选对应专用包；赛车/探索混合创作可选 allgame。allgame 提供赛车和第三人称冒险两种基础，适合延展相近玩法。</p>
+<p>原样复刻从完整实现开始；内置主题可以直接选用；新的场景、角色和机制由 Agent 在此基础上继续实现。显示名/ZIP 保留大小写，安装目录和调用 ID 统一小写。</p>
+<h2 id="安装与更新">安装与更新</h2>
+<h3 id="方式一安装独立-zip">方式一：安装独立 ZIP</h3>
+<ol>
+<li>
+<p>取得表中的ZIP和同名 <code>.zip.sha256</code>，只下载需要的一个包即可。</p>
+</li>
+<li>
+<p>校验完整性。以电车包为例：</p>
+<pre><code class="language-bash"># macOS
+shasum -a 256 -c huocheGame.zip.sha256
+# Linux
+sha256sum -c huocheGame.zip.sha256
+</code></pre>
+<p>Windows PowerShell：<code>Get-FileHash .\huocheGame.zip -Algorithm SHA256</code>，对照 <code>.sha256</code> 中的值。哈希用于检测下载损坏或内容变更，不是作者签名。</p>
+</li>
+<li>
+<p>解压得到小写名称的目录，例如 <code>huochegame/</code>，把<strong>整个目录</strong>复制到Agent的技能目录。</p>
+</li>
+<li>
+<p>刷新技能列表或新开会话，然后在聊天框输入调用示例。</p>
+</li>
+</ol>
+<p>Codex使用实际 <code>$CODEX_HOME/skills/</code>，未设置时通常为 <code>~/.codex/skills/</code>。其他Agent使用其文档指定的目录；不同客户端不必相同。</p>
+<p>正确结构如下，不要多嵌套一层同名目录：</p>
+<pre><code class="language-text">&lt;你的Agent技能目录&gt;/
+└── huochegame/
+    ├── SKILL.md
+    ├── agents/
+    ├── assets/
+    ├── references/
+    └── scripts/
+</code></pre>
+<h3 id="方式二从完整仓库安装">方式二：从完整仓库安装</h3>
+<p>在本仓库根目录执行。安装器只校验和复制一个本地skill，不联网、不启动游戏，也不安装全局依赖。</p>
+<pre><code class="language-bash"># macOS / Linux：预览，再安装
+python3 scripts/install_skill.py --skill huochegame \
+  --skills-dir &quot;${CODEX_HOME:-$HOME/.codex}/skills&quot; --dry-run
+python3 scripts/install_skill.py --skill huochegame \
+  --skills-dir &quot;${CODEX_HOME:-$HOME/.codex}/skills&quot;
+</code></pre>
+<pre><code class="language-powershell"># Windows PowerShell
+$SkillDir = if ($env:CODEX_HOME) { Join-Path $env:CODEX_HOME &quot;skills&quot; } else { Join-Path $HOME &quot;.codex/skills&quot; }
+py -3 scripts/install_skill.py --skill huochegame --skills-dir $SkillDir
+</code></pre>
+<p>把 <code>--skill</code> 换成游戏目录中的任一小写ID。<strong>升级时先备份并移走旧版同名skill</strong>，安装器不会覆盖已有目录。已经生成的游戏项目是独立副本，更新skill不会自动修改它。</p>
+<h3 id="不支持自动发现-skills-的-agent">不支持自动发现 skills 的 Agent</h3>
+<p>将路径替换成你实际安装的位置，发送：</p>
+<pre><code class="language-text">读取 /实际路径/huochegame/SKILL.md，以该目录为资源根。
+在工作区新目录完整生成并启动游戏，使用包内资源，不只给方案。
+</code></pre>
+<p><code>agents/openai.yaml</code>为支持它的客户端提供展示元信息；其他Agent可直接使用SKILL.md与随包文件。</p>
+<h3 id="git-克隆与大文件">Git 克隆与大文件</h3>
+<p>仓库中三个大文件使用Git LFS属性。通过Git获取时，需要完整的LFS实体；只有 <code>version https://git-lfs.github.com/spec/v1</code> 开头的小文本不能作为ZIP或离线缓存使用。不要默认GitHub的“Download ZIP”包含所有LFS内容。</p>
+<p>本README中的下载链接指向<strong>仓库内的文件</strong>，当前没有另设公开Release或在线Demo地址。分发前的LFS准备、干净导出和发布检查见<a href="docs/PUBLISHING.md">维护指南</a>。</p>
+<h2 id="调用示例">调用示例</h2>
+<p>以下均为<strong>聊天提示词</strong>。安装名小写、<code>$</code> 是支持该语法的 Agent 的显式调用标记；其他 Agent 用“读取对应 SKILL.md”替代。</p>
+<h3 id="1-maomao3dgame--猫猫赛车">1. maomao3dgame — 猫猫赛车</h3>
+<pre><code class="language-text">使用 $maomao3dgame，在新目录 my-kart 按 exact 模式完整复刻猫猫赛车。
+保留选人、漂移、道具、完赛和触屏；生成并启动让我驾驶，不要只做主页。
+</code></pre>
+<p>换主题：要求“樱花山谷”，先用 <code>sakura</code> 可运行换肤，再让 Agent 实际改树木、赛道地标和 UI；不要把换配色等同于已经换了整个世界。</p>
+<h3 id="2-moshougame--奇幻任务">2. moshougame — 奇幻任务</h3>
+<pre><code class="language-text">使用 $moshougame，在新目录 my-adventure 完整生成第三人称奇幻任务游戏。
+保留移动战斗、采集、接交任务、奖励和存档，安装项目依赖并启动让我玩。
+</code></pre>
+<h3 id="3-allgame--通用3d创作">3. allgame — 通用3D创作</h3>
+<pre><code class="language-text">使用 $allgame，选择 racing 基础，在新目录 my-island-race 制作海岛计时赛。
+先运行完整赛车工程，再实际实现计时目标、结果界面和重开，交付可玩的地址。
+</code></pre>
+<p>探索任务用 <code>adventure</code> 基础。不是要求它凭空同时实现所有游戏类型。</p>
+<h3 id="4-survivorgame--生存割草">4. survivorgame — 生存割草</h3>
+<pre><code class="language-text">使用 $survivorgame，在新目录 my-survivor 生成月灯守夜人。
+保留自动攻击、升级选卡、冲刺星环和首领终局，直接启动让我玩。
+</code></pre>
+<h3 id="5-towerdefensegame--塔防">5. towerdefensegame — 塔防</h3>
+<pre><code class="language-text">使用 $towerdefensegame，在新目录 my-tower-defense 生成灯火小径。
+保留建造、升级拆除、完整敌潮和胜负结算，直接启动让我玩。
+</code></pre>
+<h3 id="6-platformgame--平台跳跃">6. platformgame — 平台跳跃</h3>
+<pre><code class="language-text">使用 $platformgame，在新目录 my-platform 生成云屿邮差。
+保留三关、二段跳、收集、敌人、检查点、钥匙和终点，直接启动让我玩。
+</code></pre>
+<h3 id="7-farmgame--农场">7. farmgame — 农场</h3>
+<pre><code class="language-text">使用 $farmgame，在新目录 my-farm 生成风物小园。
+保留种植浇水、生长收获、售卖订单、修缮和本地存档，直接启动让我玩。
+</code></pre>
+<h3 id="8-yimogame--3d萌宠探索">8. yimogame — 3D萌宠探索</h3>
+<pre><code class="language-text">使用 $yimogame，在新目录 my-yimo 完整复刻风栖原野。
+保留3D角色场景、捕捉、伙伴联结、地图图鉴、委托通关和存档，直接生成并启动。
+</code></pre>
+<h3 id="9-quanwanggame--街机格斗">9. quanwanggame — 街机格斗</h3>
+<pre><code class="language-text">使用 $quanwanggame，在新目录 my-fighter 完整复刻霓虹对决。
+保留原生角色动画、街机选人、人机/双人/训练、必杀连击与回合胜负，直接生成并启动。
+</code></pre>
+<h3 id="10-csgame--单人战术fps">10. csgame — 单人战术FPS</h3>
+<pre><code class="language-text">使用 $csgame，在新目录 my-counterline 完整复刻 COUNTERLINE — Dust Protocol。
+保留原创3D地图、武器与敌人、买枪、狙击、拆弹和回合胜负，直接生成并启动让我玩。
+不要只做菜单；先用包内成品运行，不必先装npm或从零重写。
+</code></pre>
+<p>改造示例：“以完整游戏为起点做冬日仓库拆弹，实际改建筑、地标、材质和光照，保留射击与回合闭环。”新主题需要 Agent 修改源码并重建，不是现成一键皮肤。</p>
+<h3 id="11-huochegame--云海电车">11. huochegame — 云海电车</h3>
+<pre><code class="language-text">使用 $huochegame，在新目录 my-cloudline 完整复刻 CLOUDLINE／云间慢行。
+保留群岛、电车、手动驾驶、停站换客、奖励、工坊改装与存档，直接生成并启动让我玩。
+先恢复包内完整成品，不要只写方案或从零搭空架子。
+</code></pre>
+<p>改造示例：“改成雪山邮政电车，实际改车体、主站、地标和灯光，保留驾驶→停站→交付→改装闭环。”新主题需改代码，不是已内置snow皮肤。</p>
+<h3 id="12-wangzhegame--单机5v5-moba">12. wangzhegame — 单机5v5 MOBA</h3>
+<pre><code class="language-text">使用 $wangzhegame，在新目录 my-rift 完整复刻 RIFT FORGE／峡谷演武 v0.1.1。
+保留五英雄、三路AI与兵线、技能、商店、推塔和枢纽胜负，直接生成并启动让我玩。
+保持默认WASD移动、1–4技能，不退回旧键位；先运行完整dist，不只做菜单。
+</code></pre>
+<p>改造示例：“改为冰原峡谷，联动地形、导航、小地图和阵营地标，保留单机对局闭环。”原创发行还须替换Riot版权资产及衍生数据，不能只改标题后称全原创。</p>
+<h3 id="换风格角色地图的通用补充">换风格/角色/地图的通用补充</h3>
+<pre><code class="language-text">以完整可玩工程为起点，把主题改成【你的设定】。
+真正修改角色轮廓、场景布局、光色和HUD，不只改名字。
+保留【需要的玩法闭环】，全部修改在新项目目录中进行；重新构建并启动，
+提供实际截图、操作方法与未完成项，不修改skill里的冻结参考工程。
+</code></pre>
+<h2 id="看实际画面">看实际画面</h2>
+<p><strong>12 个 skill，30 张实机截图。</strong> 展示包内工程的场景、玩法和主题变化。图片来自实际运行与验收基线；部分采用固定测试状态，不代表完整人工通关。</p>
+<p>点击图片查看大图。所有展示图随仓库提供，不依赖外部图床。<a href="docs/images/README.md">截图来源</a>。</p>
+<p>快速跳到：<a href="#maomao3dgame--%E7%8C%AB%E7%8C%AB%E5%8D%A1%E4%B8%81%E8%BD%A6">猫猫赛车</a> · <a href="#moshougame--%E7%AC%AC%E4%B8%89%E4%BA%BA%E7%A7%B0%E5%A5%87%E5%B9%BB%E4%BB%BB%E5%8A%A1">奇幻任务</a> · <a href="#allgame--%E4%B8%A4%E5%A5%97%E5%8F%AF%E6%94%B9%E9%80%A0%E7%9A%84-3d-%E5%9F%BA%E7%A1%80">通用3D</a> · <a href="#survivorgame--%E6%9C%88%E7%81%AF%E5%AE%88%E5%A4%9C%E4%BA%BA">生存</a> · <a href="#towerdefensegame--%E7%81%AF%E7%81%AB%E5%B0%8F%E5%BE%84">塔防</a> · <a href="#platformgame--%E4%BA%91%E5%B1%BF%E9%82%AE%E5%B7%AE">平台</a> · <a href="#farmgame--%E9%A3%8E%E7%89%A9%E5%B0%8F%E5%9B%AD">农场</a> · <a href="#yimogame--%E9%A3%8E%E6%A0%96%E5%8E%9F%E9%87%8E">萌宠探索</a> · <a href="#quanwanggame--%E9%9C%93%E8%99%B9%E5%AF%B9%E5%86%B3">格斗</a> · <a href="#csgame--%E5%8D%95%E4%BA%BA%E6%88%98%E6%9C%AFfps">战术FPS</a> · <a href="#huochegame--%E4%BA%91%E9%97%B4%E6%85%A2%E8%A1%8C">云海电车</a> · <a href="#wangzhegame--%E5%B3%A1%E8%B0%B7%E6%BC%94%E6%AD%A6">单机MOBA</a></p>
+<h3 id="maomao3dgame--猫猫卡丁车">maomao3dgame — 猫猫卡丁车</h3>
+<p>选角色、驶入赛道；展示完整工程的选人界面和实际驾驶画面。</p>
+<p><strong>角色选择：猫猫车手与卡丁车</strong></p>
+<p><a href="docs/images/maomao-select.jpg"><img src="docs/images/maomao-select.jpg" alt="角色选择：猫猫车手与卡丁车" /></a></p>
+<p><strong>比赛中：海岛赛道、驾驶 HUD 与道具入口</strong></p>
+<p><a href="docs/images/maomao-race.jpg"><img src="docs/images/maomao-race.jpg" alt="比赛中：海岛赛道、驾驶 HUD 与道具入口" /></a></p>
+<h3 id="moshougame--第三人称奇幻任务">moshougame — 第三人称奇幻任务</h3>
+<p>不只看建筑：同时展示修道院庭院与森林探索场景。</p>
+<p><strong>庭院：第三人称角色、修道院与任务 HUD</strong></p>
+<p><a href="docs/images/moshou-courtyard.jpg"><img src="docs/images/moshou-courtyard.jpg" alt="庭院：第三人称角色、修道院与任务 HUD" /></a></p>
+<p><strong>森林：户外探索、植被层次与角色视角</strong></p>
+<p><a href="docs/images/moshou-forest.jpg"><img src="docs/images/moshou-forest.jpg" alt="森林：户外探索、植被层次与角色视角" /></a></p>
+<h3 id="allgame--两套可改造的-3d-基础">allgame — 两套可改造的 3D 基础</h3>
+<p>同一个 skill 内含 racing 与 adventure 两套起点。以下为内置换肤实拍；不是另外两款新玩法，也不代表任意主题已经实现。</p>
+<p><strong>racing 基础：樱花配色的猫猫赛车选人界面</strong></p>
+<p><a href="docs/images/allgame-racing.jpg"><img src="docs/images/allgame-racing.jpg" alt="racing 基础：樱花配色的猫猫赛车选人界面" /></a></p>
+<p><strong>adventure 基础：第三人称庭院的环境换肤示例</strong></p>
+<p><a href="docs/images/allgame-adventure.jpg"><img src="docs/images/allgame-adventure.jpg" alt="adventure 基础：第三人称庭院的环境换肤示例" /></a></p>
+<h3 id="survivorgame--月灯守夜人">survivorgame — 月灯守夜人</h3>
+<p>生存战斗和另一套主题分别展示，不再缩在四合一拼图里。</p>
+<p><strong>战斗中：夜色场景、敌潮、角色与状态 HUD</strong></p>
+<p><a href="docs/images/survivor-play.jpg"><img src="docs/images/survivor-play.jpg" alt="战斗中：夜色场景、敌潮、角色与状态 HUD" /></a></p>
+<p><strong>另一主题：余烬守夜人的开始界面</strong></p>
+<p><a href="docs/images/survivor-theme.jpg"><img src="docs/images/survivor-theme.jpg" alt="另一主题：余烬守夜人的开始界面" /></a></p>
+<h3 id="towerdefensegame--灯火小径">towerdefensegame — 灯火小径</h3>
+<p>展示实际防守路线、建塔界面，以及另一套主题的开始画面。</p>
+<p><strong>防守中：村庄路线、晶塔、敌人和建造操作</strong></p>
+<p><a href="docs/images/tower-defense-play.jpg"><img src="docs/images/tower-defense-play.jpg" alt="防守中：村庄路线、晶塔、敌人和建造操作" /></a></p>
+<p><strong>另一主题：雪原灯径的开始界面</strong></p>
+<p><a href="docs/images/tower-defense-theme.jpg"><img src="docs/images/tower-defense-theme.jpg" alt="另一主题：雪原灯径的开始界面" /></a></p>
+<h3 id="platformgame--云屿邮差">platformgame — 云屿邮差</h3>
+<p>展示角色跑跳的关卡场景，以及暮色主题。</p>
+<p><strong>关卡中：狐狸邮差、浮岛、收集物和终点路线</strong></p>
+<p><a href="docs/images/platform-play.jpg"><img src="docs/images/platform-play.jpg" alt="关卡中：狐狸邮差、浮岛、收集物和终点路线" /></a></p>
+<p><strong>另一主题：晚霞邮差的开始界面</strong></p>
+<p><a href="docs/images/platform-theme.jpg"><img src="docs/images/platform-theme.jpg" alt="另一主题：晚霞邮差的开始界面" /></a></p>
+<h3 id="farmgame--风物小园">farmgame — 风物小园</h3>
+<p>展示可操作的农田与经营 HUD，再对照另一套季节主题。</p>
+<p><strong>经营中：田地作物、小镇建筑、订单与种植操作</strong></p>
+<p><a href="docs/images/farm-play.jpg"><img src="docs/images/farm-play.jpg" alt="经营中：田地作物、小镇建筑、订单与种植操作" /></a></p>
+<p><strong>另一主题：丰物小园的秋色开始界面</strong></p>
+<p><a href="docs/images/farm-theme.jpg"><img src="docs/images/farm-theme.jpg" alt="另一主题：丰物小园的秋色开始界面" /></a></p>
+<h3 id="yimogame--风栖原野">yimogame — 风栖原野</h3>
+<p>除了草地风景，也展示联结后的角色变化与伙伴图鉴。</p>
+<p><strong>探索中：角色、原野、伙伴与任务界面</strong></p>
+<p><a href="docs/images/yimo-field.jpg"><img src="docs/images/yimo-field.jpg" alt="探索中：角色、原野、伙伴与任务界面" /></a></p>
+<p><strong>联结后：以伙伴形态在原野中行动</strong></p>
+<p><a href="docs/images/yimo-linked.jpg"><img src="docs/images/yimo-linked.jpg" alt="联结后：以伙伴形态在原野中行动" /></a></p>
+<p><strong>伙伴图鉴：已发现伙伴与资料面板</strong></p>
+<p><a href="docs/images/yimo-dex.jpg"><img src="docs/images/yimo-dex.jpg" alt="伙伴图鉴：已发现伙伴与资料面板" /></a></p>
+<h3 id="quanwanggame--霓虹对决">quanwanggame — 霓虹对决</h3>
+<p>选人、近身攻击和必杀分别展示；保留 PNG，避免有损压缩抹糊像素角色。</p>
+<p><strong>街机选人：AVA 与 REN、模式与操作入口</strong></p>
+<p><a href="docs/images/quanwang-select.png"><img src="docs/images/quanwang-select.png" alt="街机选人：AVA 与 REN、模式与操作入口" /></a></p>
+<p><strong>对战中：重攻击动作、生命条和对战 HUD</strong></p>
+<p><a href="docs/images/quanwang-kick.png"><img src="docs/images/quanwang-kick.png" alt="对战中：重攻击动作、生命条和对战 HUD" /></a></p>
+<p><strong>必杀演示：角色动作与攻击特效</strong></p>
+<p><a href="docs/images/quanwang-special.png"><img src="docs/images/quanwang-special.png" alt="必杀演示：角色动作与攻击特效" /></a></p>
+<h3 id="csgame--单人战术fps">csgame — 单人战术FPS</h3>
+<p>COUNTERLINE — Dust Protocol：原创沙色院落、1对3 AI与拆弹回合。下图来自包内原工程实机基线；不是官方CS2画面。仅桌面键鼠。</p>
+<p><strong>菜单：真实3D院落与部署入口</strong></p>
+<p><a href="docs/images/csgame-menu.jpg"><img src="docs/images/csgame-menu.jpg" alt="菜单：真实3D院落与部署入口" /></a></p>
+<p><strong>交战：第一人称武器、敌人与战术HUD</strong></p>
+<p><a href="docs/images/csgame-gameplay.jpg"><img src="docs/images/csgame-gameplay.jpg" alt="交战：第一人称武器、敌人与战术HUD" /></a></p>
+<p><strong>目标交互：A点持续拆弹与进度条</strong></p>
+<p><a href="docs/images/csgame-defusing.jpg"><img src="docs/images/csgame-defusing.jpg" alt="目标交互：A点持续拆弹与进度条" /></a></p>
+<p><strong>狙击：开镜视野与瞄准HUD</strong></p>
+<p><a href="docs/images/csgame-scope.jpg"><img src="docs/images/csgame-scope.jpg" alt="狙击：开镜视野与瞄准HUD" /></a></p>
+<h3 id="huochegame--云间慢行">huochegame — 云间慢行</h3>
+<p>CLOUDLINE：完整3D群岛电车、手动驾驶、停站换客和工坊改装。程序化美术与声音，离线单文件可玩；下图为包内原工程实机基线。</p>
+<p><strong>驾驶：悬空轨道、群岛云海、电车与驾驶HUD</strong></p>
+<p><a href="docs/images/huoche-driving.jpg"><img src="docs/images/huoche-driving.jpg" alt="驾驶：悬空轨道、群岛云海、电车与驾驶HUD" /></a></p>
+<p><strong>到站：Mango站台、停靠车辆与换客操作</strong></p>
+<p><a href="docs/images/huoche-docked.jpg"><img src="docs/images/huoche-docked.jpg" alt="到站：Mango站台、停靠车辆与换客操作" /></a></p>
+<p><strong>工坊：独立立体场景、改装车体与完成状态</strong></p>
+<p><a href="docs/images/huoche-workshop.jpg"><img src="docs/images/huoche-workshop.jpg" alt="工坊：独立立体场景、改装车体与完成状态" /></a></p>
+<h3 id="wangzhegame--峡谷演武">wangzhegame — 峡谷演武</h3>
+<p>RIFT FORGE v0.1.1：单机5v5 MOBA。菜单/HUD均在游戏canvas中，只有桌面键鼠，无多人服务。<strong>插画、头像、技能/装备图标含Riot专有内容，不是全原创，也不是官方王者/LOL客户端。</strong> 以下为包内实机基线，战场图含测试固定状态，不是新一轮自然对局截图。</p>
+<p><strong>选人：五英雄入口、插画与模式选择</strong></p>
+<p><a href="docs/images/wangzhe-menu.jpg"><img src="docs/images/wangzhe-menu.jpg" alt="选人：五英雄入口、插画与模式选择" /></a></p>
+<p><strong>峡谷：程序化3D英雄、基地、兵线与原生HUD</strong></p>
+<p><a href="docs/images/wangzhe-battle.jpg"><img src="docs/images/wangzhe-battle.jpg" alt="峡谷：程序化3D英雄、基地、兵线与原生HUD" /></a></p>
+<p><strong>商店：完整装备面板与对局场景</strong></p>
+<p><a href="docs/images/wangzhe-shop.jpg"><img src="docs/images/wangzhe-shop.jpg" alt="商店：完整装备面板与对局场景" /></a></p>
+<p>不同 GPU、浏览器与字体可能带来视觉差异；建议在目标设备上实际试玩。</p>
+<h2 id="不经过模型直接生成和启动">不经过模型：直接生成和启动</h2>
+<p>先令 <code>KIT</code> 指向<strong>一个完整 skill 的目录</strong>，<code>OUT</code> 指向<strong>工作区中尚不存在的新目录</strong>。macOS/Linux示例：</p>
+<pre><code class="language-bash">KIT=&quot;/实际路径/quanwanggame&quot;
+OUT=&quot;$HOME/game-projects/my-new-game&quot;
+</code></pre>
+<p>只执行所选包的小节。Windows用真实路径替换变量，<code>python3</code> 改成 <code>py -3</code>；Node命令不变。路径含空格时保留引号。</p>
+<h3 id="猫猫--奇幻maomao3dgamemoshougame">猫猫 / 奇幻：<code>maomao3dgame</code>、<code>moshougame</code></h3>
+<pre><code class="language-bash">python3 &quot;$KIT/scripts/project.py&quot; verify
+python3 &quot;$KIT/scripts/project.py&quot; create --mode exact --out &quot;$OUT&quot;
+cd &quot;$OUT&quot;
+npm ci --no-audit --no-fund
+npm run build
+npm run dev -- --host 127.0.0.1 --port 4301 --strictPort
+</code></pre>
+<p>打开 <code>http://127.0.0.1:4301/</code>。这两个包首次重编译需要npm网络或已有缓存。猫猫exact另有预编译dist，可在恢复目录执行 <code>python3 -m http.server 4301 --bind 127.0.0.1 --directory dist</code>；moshougame基线不含dist，首次需要安装依赖并构建。</p>
+<h3 id="allgame">allgame</h3>
+<pre><code class="language-bash">python3 &quot;$KIT/scripts/game.py&quot; verify
+python3 &quot;$KIT/scripts/game.py&quot; create --family racing --mode exact --out &quot;$OUT&quot;
+# 或 --family adventure
+cd &quot;$OUT&quot;
+npm ci --no-audit --no-fund
+npm run build
+npm run dev -- --host 127.0.0.1 --port 4301 --strictPort
+</code></pre>
+<h3 id="四款2d创作包">四款2D创作包</h3>
+<pre><code class="language-bash">python3 &quot;$KIT/scripts/game.py&quot; verify
+python3 &quot;$KIT/scripts/game.py&quot; create --out &quot;$OUT&quot;
+python3 &quot;$OUT/start.py&quot; --port 4310
+</code></pre>
+<p>打开 <code>http://127.0.0.1:4310/</code>。不需要Node/npm。支持的主题：</p>
+<table>
+<thead>
+<tr>
+<th>skill</th>
+<th>默认 / 另一主题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>survivorgame</td>
+<td><code>moon</code> / <code>ember</code></td>
+</tr>
+<tr>
+<td>towerdefensegame</td>
+<td><code>lantern</code> / <code>snow</code></td>
+</tr>
+<tr>
+<td>platformgame</td>
+<td><code>cloud</code> / <code>dusk</code></td>
+</tr>
+<tr>
+<td>farmgame</td>
+<td><code>spring</code> / <code>autumn</code></td>
+</tr>
+</tbody>
+</table>
+<p>可加 <code>--theme</code>，如 <code>create --theme dusk --out &quot;$OUT&quot;</code>；仅用于相应skill。标题选项不会自动生成新人物或关卡。</p>
+<h3 id="yimogame">yimogame</h3>
+<pre><code class="language-bash">python3 &quot;$KIT/scripts/reproduce.py&quot; play --out &quot;$OUT&quot; --port 4493
+</code></pre>
+<p>打开 <code>http://127.0.0.1:4493/</code>，Python直接服务随包成品，无需先装Node。下次重开：</p>
+<pre><code class="language-bash">python3 &quot;$KIT/scripts/reproduce.py&quot; serve --project &quot;$OUT&quot; --port 4493
+</code></pre>
+<h3 id="quanwanggame">quanwanggame</h3>
+<pre><code class="language-bash">python3 &quot;$KIT/scripts/game.py&quot; play --out &quot;$OUT&quot; --port 4496
+</code></pre>
+<p>打开 <code>http://127.0.0.1:4496/</code>。下次重开：</p>
+<pre><code class="language-bash">python3 &quot;$OUT/start-demo.py&quot; --port 4496 --no-open
+</code></pre>
+<h3 id="csgame">csgame</h3>
+<pre><code class="language-bash">python3 &quot;$KIT/scripts/game.py&quot; play --out &quot;$OUT&quot; --port 4410
+</code></pre>
+<p>打开 <code>http://127.0.0.1:4410/</code>，真实点击 <strong>DEPLOY TO SITE</strong>。只需Python3.9+、WebGL2桌面浏览器和键鼠，无需先装npm；端口占用可用 <code>--port 0</code>。下次重开：</p>
+<pre><code class="language-bash">python3 &quot;$OUT/start-demo.py&quot; --port 4410
+</code></pre>
+<p>WASD移动、鼠标瞄准、左键射击、右键开镜、R换弹、1/2切枪、E拆弹、B买枪、Tab记分、Esc暂停。修改源码时在OUT执行 <code>npm ci --no-audit --no-fund</code> 和 <code>npm run build</code>；首次开发安装需要网络或已有缓存，没有完整离线npm缓存。</p>
+<h3 id="huochegame">huochegame</h3>
+<pre><code class="language-bash">python3 &quot;$KIT/scripts/game.py&quot; play --out &quot;$OUT&quot; --port 4430
+</code></pre>
+<p>打开 <code>http://127.0.0.1:4430/cloudline.html</code>。只需Python与WebGL浏览器，无需npm；也可双击生成的 <code>cloudline.html</code> 完全离线游玩。下次启动用 <code>python3 &quot;$OUT/start-demo.py&quot; --port 4430</code>，不重复play。</p>
+<p>W/↑动力，S/↓/空格制动，←/→环绕相机，V视角，E车门，M静音，Esc/P暂停；有触屏踏板。改源码后在OUT运行 <code>node build.mjs</code>，不需要npm依赖；HTTP/file存档域不同。</p>
+<h3 id="wangzhegame">wangzhegame</h3>
+<pre><code class="language-bash">python3 &quot;$KIT/scripts/game.py&quot; play --out &quot;$OUT&quot; --port 4422
+</code></pre>
+<p>打开 <code>http://127.0.0.1:4422/</code>，选英雄并进入峡谷。Python直接服务dist，无需先装npm；必须HTTP根路径，不能双击HTML。下次启动用 <code>python3 &quot;$OUT/start-demo.py&quot; --port 4422</code>。</p>
+<p>默认WASD/方向键移动，1–4技能，F/G闪现/治疗；C切经典QWER+D/F，P商店，B回城，Esc关弹层/暂停，左右点击移动/追击。仅桌面键鼠。修改需在OUT执行 <code>npm ci --no-audit --no-fund</code> 和 <code>npm run build</code>，首次开发安装需网络/缓存，Node20.19+。没有多人服务器或手机控制。</p>
+<p>两包均可用 <code>--port 0</code> 自动选空闲端口，或 <code>game.py create --out &quot;$OUT&quot;</code> 只生成，不启动。OUT必须尚不存在；输出独立运行，不依赖原note或另一个skill。</p>
+<p>以上服务需保持运行，Ctrl+C停止；端口占用就换端口，不结束其他项目进程。<strong>这些localhost地址是运行命令后的本机地址，不是面向所有读者的在线演示链接。</strong></p>
+<p>有开发需求时，yimogame 用 <code>python3 &quot;$KIT/scripts/reproduce.py&quot; install --project &quot;$OUT&quot;</code>；quanwanggame 用 <code>node &quot;$KIT/scripts/install-offline.mjs&quot; &quot;$OUT&quot;</code>，使用各自随包离线缓存。之后在OUT修改并 <code>npm run build</code>，否则dist还是原版。</p>
+<h2 id="环境与离线能力">环境与离线能力</h2>
+<table>
+<thead>
+<tr>
+<th>包</th>
+<th>直接试玩</th>
+<th>修改/重编译</th>
+<th>美术/声音运行时</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>maomao3dgame</td>
+<td>exact dist可用Python服务；变体须构建</td>
+<td>Node/npm；首次需网络/已有缓存</td>
+<td>本地程序化几何、字体、合成声音</td>
+</tr>
+<tr>
+<td>moshougame</td>
+<td>须先npm安装/构建或启动Vite</td>
+<td>Node/npm；首次需网络/已有缓存</td>
+<td>本地GLB、纹理、图标、声音</td>
+</tr>
+<tr>
+<td>allgame</td>
+<td>按racing/adventure基础分别处理</td>
+<td>Node/npm；首次需网络/已有缓存</td>
+<td>素材全部内置</td>
+</tr>
+<tr>
+<td>四款2D</td>
+<td>Python＋现代浏览器，无npm</td>
+<td>改ES modules/SVG即可；无需打包器</td>
+<td>本地SVG、字体、Canvas和合成声音</td>
+</tr>
+<tr>
+<td>yimogame</td>
+<td>Python＋WebGL2浏览器，无npm</td>
+<td>Node/npm；69份锁定包的离线缓存</td>
+<td>本地3D几何/着色器，声音默认关</td>
+</tr>
+<tr>
+<td>quanwanggame</td>
+<td>Python＋WebGL浏览器，无npm</td>
+<td>Node/npm；85份锁定tarball</td>
+<td>本地图集、街景、OGG音效</td>
+</tr>
+<tr>
+<td>csgame</td>
+<td>Python＋WebGL2桌面浏览器，无npm；仅键鼠</td>
+<td>Node/npm；首次需网络/已有缓存</td>
+<td>本地程序化3D地图、枪械/角色、纹理与合成声音</td>
+</tr>
+<tr>
+<td>huochegame</td>
+<td>单文件可双击离线；也可Python服务，键鼠/触屏</td>
+<td>Node内置模块构建，无npm；可选自动测试需装依赖</td>
+<td>内嵌Three、程序化群岛/电车/人物与合成声音</td>
+</tr>
+<tr>
+<td>wangzhegame</td>
+<td>Python＋WebGL2桌面浏览器，无npm；仅键鼠</td>
+<td>Node20.19+/npm；首次需网络/已有缓存</td>
+<td>本地程序化3D、Riot图片/数据、纹理与合成声音</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Python建议3.9+。3D包启用浏览器硬件加速；Chrome为当前主要验证浏览器，现代Edge/Safari等未穷尽实测。</li>
+<li>开发建议兼容Node 22/24 LTS并满足各锁定工具要求；冒险原生TS测试需Node22.18+ / 24+；quanwang要求Node20.19+或兼容22.12+。不要擅自 <code>npm update</code>。</li>
+<li>Python、Node、浏览器安装器和部分系统字体不随包提供。离线大包不等于整个操作系统开发环境也被打包。</li>
+<li>无必需的模型API Key、账号、MCP、生图服务或Blender；可选重导素材/像素差异工具有Pillow、NumPy、requests等额外前置，见各包说明。</li>
+<li>功能测试、哈希一致和画面审美是不同指标；测试截图夹具不等于真实帧率或人工全程通关。</li>
+</ul>
+<h2 id="常见问题">常见问题</h2>
+<p><strong>安装后找不到 skill？</strong> 检查小写文件夹/ID、是否多嵌套一层、整个assets是否齐全、Agent实际技能目录和重扫机制。可先直接读取SKILL.md使用。</p>
+<p><strong>只有源码、没有画面？</strong> 保持本地服务运行，通过HTTP打开；只有huochegame明确支持直接双击离线HTML。moshou/变体需安装和构建；修改源码后不要误看旧dist。</p>
+<p><strong>哈希不符或缺素材？</strong> 重新取完整分发文件；检查Git LFS指针。不改manifest“消除错误”，不随意换CDN或生成占位素材。</p>
+<p><strong>输出目录已存在？</strong> 脚本为防覆盖而停止。新建不同路径；续作在已有工程增量修改，不再次create/play。</p>
+<p><strong>macOS 的 <code>/tmp</code>、符号链接路径被四款2D工具拒绝？</strong> 这些生成器采取严格符号链接保护，可选工作区的真实路径，例如 <code>~/game-projects/新目录</code>，或把父路径解析为真实路径再传入；不要为方便删除安全检查。</p>
+<p><strong>手机能玩？</strong> 各包支持范围不同；四款2D和格斗推荐横屏。格斗触控只控制P1，P2需要数字小键盘。模拟触屏测试不是实体手机认证。<strong>csgame和wangzhegame仅桌面键鼠，没有触屏控制；huochegame有触屏踏板，但不代表实体手机已全面实测。</strong></p>
+<p><strong>能做官方魔兽/伊莫/拳皇/CS2/王者荣耀完整版吗？</strong> 不能这么表述。这里是有限范围的单人原型、赛车/小游戏或两角色原创素材格斗Demo，没有自动提供官方授权、MMO服务器、联网回滚等。</p>
+<p><strong>可以商用/公开转载整个包吗？</strong> 不能一概回答可以。需按包确认源代码、美术、字体、研究截图、品牌与依赖各自权利，见下节。</p>
+<h2 id="项目结构">项目结构</h2>
+<pre><code class="language-text">skills/&lt;id&gt;/                 完整skill：指令、工程、素材、制作经验与工具
+*.zip + *.zip.sha256          对应的独立安装包与校验值
+packages.json                游戏包目录、大小和SHA-256
+release-manifest.json        当前版本的逐文件清单
+scripts/                     仓库校验、安装和干净导出
+.github/                     校验流程与问题模板
+docs/images/                 README展示图与来源
+*-使用说明.md                 分包使用说明
+</code></pre>
+<p><code>verification/</code>和<code>playable-games/</code>为维护者本地验证/演示目录，不属于发行内容。历史交付记录中的本机路径与服务状态，不是下载者的环境；新用户以本README为入口。</p>
+<p>检查一份完整仓库是否与版本清单一致：</p>
+<pre><code class="language-bash">python3 scripts/audit_packages.py --check-lock
+</code></pre>
+<p>它检查ZIP、源目录、调用ID、文档链接和发行清单，不替代实际试玩。<a href="docs/FREEZE-REVIEW.md">本版检查范围</a> · <a href="CHANGELOG.md">版本变更</a></p>
+<h2 id="参与项目">参与项目</h2>
+<p>欢迎提供具体的运行问题、游戏创作需求和改进建议。提交问题时请附上skill ID、操作系统、浏览器、复现命令和必要截图，不上传密钥、私人存档或完整依赖目录。</p>
+<ul>
+<li><a href="CONTRIBUTING.md">贡献指南</a>：如何新增游戏包、修改资源和同步分发文件。</li>
+<li><a href="SECURITY.md">安全说明</a>：安装与本地执行边界、敏感问题处理。</li>
+<li><a href="docs/PUBLISHING.md">维护与发布</a>：版本冻结、干净导出与公开分发检查。</li>
+</ul>
+<h2 id="使用许可">使用许可</h2>
+<p><strong>本仓库没有覆盖全部内容的统一开源授权；请按包、按资产确认许可。</strong> 原工程源码、美术、字体、第三方依赖和游戏品牌分别适用各自权利说明。</p>
+<p>尤其是 <code>wangzhegame</code> 含Riot专有图片与数据，部分其他包包含研究参考图片；素材完整不等于可以任意公开再分发或商用。现有许可与需确认事项见 <a href="LICENSE.md">LICENSE.md</a> 和 <a href="docs/RIGHTS.md">逐包权利清单</a>。</p>
+<p>VibeGaming提供的是有限范围的浏览器游戏及创作起点，不是官方游戏客户端，也不承诺任何模型一次完成任意创意。你可以保留可玩的基础，再逐步把它做成自己的作品；发布前应完成相应代码与素材授权确认。</p>
+</article></body></html>

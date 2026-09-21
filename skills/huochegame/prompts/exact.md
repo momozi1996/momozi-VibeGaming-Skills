@@ -1,0 +1,1 @@
+请使用当前包的 huochegame Skill，按 **exact** 模式原样恢复 CLOUDLINE。先pack.py verify，再restore到包外新的huoche-exact目录，不覆盖未知文件；compare核对完整清单，检查node build.mjs后的HTML哈希仍相同。用run-checks对恢复产物实际跑24项回归，并打开离线HTML；报告每项实际结果和输出路径。此任务是原样恢复，不要宣称模型独立重写；不要为了“优化”升级Three.js、换图标、改参数或重签基线。

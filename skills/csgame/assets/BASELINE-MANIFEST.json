@@ -1,0 +1,211 @@
+{
+  "schema": 1,
+  "source": "COUNTERLINE / Dust Protocol · completed cs2-three local project",
+  "capturedAt": "2026-09-21T07:58:24.171758+00:00",
+  "excluded": [
+    "node_modules",
+    ".DS_Store"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 30,
+      "sha256": "8ffe9de56bd30c1a95cd945262d6e3ac355ada4111551dde41f67851b9f1fc55"
+    },
+    {
+      "path": "GAME-CONTRACT.md",
+      "bytes": 1547,
+      "sha256": "aa075ab7ce45aada0be34019457f38604b3c585a96d6e5e889e6ee44a897f662"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1081,
+      "sha256": "f73fe348d98430a77bf67b43e51c4708a5ef38d0636667c30a365ab34295bc0c"
+    },
+    {
+      "path": "PROGRESS.md",
+      "bytes": 3764,
+      "sha256": "5d440f4325397d39d1b8814fc873dbd3f13161a27a790278ce24f9f39a24b372"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5016,
+      "sha256": "3b238ffe7903833f836a0361d9e1273908a8e85cdcf65efdca6e816d2c637845"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 1888,
+      "sha256": "ec45adbb0ea1217d88d3934410553d967aea8ca62129d7ff7b8878902fcb30df"
+    },
+    {
+      "path": "artifacts/armory.png",
+      "bytes": 319326,
+      "sha256": "b0ea43a66152186de09b424e2a681cd1170ac433675b4aefbaba46b037a5a124"
+    },
+    {
+      "path": "artifacts/browser-report.json",
+      "bytes": 1735,
+      "sha256": "fb138846de2795da19ed33c12e00c48bccd8d26e82ff4c9df688204afa25ac3d"
+    },
+    {
+      "path": "artifacts/defusing.png",
+      "bytes": 1301119,
+      "sha256": "91222ed62163c46f0f677a17ccfae117fd71ab22ca04d5ac15b2349bdcd40a8a"
+    },
+    {
+      "path": "artifacts/fallback-report.json",
+      "bytes": 281,
+      "sha256": "93d2340b6553193b6670c39fa12ad9f467a07223ac664f930d91fce3dc37eed8"
+    },
+    {
+      "path": "artifacts/gameplay.png",
+      "bytes": 1140872,
+      "sha256": "ec356774f756505bdc886faedc109c0207dc1b82759194fdb099f8db5480d055"
+    },
+    {
+      "path": "artifacts/match-win.png",
+      "bytes": 247387,
+      "sha256": "cea8b91a87db000e1d10b1d8f120c759825c577d5046790d070e7b7bd43f3ccb"
+    },
+    {
+      "path": "artifacts/menu.png",
+      "bytes": 1318688,
+      "sha256": "02622b6e5e0732f97dbfe6566e0a85d4d8cfbe78e4b5503921be6fd393280c52"
+    },
+    {
+      "path": "artifacts/pause.png",
+      "bytes": 294872,
+      "sha256": "39e6089b06979873c4cebc6b79afbbb495013664cc643938ed05dd22d98fe081"
+    },
+    {
+      "path": "artifacts/production-1280.png",
+      "bytes": 981983,
+      "sha256": "967172b3d5d844c4aed52e6a67bb2224814b25f8c920a1a9be1639871a6dd960"
+    },
+    {
+      "path": "artifacts/production-1920.png",
+      "bytes": 2023663,
+      "sha256": "f79cf743af84284551928f8fb458125966215b5931dc2021fa1e3cca38655300"
+    },
+    {
+      "path": "artifacts/production-gameplay.png",
+      "bytes": 1133087,
+      "sha256": "26a66802c48c8b9b54a8f688b6c84653b42dd7393242844ce953adc621127cf9"
+    },
+    {
+      "path": "artifacts/production-menu.png",
+      "bytes": 1318269,
+      "sha256": "d1c47c36f97c20f54f575f0931adcba9b3edd89453f4a2a3b69f24af8c99d2a4"
+    },
+    {
+      "path": "artifacts/production-report.json",
+      "bytes": 659,
+      "sha256": "d5092c79fd5cf3b9d8323493904072032aa3491da902b25b947fc8a2caeb3887"
+    },
+    {
+      "path": "artifacts/round-win.png",
+      "bytes": 1285564,
+      "sha256": "b27e1fb48e2cae5fec8f459d34ee5a394fe7deca18fc56ffbe5cb2388abe63ee"
+    },
+    {
+      "path": "artifacts/scope.png",
+      "bytes": 263307,
+      "sha256": "f538c8dc78fc7d113ab34a8a1dae7f34b78840051e24351c2adf9b028d2f0ef2"
+    },
+    {
+      "path": "artifacts/unit-tests.txt",
+      "bytes": 2125,
+      "sha256": "56f0eabded98ef39658172363dfd40755465e2633330db8ca0c1fc47d93f2d7d"
+    },
+    {
+      "path": "artifacts/webgl-fallback.png",
+      "bytes": 18905,
+      "sha256": "f82335852f3b7d017384f239cf5da652ae5164f868e60d28e6518101b843f257"
+    },
+    {
+      "path": "dist/assets/index-CxmoRyij.css",
+      "bytes": 13836,
+      "sha256": "54ab8ae8370fc359870f05cdbbc053693c9409188d7a97e1fd547f07565cb345"
+    },
+    {
+      "path": "dist/assets/index-DBKv00j5.js",
+      "bytes": 565284,
+      "sha256": "d1971e753070f5ae57c6b393d47be5af89c4bd72427e0e2f136d5ee83d2332a6"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 7236,
+      "sha256": "176f2cafd96bb9d084b8cf5160d2ae3b111e337a17984156abecad3a431046f2"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7137,
+      "sha256": "8356deacfc85ecb7c5acd98d53e3a8e99008f93c2e514afb3a1f30ba880db0a5"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 37552,
+      "sha256": "cb71aa1d2ccd58e6fa4e2be436552e431d926f28661390c502a1d5adf44d0355"
+    },
+    {
+      "path": "package.json",
+      "bytes": 540,
+      "sha256": "2386fd8c71a3f4220706b6ca03d3be770df00fee104e7914244d23758449ae7c"
+    },
+    {
+      "path": "src/audio.js",
+      "bytes": 2245,
+      "sha256": "f2efede08d9097fca64b8b222c2faf048b27a9baec5e3ace217488ed0fe95f71"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 22198,
+      "sha256": "68cb36722fd1d1e7e0a0fe38fa879bf827f9434bb1dd6913297da5a947f1758e"
+    },
+    {
+      "path": "src/map.js",
+      "bytes": 3334,
+      "sha256": "baa6c3034a57d9a756a02b7044e40232990581fbce73621e7110fe12d4d91997"
+    },
+    {
+      "path": "src/models.js",
+      "bytes": 7135,
+      "sha256": "95d287de6d137d621333ddca1888f148c89d6100e105e91fba64ab3d08fe2225"
+    },
+    {
+      "path": "src/simulation.js",
+      "bytes": 7573,
+      "sha256": "4a55062f6017517e83a155645c50a4bec8be66043a53162d9902f5f3a4834f1d"
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 13638,
+      "sha256": "7452f55db8f85f7da7098ca4806a8729caba6a0318ba2cc6a4a3b5e54f52e331"
+    },
+    {
+      "path": "src/world.js",
+      "bytes": 13806,
+      "sha256": "2da8fe3200c0aa40fe06e22115888d1c3b26ea8923852b3036d8862035de4e27"
+    },
+    {
+      "path": "tests/browser.mjs",
+      "bytes": 9790,
+      "sha256": "8a20a69c1d6518adc7f687b69cc22990de0c4b793a6e164589b3d017e9daab39"
+    },
+    {
+      "path": "tests/production.mjs",
+      "bytes": 3941,
+      "sha256": "54a44d85b3777efbbe2bbe56375097b2be57cf93c5b5f9da92600774a4a0c47c"
+    },
+    {
+      "path": "tests/simulation.test.js",
+      "bytes": 7765,
+      "sha256": "b86fcce6867e029e3a93d6a5e01d60b438345da523661240e7bddfd22fb6fbe4"
+    },
+    {
+      "path": "tests/visual.mjs",
+      "bytes": 748,
+      "sha256": "3cacc1b57f50b0eeb80f1c34450f9edc2a9476163ad7811e37d9d2ce6e6cbb00"
+    }
+  ]
+}

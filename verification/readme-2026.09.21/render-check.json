@@ -1,0 +1,708 @@
+{
+  "passed": true,
+  "scope": "Local markdown-it CommonMark + tables browser preview with GitHub-like responsive CSS. Not remote GitHub or the user's unidentified renderer.",
+  "rows": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "colorScheme": "light",
+      "passed": true,
+      "issues": [],
+      "images": [
+        {
+          "src": "docs/images/maomao-select.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/maomao-race.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/moshou-courtyard.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/moshou-forest.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/allgame-racing.jpg",
+          "loaded": true,
+          "width": 1000,
+          "height": 625,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/allgame-adventure.jpg",
+          "loaded": true,
+          "width": 1000,
+          "height": 625,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/survivor-play.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/survivor-theme.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/tower-defense-play.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/tower-defense-theme.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/platform-play.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/platform-theme.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/farm-play.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/farm-theme.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/yimo-field.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/yimo-linked.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/yimo-dex.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/quanwang-select.png",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/quanwang-kick.png",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/quanwang-special.png",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        }
+      ],
+      "badAnchors": [],
+      "bodyOverflow": false
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "passed": true,
+      "issues": [],
+      "images": [
+        {
+          "src": "docs/images/maomao-select.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/maomao-race.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/moshou-courtyard.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/moshou-forest.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/allgame-racing.jpg",
+          "loaded": true,
+          "width": 1000,
+          "height": 625,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/allgame-adventure.jpg",
+          "loaded": true,
+          "width": 1000,
+          "height": 625,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/survivor-play.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/survivor-theme.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/tower-defense-play.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/tower-defense-theme.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/platform-play.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/platform-theme.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/farm-play.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/farm-theme.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/yimo-field.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/yimo-linked.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/yimo-dex.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/quanwang-select.png",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/quanwang-kick.png",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/quanwang-special.png",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 358,
+          "displayHeight": 223.75,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        }
+      ],
+      "badAnchors": [],
+      "bodyOverflow": false
+    },
+    {
+      "name": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "dark",
+      "passed": true,
+      "issues": [],
+      "images": [
+        {
+          "src": "docs/images/maomao-select.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/maomao-race.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/moshou-courtyard.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/moshou-forest.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/allgame-racing.jpg",
+          "loaded": true,
+          "width": 1000,
+          "height": 625,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/allgame-adventure.jpg",
+          "loaded": true,
+          "width": 1000,
+          "height": 625,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/survivor-play.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/survivor-theme.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/tower-defense-play.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/tower-defense-theme.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/platform-play.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/platform-theme.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/farm-play.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/farm-theme.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/yimo-field.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/yimo-linked.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/yimo-dex.jpg",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/quanwang-select.png",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/quanwang-kick.png",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        },
+        {
+          "src": "docs/images/quanwang-special.png",
+          "loaded": true,
+          "width": 1280,
+          "height": 800,
+          "displayWidth": 946,
+          "displayHeight": 591.25,
+          "overflow": false,
+          "inTable": false,
+          "aspectError": 0
+        }
+      ],
+      "badAnchors": [],
+      "bodyOverflow": false
+    }
+  ]
+}

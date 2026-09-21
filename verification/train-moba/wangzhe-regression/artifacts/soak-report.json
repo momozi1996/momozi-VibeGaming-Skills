@@ -1,0 +1,77 @@
+{
+  "simulatedSeconds": 299.9999999999997,
+  "wallSeconds": 11.058554041999999,
+  "snap": [
+    {
+      "time": 60.00000000000058,
+      "entities": 48,
+      "wave": 0,
+      "kills": [
+        4,
+        15
+      ],
+      "towers": [
+        0,
+        3
+      ],
+      "healthFinite": true
+    },
+    {
+      "time": 119.99999999999746,
+      "entities": 102,
+      "wave": 2,
+      "kills": [
+        4,
+        15
+      ],
+      "towers": [
+        0,
+        3
+      ],
+      "healthFinite": true
+    },
+    {
+      "time": 179.99999999999406,
+      "entities": 116,
+      "wave": 4,
+      "kills": [
+        4,
+        15
+      ],
+      "towers": [
+        0,
+        3
+      ],
+      "healthFinite": true
+    },
+    {
+      "time": 239.99999999999065,
+      "entities": 137,
+      "wave": 6,
+      "kills": [
+        4,
+        15
+      ],
+      "towers": [
+        0,
+        3
+      ],
+      "healthFinite": true
+    },
+    {
+      "time": 299.9999999999997,
+      "entities": 124,
+      "wave": 8,
+      "kills": [
+        4,
+        15
+      ],
+      "towers": [
+        0,
+        3
+      ],
+      "healthFinite": true
+    }
+  ],
+  "scope": "Five minutes of deterministic idle-player simulation; not a natural victory match or full LoL fidelity verification."
+}

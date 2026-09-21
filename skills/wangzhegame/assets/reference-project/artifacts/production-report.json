@@ -1,0 +1,10 @@
+{
+  "errors": [],
+  "bad": [],
+  "debugApiAbsent": true,
+  "canvasCount": 1,
+  "htmlControls": 0,
+  "browser": "153.0.8010.50",
+  "viewport": "1600x1000",
+  "notes": "Built dist served on port 4412. Enter/P/Escape are real input. Production screenshots generated; no dev fixtures."
+}

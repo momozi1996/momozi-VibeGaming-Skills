@@ -1,0 +1,114 @@
+Running unit...
+PASS unit
+Running build...
+PASS build
+Running development...
+development failed
+PASS Menu renders without startup errors
+PASS Real deploy click captures pointer and starts active round
+PASS W input moves forward at bounded speed
+PASS Real pointer movement rotates view
+PASS Player cannot walk through solid facade
+PASS Central arch is walkable using real input
+PASS Crouch changes camera height; jump lands
+PASS World geometry occludes real bullet raycasts
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+true !== false
+
+    at file:///private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/csgame-package-aaeh345e/check-retry/.runner/development.mjs:20:283 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: true,
+  expected: false,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+{
+  phase: 'active',
+  paused: false,
+  player: {
+    x: 0,
+    z: 17,
+    y: 0,
+    vy: 0,
+    yaw: 0.0009571756508667018,
+    pitch: 0.06,
+    health: 100,
+    armor: 50,
+    moving: false,
+    crouched: false,
+    eye: 1.7
+  },
+  ct: 0,
+  t: 0,
+  round: 1,
+  reason: '',
+  kills: 0,
+  deaths: 0,
+  time: 39.734400000000164,
+  defuse: 0,
+  ammo: {
+    rifle: { mag: 23, reserve: 90 },
+    pistol: { mag: 12, reserve: 48 },
+    sniper: { mag: 5, reserve: 20 }
+  },
+  slot: 'rifle',
+  money: 2400,
+  bots: [
+    {
+      x: -6.107325287299649,
+      z: 9.076673117275131,
+      name: 'VIPER',
+      id: 0,
+      y: 0,
+      hp: 100,
+      alive: true,
+      yaw: 0.6566827258732684,
+      fire: 83.31730000000076,
+      path: [],
+      repath: 83.31730000000076,
+      alert: 0,
+      seen: false,
+      walk: 38.93130000000007,
+      death: 7.766400000000043
+    },
+    {
+      x: 12,
+      z: -7,
+      name: 'ROOK',
+      id: 1,
+      y: 0,
+      hp: 100,
+      alive: false,
+      yaw: -1.6814535479687922,
+      fire: 1.7000999999999997,
+      path: [],
+      repath: 0.10010000000000036,
+      alert: 0,
+      seen: false,
+      walk: 0,
+      death: 25.06569999999965
+    },
+    {
+      x: 2,
+      z: -20,
+      name: 'GHOST',
+      id: 2,
+      y: 0,
+      hp: 100,
+      alive: false,
+      yaw: -0.2662520491509254,
+      fire: 2.1001000000000003,
+      path: [],
+      repath: 0.40010000000000034,
+      alert: 0,
+      seen: false,
+      walk: 0,
+      death: 25.06569999999965
+    }
+  ],
+  shots: 7,
+  fps: 59.34326783594881
+}
+

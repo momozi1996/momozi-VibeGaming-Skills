@@ -1,0 +1,4 @@
+import fs from 'node:fs';import {Match} from '../src/simulation.js';
+const data=JSON.parse(fs.readFileSync('public/assets/champions.json'));let m=new Match(data,'Ashe','standard'),start=performance.now(),snap=[];
+for(let i=0;i<3000;i++){m.step(.1);m.events=[];if(i%600===599){let x={time:m.time,entities:m.entities.length,wave:m.wave,kills:m.kills,towers:m.towerKills,healthFinite:m.entities.every(e=>Number.isFinite(e.hp)&&Number.isFinite(e.x)&&Number.isFinite(e.z))};snap.push(x);console.log(x);if(!x.healthFinite)throw Error('Non-finite entity state')}}
+fs.writeFileSync('artifacts/soak-report.json',JSON.stringify({simulatedSeconds:m.time,wallSeconds:(performance.now()-start)/1000,snap,scope:'Five minutes of deterministic idle-player simulation; not a natural victory match or full LoL fidelity verification.'},null,2));

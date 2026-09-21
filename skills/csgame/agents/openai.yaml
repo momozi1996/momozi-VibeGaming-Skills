@@ -1,0 +1,4 @@
+interface:
+  display_name: "CSGame · 单人战术FPS"
+  short_description: "一键复刻完整战术FPS，内置原创地图枪械、AI拆弹回合和离线成品"
+  default_prompt: "使用 $csgame 在新目录完整复刻 COUNTERLINE，保留地图美术、射击、AI、购买、拆弹和回合胜负，直接启动让我玩。"

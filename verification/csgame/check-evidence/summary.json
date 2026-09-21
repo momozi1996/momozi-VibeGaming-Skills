@@ -1,0 +1,48 @@
+{
+  "startedAt": "2026-09-21T08:24:57.052Z",
+  "phases": [
+    {
+      "name": "unit",
+      "code": 0,
+      "timedOut": false,
+      "log": "unit.log"
+    },
+    {
+      "name": "build",
+      "code": 0,
+      "timedOut": false,
+      "log": "build.log"
+    },
+    {
+      "name": "development-server",
+      "url": "http://127.0.0.1:58317"
+    },
+    {
+      "name": "development",
+      "code": 0,
+      "timedOut": false,
+      "log": "development.log"
+    },
+    {
+      "name": "production-server",
+      "url": "http://127.0.0.1:58560"
+    },
+    {
+      "name": "production",
+      "code": 1,
+      "timedOut": true,
+      "log": "production.log"
+    }
+  ],
+  "passed": false,
+  "notes": "Tests use the bundled immutable contracts, relocated to the candidate source. Browser fixtures are DEV-only; screenshots/reports are written outside the project. Platform and URL adaptations do not remove assertions.",
+  "project": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/csgame-package-aaeh345e/project",
+  "platform": "darwin",
+  "node": "v25.8.1",
+  "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "browserArgs": [
+    "--use-angle=metal"
+  ],
+  "error": "production failed\nPASS Production boots with DEV fixture API absent\nPASS Production rifle fires and updates ammo through mouse input\nPASS Production reload conserves and restores ammunition\nPASS Production WASD traverses into the archway\nPASS Production pause freezes objective countdown\nPASS Settings and menu return are interactive\nPASS Settings persist through reload\nPASS Menu adapts to 720p and 1080p without overflow\nPASS Corrupt local settings do not prevent launch\nPASS No console errors or failed HTTP responses in production paths\n",
+  "finishedAt": "2026-09-21T08:30:07.261Z"
+}

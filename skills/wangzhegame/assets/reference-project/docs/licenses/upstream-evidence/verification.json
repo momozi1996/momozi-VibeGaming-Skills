@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ambientcg-license",
+    "url": "https://docs.ambientcg.com/license/",
+    "status": 200,
+    "sha256": "60138e09b277c89977841462634b36e99d7bae5b77174777813502069c59461c",
+    "contains_cc0": true,
+    "excerpt": "t License information &para; All ambientCG assets are provided under the Creative Commons CC0 1.0 Universal License . This applies to the downloadable asset files and the material preview renders shown for each asset on the site. License Details &para; The Creative Commons CC0 license gives you near limitless freedom to use the materials,",
+    "checked": "2026-09-14"
+  },
+  {
+    "id": "polyhaven-license",
+    "url": "https://polyhaven.com/license",
+    "status": 200,
+    "sha256": "f530abb18e6317a9b0f2a128b94150e372c8456d7491a14e4860c4ed5f5fe69a",
+    "contains_cc0": true,
+    "excerpt": "llingly and directly donate/sell their work to Poly Haven. Our assets are all licensed as CC0 , which is effectively Public Domain even in jurisdictions that do not support the Public Domain. Here&#x27;s an excerpt from the CC0 FAQ page to clarify: Once the creator or a subsequent owner of a work applies CC0 to a work, the work is no long",
+    "checked": "2026-09-14"
+  },
+  {
+    "id": "kenney-rpg",
+    "url": "https://kenney.nl/assets/rpg-audio",
+    "status": 200,
+    "sha256": "51fdf514e0401f83261a8ab99f182acb321cef53e379035154ca3cd7589445e4",
+    "contains_cc0": true,
+    "excerpt": "PG Audio Tags foley rpg footstep weapon Category Audio Files 50× License Creative Commons CC0 Download Get All-in-1 bundle Updates 1.0 Released in 2014 Audio not supported. You might also like... Impact Sounds Audio Casino Audio Audio Fantasy UI Borders 2D Mini Dungeon 3D &bull; Mini Consider a donation The game assets you're about to dow",
+    "checked": "2026-09-14"
+  },
+  {
+    "id": "kenney-impact",
+    "url": "https://kenney.nl/assets/impact-sounds",
+    "status": 200,
+    "sha256": "2689be9c7d2d48b1d6c7d9836570391fa6947590eaf260291697053d9f86b354",
+    "contains_cc0": true,
+    "excerpt": "Donate Impact Sounds Tags impact foley Category Audio Files 130× License Creative Commons CC0 Download Get All-in-1 bundle Updates 1.0 Released in 2019 Audio not supported. You might also like... Casino Audio Audio RPG Audio Audio Sci-fi Sounds Audio Interface Sounds Audio Consider a donation The game assets you're about to download are a",
+    "checked": "2026-09-14"
+  },
+  {
+    "id": "forest-ambience",
+    "url": "https://opengameart.org/content/forest-ambience",
+    "status": 200,
+    "sha256": "0c4c17a53ce77032088b65ac30729b29f2eb028b3e9f477a88957149fbf954c0",
+    "contains_cc0": true,
+    "excerpt": "&nbsp; Music Tags:&nbsp; forest woods ambience calm peaceful mood moody License(s):&nbsp; CC0 Collections:&nbsp; Adventure&#039;s Edge Ambience ambient Audio Assets for Project: MG audio-ambiant Autumn Card Game CardMancer CC0 Audio - Uploader: TinyWorlds CC0 Background Ambience CC0 Fantasy Music &amp; Sounds CC0 Music CC0 Music CC0 Music",
+    "checked": "2026-09-14"
+  },
+  {
+    "id": "wolf",
+    "url": "https://opengameart.org/content/wolf-1",
+    "status": 200,
+    "sha256": "4478adbb4636b7eef928fb4cbb2555fa60189199cd00eab6510b01af55dee002",
+    "contains_cc0": true,
+    "excerpt": " 6, 2013 - 09:43 Art Type:&nbsp; 3D Art Tags:&nbsp; animal lowpoly wolf License(s):&nbsp; CC0 Collections:&nbsp; 3-D Assets for &quot;Closed Source Projects&quot; 3D Animals 3d Animals under CC0 3D Assets (CC0) 3D Models 3D Sword &amp; Sorcery 3D::Creature 3D::Creature::Poly-Low CC0 - 3D Animals / Creatures CC0 3d stuff CCO 3D Animals Cit",
+    "checked": "2026-09-14"
+  }
+]

@@ -1,0 +1,242 @@
+{
+  "success": true,
+  "temporaryRoot": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7",
+  "skills": [
+    {
+      "id": "maomao3dgame",
+      "installedFileCount": 88,
+      "allBytesMatch": true,
+      "refusesOverwrite": true,
+      "formatAndManifestPassed": true,
+      "outputs": [
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/maomao3dgame",
+          "family": null,
+          "unit": {
+            "passed": true,
+            "tests": 16
+          },
+          "built": true,
+          "dependencies": "Existing local node_modules copied after identical lockfile check; not cold installation"
+        }
+      ]
+    },
+    {
+      "id": "moshougame",
+      "installedFileCount": 174,
+      "allBytesMatch": true,
+      "refusesOverwrite": true,
+      "formatAndManifestPassed": true,
+      "outputs": [
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/moshougame",
+          "family": null,
+          "unit": {
+            "passed": true,
+            "tests": 15
+          },
+          "built": true,
+          "dependencies": "Existing local node_modules copied after identical lockfile check; not cold installation"
+        }
+      ]
+    },
+    {
+      "id": "allgame",
+      "installedFileCount": 280,
+      "allBytesMatch": true,
+      "refusesOverwrite": true,
+      "formatAndManifestPassed": true,
+      "outputs": [
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/allgame-racing",
+          "family": "racing",
+          "unit": {
+            "passed": true,
+            "tests": 16
+          },
+          "built": true,
+          "dependencies": "Existing local node_modules copied after identical lockfile check; not cold installation"
+        },
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/allgame-adventure",
+          "family": "adventure",
+          "unit": {
+            "passed": true,
+            "tests": 15
+          },
+          "built": true,
+          "dependencies": "Existing local node_modules copied after identical lockfile check; not cold installation"
+        }
+      ]
+    },
+    {
+      "id": "survivorgame",
+      "installedFileCount": 49,
+      "allBytesMatch": true,
+      "refusesOverwrite": true,
+      "formatAndManifestPassed": true,
+      "outputs": [
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/survivorgame",
+          "family": null,
+          "unit": {
+            "passed": true,
+            "tests": 7
+          },
+          "built": false,
+          "dependencies": "No dependencies for run/build"
+        }
+      ]
+    },
+    {
+      "id": "towerdefensegame",
+      "installedFileCount": 49,
+      "allBytesMatch": true,
+      "refusesOverwrite": true,
+      "formatAndManifestPassed": true,
+      "outputs": [
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/towerdefensegame",
+          "family": null,
+          "unit": {
+            "passed": true,
+            "tests": 7
+          },
+          "built": false,
+          "dependencies": "No dependencies for run/build"
+        }
+      ]
+    },
+    {
+      "id": "platformgame",
+      "installedFileCount": 49,
+      "allBytesMatch": true,
+      "refusesOverwrite": true,
+      "formatAndManifestPassed": true,
+      "outputs": [
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/platformgame",
+          "family": null,
+          "unit": {
+            "passed": true,
+            "tests": 6
+          },
+          "built": false,
+          "dependencies": "No dependencies for run/build"
+        }
+      ]
+    },
+    {
+      "id": "farmgame",
+      "installedFileCount": 49,
+      "allBytesMatch": true,
+      "refusesOverwrite": true,
+      "formatAndManifestPassed": true,
+      "outputs": [
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/farmgame",
+          "family": null,
+          "unit": {
+            "passed": true,
+            "tests": 7
+          },
+          "built": false,
+          "dependencies": "No dependencies for run/build"
+        }
+      ]
+    },
+    {
+      "id": "yimogame",
+      "installedFileCount": 135,
+      "allBytesMatch": true,
+      "refusesOverwrite": true,
+      "formatAndManifestPassed": true,
+      "outputs": [
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/yimogame",
+          "family": null,
+          "unit": {
+            "passed": true,
+            "tests": 11
+          },
+          "built": true,
+          "dependencies": "Existing local node_modules copied after identical lockfile check; not cold installation"
+        }
+      ]
+    },
+    {
+      "id": "quanwanggame",
+      "installedFileCount": 265,
+      "allBytesMatch": true,
+      "refusesOverwrite": true,
+      "formatAndManifestPassed": true,
+      "outputs": [
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/quanwanggame",
+          "family": null,
+          "unit": {
+            "passed": true,
+            "tests": 29
+          },
+          "built": true,
+          "dependencies": "Existing local node_modules copied after identical lockfile check; not cold installation"
+        }
+      ]
+    },
+    {
+      "id": "csgame",
+      "installedFileCount": 98,
+      "allBytesMatch": true,
+      "refusesOverwrite": true,
+      "formatAndManifestPassed": true,
+      "outputs": [
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/csgame",
+          "family": null,
+          "unit": {
+            "passed": true,
+            "tests": 28
+          },
+          "built": true,
+          "dependencies": "Existing local node_modules copied after identical lockfile check; not cold installation"
+        }
+      ]
+    },
+    {
+      "id": "huochegame",
+      "installedFileCount": 83,
+      "allBytesMatch": true,
+      "refusesOverwrite": true,
+      "formatAndManifestPassed": true,
+      "outputs": [
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/huochegame-checked",
+          "family": null,
+          "unit": null,
+          "built": true,
+          "dependencies": "No dependencies for run/build"
+        }
+      ]
+    },
+    {
+      "id": "wangzhegame",
+      "installedFileCount": 211,
+      "allBytesMatch": true,
+      "refusesOverwrite": true,
+      "formatAndManifestPassed": true,
+      "outputs": [
+        {
+          "path": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/wangzhegame-checked",
+          "family": null,
+          "unit": {
+            "passed": true,
+            "tests": 25
+          },
+          "built": true,
+          "dependencies": "Existing local node_modules copied after identical lockfile check; not cold installation"
+        }
+      ]
+    }
+  ],
+  "scope": "New isolated local install, restoration and source unit/build checks; no global install. Reused exact-lock local dependency copies."
+}

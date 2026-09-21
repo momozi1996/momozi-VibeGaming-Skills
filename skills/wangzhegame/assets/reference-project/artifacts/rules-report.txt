@@ -1,0 +1,37 @@
+
+> rift-forge@0.1.0 test
+> node --test tests/*.test.js
+
+✔ WASD and arrow keys map all four directions; opposing keys cancel (2.226125ms)
+✔ classic keeps W/D as actions and arrows as movement; Alt arrows only pan (0.121958ms)
+✔ held movement advances exactly 340 units per second in 8 directions (30.521583ms)
+✔ release stops immediately; direct movement takes priority over old click target (3.081167ms)
+✔ movement cancels recall and meditation without permitting movement through stun (1.959416ms)
+✔ direct movement obeys jungle collisions and boundaries (20.377042ms)
+✔ dead / paused / ended matches reject direct movement (0.669709ms)
+✔ 5 roster entries reproduce patch 16.18.1 base stats (2.991208ms)
+✔ growth at level 18 is 17 base growth increments (0.057417ms)
+✔ armor formula positive / zero / negative (0.052125ms)
+✔ 10 heroes, 22 towers, 6 inhibitors and 2 nexuses (0.154541ms)
+✔ standard waves begin at 65 then every 30 seconds (453.534583ms)
+✔ movement is 340 game units per second, all directions (9.137209ms)
+✔ wall routing produces walkable waypoints (0.419375ms)
+✔ pause freezes wave time, cooldowns, regeneration, economy (0.205125ms)
+✔ buy deducts once, adds stats, rejects gold and remote purchase (0.22975ms)
+✔ ability unlock and resource rejection has no side effects (0.187708ms)
+✔ all 20 ability branches can activate in training with legal targets (2.2185ms)
+✔ Q cooldown prevents repeated casts (20.393291ms)
+✔ tower chain gates inhibitor and nexus (0.268709ms)
+✔ death grants one bounty and respawns cleanly (21.297666ms)
+✔ flash clamps distance to 400 and enforces cooldown (0.263709ms)
+✔ recall lasts 8 seconds and damage cancels (19.203375ms)
+✔ new match resets all transient state (0.277166ms)
+✔ AI prioritizes an exposed nexus over fountain-healed champions (3.089542ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 667.067042

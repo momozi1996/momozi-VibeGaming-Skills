@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "release": "2026.09.18-rc1",
+  "release": "2026.09.21-rc4",
   "status": "private-freeze-candidate-publication-blocked",
   "scope": "Intentional release files; excludes .git, local verification, generated playable-games, and this manifest. Not a legal approval or signature.",
   "files": {
@@ -9,48 +9,64 @@
       "sha256": "fb2eddfe04066ec9dfc9cf0cf58f0e43fa0a7b0c0f9b81f4084194dad8db2870"
     },
     ".github/ISSUE_TEMPLATE/bug_report.md": {
-      "bytes": 611,
-      "sha256": "9687c1334f912fccc6d5a2dfcd2f2fbaf53946dfd89fc49039f2c669d5711d30"
+      "bytes": 648,
+      "sha256": "0680b1cb8c6c34288470223d951fca763503b12fe287b98fe3b7c79de98a988b"
     },
     ".github/pull_request_template.md": {
       "bytes": 479,
       "sha256": "67802b748e3bc4e974868ac871f45101cb2259228effd4a2b77326f2aee3f0a8"
     },
     ".github/workflows/verify.yml": {
-      "bytes": 542,
-      "sha256": "76058b81e69798984ebb87c5da7f2c15c90f145196f685fb6f5d7833da837518"
+      "bytes": 855,
+      "sha256": "00bb4d3dd5b85e31f5f5111c8edda6077d784dc234b992a3a0e0d962798c5aeb"
     },
     ".gitignore": {
       "bytes": 508,
       "sha256": "7479d57d7f14f8d79eb4787be9a448c332892dc8c0f9ef6f453a1f3745b12acd"
     },
     "CHANGELOG.md": {
-      "bytes": 1126,
-      "sha256": "322c48694d5dac02e0e1680bf2e105b71888c27e2cbd742376b0dea502307653"
+      "bytes": 4529,
+      "sha256": "2627ba60cecbbd52a0b3af4e5f5ffe212f10012d9bba32ad7f7d4f3f308bc87a"
     },
     "CONTRIBUTING.md": {
       "bytes": 2261,
       "sha256": "5dc134b8f13254c1d4c813a82b3dda0f9a52dbdef704b547260266c30c7450b7"
     },
+    "CSGame-交付记录.md": {
+      "bytes": 4659,
+      "sha256": "d12df50677ed95df469a1a613db496d9b3bce432c45b8691bc9d493bd043725d"
+    },
+    "CSGame-使用说明.md": {
+      "bytes": 4667,
+      "sha256": "77be9b2f7bad972052442f77260f88831be96e02e6dcaa99382c2aae8e59f165"
+    },
+    "CSGame.zip": {
+      "bytes": 18334403,
+      "sha256": "7b15e63fdcba32b2fd218d22f9908ff66a944e342457ff2aaf6600ce82773e1f"
+    },
+    "CSGame.zip.sha256": {
+      "bytes": 77,
+      "sha256": "05835170f572dc9ed0fa7fab42161f30ad373b3bf98caca5b0d38e5e0be16e50"
+    },
     "LICENSE.md": {
-      "bytes": 1717,
-      "sha256": "e73d29348fbfb87da7e81827a7e3089884ef17b3650e878450844b69c06afcb5"
+      "bytes": 1950,
+      "sha256": "cbbe4c35b36c51fe29f003a79c6ced253b30d36051657bda1d4f621742cf2695"
     },
     "README.md": {
-      "bytes": 19505,
-      "sha256": "d5f0a966e402ed3e0f31e30b578cf4677ec8f4c685cf101511eac0af293264f2"
+      "bytes": 32486,
+      "sha256": "9a784429c716a3eb8227b2693e79eb161016e4017d565dbcf100b270207bcdbd"
     },
     "SECURITY.md": {
       "bytes": 1871,
       "sha256": "8e9a70844e3a776591f4bdd289f900d96619fa18d682e3a56b806bdf335a0a65"
     },
     "allGame-使用说明.md": {
-      "bytes": 4934,
-      "sha256": "9cacce6e741314658dbe451792735ce37139d00ad23a2e87dcfb02a76472d95a"
+      "bytes": 4945,
+      "sha256": "a593fd92ae2f959151a470a6ed6f7a7e5f75f92bab72386e3fcadacdc6c8357c"
     },
     "allGame-验证报告.md": {
-      "bytes": 4845,
-      "sha256": "433d1aa8b2c5bf43304e2bc66569d0d3d7d0c1a75776a2a8460bc01e6f8fbea4"
+      "bytes": 5508,
+      "sha256": "4f44623fbf159632e26565c864e1b62422b8df1a3bb7031eb619a289b3940b97"
     },
     "allGame.zip": {
       "bytes": 46600004,
@@ -60,17 +76,149 @@
       "bytes": 78,
       "sha256": "837d68382efd4ef8a970108d60347468d62abe236068a4c9c12f1b4ce665ab72"
     },
+    "docs/FREEZE-REVIEW-2026.09.18.md": {
+      "bytes": 8867,
+      "sha256": "1ccead4b2b67a932dad1f73dded3afa8fc7eabd00f559e377a72577e9b8f60ce"
+    },
     "docs/FREEZE-REVIEW.md": {
-      "bytes": 7773,
-      "sha256": "28601a77d9f688ff654dd79fddd593837ced5895f3c0321db655b3b81a0e5fda"
+      "bytes": 7750,
+      "sha256": "4ef4500f90aa89dda874fe6438c21af1be86bdc400076b63ab4af32eff59c3e4"
     },
     "docs/PUBLISHING.md": {
-      "bytes": 6633,
-      "sha256": "ec66fa1bae97a0671e90b33d6d790bf2c084aa46a351e807f70d4adfd7002af0"
+      "bytes": 6718,
+      "sha256": "c17cb28d2928819d143673bc6b17cea6955bf9082b6650a5b66f83b00f8d691a"
     },
     "docs/RIGHTS.md": {
-      "bytes": 3897,
-      "sha256": "02a3d998c6ad17dfda11b401493ae7efc0f0ffb9603e01bc7d85fa73a7517996"
+      "bytes": 5822,
+      "sha256": "fdf01d67a245643dbd9f167a95b055c07fa2cf6f1d0e211b3626fbdfee515688"
+    },
+    "docs/images/README.md": {
+      "bytes": 7317,
+      "sha256": "f915091199b8613f045244e741530af5400ddea5ac5dab713be3d47a3f2425d9"
+    },
+    "docs/images/allgame-adventure.jpg": {
+      "bytes": 163525,
+      "sha256": "bf642a40ee2f4557778f0ef302a9ed927e86c381fd2d7739c675eda58fb42c35"
+    },
+    "docs/images/allgame-racing.jpg": {
+      "bytes": 108351,
+      "sha256": "b1ca49dede18b6736ede214cba4a87a4855577bb60d19494a7e9ed9fb46bc1a4"
+    },
+    "docs/images/csgame-defusing.jpg": {
+      "bytes": 185606,
+      "sha256": "f68bf87603e7b12163d1b952d9522eedcd8a712b6f61f85509e7c9977d24f6a8"
+    },
+    "docs/images/csgame-gameplay.jpg": {
+      "bytes": 165120,
+      "sha256": "1b5c218b03573402dba3702224b75b2738ed1c9d838ce683e298856dccda8cbe"
+    },
+    "docs/images/csgame-menu.jpg": {
+      "bytes": 175284,
+      "sha256": "5665a91978b60d9e281097ef7ff6ea3737e4e8382d77644cde2424d5f9cede49"
+    },
+    "docs/images/csgame-scope.jpg": {
+      "bytes": 64181,
+      "sha256": "4b81d57f638b1a9859840b298428f625a4a2b5efd488c942a12c5e51c75e4014"
+    },
+    "docs/images/farm-play.jpg": {
+      "bytes": 163217,
+      "sha256": "d3837ab38edde78db56f6292a04e08d24ad01e80569f5686876c8abac20d3d10"
+    },
+    "docs/images/farm-theme.jpg": {
+      "bytes": 133698,
+      "sha256": "cc26dae574d690554956c8daa0c037e7d3f185b93afc804956dfe4f4d81e6333"
+    },
+    "docs/images/game-skill-cover.jpg": {
+      "bytes": 233215,
+      "sha256": "b522527e5029e05146019ad51aee043fafa22d391fdda29c93359c357b9fbffe"
+    },
+    "docs/images/huoche-docked.jpg": {
+      "bytes": 165503,
+      "sha256": "0f313c355b723217283749f5721e2d795be21904fe526d11a18aa1ea4a48ccea"
+    },
+    "docs/images/huoche-driving.jpg": {
+      "bytes": 189306,
+      "sha256": "9563aaa4cb32958ea411f3127c6760bff4cfb324823aebaa3d7786e0f1e16f77"
+    },
+    "docs/images/huoche-workshop.jpg": {
+      "bytes": 129542,
+      "sha256": "32e5e6f129f1fb0d128223baaac737f73873d4e59c8ab0132b77fb027479b6ab"
+    },
+    "docs/images/maomao-race.jpg": {
+      "bytes": 151913,
+      "sha256": "8f6327d23000cb81062fe4a669e6143dd54ab839334973285f0a8634b8ae643c"
+    },
+    "docs/images/maomao-select.jpg": {
+      "bytes": 190340,
+      "sha256": "e2e728b3e7819cf07ab889400f594fa2e251c4f834b33ea034367ece575ff595"
+    },
+    "docs/images/moshou-courtyard.jpg": {
+      "bytes": 300725,
+      "sha256": "1bc99f6e5d232198e42beceb121d86dff7cc8b0effda0aac8add58d235755247"
+    },
+    "docs/images/moshou-forest.jpg": {
+      "bytes": 395594,
+      "sha256": "cbc57bede3f95337d9d02bcb0feb7d5270ffac4a9a8e6760c49e6dfa14d0d25a"
+    },
+    "docs/images/platform-play.jpg": {
+      "bytes": 99127,
+      "sha256": "f8e813ad364558174aacaf493282119e4f1f9879a0d439402d0ad023efd3e32a"
+    },
+    "docs/images/platform-theme.jpg": {
+      "bytes": 94502,
+      "sha256": "df8619866266d2ab798e22f4cf857bd1ade84d08e5491f6c3be736b47ec6201b"
+    },
+    "docs/images/quanwang-kick.png": {
+      "bytes": 180843,
+      "sha256": "23392e18fff01f155f0b10ea62557ee308ff2c817cad5c387a921c3d1a3441e5"
+    },
+    "docs/images/quanwang-select.png": {
+      "bytes": 286276,
+      "sha256": "28387fb89c58e0e5472268f4f70089c3b20fa5cf7cde8cfa3adabc39706b226e"
+    },
+    "docs/images/quanwang-special.png": {
+      "bytes": 177245,
+      "sha256": "7f7cdcb8e3ae45fb740b09d48dcfe3a7f117d0b85e3d937a5975c7ece42bf4e0"
+    },
+    "docs/images/survivor-play.jpg": {
+      "bytes": 132286,
+      "sha256": "5ad3ce99e0c6e2f7ac7bebeda9de53b38ac558cd66d59f7ed1cef29d27ccc3b0"
+    },
+    "docs/images/survivor-theme.jpg": {
+      "bytes": 133653,
+      "sha256": "ef48f17b5203ea6bb313ae0fec87cec1c1f2f7e989abf9b7daaa58842ad8d766"
+    },
+    "docs/images/tower-defense-play.jpg": {
+      "bytes": 141632,
+      "sha256": "6e5906e759a30d85709a809515312964f80f8808a349b740ce3543734795c73d"
+    },
+    "docs/images/tower-defense-theme.jpg": {
+      "bytes": 118782,
+      "sha256": "ecfd06f883efae7e91bca7c6da1bcdd07524b3e4ee707fdb30d78e1b3ff57a1c"
+    },
+    "docs/images/wangzhe-battle.jpg": {
+      "bytes": 219646,
+      "sha256": "6f16f723e33866b2612e984f1c61c4b21750eb4a3ca63a02372766d63755e905"
+    },
+    "docs/images/wangzhe-menu.jpg": {
+      "bytes": 150135,
+      "sha256": "45ba5e79ea35b465fb724d8f4e98e60a1e68dc1a899c9d3668e606d321e7e309"
+    },
+    "docs/images/wangzhe-shop.jpg": {
+      "bytes": 163047,
+      "sha256": "cf519de7747e0a497bd26f73ce98b5dd400fbb87601752e392470461d0da401c"
+    },
+    "docs/images/yimo-dex.jpg": {
+      "bytes": 87890,
+      "sha256": "f8cca26c71ea839fc6fbe8aec67b47c6f46ae9297e8db8b6fdf670bb80525a85"
+    },
+    "docs/images/yimo-field.jpg": {
+      "bytes": 316346,
+      "sha256": "9a31901a760aafd1cbc5303b4a0185403be673324cce759a96b7c0dbdf40ba08"
+    },
+    "docs/images/yimo-linked.jpg": {
+      "bytes": 303386,
+      "sha256": "397282d306e241ded293930be67b981137b08ead95e99f35226bf19a9c35c4fe"
     },
     "farmGame.zip": {
       "bytes": 869217,
@@ -79,6 +227,22 @@
     "farmGame.zip.sha256": {
       "bytes": 79,
       "sha256": "80c5ecd67afdf3ec40e5b09ea1f1edab9db67c1e11da891f86b4d13177482ddc"
+    },
+    "huocheGame-交付记录.md": {
+      "bytes": 4423,
+      "sha256": "2b5d8263a25965a164417c2801c781c885bf6a4cace89527bb8681a1aafc08d4"
+    },
+    "huocheGame-使用说明.md": {
+      "bytes": 3507,
+      "sha256": "fe9e26cab93a28ce33520ea28cd74f1224234bdba705a99bd2aa610c3014bd48"
+    },
+    "huocheGame.zip": {
+      "bytes": 8198668,
+      "sha256": "1de66ee4a79d37c5e36ef8f14d064fffdaad669a0fc5993ffbe9c907d6ea79b1"
+    },
+    "huocheGame.zip.sha256": {
+      "bytes": 81,
+      "sha256": "03e4c0f5afefe1fb806b979e34bdb80bfb4b7b45efabe2de5830bdfb66db1387"
     },
     "maomao3Dgame.zip": {
       "bytes": 18116226,
@@ -97,8 +261,8 @@
       "sha256": "a6883c190f527320b3ef3bf258dd64969acf1b0ca12d310570e229b5844c2e09"
     },
     "packages.json": {
-      "bytes": 3158,
-      "sha256": "ffe18b4c36ef8ef7c44ed19ad72bf07c7f05a0e87703d889ea0dd62727654217"
+      "bytes": 4165,
+      "sha256": "18c6826cbc9d0439183fa72a50c936c53b4e9f977979d8034b8107d294f09b75"
     },
     "platformGame.zip": {
       "bytes": 667590,
@@ -113,8 +277,8 @@
       "sha256": "c4eb6ba4754f2c85e8b63e39c493eecc01377f89d80e00151f577776997e4465"
     },
     "quanwangGame-使用说明.md": {
-      "bytes": 5558,
-      "sha256": "a9eb69de310258ef098eb8913685001626f88e5707146232d5f535f1f2babde2"
+      "bytes": 5569,
+      "sha256": "e671e05ad82610a86e705efa4ef1321646add9970164b6a6bbf40c292ee15424"
     },
     "quanwangGame-实机预览.jpg": {
       "bytes": 401828,
@@ -129,8 +293,8 @@
       "sha256": "6c306f92b51737aecb9743a52bafb2b00c0389ae2ede720f0922aca416e8f4e9"
     },
     "scripts/audit_packages.py": {
-      "bytes": 9512,
-      "sha256": "343f7ed6923766a0f7730994d4b4a42aac75a5fedd1aa5a4f46d89661d24758b"
+      "bytes": 11148,
+      "sha256": "e8f5ba30e00319379e11395f24576cb6ccf27e4d82e3444771a96b61e5a8786a"
     },
     "scripts/export_release.py": {
       "bytes": 2322,
@@ -141,8 +305,8 @@
       "sha256": "3e3e53b028cb4c6713bcb4f1bac2c7f7019dba8aa432c9d795c6cd56a3ccc15e"
     },
     "scripts/test_release_tools.py": {
-      "bytes": 3838,
-      "sha256": "8ca16a2e11aba5062c40c0b7fa8097e95e206692e01e7bf95a1aae0d52b3373c"
+      "bytes": 5762,
+      "sha256": "b7d29a819488f763f3f202aa719e9b8527d8b7bb1501e694dca1a70c5422b25a"
     },
     "skills/allgame/SKILL.md": {
       "bytes": 6147,
@@ -1264,6 +1428,398 @@
       "bytes": 5732,
       "sha256": "bc4dd70f64c279bffb32a1e09b7309639d64308728a54a7513a0111ec74e4ebc"
     },
+    "skills/csgame/SKILL-MANIFEST.json": {
+      "bytes": 16582,
+      "sha256": "a8aba74d702ddaea92d816a01d6b9d844f186b0a531246f6b32114e5eb42d2c5"
+    },
+    "skills/csgame/SKILL.md": {
+      "bytes": 5866,
+      "sha256": "ac2343c12da4d666bff433a787dc70b0807885ddcf4a1853ea963f3976c087aa"
+    },
+    "skills/csgame/agents/openai.yaml": {
+      "bytes": 332,
+      "sha256": "a0f93782c83f7316299e2bdeb002cfe57ff3ce39aa8e135a7c076bd7f3721ff0"
+    },
+    "skills/csgame/assets/BASELINE-MANIFEST.json": {
+      "bytes": 6431,
+      "sha256": "bec8d83f24caaf52bc664886bd50b9e7331e51694a665f3f3c17589b1e65be47"
+    },
+    "skills/csgame/assets/data/initial-round-state.json": {
+      "bytes": 1664,
+      "sha256": "2ec59cb4d8301d5e7c55b9dee425771accfdd0f991b42566d7de85aac9aa7a2b"
+    },
+    "skills/csgame/assets/data/map.json": {
+      "bytes": 2927,
+      "sha256": "f88a651a9176b45fa0759bb28db0ee8d342c2efabf8e0936a48ae117c5b68da7"
+    },
+    "skills/csgame/assets/data/screenshot-index.json": {
+      "bytes": 4059,
+      "sha256": "aa29046332e8393b9ed0f8f1c092ad3a5561cfe730d5673984f193299cff88ec"
+    },
+    "skills/csgame/assets/data/versions.json": {
+      "bytes": 359,
+      "sha256": "d066bb5dca00a3e79db3c8e22f46eb5f1ec688b4746caff05b8a2b95fb368e6b"
+    },
+    "skills/csgame/assets/data/weapons.json": {
+      "bytes": 650,
+      "sha256": "2dcb8e368eeb8074824465848367c72cb15b9fc8f0c665fbfac5210a4790c4e1"
+    },
+    "skills/csgame/assets/extracted/asset-index.json": {
+      "bytes": 16105,
+      "sha256": "a57db03c05bcdeeef8e8f1782a977e94e4e3eda9c3c7d308bedfa302a679f89d"
+    },
+    "skills/csgame/assets/extracted/map-topdown.svg": {
+      "bytes": 2785,
+      "sha256": "17869a1fe6918abc4f0b8eda2ff895ab5c1c37ca2fc41b628d525fb909ba2f29"
+    },
+    "skills/csgame/assets/extracted/soldier.glb": {
+      "bytes": 899548,
+      "sha256": "9fe176f3c2c5b4daf58025f6043d30f273a4ce6416e28a2f99b021f0e9879bd4"
+    },
+    "skills/csgame/assets/extracted/textures/texture-000.png": {
+      "bytes": 329838,
+      "sha256": "5288588de84ae60afb3d05b73870fe2b0c1b05b0293b1841731d23b21d64c5ba"
+    },
+    "skills/csgame/assets/extracted/textures/texture-001.png": {
+      "bytes": 5015,
+      "sha256": "4f80a78f9eb044bfc7d79020860b3966411d075299577c72d1df755a72a35acb"
+    },
+    "skills/csgame/assets/extracted/textures/texture-002.png": {
+      "bytes": 5015,
+      "sha256": "4f80a78f9eb044bfc7d79020860b3966411d075299577c72d1df755a72a35acb"
+    },
+    "skills/csgame/assets/extracted/textures/texture-003.png": {
+      "bytes": 5015,
+      "sha256": "4f80a78f9eb044bfc7d79020860b3966411d075299577c72d1df755a72a35acb"
+    },
+    "skills/csgame/assets/extracted/textures/texture-004.png": {
+      "bytes": 5015,
+      "sha256": "4f80a78f9eb044bfc7d79020860b3966411d075299577c72d1df755a72a35acb"
+    },
+    "skills/csgame/assets/extracted/textures/texture-005.png": {
+      "bytes": 5015,
+      "sha256": "4f80a78f9eb044bfc7d79020860b3966411d075299577c72d1df755a72a35acb"
+    },
+    "skills/csgame/assets/extracted/textures/texture-006.png": {
+      "bytes": 5015,
+      "sha256": "4f80a78f9eb044bfc7d79020860b3966411d075299577c72d1df755a72a35acb"
+    },
+    "skills/csgame/assets/extracted/textures/texture-007.png": {
+      "bytes": 5015,
+      "sha256": "4f80a78f9eb044bfc7d79020860b3966411d075299577c72d1df755a72a35acb"
+    },
+    "skills/csgame/assets/extracted/textures/texture-008.png": {
+      "bytes": 7354,
+      "sha256": "37496bc1564449f5b7d247bf24467f9c1798d86d0becb820715565245e116d5b"
+    },
+    "skills/csgame/assets/extracted/textures/texture-009.png": {
+      "bytes": 9949,
+      "sha256": "94e599d8b2f300c78313d23027e9652cf3f15d724276a5627e4ded4942f05ccd"
+    },
+    "skills/csgame/assets/extracted/textures/texture-010.png": {
+      "bytes": 12100,
+      "sha256": "173b9e306dd002466c10ba732e728a590766f1791d47dbc10cba6832d8ddeaee"
+    },
+    "skills/csgame/assets/extracted/textures/texture-011.png": {
+      "bytes": 8733,
+      "sha256": "024889c8006b93e58e7b6b8a42cb11e1ec8d317048754e5812de10500cee1603"
+    },
+    "skills/csgame/assets/extracted/textures/texture-012.png": {
+      "bytes": 8684,
+      "sha256": "ebf468ada3fa1abcee6a633c2caffbc394346117a28edcc0b38c6764fd9c5d6f"
+    },
+    "skills/csgame/assets/extracted/textures/texture-013.png": {
+      "bytes": 360373,
+      "sha256": "b3a2643b5b7b083a0c0b9a46c0b4ef8d090a35a27d6340faec1e85d4eec101d8"
+    },
+    "skills/csgame/assets/extracted/textures/texture-014.png": {
+      "bytes": 371277,
+      "sha256": "1236072027cfe5a9c61a2e1a6d1c8701fe575c09763063076cacb4506471c5dd"
+    },
+    "skills/csgame/assets/extracted/textures/texture-015.png": {
+      "bytes": 408490,
+      "sha256": "6444bafe3348b003e0dc05850f35943d912701ec160a9dd6b0b0b8471ddd1705"
+    },
+    "skills/csgame/assets/extracted/textures/texture-016.png": {
+      "bytes": 367419,
+      "sha256": "cb4e0c383e635527cb4b68dfea2b167da12927e193dc4c56d8ed3c2ad03d0ac6"
+    },
+    "skills/csgame/assets/extracted/textures/texture-017.png": {
+      "bytes": 377529,
+      "sha256": "85e5b66da916ca858d1312c1ded1b1d9ccaf2beccd76c5cbab416a679decc7f3"
+    },
+    "skills/csgame/assets/extracted/textures/texture-018.png": {
+      "bytes": 359016,
+      "sha256": "7b41779c19f994312e2b9be59b97a8a6ca2291df86cb643c092f0156e4d8b3f2"
+    },
+    "skills/csgame/assets/extracted/textures/texture-019.png": {
+      "bytes": 48981,
+      "sha256": "59296c82d51f897ee159ceadb3bb4f12a34465ce557f9968ed08bf29f782fe4c"
+    },
+    "skills/csgame/assets/extracted/textures/texture-020.png": {
+      "bytes": 42761,
+      "sha256": "4a6f0b2d011d05de48854d75872e24d943cc89cce88722c0716bf04d5a59c918"
+    },
+    "skills/csgame/assets/extracted/textures/texture-021.png": {
+      "bytes": 57101,
+      "sha256": "108a299fca1dc5d677e903fdef1546834730af21cda68a36ac464af1c968fcd3"
+    },
+    "skills/csgame/assets/extracted/textures/texture-022.png": {
+      "bytes": 47605,
+      "sha256": "eb90a12d47cf09e3e6fca9ff5b848126957f928a994db0cc82adf792ee49158f"
+    },
+    "skills/csgame/assets/extracted/weapon-pistol.glb": {
+      "bytes": 205640,
+      "sha256": "d2a01e5e12567e34b06a1aff00e52a7b6cd1a255f62335270806723e741f759e"
+    },
+    "skills/csgame/assets/extracted/weapon-rifle.glb": {
+      "bytes": 689796,
+      "sha256": "e16b63000af268e65dee89d273c1f2d2624ec04fc09d43dd22082a4e9ca63160"
+    },
+    "skills/csgame/assets/extracted/weapon-sniper.glb": {
+      "bytes": 637112,
+      "sha256": "f43939c2e32bf70930fe669f6efc33745eafb5b4eb418d89a24d7bca0ae7279d"
+    },
+    "skills/csgame/assets/extracted/world.glb": {
+      "bytes": 6319656,
+      "sha256": "7a4cf543bfee51fbef38202fac33441e836b9241aa8f3b044b09e3f97f6ea565"
+    },
+    "skills/csgame/assets/project/.gitignore": {
+      "bytes": 30,
+      "sha256": "8ffe9de56bd30c1a95cd945262d6e3ac355ada4111551dde41f67851b9f1fc55"
+    },
+    "skills/csgame/assets/project/GAME-CONTRACT.md": {
+      "bytes": 1547,
+      "sha256": "aa075ab7ce45aada0be34019457f38604b3c585a96d6e5e889e6ee44a897f662"
+    },
+    "skills/csgame/assets/project/LICENSE": {
+      "bytes": 1081,
+      "sha256": "f73fe348d98430a77bf67b43e51c4708a5ef38d0636667c30a365ab34295bc0c"
+    },
+    "skills/csgame/assets/project/PROGRESS.md": {
+      "bytes": 3764,
+      "sha256": "5d440f4325397d39d1b8814fc873dbd3f13161a27a790278ce24f9f39a24b372"
+    },
+    "skills/csgame/assets/project/README.md": {
+      "bytes": 5016,
+      "sha256": "3b238ffe7903833f836a0361d9e1273908a8e85cdcf65efdca6e816d2c637845"
+    },
+    "skills/csgame/assets/project/THIRD_PARTY.md": {
+      "bytes": 1888,
+      "sha256": "ec45adbb0ea1217d88d3934410553d967aea8ca62129d7ff7b8878902fcb30df"
+    },
+    "skills/csgame/assets/project/artifacts/armory.png": {
+      "bytes": 319326,
+      "sha256": "b0ea43a66152186de09b424e2a681cd1170ac433675b4aefbaba46b037a5a124"
+    },
+    "skills/csgame/assets/project/artifacts/browser-report.json": {
+      "bytes": 1735,
+      "sha256": "fb138846de2795da19ed33c12e00c48bccd8d26e82ff4c9df688204afa25ac3d"
+    },
+    "skills/csgame/assets/project/artifacts/defusing.png": {
+      "bytes": 1301119,
+      "sha256": "91222ed62163c46f0f677a17ccfae117fd71ab22ca04d5ac15b2349bdcd40a8a"
+    },
+    "skills/csgame/assets/project/artifacts/fallback-report.json": {
+      "bytes": 281,
+      "sha256": "93d2340b6553193b6670c39fa12ad9f467a07223ac664f930d91fce3dc37eed8"
+    },
+    "skills/csgame/assets/project/artifacts/gameplay.png": {
+      "bytes": 1140872,
+      "sha256": "ec356774f756505bdc886faedc109c0207dc1b82759194fdb099f8db5480d055"
+    },
+    "skills/csgame/assets/project/artifacts/match-win.png": {
+      "bytes": 247387,
+      "sha256": "cea8b91a87db000e1d10b1d8f120c759825c577d5046790d070e7b7bd43f3ccb"
+    },
+    "skills/csgame/assets/project/artifacts/menu.png": {
+      "bytes": 1318688,
+      "sha256": "02622b6e5e0732f97dbfe6566e0a85d4d8cfbe78e4b5503921be6fd393280c52"
+    },
+    "skills/csgame/assets/project/artifacts/pause.png": {
+      "bytes": 294872,
+      "sha256": "39e6089b06979873c4cebc6b79afbbb495013664cc643938ed05dd22d98fe081"
+    },
+    "skills/csgame/assets/project/artifacts/production-1280.png": {
+      "bytes": 981983,
+      "sha256": "967172b3d5d844c4aed52e6a67bb2224814b25f8c920a1a9be1639871a6dd960"
+    },
+    "skills/csgame/assets/project/artifacts/production-1920.png": {
+      "bytes": 2023663,
+      "sha256": "f79cf743af84284551928f8fb458125966215b5931dc2021fa1e3cca38655300"
+    },
+    "skills/csgame/assets/project/artifacts/production-gameplay.png": {
+      "bytes": 1133087,
+      "sha256": "26a66802c48c8b9b54a8f688b6c84653b42dd7393242844ce953adc621127cf9"
+    },
+    "skills/csgame/assets/project/artifacts/production-menu.png": {
+      "bytes": 1318269,
+      "sha256": "d1c47c36f97c20f54f575f0931adcba9b3edd89453f4a2a3b69f24af8c99d2a4"
+    },
+    "skills/csgame/assets/project/artifacts/production-report.json": {
+      "bytes": 659,
+      "sha256": "d5092c79fd5cf3b9d8323493904072032aa3491da902b25b947fc8a2caeb3887"
+    },
+    "skills/csgame/assets/project/artifacts/round-win.png": {
+      "bytes": 1285564,
+      "sha256": "b27e1fb48e2cae5fec8f459d34ee5a394fe7deca18fc56ffbe5cb2388abe63ee"
+    },
+    "skills/csgame/assets/project/artifacts/scope.png": {
+      "bytes": 263307,
+      "sha256": "f538c8dc78fc7d113ab34a8a1dae7f34b78840051e24351c2adf9b028d2f0ef2"
+    },
+    "skills/csgame/assets/project/artifacts/unit-tests.txt": {
+      "bytes": 2125,
+      "sha256": "56f0eabded98ef39658172363dfd40755465e2633330db8ca0c1fc47d93f2d7d"
+    },
+    "skills/csgame/assets/project/artifacts/webgl-fallback.png": {
+      "bytes": 18905,
+      "sha256": "f82335852f3b7d017384f239cf5da652ae5164f868e60d28e6518101b843f257"
+    },
+    "skills/csgame/assets/project/dist/assets/index-CxmoRyij.css": {
+      "bytes": 13836,
+      "sha256": "54ab8ae8370fc359870f05cdbbc053693c9409188d7a97e1fd547f07565cb345"
+    },
+    "skills/csgame/assets/project/dist/assets/index-DBKv00j5.js": {
+      "bytes": 565284,
+      "sha256": "d1971e753070f5ae57c6b393d47be5af89c4bd72427e0e2f136d5ee83d2332a6"
+    },
+    "skills/csgame/assets/project/dist/index.html": {
+      "bytes": 7236,
+      "sha256": "176f2cafd96bb9d084b8cf5160d2ae3b111e337a17984156abecad3a431046f2"
+    },
+    "skills/csgame/assets/project/index.html": {
+      "bytes": 7137,
+      "sha256": "8356deacfc85ecb7c5acd98d53e3a8e99008f93c2e514afb3a1f30ba880db0a5"
+    },
+    "skills/csgame/assets/project/package-lock.json": {
+      "bytes": 37552,
+      "sha256": "cb71aa1d2ccd58e6fa4e2be436552e431d926f28661390c502a1d5adf44d0355"
+    },
+    "skills/csgame/assets/project/package.json": {
+      "bytes": 540,
+      "sha256": "2386fd8c71a3f4220706b6ca03d3be770df00fee104e7914244d23758449ae7c"
+    },
+    "skills/csgame/assets/project/src/audio.js": {
+      "bytes": 2245,
+      "sha256": "f2efede08d9097fca64b8b222c2faf048b27a9baec5e3ace217488ed0fe95f71"
+    },
+    "skills/csgame/assets/project/src/main.js": {
+      "bytes": 22198,
+      "sha256": "68cb36722fd1d1e7e0a0fe38fa879bf827f9434bb1dd6913297da5a947f1758e"
+    },
+    "skills/csgame/assets/project/src/map.js": {
+      "bytes": 3334,
+      "sha256": "baa6c3034a57d9a756a02b7044e40232990581fbce73621e7110fe12d4d91997"
+    },
+    "skills/csgame/assets/project/src/models.js": {
+      "bytes": 7135,
+      "sha256": "95d287de6d137d621333ddca1888f148c89d6100e105e91fba64ab3d08fe2225"
+    },
+    "skills/csgame/assets/project/src/simulation.js": {
+      "bytes": 7573,
+      "sha256": "4a55062f6017517e83a155645c50a4bec8be66043a53162d9902f5f3a4834f1d"
+    },
+    "skills/csgame/assets/project/src/style.css": {
+      "bytes": 13638,
+      "sha256": "7452f55db8f85f7da7098ca4806a8729caba6a0318ba2cc6a4a3b5e54f52e331"
+    },
+    "skills/csgame/assets/project/src/world.js": {
+      "bytes": 13806,
+      "sha256": "2da8fe3200c0aa40fe06e22115888d1c3b26ea8923852b3036d8862035de4e27"
+    },
+    "skills/csgame/assets/project/tests/browser.mjs": {
+      "bytes": 9790,
+      "sha256": "8a20a69c1d6518adc7f687b69cc22990de0c4b793a6e164589b3d017e9daab39"
+    },
+    "skills/csgame/assets/project/tests/production.mjs": {
+      "bytes": 3941,
+      "sha256": "54a44d85b3777efbbe2bbe56375097b2be57cf93c5b5f9da92600774a4a0c47c"
+    },
+    "skills/csgame/assets/project/tests/simulation.test.js": {
+      "bytes": 7765,
+      "sha256": "b86fcce6867e029e3a93d6a5e01d60b438345da523661240e7bddfd22fb6fbe4"
+    },
+    "skills/csgame/assets/project/tests/visual.mjs": {
+      "bytes": 748,
+      "sha256": "3cacc1b57f50b0eeb80f1c34450f9edc2a9476163ad7811e37d9d2ce6e6cbb00"
+    },
+    "skills/csgame/references/01-运行与原样恢复.md": {
+      "bytes": 4931,
+      "sha256": "d43e7e13ccd99e4a5f27a6e158532aa3b6b251cbfe4929d8be7bc546fde7db7e"
+    },
+    "skills/csgame/references/02-玩法与数据合同.md": {
+      "bytes": 6467,
+      "sha256": "14a431423cbef9e30a0435f204cfb34d9a511c0252db61ece733d79acefcea8c"
+    },
+    "skills/csgame/references/03-地图与导航.md": {
+      "bytes": 3373,
+      "sha256": "6e22415ae8504299b2da103e25a6b35c2ddc00667d91b6714f45782019a13fb4"
+    },
+    "skills/csgame/references/04-程序化素材.md": {
+      "bytes": 6029,
+      "sha256": "0acda31af1b7a56239e47b5764f8ed79470b6d78b698049e6e984ed1e17b6c44"
+    },
+    "skills/csgame/references/05-画面UI与输入.md": {
+      "bytes": 5551,
+      "sha256": "9be0d2cc7fb262025a2da046c221f6d726cfb18388382cc60eeb3746a1d005ca"
+    },
+    "skills/csgame/references/06-逐阶段重建.md": {
+      "bytes": 3673,
+      "sha256": "3ba46a705df0f64cc66294abd5d9ac5b330bb1f4e5a06a13d5b590be4049a1a1"
+    },
+    "skills/csgame/references/07-验收与证据.md": {
+      "bytes": 5108,
+      "sha256": "cc1175a5552d1cf3048ccc2743939fd27b8c4c0cda8222e700b7a3eeca45b6fd"
+    },
+    "skills/csgame/references/08-排错与已知边界.md": {
+      "bytes": 3773,
+      "sha256": "a0c787965d65436e2fbc35eba2020f2bc864fbb7aa508209d3d3cb2190204d7d"
+    },
+    "skills/csgame/references/09-工具参数与文件定位.md": {
+      "bytes": 3197,
+      "sha256": "e3a992fb79a76f2b2afdd3de694fe6d3b080f8fa900270ab148acd8aea10af92"
+    },
+    "skills/csgame/references/10-remix-guide.md": {
+      "bytes": 3243,
+      "sha256": "c1bc036f3e3189b29e1428e65c6401c8b52b28ce65722f1f1ff77a22be4cbe0b"
+    },
+    "skills/csgame/references/provenance.md": {
+      "bytes": 2696,
+      "sha256": "9ea8f2260a89dd6045757d0681e33b851c3016ac1ed77c9c76cab98a85135b82"
+    },
+    "skills/csgame/scripts/capture.mjs": {
+      "bytes": 3841,
+      "sha256": "db254fa346f76c187297e476152fa190a780be0a1761a3a519ffff044a74a723"
+    },
+    "skills/csgame/scripts/check.mjs": {
+      "bytes": 3971,
+      "sha256": "f2505c24061690ba70546561fe202938236af165caf9e6b137581ad5076bc4fb"
+    },
+    "skills/csgame/scripts/common.mjs": {
+      "bytes": 5397,
+      "sha256": "79f990c51a44b6b9585356bd441aa39046f150c14d3545c1ed8dd37daff80ea6"
+    },
+    "skills/csgame/scripts/export-assets.mjs": {
+      "bytes": 5557,
+      "sha256": "4d70c7086792b497396a5196db8b946b6e5d5aef5159f753dce3231732de8d5a"
+    },
+    "skills/csgame/scripts/game.py": {
+      "bytes": 2819,
+      "sha256": "25347ec12636f6dd3b6a88587d2ea48a40abc846e9bc682d7d239a21f0ed49bd"
+    },
+    "skills/csgame/scripts/repro.py": {
+      "bytes": 7355,
+      "sha256": "13ffa3bfc0823939ddf68ef74781f54bbc5ab8556f7640259a65daf941d3667a"
+    },
+    "skills/csgame/scripts/start-demo.py": {
+      "bytes": 1414,
+      "sha256": "032ecbbd9e476cafcb95e309799de068d20acce973a2070722ec97baafb41ac0"
+    },
+    "skills/csgame/scripts/test_game.py": {
+      "bytes": 2351,
+      "sha256": "94754efd03707438782346168ec3852249a9faefd4eb3a13c914d75fb5194182"
+    },
     "skills/farmgame/SKILL.md": {
       "bytes": 4374,
       "sha256": "ce990f8c77605367253b0d5a35bf84bfc46eb2d482a5135025f18f7980e353b0"
@@ -1459,6 +2015,338 @@
     "skills/farmgame/scripts/game.py": {
       "bytes": 3787,
       "sha256": "33af3b86e636cb4eea55111b201ad211b24e22b0cf71d222da2dc32b5c933515"
+    },
+    "skills/huochegame/.gitignore": {
+      "bytes": 37,
+      "sha256": "2af77811cc264f5e9d48d293eb92eb40d2019e896de98eacc2d905fd19c03edc"
+    },
+    "skills/huochegame/SKILL-MANIFEST.json": {
+      "bytes": 12630,
+      "sha256": "c0850100a229dfc48b7763dc539b65ce232b2abc9c537a56b7f6f7c05bb5c58c"
+    },
+    "skills/huochegame/SKILL.md": {
+      "bytes": 5128,
+      "sha256": "ace697c9274453b20085780e043647f9efc51ef72a007cabc650fad167204056"
+    },
+    "skills/huochegame/agents/openai.yaml": {
+      "bytes": 357,
+      "sha256": "8f67d61973e9a7586c37736800dca82d02fafa01305ba4465da02e9418d3a068"
+    },
+    "skills/huochegame/assets/baseline-manifest.json": {
+      "bytes": 4229,
+      "sha256": "146724a4cdcbfb6822ee82f33d2d96fe3e0bba1e1e3bfa4783df3a0c93f507b9"
+    },
+    "skills/huochegame/assets/canonical/01-ready.png": {
+      "bytes": 751264,
+      "sha256": "9aa21206ef282895ad167f173a5c305e315143f55e58058db35fd0b8b8d5abc3"
+    },
+    "skills/huochegame/assets/canonical/02-bridge.png": {
+      "bytes": 610420,
+      "sha256": "cbd26b6495d1be44cf5449752431c6784562cad133e0b73a73b042a6dbf9753d"
+    },
+    "skills/huochegame/assets/canonical/03-mango.png": {
+      "bytes": 600373,
+      "sha256": "ede8f1fb6dc7357bd9a3dd4323d7bdbff6a253b17a6164d07ba9857ce0612713"
+    },
+    "skills/huochegame/assets/canonical/04-workshop.png": {
+      "bytes": 396600,
+      "sha256": "2ea42a6ceb47f05cad47bc7dead38ff228a70bda1ac395f67271c54f5bbca2a6"
+    },
+    "skills/huochegame/assets/canonical/05-mobile-ready.png": {
+      "bytes": 234538,
+      "sha256": "cac7dc894c07d22ef6bb8e13e7b59c7e153870b66049b6d997efaeabc365962f"
+    },
+    "skills/huochegame/assets/canonical/06-mobile-workshop.png": {
+      "bytes": 190994,
+      "sha256": "46f4804501abc99cc982d0dd4ede76b0d4da892bcbe192740398b495575b74bd"
+    },
+    "skills/huochegame/assets/canonical/metadata.json": {
+      "bytes": 7512,
+      "sha256": "e8b194c1ab25e0f7c007d9c308269edc689ca1b417e18eff414c672597abfcd8"
+    },
+    "skills/huochegame/assets/gallery.html": {
+      "bytes": 4012,
+      "sha256": "edb9dace0d96a9e5df931af334ab7370f6e82407b9df8cbba87c624838b953cc"
+    },
+    "skills/huochegame/assets/reference-project/.gitignore": {
+      "bytes": 24,
+      "sha256": "6c7d15d2ab1a0b51ebcae7e88b9ad01f0713d0833bc2dbe8f3bcc7a81b66b344"
+    },
+    "skills/huochegame/assets/reference-project/GAME-CONTRACT.md": {
+      "bytes": 2111,
+      "sha256": "0a3bd7187ad82c4e35449284e205d7134c7e566ca3ca7af69b95105bb5528744"
+    },
+    "skills/huochegame/assets/reference-project/LICENSE.txt": {
+      "bytes": 1375,
+      "sha256": "7b90c09ab2f13be8b1d47f7b172355adcd24020b569d3fa98c1369d3b66bdada"
+    },
+    "skills/huochegame/assets/reference-project/PROGRESS.md": {
+      "bytes": 4215,
+      "sha256": "10e17a8a9e333122371865a50711d0e8bef1f9fa0b7b743e9839f9bcfac59860"
+    },
+    "skills/huochegame/assets/reference-project/README.md": {
+      "bytes": 3962,
+      "sha256": "fa49e9eba9862c9bf43a7cecb3939a7855f271a6b97836c5350a783ed7ce8693"
+    },
+    "skills/huochegame/assets/reference-project/SHA256.txt": {
+      "bytes": 81,
+      "sha256": "94d5495a99f3c10644223720e3a3537685201d2096b1dc0a5c24a41a06281990"
+    },
+    "skills/huochegame/assets/reference-project/build.mjs": {
+      "bytes": 965,
+      "sha256": "3ad3a814583e5e2c1d904d7d5de3258d90eeca3386ae19e942bb7d24cd1fb1c1"
+    },
+    "skills/huochegame/assets/reference-project/cloudline.html": {
+      "bytes": 774811,
+      "sha256": "3c75e392dccd208ac7eecb9318eb8944386363789bbc6cdb0a89b9058add5b59"
+    },
+    "skills/huochegame/assets/reference-project/package-lock.json": {
+      "bytes": 726,
+      "sha256": "e94fcd63a8c6dbe750dbd9fff402da4f8ed04129531729cf03d125b73587b37d"
+    },
+    "skills/huochegame/assets/reference-project/package.json": {
+      "bytes": 386,
+      "sha256": "1868151207b2dee7d65ecc05a937756fbf03cc3598a9b60c2bdd73d5b8cdf96e"
+    },
+    "skills/huochegame/assets/reference-project/screenshots/01-departure.png": {
+      "bytes": 752258,
+      "sha256": "1d6e772760b59556c19c1d03b8051d1982b78af6897216294b6501a60b9bdf04"
+    },
+    "skills/huochegame/assets/reference-project/screenshots/02-driving.png": {
+      "bytes": 749894,
+      "sha256": "c23821041934d1dfcfcd586c8658634b2c521b30f77b95b3984ca3bf2b457807"
+    },
+    "skills/huochegame/assets/reference-project/screenshots/03-workshop.png": {
+      "bytes": 388606,
+      "sha256": "6e16ff3c18b4383883abf40566934db5d23e57faf39bfefef0e86b1e357e3bae"
+    },
+    "skills/huochegame/assets/reference-project/screenshots/04-mango-docked.png": {
+      "bytes": 588935,
+      "sha256": "ca21d6081f44611402d8f114f7d704e6b0b6f7081ec71adf6c289cc747182d08"
+    },
+    "skills/huochegame/assets/reference-project/screenshots/05-boarding.png": {
+      "bytes": 602966,
+      "sha256": "501fc3b8c9547c22561e8c49109c86cb12f10d80c6f16b586bc9078db2c82e5e"
+    },
+    "skills/huochegame/assets/reference-project/screenshots/06-workshop-upgraded.png": {
+      "bytes": 396600,
+      "sha256": "2ea42a6ceb47f05cad47bc7dead38ff228a70bda1ac395f67271c54f5bbca2a6"
+    },
+    "skills/huochegame/assets/reference-project/screenshots/07-mobile-ready.png": {
+      "bytes": 233901,
+      "sha256": "1176c252c6983a9a91547215db3cd44c56186fe682b00290f66aea1b16e45abc"
+    },
+    "skills/huochegame/assets/reference-project/screenshots/08-mobile-driving.png": {
+      "bytes": 270513,
+      "sha256": "fb713cd10a494f22daf16202bd1d804caf4466b3ebaf8ed84fe38f43042b5a9e"
+    },
+    "skills/huochegame/assets/reference-project/screenshots/09-mobile-workshop.png": {
+      "bytes": 191013,
+      "sha256": "0fcb1e51f0eebd13b04d3c68a7ee6bb942cd29ad469f89ac108a538aafe677b2"
+    },
+    "skills/huochegame/assets/reference-project/screenshots/10-production-offline.png": {
+      "bytes": 754678,
+      "sha256": "89cd18676d42a758c07d85d3e606cb82c1a71b4609dff838caa6e45a1637afae"
+    },
+    "skills/huochegame/assets/reference-project/src/game.js": {
+      "bytes": 81046,
+      "sha256": "bc39b143790b3005e8f5b8171f0a7bb74be023899185be10f2cf5c002195e1ba"
+    },
+    "skills/huochegame/assets/reference-project/src/shell.html": {
+      "bytes": 7160,
+      "sha256": "0b090dc41c3efcaaed2357cd202820beb0eb06ecc318dad147b8d6c61d76ee51"
+    },
+    "skills/huochegame/assets/reference-project/src/style.css": {
+      "bytes": 21067,
+      "sha256": "b10b61da734ed0c6b398938019628cf70cd232f6f942a17aac38a8774b134767"
+    },
+    "skills/huochegame/assets/reference-project/src/three.inline.js": {
+      "bytes": 664189,
+      "sha256": "b8088fe2c3d6fb1430679c88bebfc9f36ff8a2fa0cca048ef65093e1c3d1f0ed"
+    },
+    "skills/huochegame/assets/reference-project/tests/edge-report.json": {
+      "bytes": 1137,
+      "sha256": "0d0d051631d08596e6cb4c33c91bc4abac00f290b402e2be70ab43864f28417b"
+    },
+    "skills/huochegame/assets/reference-project/tests/edges.mjs": {
+      "bytes": 8002,
+      "sha256": "562520218e6b08b3e34e03d5dac70d734fb17ba07a4a7ee5b65f90c95d05b2b0"
+    },
+    "skills/huochegame/assets/reference-project/tests/gameplay.mjs": {
+      "bytes": 13028,
+      "sha256": "f2888ce4c5427f892a4c1332d7de6d9bc9b6de5a38b8e3ba9e4d5ee0b438312c"
+    },
+    "skills/huochegame/assets/reference-project/tests/report.json": {
+      "bytes": 2801,
+      "sha256": "3c16d65276153422de1aa8ac9da063b142f8a01c9bdfd314922e5db49d52e767"
+    },
+    "skills/huochegame/assets/reference-project/tests/visual.mjs": {
+      "bytes": 1648,
+      "sha256": "a2ee7c7a72f8d8bf14c7d51de3e2e562fffa59626ba659e7df56b17027a3e642"
+    },
+    "skills/huochegame/package-lock.json": {
+      "bytes": 1066,
+      "sha256": "4afa72633b4602ad9113f5076f721ae0cfaefd3bf3fc4df91151b618be9efceb"
+    },
+    "skills/huochegame/package.json": {
+      "bytes": 263,
+      "sha256": "763b517e2ffb681c86fcd7f5c51ec76ebaab213e1711fe00e9996e31e05c6bc2"
+    },
+    "skills/huochegame/prompts/audit.md": {
+      "bytes": 647,
+      "sha256": "35b411b4a8375936f019d17863a9f5730d8585c88b3d4e538691c528c3a3a407"
+    },
+    "skills/huochegame/prompts/continue.md": {
+      "bytes": 472,
+      "sha256": "432f4978cdcc88d68f02bb1753cc84eacf218636ddd5bbcec4d7190be2e14b35"
+    },
+    "skills/huochegame/prompts/exact.md": {
+      "bytes": 508,
+      "sha256": "bc4f8cf895008acec48b95bf57db56deb5b0904366e44f5f93fab5baebaee7e9"
+    },
+    "skills/huochegame/prompts/rebuild.md": {
+      "bytes": 807,
+      "sha256": "e0f8bf3cb90ee702690cff51282dfd8c2160cb39335564fbc214cf5d78b15aa3"
+    },
+    "skills/huochegame/references/01-contract.md": {
+      "bytes": 2858,
+      "sha256": "f0bbb503dac293d0d0cbbe6c82f4c75269c7416404b54a984fb82f6a4ca569af"
+    },
+    "skills/huochegame/references/02-world-art.md": {
+      "bytes": 4664,
+      "sha256": "d0283b9582b5e6c0c659340bbe4bcf3dc8f918ba816e58def1ce9e6cae90732c"
+    },
+    "skills/huochegame/references/03-gameplay.md": {
+      "bytes": 5047,
+      "sha256": "d7083b0641625d61935e1a0d4817cde314ee24790c0f3468a82087004b5435ab"
+    },
+    "skills/huochegame/references/04-tram-workshop.md": {
+      "bytes": 3910,
+      "sha256": "b229f16fe40a79a0a1761ff82b0dffb8d2593f27ef538f03f42d9efe02681938"
+    },
+    "skills/huochegame/references/05-ui-input.md": {
+      "bytes": 3740,
+      "sha256": "901070b41a99642c6a0a7bda0ec982c2387b4a9d2fe58007297e8074b74d3f9a"
+    },
+    "skills/huochegame/references/06-workflow.md": {
+      "bytes": 3362,
+      "sha256": "7e6d3cd2da4ed10b0a5256828cdf36f0e979e7cda0daa4fef23e1328530ab9d5"
+    },
+    "skills/huochegame/references/07-acceptance.md": {
+      "bytes": 4984,
+      "sha256": "a9b727661878c22bc0e9e591dea4fd28d72e687f0a633431de0184b4add68486"
+    },
+    "skills/huochegame/references/08-pitfalls.md": {
+      "bytes": 2908,
+      "sha256": "12c6e4294cfba40f81494fdf6c1fbf36ea83ff580be31f4cd3b15437c1e18c4a"
+    },
+    "skills/huochegame/references/09-runtime.md": {
+      "bytes": 2416,
+      "sha256": "3fe4d58806349d87ab5c4609f1941138ea6b534a3e0293f7f25115887ec0161b"
+    },
+    "skills/huochegame/references/10-assets.md": {
+      "bytes": 2202,
+      "sha256": "0165e947cb5ffde438cb1f6edc001c8d6cf94308423830cde88c2a6c874f5625"
+    },
+    "skills/huochegame/references/11-handoff.md": {
+      "bytes": 1821,
+      "sha256": "637829fdc610378361823044c9f5a569d62dbbd8434b3731813ad2dca9380951"
+    },
+    "skills/huochegame/references/12-remix-guide.md": {
+      "bytes": 2765,
+      "sha256": "2d18d76b809f1769af93c335e0cd60f383d0d9501eed0cbaa2342a53d38d16f1"
+    },
+    "skills/huochegame/references/provenance.md": {
+      "bytes": 1427,
+      "sha256": "71c62f3d7e0495fa9c70864050f024eaf1d4ad12ee27808f51eac7e8f8404fdf"
+    },
+    "skills/huochegame/references/source-map.md": {
+      "bytes": 4872,
+      "sha256": "4dea2ae1e0fc11d496a5c0662ac813c1f85a0939b78d86f6e8f40af1437ebb94"
+    },
+    "skills/huochegame/references/world-data.json": {
+      "bytes": 6719,
+      "sha256": "ee34307c8ddb74d3b708669e783e3278aca5fe650426deb9312cf19e0b11a844"
+    },
+    "skills/huochegame/scripts/capture.mjs": {
+      "bytes": 2860,
+      "sha256": "056570c8c28f169b931a72ca7825d9b378b47e8735cfff4ee6cbf092e1a1eb97"
+    },
+    "skills/huochegame/scripts/game.py": {
+      "bytes": 4027,
+      "sha256": "2617fc1af2b49320a44742e4c7828605184c0d1b37100781059f40cc92176614"
+    },
+    "skills/huochegame/scripts/image-diff.mjs": {
+      "bytes": 2056,
+      "sha256": "3b8703df461e92e86318b3470eee4e43bd252d6a2b1b55a972bda62c06ea898b"
+    },
+    "skills/huochegame/scripts/pack.py": {
+      "bytes": 5326,
+      "sha256": "40c9d70edddf67a8024736e636d255d934ee8b8cbddb7cb048f917c8d7a335f6"
+    },
+    "skills/huochegame/scripts/run-checks.mjs": {
+      "bytes": 3028,
+      "sha256": "5f7757c26133ce9789c8e08e66a474037a2823aa6241eb7b90271fb2bac0ec26"
+    },
+    "skills/huochegame/scripts/runtime.mjs": {
+      "bytes": 2579,
+      "sha256": "241f123c2f4780fbb5b158e759ba9abb3e92d16c059c4790c40250691b3af18d"
+    },
+    "skills/huochegame/scripts/selftest.py": {
+      "bytes": 1931,
+      "sha256": "329070cf4b70881aa6dbc4f0931292c1e4220e16e10ee4717484d405b06902a7"
+    },
+    "skills/huochegame/scripts/start-demo.py": {
+      "bytes": 1251,
+      "sha256": "39a4f929f53fc637368c63504ac713681c42764a3c3913562f7f8f4f69b6d081"
+    },
+    "skills/huochegame/scripts/test_game.py": {
+      "bytes": 2406,
+      "sha256": "a8d292b1b8cabeeb6a232d6b250d1f9231dcd95fbfdd246c74937647b332aa3c"
+    },
+    "skills/huochegame/validation/REPORT.md": {
+      "bytes": 2631,
+      "sha256": "d454b0ddcbcdc8f606f7a526c70c61e974fef675eada7637c2adc9645c4314ea"
+    },
+    "skills/huochegame/validation/diff-negative-test.json": {
+      "bytes": 1905,
+      "sha256": "2ad701132e72a7eb2711ae1c31019f057ff55ef9fa7679d50e014cd82a53d661"
+    },
+    "skills/huochegame/validation/edge-report.json": {
+      "bytes": 1136,
+      "sha256": "9bce6a5c2e959a78eec17cf31374c11ced5425da0e3d8b08cb9c5ba9d5bb6e66"
+    },
+    "skills/huochegame/validation/edges.log": {
+      "bytes": 520,
+      "sha256": "35547d0a32606233cf45577b6fc693092e85823d9d2a7a664cb7d08ef1fbabe4"
+    },
+    "skills/huochegame/validation/exact-visual-diff.json": {
+      "bytes": 1602,
+      "sha256": "b142e71c95350080ac99b64b797b385ab33ff9e0031cb962d63fb61f6d73fe6c"
+    },
+    "skills/huochegame/validation/gameplay.log": {
+      "bytes": 1372,
+      "sha256": "b05560ba213b6585f269a5364b993c5ab8b64c7aaa0f031465fce50db1fc0faf"
+    },
+    "skills/huochegame/validation/pack-selftest.json": {
+      "bytes": 593,
+      "sha256": "e95fec14709e33a352c9645e9a532f9b66d3fa3bcedefb3def056626b888f6ec"
+    },
+    "skills/huochegame/validation/relocation-test.json": {
+      "bytes": 437,
+      "sha256": "4167818ce6480dbfdc1644abcd54e2e300ea7dbf1e7fb4bb13ea9eb8679f2e27"
+    },
+    "skills/huochegame/validation/report.json": {
+      "bytes": 2800,
+      "sha256": "67db01e31d5bc4b430af8a7f2aa5e4fc8db31e0b396deea5f11e193c7d9e6d3b"
+    },
+    "skills/huochegame/validation/skill-validation.txt": {
+      "bytes": 16,
+      "sha256": "db349825903d66adffea3ecf1bd8e1803043e8a71cf1a051235dabc5371f5bb0"
+    },
+    "skills/huochegame/validation/summary.json": {
+      "bytes": 922,
+      "sha256": "cb5bc0efbc7edeaf1523be7b84162803e104ba09923bdcbccf9348d52c5e0d97"
     },
     "skills/maomao3dgame/SKILL.md": {
       "bytes": 4747,
@@ -4156,6 +5044,850 @@
       "bytes": 3787,
       "sha256": "33af3b86e636cb4eea55111b201ad211b24e22b0cf71d222da2dc32b5c933515"
     },
+    "skills/wangzhegame/SKILL-MANIFEST.json": {
+      "bytes": 35968,
+      "sha256": "bb94f778bfc6031f425d04f47115e4bfcfb90f1a5370ce8d78797ea0b5d68403"
+    },
+    "skills/wangzhegame/SKILL.md": {
+      "bytes": 5412,
+      "sha256": "8e25e8bf93d78f431c2441d844dd7b2c694b69f99e93529385cb8b7c78e30863"
+    },
+    "skills/wangzhegame/agents/openai.yaml": {
+      "bytes": 363,
+      "sha256": "734c4b0719a7b9ddab8071aa11e28c1ced8ef2aff53293b87863b36630a9ddf2"
+    },
+    "skills/wangzhegame/assets/reference-manifest.json": {
+      "bytes": 36430,
+      "sha256": "426b339389a59ff0feb478607975ad3d0a30da9e6486bafbd4d87eaa875e7c2c"
+    },
+    "skills/wangzhegame/assets/reference-project/.gitignore": {
+      "bytes": 24,
+      "sha256": "6c7d15d2ab1a0b51ebcae7e88b9ad01f0713d0833bc2dbe8f3bcc7a81b66b344"
+    },
+    "skills/wangzhegame/assets/reference-project/ASSETS.md": {
+      "bytes": 1540,
+      "sha256": "af499c9a8db04a3d048ad2572bfbc1953d0cacc9232e39a87d21ebd0f6853c0e"
+    },
+    "skills/wangzhegame/assets/reference-project/PLAN.md": {
+      "bytes": 2888,
+      "sha256": "dee37dbaece6c4b3c4df5f0d003f54e4d8cbee2efbfd2ba58e4acb0be5029a7f"
+    },
+    "skills/wangzhegame/assets/reference-project/PROGRESS.md": {
+      "bytes": 5261,
+      "sha256": "106bcae12b92b415b9977f0b7b54a33940d93c6164b71cf420effd18b23199a0"
+    },
+    "skills/wangzhegame/assets/reference-project/README.md": {
+      "bytes": 6387,
+      "sha256": "d85d7969c44e74414fad21d8911d8825fed3998bb08cc76f67e47fef6ef10941"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/browser-report.json": {
+      "bytes": 948,
+      "sha256": "36e506df1645b8709de6ca70e1b1e74aae0d105bf6d26a4975f7e045bb1edada"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/build-report.txt": {
+      "bytes": 700,
+      "sha256": "b645c36797c891f3f10c771e20f84b9ea2ffa4a84387b0d822d3488028a62bd1"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/combat.png": {
+      "bytes": 1864877,
+      "sha256": "afd6450bd0fe3752dd48dedd5c88b9ed5ef999978388055aa90125153a3f751e"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/controls/before-fix-source.zip": {
+      "bytes": 33468,
+      "sha256": "cf6967bd0765ded516c99f128c8ec46a450ea59015127ca721093d220ee93015"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/controls/before-fix.json": {
+      "bytes": 929,
+      "sha256": "ebb66394ae89655cd066d25257f19a8b8da40fef32a56dd8d4d0547cdce91e2b"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/controls/browser-report.json": {
+      "bytes": 5143,
+      "sha256": "29c9ccbdfd04325d907f32800f5e550006eabf13fae29c2d9427a638dea018c7"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/controls/build-report.txt": {
+      "bytes": 700,
+      "sha256": "b645c36797c891f3f10c771e20f84b9ea2ffa4a84387b0d822d3488028a62bd1"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/controls/fixed-game.png": {
+      "bytes": 1934067,
+      "sha256": "e337bbd238d73006ceac5575c62b01e51a6bdb233e0290b48ae6ca17545de94a"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/controls/production-final.png": {
+      "bytes": 1929772,
+      "sha256": "087ad775c9bb00caa656faaf4f5a678d329579b2d163a15efb876c52a60e040a"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/controls/production-movement.png": {
+      "bytes": 1922174,
+      "sha256": "c97a72250fc1cef7a83afd34ca54a2775ccedbc8feba4391a2dbfb85eca24687"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/controls/production-report.json": {
+      "bytes": 1177,
+      "sha256": "0938b5831fe9c9c7bc81d807f57a28395ee9701afcee3a5ca0b6fb976f7d02e7"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/controls/rules-report.txt": {
+      "bytes": 1969,
+      "sha256": "8d485c88b24eb1d596a0e21e1d429cea0c8fc9c8ddd7ba9c5e69968e215b2c57"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/expected-resource-error.png": {
+      "bytes": 14593,
+      "sha256": "57956582e3d8fcb45a90a41b6ea38b78c8a06af3abd7032084d556dfc343efde"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/fault-report.json": {
+      "bytes": 257,
+      "sha256": "2fe182e16949a704590429930a3c47ee6deec0f2c0f67e7e6a7e5080f9bf8baa"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/menu.png": {
+      "bytes": 1359541,
+      "sha256": "0c7978d5d79323a6079242716189fa25a6dbbaa62cbf9c35cd906847afb046ac"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/mid.png": {
+      "bytes": 1468765,
+      "sha256": "a711e4b90d32e17f32cc3d75a0230b3d9fa0e5d8373b1917ae54ba801bb01362"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/natural-match-report.json": {
+      "bytes": 935,
+      "sha256": "8f20b2ed98e7e93585d17b74c2fcdb192134632aacbe1635c6bda31c5909404a"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/pause.png": {
+      "bytes": 1063117,
+      "sha256": "ceda572bb632e7ab98343663191d5046f814579e1d9559d33dbb234160af520f"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/production-game.png": {
+      "bytes": 1932010,
+      "sha256": "599c8101cd14fa85a846d64ce5d4d2adccb3504035d5eed239b028c732a07728"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/production-menu.png": {
+      "bytes": 1359541,
+      "sha256": "0c7978d5d79323a6079242716189fa25a6dbbaa62cbf9c35cd906847afb046ac"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/production-pause.png": {
+      "bytes": 1061688,
+      "sha256": "83abdf7ea91a82310cf81c001d2b462002eec953a4491c40e83a3b7e679109de"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/production-report.json": {
+      "bytes": 283,
+      "sha256": "2396f89de655e1cd826d09fb4db5f057554baa50392be6f02e1074122667f51b"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/production-shop.png": {
+      "bytes": 1263991,
+      "sha256": "b7ab8797d979f0417708152027b9eb2d228661dd7564cf69454c3843c68dc124"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/rules-report.txt": {
+      "bytes": 1969,
+      "sha256": "8d485c88b24eb1d596a0e21e1d429cea0c8fc9c8ddd7ba9c5e69968e215b2c57"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/shop.png": {
+      "bytes": 1265114,
+      "sha256": "aefbc254de5ba1f709483a54e726825aa2628e59f0ba9ddf7db5df3a5f1e7c32"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/soak-report.json": {
+      "bytes": 1274,
+      "sha256": "c11f5f22f58479c6fb2d477963857e339e9ad43a977ca0923476cbafaa78e06c"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/spawn.png": {
+      "bytes": 1931905,
+      "sha256": "992d41131d6ee34231c47dc4cbcc77b28e562d6c54847d8de22aa4d104166a33"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/verification-summary.json": {
+      "bytes": 9733,
+      "sha256": "7a41c61e51ed1028df057f803ede31ce858224be35101b41ff04380825422140"
+    },
+    "skills/wangzhegame/assets/reference-project/artifacts/victory.png": {
+      "bytes": 1050721,
+      "sha256": "2da471323f6ab7e1497a933dc086adeed3c178c44f8e76e6090821a141c4bbb7"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/AlphaStrike.png": {
+      "bytes": 4893,
+      "sha256": "dd7d81c33bd1d35781a1f28813f649fa94b9d99fe099f512bf156c40dc22e7cf"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Annie-splash.jpg": {
+      "bytes": 189787,
+      "sha256": "edad0269013114402d1d829b42ec052b9f9b8171dea19b1f1624c3ebab9a45f2"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Annie.json": {
+      "bytes": 14075,
+      "sha256": "f7ec16ef4c1ec8df2e745ded9ce5b0a47e377e46939fa7e7e36f4761c34459c6"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Annie.png": {
+      "bytes": 30267,
+      "sha256": "97720fcc698033b18382e7475800d4aac6c436712d997d99df4a0ae99f6829e2"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/AnnieE.png": {
+      "bytes": 6674,
+      "sha256": "cf59314df90fee0237dd006f2a89b811b36acbce93de40466382b287d455def3"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/AnnieQ.png": {
+      "bytes": 5062,
+      "sha256": "f45bc34137ab2bee08ca0362b21bf665c09aae0614741c4cb6f40c89e1668d9a"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/AnnieR.png": {
+      "bytes": 6140,
+      "sha256": "609820533a2135f12f2038a31a66df4eff9fdb861ce06e2b25b8d92fa72df63e"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/AnnieW.png": {
+      "bytes": 5291,
+      "sha256": "0ffedf98f614496b2d609829a8ea09cd6e4a70d343907b0bdfcd366e17e82451"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Ashe-splash.jpg": {
+      "bytes": 155309,
+      "sha256": "2c8ca3fcf121d7c8fe88bfe88f07062ee3a7bbc44674e95e0105d9bacdc09035"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Ashe.json": {
+      "bytes": 16326,
+      "sha256": "e0a10a2c7336101a9c17f423672fc0f95df2701c80ac5863c3ef60f648ff7004"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Ashe.png": {
+      "bytes": 32121,
+      "sha256": "423666bdb0685355be4576f78eb6406fd49469b4f6e9f780f1c5eb4349fed91f"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/AsheQ.png": {
+      "bytes": 6683,
+      "sha256": "ceb72f8ca8ef01c5ea8249599f956c5f5fa7eb5a41e69b9bfb3b994ba1abd6b4"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/AsheSpiritOfTheHawk.png": {
+      "bytes": 5806,
+      "sha256": "94e8e9dd059f9d8615d02da2d6d3430fa20afc938a4baba66a6cfc91d9646506"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/EnchantedCrystalArrow.png": {
+      "bytes": 6449,
+      "sha256": "c26d0583a45c36b3a18b118d92ae1ae3534dae529a052d7c1fa41a9ea613f038"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Garen-splash.jpg": {
+      "bytes": 196726,
+      "sha256": "b3b793811a9df402434dc5250d1f9d4c9b7fe0931412d2a719feaed1e283974e"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Garen.json": {
+      "bytes": 13028,
+      "sha256": "6f907bcf7d38ecf1a17f6c4f24a444e89514584384b6e711a2b7aee6de2c5fc7"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Garen.png": {
+      "bytes": 30705,
+      "sha256": "53018603962e1867b391071f159bb4c60d57919422585c33bfd36551e97f3752"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/GarenE.png": {
+      "bytes": 6473,
+      "sha256": "87526f9005c608b7b776128fc4526b28f615b782c3429c3d6bc200209c25f2da"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/GarenQ.png": {
+      "bytes": 6105,
+      "sha256": "5ba32b3c14ed850b447a6cb54cf243144823e1ac61cf071ed9920cd26700ff8d"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/GarenR.png": {
+      "bytes": 5230,
+      "sha256": "82031c7b445c6bced255fcc91b9a8570a8215f96092c766cb1a0e519cac5e949"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/GarenW.png": {
+      "bytes": 5947,
+      "sha256": "4b653d35ceedddc2fc715e934307114c567c92aebd5b34708bdc5c077ce410eb"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Highlander.png": {
+      "bytes": 6238,
+      "sha256": "0e56c7df1cc9ad719c4c1004ce7307567d428b7746bbb5b6c79076fc49696a88"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Lux-splash.jpg": {
+      "bytes": 196519,
+      "sha256": "d148fbcd3985d2f46f928a6ec65cca3c4f3d088692926cb5004352de73636e2e"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Lux.json": {
+      "bytes": 15354,
+      "sha256": "3d6e7589b9777cdf6b53d13abf44892bccd77a8d19860a4bbc71b914bafcf787"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Lux.png": {
+      "bytes": 29188,
+      "sha256": "64639bea2aa7d622dd07287de7a7820950e567f0993c7dcc422e1e699fd743fd"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/LuxLightBinding.png": {
+      "bytes": 6820,
+      "sha256": "06abdcb3edede637b6fd076e69381f2ff538a30c788c3ec857d4834742c2b424"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/LuxLightStrikeKugel.png": {
+      "bytes": 6567,
+      "sha256": "c5900b892f0065d9b19ce4d584b7633c23235dbfd0bf55cb7444fe0162fa0138"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/LuxPrismaticWave.png": {
+      "bytes": 6679,
+      "sha256": "9eec398494b60cb908ca2a5635463ad3ee63bce31521a7a3ce657dbc2c6627e2"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/LuxR.png": {
+      "bytes": 5520,
+      "sha256": "392a1ed2da41f165ae79c2c3e00b8796ff017f6ce9d55e37d401d63606cb2a86"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/MasterYi-splash.jpg": {
+      "bytes": 190829,
+      "sha256": "bf7678dc3b32abfd06bb5810274959e88d59234f7da0573ff67f3e864944a42f"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/MasterYi.json": {
+      "bytes": 15994,
+      "sha256": "a974c6f47dc761bbaf7ec8fcce69f8fe3782314cc1674a0e54c497b7cb710991"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/MasterYi.png": {
+      "bytes": 29421,
+      "sha256": "1c23534926a7956a260591fb3cee8f38cb6de3d9d4f064fe93fb88c8f76b1b66"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Meditate.png": {
+      "bytes": 6124,
+      "sha256": "b7464d80adfefdbf9002ee0d97c4210299f97757e8df1910aa394f0b5ee39056"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/Volley.png": {
+      "bytes": 6241,
+      "sha256": "30e0daa99574f031aec984ac0bf27c0283e24b59d923276af8e9cb0e30c59a95"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/WujuStyle.png": {
+      "bytes": 5924,
+      "sha256": "927c1152295f5e7731a89eef0784f20633dd35523d07c0592e122c265aac39c7"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/champions.json": {
+      "bytes": 81050,
+      "sha256": "2ea62e2b71f07f4d06362d1da222cd1e649b9b794451fd1f58affdcc588016ce"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/index-DE2a-eN1.js": {
+      "bytes": 80943,
+      "sha256": "6089b9e425f61203a8734b7afbe3bbc6b0aaa482607e76672fe50c7af896e09e"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/item-1001.png": {
+      "bytes": 4537,
+      "sha256": "f2b2a8ba7ae715c8906d3037d38778aa545f3d0740091640484aa3d126396ad0"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/item-1028.png": {
+      "bytes": 4070,
+      "sha256": "90f702e7d757914c96e546ae4076b624800dafc140edffac70733f104684b412"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/item-1029.png": {
+      "bytes": 5078,
+      "sha256": "3b89234b2be140f17b06a92297abdc54ce23e6034b6b80335d612fac3d20720d"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/item-1036.png": {
+      "bytes": 5334,
+      "sha256": "c57b71ae65b3b38241f8ed97fe6fb5ae78db5a82002be392d91ebb6f5ffde8af"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/item-1042.png": {
+      "bytes": 4228,
+      "sha256": "b62b8823a2728891fa67c83054f8ae1d2f7656424b84b5288a5900529cd8a264"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/item-1052.png": {
+      "bytes": 5490,
+      "sha256": "5b6d009e518f50c73db3b4a7442d3bff0928fb2ea527babd77140ce817562e8a"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/item-2003.png": {
+      "bytes": 4964,
+      "sha256": "4ef383b62d2631f0e224cc1a4020faf785e56c5ce5cbf01ae63a79840b96deaf"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/item-3031.png": {
+      "bytes": 7104,
+      "sha256": "39382e1bef39a48d14e6d37e52e9d02068df9153ca60c2bcca033dd276fae5df"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/item-3089.png": {
+      "bytes": 6981,
+      "sha256": "ad77331bb9a325db9536f5614f3ca3516e24279406123f2892eb33ee419d369b"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/manifest.json": {
+      "bytes": 14110,
+      "sha256": "1ccee151d5a083f829e4444afb5e37e0844939e849615647089c004a074e9fa7"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/bark.jpg": {
+      "bytes": 210157,
+      "sha256": "f832491230b56b7cf95ecb3814bdff7605692869b3fcec219b0aa0f5194c134d"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/chainmail.jpg": {
+      "bytes": 155409,
+      "sha256": "dae4980226a469150cbd1b3e47272599066123adb6cbff108242f1f92d00d725"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/cloth.jpg": {
+      "bytes": 56712,
+      "sha256": "88381a697326c692ae33f6d746c8971b519986c141bc0a5b2585a06b07c23a13"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/gold.jpg": {
+      "bytes": 49003,
+      "sha256": "c3ebd35b4e97d193e66da4e71f65be3ef059f18e46bac84d9021a73fc74b0ce4"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/ground-normal.jpg": {
+      "bytes": 664079,
+      "sha256": "8eeb31a9982d977f700f9fd4339a00c2f9112b3578db5aa01ce8731b0b5acb0e"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/ground.jpg": {
+      "bytes": 649169,
+      "sha256": "d00ca2613ab5f052ce34c84920b952e866fb12bf55dba7cd5f3c1711c4f7b38f"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/limestone-normal.jpg": {
+      "bytes": 79019,
+      "sha256": "3d2aacdc93a9e9b5e6fb719ed09854e932e4bbf1ca6c1f6a321fbbacd3fb652a"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/limestone.jpg": {
+      "bytes": 291737,
+      "sha256": "bed592a30165124cf1d633735c26c7596901d6dcd05e5935f5cc353e96d376f9"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/manifest.json": {
+      "bytes": 3778,
+      "sha256": "07f2430c802494f91810a5a56900d0a88eeedf36b0b003f9b199d6655c741e8d"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/path.jpg": {
+      "bytes": 474238,
+      "sha256": "cfe29eeb191e461239ba792e511c1d9a1472dae02c0584534ef5c5dad40a394b"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/rock-normal.jpg": {
+      "bytes": 328595,
+      "sha256": "5107091b2ee180acd1000df45021670dd91d30aa9ddca22038b759c9e6f491fe"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/rock.jpg": {
+      "bytes": 189285,
+      "sha256": "d9b0be507fefb2f0246cb4d163af3fa7208f380edf810eac2714918eec8e35c1"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/textures/steel.jpg": {
+      "bytes": 48874,
+      "sha256": "44009f05395f3aa01d4977dc6e7b436882fcc6f64d6b87a984dc8ecaf2fa5182"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/assets/three-DNG60NWy.js": {
+      "bytes": 514908,
+      "sha256": "011cca2cc72ed89f5da79588222d0a7155fbe625751c9ff8b9fde78c760ebccd"
+    },
+    "skills/wangzhegame/assets/reference-project/dist/index.html": {
+      "bytes": 783,
+      "sha256": "213e8df067d794cc72c6e01b4f3fb4b7046fa6d024fd57876535636b5c5e65bb"
+    },
+    "skills/wangzhegame/assets/reference-project/docs/FIDELITY.md": {
+      "bytes": 4550,
+      "sha256": "dd92854e29acea1dcc4af040fd51264fad4d0d16f0b59edfad2a3f5e71cfb244"
+    },
+    "skills/wangzhegame/assets/reference-project/docs/licenses/THREE-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "skills/wangzhegame/assets/reference-project/docs/licenses/texture-assets-license.md": {
+      "bytes": 1410,
+      "sha256": "843053626271b4615b18a111129a141fd1a9916836259f43f950fdd89e5e10c7"
+    },
+    "skills/wangzhegame/assets/reference-project/docs/licenses/upstream-asset-manifest.json": {
+      "bytes": 24493,
+      "sha256": "711e23d36851da4cc6fdcefb7f0301bce781dd5f64152789ef16833732077d17"
+    },
+    "skills/wangzhegame/assets/reference-project/docs/licenses/upstream-evidence/ambientcg-license.html": {
+      "bytes": 34106,
+      "sha256": "60138e09b277c89977841462634b36e99d7bae5b77174777813502069c59461c"
+    },
+    "skills/wangzhegame/assets/reference-project/docs/licenses/upstream-evidence/forest-ambience.html": {
+      "bytes": 37527,
+      "sha256": "0c4c17a53ce77032088b65ac30729b29f2eb028b3e9f477a88957149fbf954c0"
+    },
+    "skills/wangzhegame/assets/reference-project/docs/licenses/upstream-evidence/kenney-impact.html": {
+      "bytes": 16606,
+      "sha256": "2689be9c7d2d48b1d6c7d9836570391fa6947590eaf260291697053d9f86b354"
+    },
+    "skills/wangzhegame/assets/reference-project/docs/licenses/upstream-evidence/kenney-rpg.html": {
+      "bytes": 16768,
+      "sha256": "51fdf514e0401f83261a8ab99f182acb321cef53e379035154ca3cd7589445e4"
+    },
+    "skills/wangzhegame/assets/reference-project/docs/licenses/upstream-evidence/polyhaven-license.html": {
+      "bytes": 72336,
+      "sha256": "f530abb18e6317a9b0f2a128b94150e372c8456d7491a14e4860c4ed5f5fe69a"
+    },
+    "skills/wangzhegame/assets/reference-project/docs/licenses/upstream-evidence/verification.json": {
+      "bytes": 3613,
+      "sha256": "9b883f7e02b50ca0c7cfc7fafc29f79d4780e79c4f09215f1dcdd5b3607253bc"
+    },
+    "skills/wangzhegame/assets/reference-project/docs/licenses/upstream-evidence/wolf.html": {
+      "bytes": 29009,
+      "sha256": "4478adbb4636b7eef928fb4cbb2555fa60189199cd00eab6510b01af55dee002"
+    },
+    "skills/wangzhegame/assets/reference-project/download_assets.py": {
+      "bytes": 1576,
+      "sha256": "8988d9df46fa83a251807f57c250c47cec670595cb58059fdd742b35be4f1372"
+    },
+    "skills/wangzhegame/assets/reference-project/index.html": {
+      "bytes": 679,
+      "sha256": "a55d62aba1b97d8ae010f4d0db8907aac391969b51f5b651c782a190bc14acf9"
+    },
+    "skills/wangzhegame/assets/reference-project/package-lock.json": {
+      "bytes": 37538,
+      "sha256": "c6cb31677eac6818eb11e965f086fc5bc1c6e3781333675de26183b7e5642f6b"
+    },
+    "skills/wangzhegame/assets/reference-project/package.json": {
+      "bytes": 791,
+      "sha256": "abaa4ab70d34eb24cb89dae9dc2da7c2442c2e2bf2271ab114f2ef54c03015e8"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/AlphaStrike.png": {
+      "bytes": 4893,
+      "sha256": "dd7d81c33bd1d35781a1f28813f649fa94b9d99fe099f512bf156c40dc22e7cf"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Annie-splash.jpg": {
+      "bytes": 189787,
+      "sha256": "edad0269013114402d1d829b42ec052b9f9b8171dea19b1f1624c3ebab9a45f2"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Annie.json": {
+      "bytes": 14075,
+      "sha256": "f7ec16ef4c1ec8df2e745ded9ce5b0a47e377e46939fa7e7e36f4761c34459c6"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Annie.png": {
+      "bytes": 30267,
+      "sha256": "97720fcc698033b18382e7475800d4aac6c436712d997d99df4a0ae99f6829e2"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/AnnieE.png": {
+      "bytes": 6674,
+      "sha256": "cf59314df90fee0237dd006f2a89b811b36acbce93de40466382b287d455def3"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/AnnieQ.png": {
+      "bytes": 5062,
+      "sha256": "f45bc34137ab2bee08ca0362b21bf665c09aae0614741c4cb6f40c89e1668d9a"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/AnnieR.png": {
+      "bytes": 6140,
+      "sha256": "609820533a2135f12f2038a31a66df4eff9fdb861ce06e2b25b8d92fa72df63e"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/AnnieW.png": {
+      "bytes": 5291,
+      "sha256": "0ffedf98f614496b2d609829a8ea09cd6e4a70d343907b0bdfcd366e17e82451"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Ashe-splash.jpg": {
+      "bytes": 155309,
+      "sha256": "2c8ca3fcf121d7c8fe88bfe88f07062ee3a7bbc44674e95e0105d9bacdc09035"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Ashe.json": {
+      "bytes": 16326,
+      "sha256": "e0a10a2c7336101a9c17f423672fc0f95df2701c80ac5863c3ef60f648ff7004"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Ashe.png": {
+      "bytes": 32121,
+      "sha256": "423666bdb0685355be4576f78eb6406fd49469b4f6e9f780f1c5eb4349fed91f"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/AsheQ.png": {
+      "bytes": 6683,
+      "sha256": "ceb72f8ca8ef01c5ea8249599f956c5f5fa7eb5a41e69b9bfb3b994ba1abd6b4"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/AsheSpiritOfTheHawk.png": {
+      "bytes": 5806,
+      "sha256": "94e8e9dd059f9d8615d02da2d6d3430fa20afc938a4baba66a6cfc91d9646506"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/EnchantedCrystalArrow.png": {
+      "bytes": 6449,
+      "sha256": "c26d0583a45c36b3a18b118d92ae1ae3534dae529a052d7c1fa41a9ea613f038"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Garen-splash.jpg": {
+      "bytes": 196726,
+      "sha256": "b3b793811a9df402434dc5250d1f9d4c9b7fe0931412d2a719feaed1e283974e"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Garen.json": {
+      "bytes": 13028,
+      "sha256": "6f907bcf7d38ecf1a17f6c4f24a444e89514584384b6e711a2b7aee6de2c5fc7"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Garen.png": {
+      "bytes": 30705,
+      "sha256": "53018603962e1867b391071f159bb4c60d57919422585c33bfd36551e97f3752"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/GarenE.png": {
+      "bytes": 6473,
+      "sha256": "87526f9005c608b7b776128fc4526b28f615b782c3429c3d6bc200209c25f2da"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/GarenQ.png": {
+      "bytes": 6105,
+      "sha256": "5ba32b3c14ed850b447a6cb54cf243144823e1ac61cf071ed9920cd26700ff8d"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/GarenR.png": {
+      "bytes": 5230,
+      "sha256": "82031c7b445c6bced255fcc91b9a8570a8215f96092c766cb1a0e519cac5e949"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/GarenW.png": {
+      "bytes": 5947,
+      "sha256": "4b653d35ceedddc2fc715e934307114c567c92aebd5b34708bdc5c077ce410eb"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Highlander.png": {
+      "bytes": 6238,
+      "sha256": "0e56c7df1cc9ad719c4c1004ce7307567d428b7746bbb5b6c79076fc49696a88"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Lux-splash.jpg": {
+      "bytes": 196519,
+      "sha256": "d148fbcd3985d2f46f928a6ec65cca3c4f3d088692926cb5004352de73636e2e"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Lux.json": {
+      "bytes": 15354,
+      "sha256": "3d6e7589b9777cdf6b53d13abf44892bccd77a8d19860a4bbc71b914bafcf787"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Lux.png": {
+      "bytes": 29188,
+      "sha256": "64639bea2aa7d622dd07287de7a7820950e567f0993c7dcc422e1e699fd743fd"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/LuxLightBinding.png": {
+      "bytes": 6820,
+      "sha256": "06abdcb3edede637b6fd076e69381f2ff538a30c788c3ec857d4834742c2b424"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/LuxLightStrikeKugel.png": {
+      "bytes": 6567,
+      "sha256": "c5900b892f0065d9b19ce4d584b7633c23235dbfd0bf55cb7444fe0162fa0138"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/LuxPrismaticWave.png": {
+      "bytes": 6679,
+      "sha256": "9eec398494b60cb908ca2a5635463ad3ee63bce31521a7a3ce657dbc2c6627e2"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/LuxR.png": {
+      "bytes": 5520,
+      "sha256": "392a1ed2da41f165ae79c2c3e00b8796ff017f6ce9d55e37d401d63606cb2a86"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/MasterYi-splash.jpg": {
+      "bytes": 190829,
+      "sha256": "bf7678dc3b32abfd06bb5810274959e88d59234f7da0573ff67f3e864944a42f"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/MasterYi.json": {
+      "bytes": 15994,
+      "sha256": "a974c6f47dc761bbaf7ec8fcce69f8fe3782314cc1674a0e54c497b7cb710991"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/MasterYi.png": {
+      "bytes": 29421,
+      "sha256": "1c23534926a7956a260591fb3cee8f38cb6de3d9d4f064fe93fb88c8f76b1b66"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Meditate.png": {
+      "bytes": 6124,
+      "sha256": "b7464d80adfefdbf9002ee0d97c4210299f97757e8df1910aa394f0b5ee39056"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/Volley.png": {
+      "bytes": 6241,
+      "sha256": "30e0daa99574f031aec984ac0bf27c0283e24b59d923276af8e9cb0e30c59a95"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/WujuStyle.png": {
+      "bytes": 5924,
+      "sha256": "927c1152295f5e7731a89eef0784f20633dd35523d07c0592e122c265aac39c7"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/champions.json": {
+      "bytes": 81050,
+      "sha256": "2ea62e2b71f07f4d06362d1da222cd1e649b9b794451fd1f58affdcc588016ce"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/item-1001.png": {
+      "bytes": 4537,
+      "sha256": "f2b2a8ba7ae715c8906d3037d38778aa545f3d0740091640484aa3d126396ad0"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/item-1028.png": {
+      "bytes": 4070,
+      "sha256": "90f702e7d757914c96e546ae4076b624800dafc140edffac70733f104684b412"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/item-1029.png": {
+      "bytes": 5078,
+      "sha256": "3b89234b2be140f17b06a92297abdc54ce23e6034b6b80335d612fac3d20720d"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/item-1036.png": {
+      "bytes": 5334,
+      "sha256": "c57b71ae65b3b38241f8ed97fe6fb5ae78db5a82002be392d91ebb6f5ffde8af"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/item-1042.png": {
+      "bytes": 4228,
+      "sha256": "b62b8823a2728891fa67c83054f8ae1d2f7656424b84b5288a5900529cd8a264"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/item-1052.png": {
+      "bytes": 5490,
+      "sha256": "5b6d009e518f50c73db3b4a7442d3bff0928fb2ea527babd77140ce817562e8a"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/item-2003.png": {
+      "bytes": 4964,
+      "sha256": "4ef383b62d2631f0e224cc1a4020faf785e56c5ce5cbf01ae63a79840b96deaf"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/item-3031.png": {
+      "bytes": 7104,
+      "sha256": "39382e1bef39a48d14e6d37e52e9d02068df9153ca60c2bcca033dd276fae5df"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/item-3089.png": {
+      "bytes": 6981,
+      "sha256": "ad77331bb9a325db9536f5614f3ca3516e24279406123f2892eb33ee419d369b"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/manifest.json": {
+      "bytes": 14110,
+      "sha256": "1ccee151d5a083f829e4444afb5e37e0844939e849615647089c004a074e9fa7"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/bark.jpg": {
+      "bytes": 210157,
+      "sha256": "f832491230b56b7cf95ecb3814bdff7605692869b3fcec219b0aa0f5194c134d"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/chainmail.jpg": {
+      "bytes": 155409,
+      "sha256": "dae4980226a469150cbd1b3e47272599066123adb6cbff108242f1f92d00d725"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/cloth.jpg": {
+      "bytes": 56712,
+      "sha256": "88381a697326c692ae33f6d746c8971b519986c141bc0a5b2585a06b07c23a13"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/gold.jpg": {
+      "bytes": 49003,
+      "sha256": "c3ebd35b4e97d193e66da4e71f65be3ef059f18e46bac84d9021a73fc74b0ce4"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/ground-normal.jpg": {
+      "bytes": 664079,
+      "sha256": "8eeb31a9982d977f700f9fd4339a00c2f9112b3578db5aa01ce8731b0b5acb0e"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/ground.jpg": {
+      "bytes": 649169,
+      "sha256": "d00ca2613ab5f052ce34c84920b952e866fb12bf55dba7cd5f3c1711c4f7b38f"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/limestone-normal.jpg": {
+      "bytes": 79019,
+      "sha256": "3d2aacdc93a9e9b5e6fb719ed09854e932e4bbf1ca6c1f6a321fbbacd3fb652a"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/limestone.jpg": {
+      "bytes": 291737,
+      "sha256": "bed592a30165124cf1d633735c26c7596901d6dcd05e5935f5cc353e96d376f9"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/manifest.json": {
+      "bytes": 3778,
+      "sha256": "07f2430c802494f91810a5a56900d0a88eeedf36b0b003f9b199d6655c741e8d"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/path.jpg": {
+      "bytes": 474238,
+      "sha256": "cfe29eeb191e461239ba792e511c1d9a1472dae02c0584534ef5c5dad40a394b"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/rock-normal.jpg": {
+      "bytes": 328595,
+      "sha256": "5107091b2ee180acd1000df45021670dd91d30aa9ddca22038b759c9e6f491fe"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/rock.jpg": {
+      "bytes": 189285,
+      "sha256": "d9b0be507fefb2f0246cb4d163af3fa7208f380edf810eac2714918eec8e35c1"
+    },
+    "skills/wangzhegame/assets/reference-project/public/assets/textures/steel.jpg": {
+      "bytes": 48874,
+      "sha256": "44009f05395f3aa01d4977dc6e7b436882fcc6f64d6b87a984dc8ecaf2fa5182"
+    },
+    "skills/wangzhegame/assets/reference-project/src/config.js": {
+      "bytes": 4684,
+      "sha256": "2d88cf7e47167efb5785c26a4c1d2288d234939030d54c0f280cd1880d34fed8"
+    },
+    "skills/wangzhegame/assets/reference-project/src/controls.js": {
+      "bytes": 8805,
+      "sha256": "ac8ae0a6451b0efbe3ac505b837d9f31898f4448964b73c781dcb41578766256"
+    },
+    "skills/wangzhegame/assets/reference-project/src/main.js": {
+      "bytes": 7852,
+      "sha256": "83ddd0ad77c0adfa6ded657738fdc57b2f31a2fad9bf74861af0da4f28b92dc5"
+    },
+    "skills/wangzhegame/assets/reference-project/src/simulation.js": {
+      "bytes": 22906,
+      "sha256": "76e31cbee697ed0d4a4a83f67805fde502e0754056f6ad654436eb3e2c12295c"
+    },
+    "skills/wangzhegame/assets/reference-project/src/ui.js": {
+      "bytes": 22347,
+      "sha256": "28e0e67a54a248fc6802650c5a9f13e11413da01015463f91a06991cc2999e2c"
+    },
+    "skills/wangzhegame/assets/reference-project/src/world.js": {
+      "bytes": 24301,
+      "sha256": "c1760d0df32b8cd6a01418c843527643ccb6c930976bac1e447da33c241b35a1"
+    },
+    "skills/wangzhegame/assets/reference-project/tests/acceptance-map.md": {
+      "bytes": 2649,
+      "sha256": "0e34f72558fa2f3ec3beedb8c25c1b9bf80fec7672dc8460d6f9d2b945a64571"
+    },
+    "skills/wangzhegame/assets/reference-project/tests/browser.mjs": {
+      "bytes": 6206,
+      "sha256": "6e3c7a15b8eeb16c0fbd46ba206e3e5c5e771e5b58d8de129dc3427eacc1a961"
+    },
+    "skills/wangzhegame/assets/reference-project/tests/controls-browser.mjs": {
+      "bytes": 12681,
+      "sha256": "24b1cb621f94d806f7694ec69de574657eaad7418cd765978ce16cb9af4136aa"
+    },
+    "skills/wangzhegame/assets/reference-project/tests/controls-production.mjs": {
+      "bytes": 3793,
+      "sha256": "b59e2d8ae3c8d4685371a819a181e33a391c742de2d07e7952d3e7ca9f9d3556"
+    },
+    "skills/wangzhegame/assets/reference-project/tests/controls.test.js": {
+      "bytes": 2705,
+      "sha256": "78072e8ecf4400b29dc1a94299279a73da52b4059f3edc7d4d9dc29af7d3bd31"
+    },
+    "skills/wangzhegame/assets/reference-project/tests/fault.mjs": {
+      "bytes": 997,
+      "sha256": "e1f8d22a388d24ff4e62c4816f07da1936b6b8db3db6f7dfea6bc0a5086b35ca"
+    },
+    "skills/wangzhegame/assets/reference-project/tests/natural-match.mjs": {
+      "bytes": 893,
+      "sha256": "de50c3fd7223dfd26b8acb3f8a5f387d26a6110c5f5969feb3dc37465bbb7a97"
+    },
+    "skills/wangzhegame/assets/reference-project/tests/production.mjs": {
+      "bytes": 1690,
+      "sha256": "806f5a67a0a1cb34ccb869832835b963b80e96c0ef86c4e4b2c535ff83ad10d2"
+    },
+    "skills/wangzhegame/assets/reference-project/tests/repro-controls.mjs": {
+      "bytes": 909,
+      "sha256": "297b5f2d3cecbfefa2c32e487316184514faf8242a78e5440c1b615135948324"
+    },
+    "skills/wangzhegame/assets/reference-project/tests/rules.test.js": {
+      "bytes": 5146,
+      "sha256": "1b58ed6270dda96a14ae5d757971887b78bea2ffd1e2f365d4d031026e402d0d"
+    },
+    "skills/wangzhegame/assets/reference-project/tests/soak.mjs": {
+      "bytes": 827,
+      "sha256": "05c105a7ca846fc243d30952402329aac59d5df9db0170148f56051750730ee5"
+    },
+    "skills/wangzhegame/assets/reference-project/vite.config.js": {
+      "bytes": 157,
+      "sha256": "7c8da60a478fa771c083a9832f4b6daafc2ce8fe936ca28d7d1518a9b56a4d91"
+    },
+    "skills/wangzhegame/assets/reference-project/启动游戏.command": {
+      "bytes": 599,
+      "sha256": "d4f85346f6d6a201ecf3a3027021f96c369b5490ff9b2ac6379584eab5f4bdf1"
+    },
+    "skills/wangzhegame/references/acceptance.md": {
+      "bytes": 4102,
+      "sha256": "745888bc64ecff3830b1c602fc77dd9a891af323de887fba31706b4597fa57e0"
+    },
+    "skills/wangzhegame/references/architecture.md": {
+      "bytes": 4882,
+      "sha256": "581e64d583d164a329a813919a95764f86352df64ae387994be40aa44ce9d7a8"
+    },
+    "skills/wangzhegame/references/assets-and-rights.md": {
+      "bytes": 2767,
+      "sha256": "6d5a8b410b952abf02aa17052edd790bfb93719360592e927bfc44ae7cf101bf"
+    },
+    "skills/wangzhegame/references/controls.md": {
+      "bytes": 3518,
+      "sha256": "15cb03ea3a76742dbb2a253a417badb282961d71e9f2b210f606647443cb24c8"
+    },
+    "skills/wangzhegame/references/game-contract.json": {
+      "bytes": 115172,
+      "sha256": "d76d628466c9454be1bbbf6bafc30ae4caecc28f12fdefa49d441a9b0aa6c29f"
+    },
+    "skills/wangzhegame/references/mechanics.md": {
+      "bytes": 7258,
+      "sha256": "8032ef7799875305fd7cfc38f93b32d6eba3d4a058b2db36617ebf7bcf5ec3fe"
+    },
+    "skills/wangzhegame/references/provenance.md": {
+      "bytes": 1299,
+      "sha256": "6afe50eb0118b6cde12b5433ea21887fd650bf0668c5bdc9d356439f917875eb"
+    },
+    "skills/wangzhegame/references/remix-guide.md": {
+      "bytes": 3277,
+      "sha256": "c4e88a783dfd4b4458e66757dbfc68444e25719400683f4fa9caa10136b0fbff"
+    },
+    "skills/wangzhegame/references/runtime.md": {
+      "bytes": 4082,
+      "sha256": "dc2ac76965c3f04c9b4e0604fdf4c9e8d25420c1b83c29cfcee85d95866865d1"
+    },
+    "skills/wangzhegame/references/version-contract.md": {
+      "bytes": 2802,
+      "sha256": "1ab1a0554215a0ca7eed523fe0c10a3152cd5f2c5a42215e6efcc449763d7408"
+    },
+    "skills/wangzhegame/references/visuals.md": {
+      "bytes": 5281,
+      "sha256": "4e19b71feaaa1b556c00c14c74aea56e5c4e136f5bb0147e668bca8d95d45e30"
+    },
+    "skills/wangzhegame/references/workflow.md": {
+      "bytes": 4187,
+      "sha256": "443182659f227d7654e803e9fa4b47543ef633072e3af8af55ae826ef9213ba6"
+    },
+    "skills/wangzhegame/scripts/check.py": {
+      "bytes": 9149,
+      "sha256": "bc8101775c676c8b0826dad987e86d9ceb477cef219d07314b8f03b995d10410"
+    },
+    "skills/wangzhegame/scripts/game.py": {
+      "bytes": 3870,
+      "sha256": "27d7b2de261da1c7310830f7d2787d258d8040c2c8cb4fde13a6d3b5683b1c2e"
+    },
+    "skills/wangzhegame/scripts/reproduce.py": {
+      "bytes": 4431,
+      "sha256": "8a91f3303e9144cdddbd2b81bd6738d844a72e1111aa893c56762689245256e8"
+    },
+    "skills/wangzhegame/scripts/selftest.py": {
+      "bytes": 3926,
+      "sha256": "c5832d25925e2c44fa9a31c40c85f7dee5b6be0fd2322653b689d7bd69b31dbd"
+    },
+    "skills/wangzhegame/scripts/start-demo.py": {
+      "bytes": 1243,
+      "sha256": "2c1c1ec499760a037d41524cbaa530246ae1ca013a19e80b8fdc8b9b118b9e0e"
+    },
+    "skills/wangzhegame/scripts/test_game.py": {
+      "bytes": 2407,
+      "sha256": "8433155908600969bb03f3f98f95832de7e0a0dda5013b0f2350e643fbd0c761"
+    },
     "skills/yimogame/AGENTS.md": {
       "bytes": 559,
       "sha256": "959e2b82cc56abedef8c63768ec079794ea64cfd299f57f387f3355f9f23e42b"
@@ -4712,13 +6444,29 @@
       "bytes": 87,
       "sha256": "c0289abf395920d982433ba7c2e69e213f963a205c5412b3daba81292079c313"
     },
+    "wangzheGame-交付记录.md": {
+      "bytes": 5127,
+      "sha256": "96a4c872521f753d4a9bba9bd1f85f7297ff1d8ed3b183ed8c588d8269d7f9a0"
+    },
+    "wangzheGame-使用说明.md": {
+      "bytes": 3635,
+      "sha256": "bdb85c17df1f76d41b21b0a2d3930b18cee531da60e319762063c2d42981c59b"
+    },
+    "wangzheGame.zip": {
+      "bytes": 30778287,
+      "sha256": "b13adb777e1c8dde023d834d9c486ceff2049b3c07a824ee3a5b5c39c6cf6342"
+    },
+    "wangzheGame.zip.sha256": {
+      "bytes": 82,
+      "sha256": "76e2c13ce2a0a823f249b351ab6f41feeda49868efcfc04fd37731230f9e37f9"
+    },
     "yimoGame-交付记录.md": {
       "bytes": 4152,
       "sha256": "119ad0c20a04fe7f0e206d27c47dec63f79e7812139106f9ec72243bbf9def28"
     },
     "yimoGame-使用说明.md": {
-      "bytes": 5016,
-      "sha256": "1332961922d75b5de5362a0e131bcd63a810e408d74882847dad3f1037bd86b2"
+      "bytes": 5027,
+      "sha256": "cb4ead4ec91ee7a8335162ecf1ed5727c4c9975eae6d38a27d59c0d0033c58c3"
     },
     "yimoGame-实机预览.jpg": {
       "bytes": 535790,
@@ -4733,24 +6481,24 @@
       "sha256": "499c3cf5cdac9e297b3542c62a1493ed90cbb92d9c1dbdb96dfde86db4f9aeae"
     },
     "使用说明.md": {
-      "bytes": 8472,
-      "sha256": "c4b5a691a1ca1dbd711d53bdadf0c761ccf64fb67868ff28466d3a75196660a8"
+      "bytes": 9119,
+      "sha256": "f217cf6cf956c653464d6f7e1ec661aaa3c79f3fd70b9de28d2cde324dd08f32"
     },
     "创作游戏-交付记录.md": {
       "bytes": 2804,
       "sha256": "4b9106bde772cabc3df829861f50886e11461458d39fb2d21b49e9ab8598ae5b"
     },
     "创作游戏-使用说明.md": {
-      "bytes": 4258,
-      "sha256": "8bd9f0754bcc2ee7309a0e943c2a1519ca860e3be7d8d731a38c1947a23acd22"
+      "bytes": 4269,
+      "sha256": "a78326b8c31c10af1a44a471d2ed8b05290315d765a6604dfb4a5549421e9ae0"
     },
     "创作游戏-实机总览.jpg": {
       "bytes": 465766,
       "sha256": "da5ee4ad7cc259cc29b8321025eac013cd1521b009ea92099387ba76478d8aee"
     },
     "验证报告.md": {
-      "bytes": 4325,
-      "sha256": "c893c82e4a3faa4164cd9d87883f2b3a85390918596767d2f48893b4fe574a50"
+      "bytes": 5063,
+      "sha256": "6b3bfddbaeecae496489a27abd7467888d8c42b1e9a0b8fd497f665980eba363"
     }
   }
 }

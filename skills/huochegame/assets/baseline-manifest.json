@@ -1,0 +1,123 @@
+{
+  "format": 1,
+  "project": "CLOUDLINE · 云间慢行",
+  "source": "local completed cloudline project",
+  "files": {
+    ".gitignore": {
+      "bytes": 24,
+      "sha256": "6c7d15d2ab1a0b51ebcae7e88b9ad01f0713d0833bc2dbe8f3bcc7a81b66b344"
+    },
+    "GAME-CONTRACT.md": {
+      "bytes": 2111,
+      "sha256": "0a3bd7187ad82c4e35449284e205d7134c7e566ca3ca7af69b95105bb5528744"
+    },
+    "LICENSE.txt": {
+      "bytes": 1375,
+      "sha256": "7b90c09ab2f13be8b1d47f7b172355adcd24020b569d3fa98c1369d3b66bdada"
+    },
+    "PROGRESS.md": {
+      "bytes": 4215,
+      "sha256": "10e17a8a9e333122371865a50711d0e8bef1f9fa0b7b743e9839f9bcfac59860"
+    },
+    "README.md": {
+      "bytes": 3962,
+      "sha256": "fa49e9eba9862c9bf43a7cecb3939a7855f271a6b97836c5350a783ed7ce8693"
+    },
+    "SHA256.txt": {
+      "bytes": 81,
+      "sha256": "94d5495a99f3c10644223720e3a3537685201d2096b1dc0a5c24a41a06281990"
+    },
+    "build.mjs": {
+      "bytes": 965,
+      "sha256": "3ad3a814583e5e2c1d904d7d5de3258d90eeca3386ae19e942bb7d24cd1fb1c1"
+    },
+    "cloudline.html": {
+      "bytes": 774811,
+      "sha256": "3c75e392dccd208ac7eecb9318eb8944386363789bbc6cdb0a89b9058add5b59"
+    },
+    "package-lock.json": {
+      "bytes": 726,
+      "sha256": "e94fcd63a8c6dbe750dbd9fff402da4f8ed04129531729cf03d125b73587b37d"
+    },
+    "package.json": {
+      "bytes": 386,
+      "sha256": "1868151207b2dee7d65ecc05a937756fbf03cc3598a9b60c2bdd73d5b8cdf96e"
+    },
+    "screenshots/01-departure.png": {
+      "bytes": 752258,
+      "sha256": "1d6e772760b59556c19c1d03b8051d1982b78af6897216294b6501a60b9bdf04"
+    },
+    "screenshots/02-driving.png": {
+      "bytes": 749894,
+      "sha256": "c23821041934d1dfcfcd586c8658634b2c521b30f77b95b3984ca3bf2b457807"
+    },
+    "screenshots/03-workshop.png": {
+      "bytes": 388606,
+      "sha256": "6e16ff3c18b4383883abf40566934db5d23e57faf39bfefef0e86b1e357e3bae"
+    },
+    "screenshots/04-mango-docked.png": {
+      "bytes": 588935,
+      "sha256": "ca21d6081f44611402d8f114f7d704e6b0b6f7081ec71adf6c289cc747182d08"
+    },
+    "screenshots/05-boarding.png": {
+      "bytes": 602966,
+      "sha256": "501fc3b8c9547c22561e8c49109c86cb12f10d80c6f16b586bc9078db2c82e5e"
+    },
+    "screenshots/06-workshop-upgraded.png": {
+      "bytes": 396600,
+      "sha256": "2ea42a6ceb47f05cad47bc7dead38ff228a70bda1ac395f67271c54f5bbca2a6"
+    },
+    "screenshots/07-mobile-ready.png": {
+      "bytes": 233901,
+      "sha256": "1176c252c6983a9a91547215db3cd44c56186fe682b00290f66aea1b16e45abc"
+    },
+    "screenshots/08-mobile-driving.png": {
+      "bytes": 270513,
+      "sha256": "fb713cd10a494f22daf16202bd1d804caf4466b3ebaf8ed84fe38f43042b5a9e"
+    },
+    "screenshots/09-mobile-workshop.png": {
+      "bytes": 191013,
+      "sha256": "0fcb1e51f0eebd13b04d3c68a7ee6bb942cd29ad469f89ac108a538aafe677b2"
+    },
+    "screenshots/10-production-offline.png": {
+      "bytes": 754678,
+      "sha256": "89cd18676d42a758c07d85d3e606cb82c1a71b4609dff838caa6e45a1637afae"
+    },
+    "src/game.js": {
+      "bytes": 81046,
+      "sha256": "bc39b143790b3005e8f5b8171f0a7bb74be023899185be10f2cf5c002195e1ba"
+    },
+    "src/shell.html": {
+      "bytes": 7160,
+      "sha256": "0b090dc41c3efcaaed2357cd202820beb0eb06ecc318dad147b8d6c61d76ee51"
+    },
+    "src/style.css": {
+      "bytes": 21067,
+      "sha256": "b10b61da734ed0c6b398938019628cf70cd232f6f942a17aac38a8774b134767"
+    },
+    "src/three.inline.js": {
+      "bytes": 664189,
+      "sha256": "b8088fe2c3d6fb1430679c88bebfc9f36ff8a2fa0cca048ef65093e1c3d1f0ed"
+    },
+    "tests/edge-report.json": {
+      "bytes": 1137,
+      "sha256": "0d0d051631d08596e6cb4c33c91bc4abac00f290b402e2be70ab43864f28417b"
+    },
+    "tests/edges.mjs": {
+      "bytes": 8002,
+      "sha256": "562520218e6b08b3e34e03d5dac70d734fb17ba07a4a7ee5b65f90c95d05b2b0"
+    },
+    "tests/gameplay.mjs": {
+      "bytes": 13028,
+      "sha256": "f2888ce4c5427f892a4c1332d7de6d9bc9b6de5a38b8e3ba9e4d5ee0b438312c"
+    },
+    "tests/report.json": {
+      "bytes": 2801,
+      "sha256": "3c16d65276153422de1aa8ac9da063b142f8a01c9bdfd314922e5db49d52e767"
+    },
+    "tests/visual.mjs": {
+      "bytes": 1648,
+      "sha256": "a2ee7c7a72f8d8bf14c7d51de3e2e562fffa59626ba659e7df56b17027a3e642"
+    }
+  }
+}

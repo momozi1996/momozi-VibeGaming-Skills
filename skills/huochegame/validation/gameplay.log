@@ -1,0 +1,41 @@
+PASS offline initial scene and no runtime errors {
+  length: 725.0199003216975,
+  render: { frame: 53, calls: 432, triangles: 349379, points: 550, lines: 0 }
+}
+PASS real W input moves, release coasts, S brakes {
+  before: 0,
+  power: 2.7570267540120996,
+  coast: 3.488742743923323,
+  brake: 0
+}
+PASS door cannot open in motion 
+PASS pause freezes simulation and releases input 
+PASS camera orbit and preset controls 
+PASS full Saltlight → Mango route, gentle arrival {
+  mode: 'docked',
+  comfort: 98.82034307579782,
+  min: 92.79755175348033,
+  ticks: 2026,
+  misses: 0,
+  dist: 247.23178600969885,
+  remaining: 0,
+  rough: 14.83607705593278
+}
+PASS doors, boarding, +75 bonus, no repeated payout { earned: 123, passengers: 14 }
+PASS full return route reaches Saltlight and increments streak {
+  mode: 'docked',
+  station: 0,
+  comfort: 99.22537784836082,
+  misses: 0,
+  ticks: 3845
+}
+PASS fast driving loses comfort and emergency stop denies bonus { mode: 'docked', comfort: 12, misses: 1, broken: true }
+PASS restart resets journey but keeps earned currency 
+PASS workshop sequential parts, actual geometry and exit 
+PASS upgrade and wallet persist on reload 
+PASS blur pauses and clears held buttons 
+PASS malformed save is safely ignored 
+PASS mobile layout and pointer pedal release 
+PASS mobile workshop is operable 
+PASS all browser errors and external requests 
+

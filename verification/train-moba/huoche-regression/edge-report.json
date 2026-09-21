@@ -1,0 +1,48 @@
+{
+  "browser": "153.0.8010.50",
+  "results": [
+    {
+      "name": "actual emulated touch hold, release and cancel",
+      "pass": true,
+      "detail": {
+        "speed": 3.2094357827435123
+      }
+    },
+    {
+      "name": "simultaneous touch pedals and release outside",
+      "pass": true
+    },
+    {
+      "name": "wide and narrow layouts do not horizontally overflow",
+      "pass": true
+    },
+    {
+      "name": "station payout remains once-only during workshop visits",
+      "pass": true
+    },
+    {
+      "name": "storage-denied browser still loads and plays",
+      "pass": true
+    },
+    {
+      "name": "production file has no debug hook and works offline",
+      "pass": true,
+      "detail": {
+        "frames": 88,
+        "elapsedMs": 2107.6000000000004,
+        "meanFPS": 41,
+        "p95FrameMs": 33,
+        "viewport": [
+          1440,
+          1000
+        ],
+        "dpr": 1
+      }
+    },
+    {
+      "name": "all edge-case browser errors",
+      "pass": true
+    }
+  ],
+  "note": "Touch is Chrome CDP emulation, not a physical phone. FPS is a short local headless run, not a universal device claim."
+}

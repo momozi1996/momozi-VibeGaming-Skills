@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "name": "input integrity",
+      "pass": true
+    },
+    {
+      "name": "exact copies all pinned files",
+      "pass": true
+    },
+    {
+      "name": "rebuild exact HTML stays byte identical",
+      "pass": true
+    },
+    {
+      "name": "nonempty output refused",
+      "pass": true
+    },
+    {
+      "name": "modified source rejected",
+      "pass": true
+    },
+    {
+      "name": "rebuild has dependency only, no game implementation",
+      "pass": true
+    },
+    {
+      "name": "reference inputs protected",
+      "pass": true
+    }
+  ]
+}

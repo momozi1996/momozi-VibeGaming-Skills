@@ -1,0 +1,182 @@
+[
+  {
+    "file": "docs/images/maomao-select.jpg",
+    "source": "skills/maomao3dgame/assets/golden/01-menu.png",
+    "caption": "角色选择：猫猫车手与卡丁车",
+    "width": 1280,
+    "height": 800,
+    "bytes": 190340,
+    "source_sha256": "9726e0b8c13ac1ad77c1c871669c80f7cffb52911eed2c39249be03f62c25299"
+  },
+  {
+    "file": "docs/images/maomao-race.jpg",
+    "source": "skills/maomao3dgame/assets/golden/02-race.png",
+    "caption": "比赛中：海岛赛道、驾驶 HUD 与道具入口",
+    "width": 1280,
+    "height": 800,
+    "bytes": 151913,
+    "source_sha256": "42c8ce97bc60f05d3794dddf9e1beb862dc9fff597de2ed56f9d207e71e17ee9"
+  },
+  {
+    "file": "docs/images/moshou-courtyard.jpg",
+    "source": "skills/moshougame/assets/golden/01-courtyard.png",
+    "caption": "庭院：第三人称角色、修道院与任务 HUD",
+    "width": 1280,
+    "height": 800,
+    "bytes": 300725,
+    "source_sha256": "0ce3e09ed307d486b66cb4df47a0cf8f7fa21176266640c30ec0dc1efc2d2a49"
+  },
+  {
+    "file": "docs/images/moshou-forest.jpg",
+    "source": "skills/moshougame/assets/golden/03-east-forest.png",
+    "caption": "森林：户外探索、植被层次与角色视角",
+    "width": 1280,
+    "height": 800,
+    "bytes": 395594,
+    "source_sha256": "609750473e10f4dd40e795d2737ce11aa686630aa859805756326a5b2b57ea8d"
+  },
+  {
+    "file": "docs/images/allgame-racing.jpg",
+    "source": "skills/allgame/assets/kits/racing/assets/variant-preview.jpg",
+    "caption": "racing 基础：樱花配色的猫猫赛车选人界面",
+    "width": 1000,
+    "height": 625,
+    "bytes": 108351,
+    "source_sha256": "6e455440443434815913426e39e6166e902648c70cd359271b5214447e29f3c7"
+  },
+  {
+    "file": "docs/images/allgame-adventure.jpg",
+    "source": "skills/allgame/assets/kits/adventure/assets/variant-preview.jpg",
+    "caption": "adventure 基础：第三人称庭院的环境换肤示例",
+    "width": 1000,
+    "height": 625,
+    "bytes": 163525,
+    "source_sha256": "743c30c7fac9f657e5b71119c8c05a7bcc2ae9c88258984f29fd14d9b7b0a701"
+  },
+  {
+    "file": "docs/images/survivor-play.jpg",
+    "source": "skills/survivorgame/assets/preview.jpg",
+    "caption": "战斗中：夜色场景、敌潮、角色与状态 HUD",
+    "width": 1280,
+    "height": 800,
+    "bytes": 132286,
+    "source_sha256": "ea87e3fbe671cc50542670152f33a7a7f83952f8550474a76f98ee983a57c18c"
+  },
+  {
+    "file": "docs/images/survivor-theme.jpg",
+    "source": "skills/survivorgame/assets/theme-preview.jpg",
+    "caption": "另一主题：余烬守夜人的开始界面",
+    "width": 1280,
+    "height": 800,
+    "bytes": 133653,
+    "source_sha256": "b16db321a414c1ff85da53956376782eadc9940a6219d92097b36bfcece30010"
+  },
+  {
+    "file": "docs/images/tower-defense-play.jpg",
+    "source": "skills/towerdefensegame/assets/preview.jpg",
+    "caption": "防守中：村庄路线、晶塔、敌人和建造操作",
+    "width": 1280,
+    "height": 800,
+    "bytes": 141632,
+    "source_sha256": "264f37db58df5dee177fc75a95082fc466b7b4b115692270a2ad764014c5097c"
+  },
+  {
+    "file": "docs/images/tower-defense-theme.jpg",
+    "source": "skills/towerdefensegame/assets/theme-preview.jpg",
+    "caption": "另一主题：雪原灯径的开始界面",
+    "width": 1280,
+    "height": 800,
+    "bytes": 118782,
+    "source_sha256": "8575161fd1f31519652501e21b54a324854c7b42d965c942dc6a6cbc4796ba12"
+  },
+  {
+    "file": "docs/images/platform-play.jpg",
+    "source": "skills/platformgame/assets/preview.jpg",
+    "caption": "关卡中：狐狸邮差、浮岛、收集物和终点路线",
+    "width": 1280,
+    "height": 800,
+    "bytes": 99127,
+    "source_sha256": "600db4c6953705855944748c4e40f4bf3e8554f6b2f7c7ae529131b275c6464b"
+  },
+  {
+    "file": "docs/images/platform-theme.jpg",
+    "source": "skills/platformgame/assets/theme-preview.jpg",
+    "caption": "另一主题：晚霞邮差的开始界面",
+    "width": 1280,
+    "height": 800,
+    "bytes": 94502,
+    "source_sha256": "d63760ae90cb92245428cc25b9e2690c9da990dae9703a015d4e8d98dc852812"
+  },
+  {
+    "file": "docs/images/farm-play.jpg",
+    "source": "skills/farmgame/assets/preview.jpg",
+    "caption": "经营中：田地作物、小镇建筑、订单与种植操作",
+    "width": 1280,
+    "height": 800,
+    "bytes": 163217,
+    "source_sha256": "e471b762c831e0cf2adf4b197b57953a3ba4f7ae16122d1bd0eb6d2e157b196c"
+  },
+  {
+    "file": "docs/images/farm-theme.jpg",
+    "source": "skills/farmgame/assets/theme-preview.jpg",
+    "caption": "另一主题：丰物小园的秋色开始界面",
+    "width": 1280,
+    "height": 800,
+    "bytes": 133698,
+    "source_sha256": "d5c64fe68cc8df1c4ad4ba38a851eb0a3c64ff1f69ac07b72822c33908dcd500"
+  },
+  {
+    "file": "docs/images/yimo-field.jpg",
+    "source": "skills/yimogame/assets/golden/01-field.png",
+    "caption": "探索中：角色、原野、伙伴与任务界面",
+    "width": 1280,
+    "height": 800,
+    "bytes": 316346,
+    "source_sha256": "6183c5f037cbe5c83fbe344bb4980bcfd67c9229630ad018181e40017bdd86e9"
+  },
+  {
+    "file": "docs/images/yimo-linked.jpg",
+    "source": "skills/yimogame/assets/golden/03-linked.png",
+    "caption": "联结后：以伙伴形态在原野中行动",
+    "width": 1280,
+    "height": 800,
+    "bytes": 303386,
+    "source_sha256": "c016c91158b222e5ec99680a9d4481ec6c6078f34adb0648bc969f6a1f7a9ec9"
+  },
+  {
+    "file": "docs/images/yimo-dex.jpg",
+    "source": "skills/yimogame/assets/golden/04-dex.png",
+    "caption": "伙伴图鉴：已发现伙伴与资料面板",
+    "width": 1280,
+    "height": 800,
+    "bytes": 87890,
+    "source_sha256": "b8061e8a0fbd187148cd80f28678335d02ebaeca5d6fcf0b020aaad6aaf8ef51"
+  },
+  {
+    "file": "docs/images/quanwang-select.png",
+    "source": "skills/quanwanggame/assets/baseline/deterministic/01-select.png",
+    "caption": "街机选人：AVA 与 REN、模式与操作入口",
+    "width": 1280,
+    "height": 800,
+    "bytes": 286276,
+    "source_sha256": "4c7326d2da35f13844a6d2a2dba75200b67c0bff3fb7d7b987d488909510343f"
+  },
+  {
+    "file": "docs/images/quanwang-kick.png",
+    "source": "skills/quanwanggame/assets/baseline/deterministic/04-heavy-kick.png",
+    "caption": "对战中：重攻击动作、生命条和对战 HUD",
+    "width": 1280,
+    "height": 800,
+    "bytes": 180843,
+    "source_sha256": "41dbafa35107372c15c4e716b77663c168bb643ca5e96cff8e542e86934ead70"
+  },
+  {
+    "file": "docs/images/quanwang-special.png",
+    "source": "skills/quanwanggame/assets/baseline/deterministic/05-ava-special.png",
+    "caption": "必杀演示：角色动作与攻击特效",
+    "width": 1280,
+    "height": 800,
+    "bytes": 177245,
+    "source_sha256": "081520da04fdf518f8b83c6e99282ba6c52ae9a3b83c7ecf78f76cf7724446af"
+  }
+]

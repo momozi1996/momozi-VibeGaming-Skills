@@ -1,0 +1,34 @@
+{
+  "project": "/tmp/huoche-note-exact-test",
+  "inputSha256": "3c75e392dccd208ac7eecb9318eb8944386363789bbc6cdb0a89b9058add5b59",
+  "started": "2026-09-21T09:15:35.539Z",
+  "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "assertionsModified": false,
+  "adaptations": [
+    "absolute Playwright import",
+    "portable file URL",
+    "Metal only on macOS"
+  ],
+  "suites": [
+    {
+      "name": "gameplay",
+      "ok": true,
+      "exitCode": 0,
+      "signal": null,
+      "passed": 17,
+      "total": 17,
+      "sourceTestSha256": "f2888ce4c5427f892a4c1332d7de6d9bc9b6de5a38b8e3ba9e4d5ee0b438312c"
+    },
+    {
+      "name": "edges",
+      "ok": true,
+      "exitCode": 0,
+      "signal": null,
+      "passed": 7,
+      "total": 7,
+      "sourceTestSha256": "562520218e6b08b3e34e03d5dac70d734fb17ba07a4a7ee5b65f90c95d05b2b0"
+    }
+  ],
+  "finished": "2026-09-21T09:16:40.193Z",
+  "ok": true
+}

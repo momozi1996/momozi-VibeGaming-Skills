@@ -1,0 +1,94 @@
+[
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-B",
+      "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/scripts/install_skill.py",
+      "--skill",
+      "yimogame",
+      "--skills-dir",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills"
+    ],
+    "cwd": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages",
+    "exit": 0,
+    "stdout": "Installed complete skill: /private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills/yimogame\nRefresh your agent skill list, then use $yimogame in chat. No game or global dependency was executed.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-B",
+      "/Users/jyxc-dz-0100378/.stepcode/codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills/yimogame"
+    ],
+    "cwd": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages",
+    "exit": 0,
+    "stdout": "Skill is valid!\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-B",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills/yimogame/scripts/reproduce.py",
+      "verify"
+    ],
+    "cwd": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages",
+    "exit": 0,
+    "stdout": "PASS: package 134 files + reference project 66 files intact\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-B",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills/yimogame/scripts/reproduce.py",
+      "restore",
+      "--out",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/yimogame",
+      "--mode",
+      "exact"
+    ],
+    "cwd": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages",
+    "exit": 0,
+    "stdout": "PASS: package 134 files + reference project 66 files intact\nCreated exact: /private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/yimogame\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-B",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills/yimogame/scripts/reproduce.py",
+      "restore",
+      "--out",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/yimogame",
+      "--mode",
+      "exact"
+    ],
+    "cwd": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages",
+    "exit": 1,
+    "stdout": "PASS: package 134 files + reference project 66 files intact\n",
+    "stderr": "ERROR: Output exists and is nonempty; refusing overwrite\n"
+  },
+  {
+    "command": [
+      "npm",
+      "test"
+    ],
+    "cwd": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/yimogame",
+    "exit": 0,
+    "stdout": "\n> aniimo-windmeadow@1.0.0 test\n> node --test tests/*.test.mjs\n\n✔ new expedition has no companions and cannot twine (3.307041ms)\n✔ capture validates target, range and remaining supplies (0.171042ms)\n✔ capture requires simulation time, consumes once, and prevents duplicate captures (0.148667ms)\n✔ paused capture freezes and resumes (0.060458ms)\n✔ twining and switching require owned species (0.091667ms)\n✔ three different species unlock objective, not three individuals (0.191166ms)\n✔ paused quest cannot be submitted (0.045833ms)\n✔ save roundtrip persists capture, position, rewards but not transient capture state (0.278833ms)\n✔ corrupt, unknown-version and malicious state cannot break loading (0.136583ms)\n✔ storage permission failures are nonfatal (0.130333ms)\n✔ terrain is finite throughout accessible world; species placed within bounds (4.575916ms)\nℹ tests 11\nℹ suites 0\nℹ pass 11\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 215.852375\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "cwd": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/yimogame",
+    "exit": 0,
+    "stdout": "\n> aniimo-windmeadow@1.0.0 build\n> vite build\n\nvite v6.3.5 building for production...\ntransforming...\n✓ 14 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   0.78 kB │ gzip:   0.53 kB\ndist/assets/index-MWbxZ5BI.css   30.29 kB │ gzip:   7.59 kB\ndist/assets/index-CkWwsK_5.js    58.36 kB │ gzip:  22.93 kB\ndist/assets/engine-DPj69CRH.js  488.58 kB │ gzip: 122.38 kB\n✓ built in 1.25s\n",
+    "stderr": ""
+  }
+]

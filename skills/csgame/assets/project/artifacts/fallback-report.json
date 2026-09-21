@@ -1,0 +1,5 @@
+{
+  "check": "Unsupported WebGL2 shows actionable error rather than a stuck loading screen",
+  "passed": true,
+  "message": "Unable to start the operation. WebGL2 is required. Please open this game in a current desktop Chrome, Edge, or Firefox browser. Reload the page to retry."
+}

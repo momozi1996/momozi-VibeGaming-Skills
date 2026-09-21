@@ -1,0 +1,12 @@
+[
+  ".github/workflows/verify.yml",
+  "CHANGELOG.md",
+  "LICENSE.md",
+  "README.md",
+  "docs/FREEZE-REVIEW.md",
+  "docs/PUBLISHING.md",
+  "docs/RIGHTS.md",
+  "docs/images/README.md",
+  "packages.json",
+  "scripts/audit_packages.py"
+]

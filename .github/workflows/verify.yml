@@ -19,3 +19,9 @@ jobs:
         run: python scripts/audit_packages.py --check-lock
       - name: Check repository helper tests
         run: python -B scripts/test_release_tools.py
+      - name: Check CSGame offline restore and launcher
+        run: python -B skills/csgame/scripts/test_game.py
+      - name: Check train and MOBA offline restore and launchers
+        run: |
+          python -B skills/huochegame/scripts/test_game.py
+          python -B skills/wangzhegame/scripts/test_game.py

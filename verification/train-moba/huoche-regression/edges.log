@@ -1,0 +1,15 @@
+PASS actual emulated touch hold, release and cancel { speed: 3.2094357827435123 }
+PASS simultaneous touch pedals and release outside 
+PASS wide and narrow layouts do not horizontally overflow 
+PASS station payout remains once-only during workshop visits 
+PASS storage-denied browser still loads and plays 
+PASS production file has no debug hook and works offline {
+  frames: 88,
+  elapsedMs: 2107.6000000000004,
+  meanFPS: 41,
+  p95FrameMs: 33,
+  viewport: [ 1440, 1000 ],
+  dpr: 1
+}
+PASS all edge-case browser errors 
+

@@ -1,0 +1,86 @@
+[
+  {
+    "file": "limestone-normal.jpg",
+    "bytes": 79019,
+    "sha256": "3d2aacdc93a9e9b5e6fb719ed09854e932e4bbf1ca6c1f6a321fbbacd3fb652a",
+    "source": "allgame/assets/kits/adventure/assets/reference-project/public/assets/textures/limestone-normal.jpg",
+    "licenseEvidence": "docs/licenses/upstream-asset-manifest.json"
+  },
+  {
+    "file": "rock.jpg",
+    "bytes": 189285,
+    "sha256": "d9b0be507fefb2f0246cb4d163af3fa7208f380edf810eac2714918eec8e35c1",
+    "source": "allgame/assets/kits/adventure/assets/reference-project/public/assets/textures/rock.jpg",
+    "licenseEvidence": "docs/licenses/upstream-asset-manifest.json"
+  },
+  {
+    "file": "cloth.jpg",
+    "bytes": 56712,
+    "sha256": "88381a697326c692ae33f6d746c8971b519986c141bc0a5b2585a06b07c23a13",
+    "source": "allgame/assets/kits/adventure/assets/reference-project/public/assets/textures/cloth.jpg",
+    "licenseEvidence": "docs/licenses/upstream-asset-manifest.json"
+  },
+  {
+    "file": "path.jpg",
+    "bytes": 474238,
+    "sha256": "cfe29eeb191e461239ba792e511c1d9a1472dae02c0584534ef5c5dad40a394b",
+    "source": "allgame/assets/kits/adventure/assets/reference-project/public/assets/textures/path.jpg",
+    "licenseEvidence": "docs/licenses/upstream-asset-manifest.json"
+  },
+  {
+    "file": "bark.jpg",
+    "bytes": 210157,
+    "sha256": "f832491230b56b7cf95ecb3814bdff7605692869b3fcec219b0aa0f5194c134d",
+    "source": "allgame/assets/kits/adventure/assets/reference-project/public/assets/textures/bark.jpg",
+    "licenseEvidence": "docs/licenses/upstream-asset-manifest.json"
+  },
+  {
+    "file": "ground-normal.jpg",
+    "bytes": 664079,
+    "sha256": "8eeb31a9982d977f700f9fd4339a00c2f9112b3578db5aa01ce8731b0b5acb0e",
+    "source": "allgame/assets/kits/adventure/assets/reference-project/public/assets/textures/ground-normal.jpg",
+    "licenseEvidence": "docs/licenses/upstream-asset-manifest.json"
+  },
+  {
+    "file": "ground.jpg",
+    "bytes": 649169,
+    "sha256": "d00ca2613ab5f052ce34c84920b952e866fb12bf55dba7cd5f3c1711c4f7b38f",
+    "source": "allgame/assets/kits/adventure/assets/reference-project/public/assets/textures/ground.jpg",
+    "licenseEvidence": "docs/licenses/upstream-asset-manifest.json"
+  },
+  {
+    "file": "chainmail.jpg",
+    "bytes": 155409,
+    "sha256": "dae4980226a469150cbd1b3e47272599066123adb6cbff108242f1f92d00d725",
+    "source": "allgame/assets/kits/adventure/assets/reference-project/public/assets/textures/chainmail.jpg",
+    "licenseEvidence": "docs/licenses/upstream-asset-manifest.json"
+  },
+  {
+    "file": "rock-normal.jpg",
+    "bytes": 328595,
+    "sha256": "5107091b2ee180acd1000df45021670dd91d30aa9ddca22038b759c9e6f491fe",
+    "source": "allgame/assets/kits/adventure/assets/reference-project/public/assets/textures/rock-normal.jpg",
+    "licenseEvidence": "docs/licenses/upstream-asset-manifest.json"
+  },
+  {
+    "file": "steel.jpg",
+    "bytes": 48874,
+    "sha256": "44009f05395f3aa01d4977dc6e7b436882fcc6f64d6b87a984dc8ecaf2fa5182",
+    "source": "allgame/assets/kits/adventure/assets/reference-project/public/assets/textures/steel.jpg",
+    "licenseEvidence": "docs/licenses/upstream-asset-manifest.json"
+  },
+  {
+    "file": "limestone.jpg",
+    "bytes": 291737,
+    "sha256": "bed592a30165124cf1d633735c26c7596901d6dcd05e5935f5cc353e96d376f9",
+    "source": "allgame/assets/kits/adventure/assets/reference-project/public/assets/textures/limestone.jpg",
+    "licenseEvidence": "docs/licenses/upstream-asset-manifest.json"
+  },
+  {
+    "file": "gold.jpg",
+    "bytes": 49003,
+    "sha256": "c3ebd35b4e97d193e66da4e71f65be3ef059f18e46bac84d9021a73fc74b0ce4",
+    "source": "allgame/assets/kits/adventure/assets/reference-project/public/assets/textures/gold.jpg",
+    "licenseEvidence": "docs/licenses/upstream-asset-manifest.json"
+  }
+]

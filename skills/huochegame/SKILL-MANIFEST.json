@@ -1,0 +1,334 @@
+{
+  "schema": 1,
+  "scope": "Complete standalone skill; excludes this manifest. Upstream reference project preserved.",
+  "files": {
+    ".gitignore": {
+      "bytes": 37,
+      "sha256": "2af77811cc264f5e9d48d293eb92eb40d2019e896de98eacc2d905fd19c03edc"
+    },
+    "SKILL.md": {
+      "bytes": 5128,
+      "sha256": "ace697c9274453b20085780e043647f9efc51ef72a007cabc650fad167204056"
+    },
+    "agents/openai.yaml": {
+      "bytes": 357,
+      "sha256": "8f67d61973e9a7586c37736800dca82d02fafa01305ba4465da02e9418d3a068"
+    },
+    "assets/baseline-manifest.json": {
+      "bytes": 4229,
+      "sha256": "146724a4cdcbfb6822ee82f33d2d96fe3e0bba1e1e3bfa4783df3a0c93f507b9"
+    },
+    "assets/canonical/01-ready.png": {
+      "bytes": 751264,
+      "sha256": "9aa21206ef282895ad167f173a5c305e315143f55e58058db35fd0b8b8d5abc3"
+    },
+    "assets/canonical/02-bridge.png": {
+      "bytes": 610420,
+      "sha256": "cbd26b6495d1be44cf5449752431c6784562cad133e0b73a73b042a6dbf9753d"
+    },
+    "assets/canonical/03-mango.png": {
+      "bytes": 600373,
+      "sha256": "ede8f1fb6dc7357bd9a3dd4323d7bdbff6a253b17a6164d07ba9857ce0612713"
+    },
+    "assets/canonical/04-workshop.png": {
+      "bytes": 396600,
+      "sha256": "2ea42a6ceb47f05cad47bc7dead38ff228a70bda1ac395f67271c54f5bbca2a6"
+    },
+    "assets/canonical/05-mobile-ready.png": {
+      "bytes": 234538,
+      "sha256": "cac7dc894c07d22ef6bb8e13e7b59c7e153870b66049b6d997efaeabc365962f"
+    },
+    "assets/canonical/06-mobile-workshop.png": {
+      "bytes": 190994,
+      "sha256": "46f4804501abc99cc982d0dd4ede76b0d4da892bcbe192740398b495575b74bd"
+    },
+    "assets/canonical/metadata.json": {
+      "bytes": 7512,
+      "sha256": "e8b194c1ab25e0f7c007d9c308269edc689ca1b417e18eff414c672597abfcd8"
+    },
+    "assets/gallery.html": {
+      "bytes": 4012,
+      "sha256": "edb9dace0d96a9e5df931af334ab7370f6e82407b9df8cbba87c624838b953cc"
+    },
+    "assets/reference-project/.gitignore": {
+      "bytes": 24,
+      "sha256": "6c7d15d2ab1a0b51ebcae7e88b9ad01f0713d0833bc2dbe8f3bcc7a81b66b344"
+    },
+    "assets/reference-project/GAME-CONTRACT.md": {
+      "bytes": 2111,
+      "sha256": "0a3bd7187ad82c4e35449284e205d7134c7e566ca3ca7af69b95105bb5528744"
+    },
+    "assets/reference-project/LICENSE.txt": {
+      "bytes": 1375,
+      "sha256": "7b90c09ab2f13be8b1d47f7b172355adcd24020b569d3fa98c1369d3b66bdada"
+    },
+    "assets/reference-project/PROGRESS.md": {
+      "bytes": 4215,
+      "sha256": "10e17a8a9e333122371865a50711d0e8bef1f9fa0b7b743e9839f9bcfac59860"
+    },
+    "assets/reference-project/README.md": {
+      "bytes": 3962,
+      "sha256": "fa49e9eba9862c9bf43a7cecb3939a7855f271a6b97836c5350a783ed7ce8693"
+    },
+    "assets/reference-project/SHA256.txt": {
+      "bytes": 81,
+      "sha256": "94d5495a99f3c10644223720e3a3537685201d2096b1dc0a5c24a41a06281990"
+    },
+    "assets/reference-project/build.mjs": {
+      "bytes": 965,
+      "sha256": "3ad3a814583e5e2c1d904d7d5de3258d90eeca3386ae19e942bb7d24cd1fb1c1"
+    },
+    "assets/reference-project/cloudline.html": {
+      "bytes": 774811,
+      "sha256": "3c75e392dccd208ac7eecb9318eb8944386363789bbc6cdb0a89b9058add5b59"
+    },
+    "assets/reference-project/package-lock.json": {
+      "bytes": 726,
+      "sha256": "e94fcd63a8c6dbe750dbd9fff402da4f8ed04129531729cf03d125b73587b37d"
+    },
+    "assets/reference-project/package.json": {
+      "bytes": 386,
+      "sha256": "1868151207b2dee7d65ecc05a937756fbf03cc3598a9b60c2bdd73d5b8cdf96e"
+    },
+    "assets/reference-project/screenshots/01-departure.png": {
+      "bytes": 752258,
+      "sha256": "1d6e772760b59556c19c1d03b8051d1982b78af6897216294b6501a60b9bdf04"
+    },
+    "assets/reference-project/screenshots/02-driving.png": {
+      "bytes": 749894,
+      "sha256": "c23821041934d1dfcfcd586c8658634b2c521b30f77b95b3984ca3bf2b457807"
+    },
+    "assets/reference-project/screenshots/03-workshop.png": {
+      "bytes": 388606,
+      "sha256": "6e16ff3c18b4383883abf40566934db5d23e57faf39bfefef0e86b1e357e3bae"
+    },
+    "assets/reference-project/screenshots/04-mango-docked.png": {
+      "bytes": 588935,
+      "sha256": "ca21d6081f44611402d8f114f7d704e6b0b6f7081ec71adf6c289cc747182d08"
+    },
+    "assets/reference-project/screenshots/05-boarding.png": {
+      "bytes": 602966,
+      "sha256": "501fc3b8c9547c22561e8c49109c86cb12f10d80c6f16b586bc9078db2c82e5e"
+    },
+    "assets/reference-project/screenshots/06-workshop-upgraded.png": {
+      "bytes": 396600,
+      "sha256": "2ea42a6ceb47f05cad47bc7dead38ff228a70bda1ac395f67271c54f5bbca2a6"
+    },
+    "assets/reference-project/screenshots/07-mobile-ready.png": {
+      "bytes": 233901,
+      "sha256": "1176c252c6983a9a91547215db3cd44c56186fe682b00290f66aea1b16e45abc"
+    },
+    "assets/reference-project/screenshots/08-mobile-driving.png": {
+      "bytes": 270513,
+      "sha256": "fb713cd10a494f22daf16202bd1d804caf4466b3ebaf8ed84fe38f43042b5a9e"
+    },
+    "assets/reference-project/screenshots/09-mobile-workshop.png": {
+      "bytes": 191013,
+      "sha256": "0fcb1e51f0eebd13b04d3c68a7ee6bb942cd29ad469f89ac108a538aafe677b2"
+    },
+    "assets/reference-project/screenshots/10-production-offline.png": {
+      "bytes": 754678,
+      "sha256": "89cd18676d42a758c07d85d3e606cb82c1a71b4609dff838caa6e45a1637afae"
+    },
+    "assets/reference-project/src/game.js": {
+      "bytes": 81046,
+      "sha256": "bc39b143790b3005e8f5b8171f0a7bb74be023899185be10f2cf5c002195e1ba"
+    },
+    "assets/reference-project/src/shell.html": {
+      "bytes": 7160,
+      "sha256": "0b090dc41c3efcaaed2357cd202820beb0eb06ecc318dad147b8d6c61d76ee51"
+    },
+    "assets/reference-project/src/style.css": {
+      "bytes": 21067,
+      "sha256": "b10b61da734ed0c6b398938019628cf70cd232f6f942a17aac38a8774b134767"
+    },
+    "assets/reference-project/src/three.inline.js": {
+      "bytes": 664189,
+      "sha256": "b8088fe2c3d6fb1430679c88bebfc9f36ff8a2fa0cca048ef65093e1c3d1f0ed"
+    },
+    "assets/reference-project/tests/edge-report.json": {
+      "bytes": 1137,
+      "sha256": "0d0d051631d08596e6cb4c33c91bc4abac00f290b402e2be70ab43864f28417b"
+    },
+    "assets/reference-project/tests/edges.mjs": {
+      "bytes": 8002,
+      "sha256": "562520218e6b08b3e34e03d5dac70d734fb17ba07a4a7ee5b65f90c95d05b2b0"
+    },
+    "assets/reference-project/tests/gameplay.mjs": {
+      "bytes": 13028,
+      "sha256": "f2888ce4c5427f892a4c1332d7de6d9bc9b6de5a38b8e3ba9e4d5ee0b438312c"
+    },
+    "assets/reference-project/tests/report.json": {
+      "bytes": 2801,
+      "sha256": "3c16d65276153422de1aa8ac9da063b142f8a01c9bdfd314922e5db49d52e767"
+    },
+    "assets/reference-project/tests/visual.mjs": {
+      "bytes": 1648,
+      "sha256": "a2ee7c7a72f8d8bf14c7d51de3e2e562fffa59626ba659e7df56b17027a3e642"
+    },
+    "package-lock.json": {
+      "bytes": 1066,
+      "sha256": "4afa72633b4602ad9113f5076f721ae0cfaefd3bf3fc4df91151b618be9efceb"
+    },
+    "package.json": {
+      "bytes": 263,
+      "sha256": "763b517e2ffb681c86fcd7f5c51ec76ebaab213e1711fe00e9996e31e05c6bc2"
+    },
+    "prompts/audit.md": {
+      "bytes": 647,
+      "sha256": "35b411b4a8375936f019d17863a9f5730d8585c88b3d4e538691c528c3a3a407"
+    },
+    "prompts/continue.md": {
+      "bytes": 472,
+      "sha256": "432f4978cdcc88d68f02bb1753cc84eacf218636ddd5bbcec4d7190be2e14b35"
+    },
+    "prompts/exact.md": {
+      "bytes": 508,
+      "sha256": "bc4f8cf895008acec48b95bf57db56deb5b0904366e44f5f93fab5baebaee7e9"
+    },
+    "prompts/rebuild.md": {
+      "bytes": 807,
+      "sha256": "e0f8bf3cb90ee702690cff51282dfd8c2160cb39335564fbc214cf5d78b15aa3"
+    },
+    "references/01-contract.md": {
+      "bytes": 2858,
+      "sha256": "f0bbb503dac293d0d0cbbe6c82f4c75269c7416404b54a984fb82f6a4ca569af"
+    },
+    "references/02-world-art.md": {
+      "bytes": 4664,
+      "sha256": "d0283b9582b5e6c0c659340bbe4bcf3dc8f918ba816e58def1ce9e6cae90732c"
+    },
+    "references/03-gameplay.md": {
+      "bytes": 5047,
+      "sha256": "d7083b0641625d61935e1a0d4817cde314ee24790c0f3468a82087004b5435ab"
+    },
+    "references/04-tram-workshop.md": {
+      "bytes": 3910,
+      "sha256": "b229f16fe40a79a0a1761ff82b0dffb8d2593f27ef538f03f42d9efe02681938"
+    },
+    "references/05-ui-input.md": {
+      "bytes": 3740,
+      "sha256": "901070b41a99642c6a0a7bda0ec982c2387b4a9d2fe58007297e8074b74d3f9a"
+    },
+    "references/06-workflow.md": {
+      "bytes": 3362,
+      "sha256": "7e6d3cd2da4ed10b0a5256828cdf36f0e979e7cda0daa4fef23e1328530ab9d5"
+    },
+    "references/07-acceptance.md": {
+      "bytes": 4984,
+      "sha256": "a9b727661878c22bc0e9e591dea4fd28d72e687f0a633431de0184b4add68486"
+    },
+    "references/08-pitfalls.md": {
+      "bytes": 2908,
+      "sha256": "12c6e4294cfba40f81494fdf6c1fbf36ea83ff580be31f4cd3b15437c1e18c4a"
+    },
+    "references/09-runtime.md": {
+      "bytes": 2416,
+      "sha256": "3fe4d58806349d87ab5c4609f1941138ea6b534a3e0293f7f25115887ec0161b"
+    },
+    "references/10-assets.md": {
+      "bytes": 2202,
+      "sha256": "0165e947cb5ffde438cb1f6edc001c8d6cf94308423830cde88c2a6c874f5625"
+    },
+    "references/11-handoff.md": {
+      "bytes": 1821,
+      "sha256": "637829fdc610378361823044c9f5a569d62dbbd8434b3731813ad2dca9380951"
+    },
+    "references/12-remix-guide.md": {
+      "bytes": 2765,
+      "sha256": "2d18d76b809f1769af93c335e0cd60f383d0d9501eed0cbaa2342a53d38d16f1"
+    },
+    "references/provenance.md": {
+      "bytes": 1427,
+      "sha256": "71c62f3d7e0495fa9c70864050f024eaf1d4ad12ee27808f51eac7e8f8404fdf"
+    },
+    "references/source-map.md": {
+      "bytes": 4872,
+      "sha256": "4dea2ae1e0fc11d496a5c0662ac813c1f85a0939b78d86f6e8f40af1437ebb94"
+    },
+    "references/world-data.json": {
+      "bytes": 6719,
+      "sha256": "ee34307c8ddb74d3b708669e783e3278aca5fe650426deb9312cf19e0b11a844"
+    },
+    "scripts/capture.mjs": {
+      "bytes": 2860,
+      "sha256": "056570c8c28f169b931a72ca7825d9b378b47e8735cfff4ee6cbf092e1a1eb97"
+    },
+    "scripts/game.py": {
+      "bytes": 4027,
+      "sha256": "2617fc1af2b49320a44742e4c7828605184c0d1b37100781059f40cc92176614"
+    },
+    "scripts/image-diff.mjs": {
+      "bytes": 2056,
+      "sha256": "3b8703df461e92e86318b3470eee4e43bd252d6a2b1b55a972bda62c06ea898b"
+    },
+    "scripts/pack.py": {
+      "bytes": 5326,
+      "sha256": "40c9d70edddf67a8024736e636d255d934ee8b8cbddb7cb048f917c8d7a335f6"
+    },
+    "scripts/run-checks.mjs": {
+      "bytes": 3028,
+      "sha256": "5f7757c26133ce9789c8e08e66a474037a2823aa6241eb7b90271fb2bac0ec26"
+    },
+    "scripts/runtime.mjs": {
+      "bytes": 2579,
+      "sha256": "241f123c2f4780fbb5b158e759ba9abb3e92d16c059c4790c40250691b3af18d"
+    },
+    "scripts/selftest.py": {
+      "bytes": 1931,
+      "sha256": "329070cf4b70881aa6dbc4f0931292c1e4220e16e10ee4717484d405b06902a7"
+    },
+    "scripts/start-demo.py": {
+      "bytes": 1251,
+      "sha256": "39a4f929f53fc637368c63504ac713681c42764a3c3913562f7f8f4f69b6d081"
+    },
+    "scripts/test_game.py": {
+      "bytes": 2406,
+      "sha256": "a8d292b1b8cabeeb6a232d6b250d1f9231dcd95fbfdd246c74937647b332aa3c"
+    },
+    "validation/REPORT.md": {
+      "bytes": 2631,
+      "sha256": "d454b0ddcbcdc8f606f7a526c70c61e974fef675eada7637c2adc9645c4314ea"
+    },
+    "validation/diff-negative-test.json": {
+      "bytes": 1905,
+      "sha256": "2ad701132e72a7eb2711ae1c31019f057ff55ef9fa7679d50e014cd82a53d661"
+    },
+    "validation/edge-report.json": {
+      "bytes": 1136,
+      "sha256": "9bce6a5c2e959a78eec17cf31374c11ced5425da0e3d8b08cb9c5ba9d5bb6e66"
+    },
+    "validation/edges.log": {
+      "bytes": 520,
+      "sha256": "35547d0a32606233cf45577b6fc693092e85823d9d2a7a664cb7d08ef1fbabe4"
+    },
+    "validation/exact-visual-diff.json": {
+      "bytes": 1602,
+      "sha256": "b142e71c95350080ac99b64b797b385ab33ff9e0031cb962d63fb61f6d73fe6c"
+    },
+    "validation/gameplay.log": {
+      "bytes": 1372,
+      "sha256": "b05560ba213b6585f269a5364b993c5ab8b64c7aaa0f031465fce50db1fc0faf"
+    },
+    "validation/pack-selftest.json": {
+      "bytes": 593,
+      "sha256": "e95fec14709e33a352c9645e9a532f9b66d3fa3bcedefb3def056626b888f6ec"
+    },
+    "validation/relocation-test.json": {
+      "bytes": 437,
+      "sha256": "4167818ce6480dbfdc1644abcd54e2e300ea7dbf1e7fb4bb13ea9eb8679f2e27"
+    },
+    "validation/report.json": {
+      "bytes": 2800,
+      "sha256": "67db01e31d5bc4b430af8a7f2aa5e4fc8db31e0b396deea5f11e193c7d9e6d3b"
+    },
+    "validation/skill-validation.txt": {
+      "bytes": 16,
+      "sha256": "db349825903d66adffea3ecf1bd8e1803043e8a71cf1a051235dabc5371f5bb0"
+    },
+    "validation/summary.json": {
+      "bytes": 922,
+      "sha256": "cb5bc0efbc7edeaf1523be7b84162803e104ba09923bdcbccf9348d52c5e0d97"
+    }
+  }
+}

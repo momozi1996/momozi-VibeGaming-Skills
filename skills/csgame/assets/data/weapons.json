@@ -1,0 +1,38 @@
+{
+  "rifle": {
+    "name": "AR-47",
+    "type": "ASSAULT RIFLE",
+    "mag": 30,
+    "reserve": 90,
+    "damage": 34,
+    "rate": 0.105,
+    "reload": 2.25,
+    "spread": 0.005,
+    "recoil": 0.015,
+    "price": 1800
+  },
+  "pistol": {
+    "name": "P-12",
+    "type": "SIDEARM",
+    "mag": 12,
+    "reserve": 48,
+    "damage": 26,
+    "rate": 0.23,
+    "reload": 1.5,
+    "spread": 0.003,
+    "recoil": 0.011,
+    "price": 0
+  },
+  "sniper": {
+    "name": "SR-08",
+    "type": "PRECISION RIFLE",
+    "mag": 5,
+    "reserve": 20,
+    "damage": 105,
+    "rate": 1.25,
+    "reload": 2.8,
+    "spread": 0.001,
+    "recoil": 0.045,
+    "price": 2400
+  }
+}

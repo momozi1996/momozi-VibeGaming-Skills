@@ -1,0 +1,26 @@
+PASS Exactly one visible canvas, no HTML HUD / controls
+SHOT menu
+PASS Hero card selection via canvas hit test
+PASS Start produces 5v5 state
+SHOT spawn
+PASS Shop click deducts gold and equips item
+SHOT shop
+PASS Real right click moves player in world
+PASS Real skill-1 key consumes cooldown
+PASS Pause freezes simulation
+SHOT pause
+PASS Blur pauses and releases held input
+SHOT combat
+PASS Army spawns on all three lanes
+PASS Death enters respawn countdown
+PASS Respawn returns a living player
+PASS Nexus kill transitions to victory
+SHOT victory
+PASS Restart resets match state
+PASS No JavaScript or HTTP errors
+PERF {
+  frames: 91,
+  medianMs: 16.69999998807907,
+  p95Ms: 17.80000001192093,
+  renderer: 'WebKit WebGL'
+}

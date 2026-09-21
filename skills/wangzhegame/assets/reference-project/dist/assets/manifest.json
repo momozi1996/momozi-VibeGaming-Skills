@@ -1,0 +1,314 @@
+{
+  "version": "16.18.1",
+  "source": "Riot Data Dragon",
+  "assets": [
+    {
+      "file": "Garen.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/data/zh_CN/champion/Garen.json",
+      "bytes": 13028,
+      "sha256": "6f907bcf7d38ecf1a17f6c4f24a444e89514584384b6e711a2b7aee6de2c5fc7",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Ashe.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/data/zh_CN/champion/Ashe.json",
+      "bytes": 16326,
+      "sha256": "e0a10a2c7336101a9c17f423672fc0f95df2701c80ac5863c3ef60f648ff7004",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Annie.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/data/zh_CN/champion/Annie.json",
+      "bytes": 14075,
+      "sha256": "f7ec16ef4c1ec8df2e745ded9ce5b0a47e377e46939fa7e7e36f4761c34459c6",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Lux.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/data/zh_CN/champion/Lux.json",
+      "bytes": 15354,
+      "sha256": "3d6e7589b9777cdf6b53d13abf44892bccd77a8d19860a4bbc71b914bafcf787",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "MasterYi.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/data/zh_CN/champion/MasterYi.json",
+      "bytes": 15994,
+      "sha256": "a974c6f47dc761bbaf7ec8fcce69f8fe3782314cc1674a0e54c497b7cb710991",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "GarenE.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/GarenE.png",
+      "bytes": 6473,
+      "sha256": "87526f9005c608b7b776128fc4526b28f615b782c3429c3d6bc200209c25f2da",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "GarenR.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/GarenR.png",
+      "bytes": 5230,
+      "sha256": "82031c7b445c6bced255fcc91b9a8570a8215f96092c766cb1a0e519cac5e949",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Ashe.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/champion/Ashe.png",
+      "bytes": 32121,
+      "sha256": "423666bdb0685355be4576f78eb6406fd49469b4f6e9f780f1c5eb4349fed91f",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Garen.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/champion/Garen.png",
+      "bytes": 30705,
+      "sha256": "53018603962e1867b391071f159bb4c60d57919422585c33bfd36551e97f3752",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "GarenQ.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/GarenQ.png",
+      "bytes": 6105,
+      "sha256": "5ba32b3c14ed850b447a6cb54cf243144823e1ac61cf071ed9920cd26700ff8d",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "GarenW.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/GarenW.png",
+      "bytes": 5947,
+      "sha256": "4b653d35ceedddc2fc715e934307114c567c92aebd5b34708bdc5c077ce410eb",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Ashe-splash.jpg",
+      "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+      "bytes": 155309,
+      "sha256": "2c8ca3fcf121d7c8fe88bfe88f07062ee3a7bbc44674e95e0105d9bacdc09035",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "AsheQ.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/AsheQ.png",
+      "bytes": 6683,
+      "sha256": "ceb72f8ca8ef01c5ea8249599f956c5f5fa7eb5a41e69b9bfb3b994ba1abd6b4",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Garen-splash.jpg",
+      "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
+      "bytes": 196726,
+      "sha256": "b3b793811a9df402434dc5250d1f9d4c9b7fe0931412d2a719feaed1e283974e",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "EnchantedCrystalArrow.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/EnchantedCrystalArrow.png",
+      "bytes": 6449,
+      "sha256": "c26d0583a45c36b3a18b118d92ae1ae3534dae529a052d7c1fa41a9ea613f038",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "AnnieW.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/AnnieW.png",
+      "bytes": 5291,
+      "sha256": "0ffedf98f614496b2d609829a8ea09cd6e4a70d343907b0bdfcd366e17e82451",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Volley.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/Volley.png",
+      "bytes": 6241,
+      "sha256": "30e0daa99574f031aec984ac0bf27c0283e24b59d923276af8e9cb0e30c59a95",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "AsheSpiritOfTheHawk.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/AsheSpiritOfTheHawk.png",
+      "bytes": 5806,
+      "sha256": "94e8e9dd059f9d8615d02da2d6d3430fa20afc938a4baba66a6cfc91d9646506",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Annie.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/champion/Annie.png",
+      "bytes": 30267,
+      "sha256": "97720fcc698033b18382e7475800d4aac6c436712d997d99df4a0ae99f6829e2",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "AnnieQ.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/AnnieQ.png",
+      "bytes": 5062,
+      "sha256": "f45bc34137ab2bee08ca0362b21bf665c09aae0614741c4cb6f40c89e1668d9a",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Annie-splash.jpg",
+      "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
+      "bytes": 189787,
+      "sha256": "edad0269013114402d1d829b42ec052b9f9b8171dea19b1f1624c3ebab9a45f2",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "AnnieE.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/AnnieE.png",
+      "bytes": 6674,
+      "sha256": "cf59314df90fee0237dd006f2a89b811b36acbce93de40466382b287d455def3",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Lux.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/champion/Lux.png",
+      "bytes": 29188,
+      "sha256": "64639bea2aa7d622dd07287de7a7820950e567f0993c7dcc422e1e699fd743fd",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "LuxPrismaticWave.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/LuxPrismaticWave.png",
+      "bytes": 6679,
+      "sha256": "9eec398494b60cb908ca2a5635463ad3ee63bce31521a7a3ce657dbc2c6627e2",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "LuxLightBinding.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/LuxLightBinding.png",
+      "bytes": 6820,
+      "sha256": "06abdcb3edede637b6fd076e69381f2ff538a30c788c3ec857d4834742c2b424",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "AnnieR.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/AnnieR.png",
+      "bytes": 6140,
+      "sha256": "609820533a2135f12f2038a31a66df4eff9fdb861ce06e2b25b8d92fa72df63e",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "LuxLightStrikeKugel.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/LuxLightStrikeKugel.png",
+      "bytes": 6567,
+      "sha256": "c5900b892f0065d9b19ce4d584b7633c23235dbfd0bf55cb7444fe0162fa0138",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Lux-splash.jpg",
+      "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg",
+      "bytes": 196519,
+      "sha256": "d148fbcd3985d2f46f928a6ec65cca3c4f3d088692926cb5004352de73636e2e",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "MasterYi.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/champion/MasterYi.png",
+      "bytes": 29421,
+      "sha256": "1c23534926a7956a260591fb3cee8f38cb6de3d9d4f064fe93fb88c8f76b1b66",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "LuxR.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/LuxR.png",
+      "bytes": 5520,
+      "sha256": "392a1ed2da41f165ae79c2c3e00b8796ff017f6ce9d55e37d401d63606cb2a86",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "WujuStyle.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/WujuStyle.png",
+      "bytes": 5924,
+      "sha256": "927c1152295f5e7731a89eef0784f20633dd35523d07c0592e122c265aac39c7",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "AlphaStrike.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/AlphaStrike.png",
+      "bytes": 4893,
+      "sha256": "dd7d81c33bd1d35781a1f28813f649fa94b9d99fe099f512bf156c40dc22e7cf",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Meditate.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/Meditate.png",
+      "bytes": 6124,
+      "sha256": "b7464d80adfefdbf9002ee0d97c4210299f97757e8df1910aa394f0b5ee39056",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "MasterYi-splash.jpg",
+      "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MasterYi_0.jpg",
+      "bytes": 190829,
+      "sha256": "bf7678dc3b32abfd06bb5810274959e88d59234f7da0573ff67f3e864944a42f",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "Highlander.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/spell/Highlander.png",
+      "bytes": 6238,
+      "sha256": "0e56c7df1cc9ad719c4c1004ce7307567d428b7746bbb5b6c79076fc49696a88",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "item-1036.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/item/1036.png",
+      "bytes": 5334,
+      "sha256": "c57b71ae65b3b38241f8ed97fe6fb5ae78db5a82002be392d91ebb6f5ffde8af",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "item-1052.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/item/1052.png",
+      "bytes": 5490,
+      "sha256": "5b6d009e518f50c73db3b4a7442d3bff0928fb2ea527babd77140ce817562e8a",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "item-1001.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/item/1001.png",
+      "bytes": 4537,
+      "sha256": "f2b2a8ba7ae715c8906d3037d38778aa545f3d0740091640484aa3d126396ad0",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "item-1028.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/item/1028.png",
+      "bytes": 4070,
+      "sha256": "90f702e7d757914c96e546ae4076b624800dafc140edffac70733f104684b412",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "item-1042.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/item/1042.png",
+      "bytes": 4228,
+      "sha256": "b62b8823a2728891fa67c83054f8ae1d2f7656424b84b5288a5900529cd8a264",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "item-1029.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/item/1029.png",
+      "bytes": 5078,
+      "sha256": "3b89234b2be140f17b06a92297abdc54ce23e6034b6b80335d612fac3d20720d",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "item-3031.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/item/3031.png",
+      "bytes": 7104,
+      "sha256": "39382e1bef39a48d14e6d37e52e9d02068df9153ca60c2bcca033dd276fae5df",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "item-3089.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/item/3089.png",
+      "bytes": 6981,
+      "sha256": "ad77331bb9a325db9536f5614f3ca3516e24279406123f2892eb33ee419d369b",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    },
+    {
+      "file": "item-2003.png",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/item/2003.png",
+      "bytes": 4964,
+      "sha256": "4ef383b62d2631f0e224cc1a4020faf785e56c5ce5cbf01ae63a79840b96deaf",
+      "rights": "Riot Games; proprietary; not CC0; no commercial license granted"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "phase": "deploy",
+  "paused": false,
+  "round": 1,
+  "ct": 0,
+  "t": 0,
+  "kills": 0,
+  "deaths": 0,
+  "money": 2400,
+  "difficulty": "normal",
+  "primary": "rifle",
+  "slot": "rifle",
+  "events": [
+    {
+      "type": "round"
+    }
+  ],
+  "rng": 15324,
+  "phaseTime": 3,
+  "time": 65,
+  "defuse": 0,
+  "winner": null,
+  "reason": "",
+  "player": {
+    "x": 0,
+    "z": 24,
+    "y": 0,
+    "vy": 0,
+    "yaw": 0,
+    "pitch": 0,
+    "health": 100,
+    "armor": 50,
+    "moving": false,
+    "crouched": false,
+    "eye": 1.7
+  },
+  "ammo": {
+    "rifle": {
+      "mag": 30,
+      "reserve": 90
+    },
+    "pistol": {
+      "mag": 12,
+      "reserve": 48
+    },
+    "sniper": {
+      "mag": 5,
+      "reserve": 20
+    }
+  },
+  "reload": 0,
+  "cooldown": 0,
+  "recoil": 0,
+  "stepTime": 0,
+  "elapsed": 0,
+  "bots": [
+    {
+      "x": -14,
+      "z": -13,
+      "name": "VIPER",
+      "id": 0,
+      "y": 0,
+      "hp": 100,
+      "alive": true,
+      "yaw": 0,
+      "fire": 1.5,
+      "path": [],
+      "repath": 0,
+      "alert": 0,
+      "seen": false,
+      "walk": 0,
+      "death": 0
+    },
+    {
+      "x": 12,
+      "z": -7,
+      "name": "ROOK",
+      "id": 1,
+      "y": 0,
+      "hp": 100,
+      "alive": true,
+      "yaw": 0,
+      "fire": 1.9,
+      "path": [],
+      "repath": 0.3,
+      "alert": 0,
+      "seen": false,
+      "walk": 0,
+      "death": 0
+    },
+    {
+      "x": 2,
+      "z": -20,
+      "name": "GHOST",
+      "id": 2,
+      "y": 0,
+      "hp": 100,
+      "alive": true,
+      "yaw": 0,
+      "fire": 2.3,
+      "path": [],
+      "repath": 0.6,
+      "alert": 0,
+      "seen": false,
+      "walk": 0,
+      "death": 0
+    }
+  ]
+}

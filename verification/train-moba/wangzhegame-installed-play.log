@@ -1,0 +1,60 @@
+Verified 210 skill files
+Created complete project: /private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/train-moba-skills-m12o2j_z/wangzhegame-installed-play
+RIFT FORGE ready: http://127.0.0.1:61485/
+Keep this terminal running; Ctrl+C stops. Port 0 selects an available port.
+
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/index-DE2a-eN1.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/three-DNG60NWy.js HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/champions.json HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/item-1036.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/item-1052.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/item-1028.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/item-1001.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/item-1042.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/item-3089.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/item-2003.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/item-1029.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/item-3031.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/Garen.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/Garen-splash.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/GarenQ.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/GarenW.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/GarenR.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/GarenE.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/Ashe.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/Ashe-splash.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/AsheQ.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/Volley.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/AsheSpiritOfTheHawk.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/EnchantedCrystalArrow.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/Annie-splash.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/Annie.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/AnnieQ.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/AnnieW.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/AnnieE.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/AnnieR.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/Lux.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/Lux-splash.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/LuxLightBinding.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/LuxLightStrikeKugel.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/MasterYi.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/LuxR.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/LuxPrismaticWave.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/MasterYi-splash.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/AlphaStrike.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/Meditate.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/WujuStyle.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/Highlander.png HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/textures/ground.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/textures/ground-normal.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/textures/path.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/textures/limestone.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/textures/rock.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/textures/rock-normal.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/textures/limestone-normal.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/textures/bark.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/textures/cloth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/textures/chainmail.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/textures/gold.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 18:16:27] "GET /assets/textures/steel.jpg HTTP/1.1" 200 -

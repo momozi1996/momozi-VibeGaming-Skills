@@ -1,0 +1,74 @@
+{
+  "test": "deliberately changed one pixel",
+  "expectedExitCode": 1,
+  "actualExitCode": 1,
+  "pass": true,
+  "details": {
+    "reference": "/tmp/huoche-note-canonical-reference",
+    "candidate": "/tmp/huoche-note-visual-negative",
+    "maxMAE": 0,
+    "note": "Numerical aid only. With no --max-mae this tool does not declare visual equivalence.",
+    "results": [
+      {
+        "file": "01-ready.png",
+        "width": 1440,
+        "height": 1000,
+        "maeRGB": 2.8935185185185186e-05,
+        "maxChannelError": 125,
+        "pixelThreshold": 16,
+        "changedPixelFraction": 6.944444444444445e-07,
+        "withinThreshold": false
+      },
+      {
+        "file": "02-bridge.png",
+        "width": 1440,
+        "height": 1000,
+        "maeRGB": 0,
+        "maxChannelError": 0,
+        "pixelThreshold": 16,
+        "changedPixelFraction": 0,
+        "withinThreshold": true
+      },
+      {
+        "file": "03-mango.png",
+        "width": 1440,
+        "height": 1000,
+        "maeRGB": 0,
+        "maxChannelError": 0,
+        "pixelThreshold": 16,
+        "changedPixelFraction": 0,
+        "withinThreshold": true
+      },
+      {
+        "file": "04-workshop.png",
+        "width": 1440,
+        "height": 1000,
+        "maeRGB": 0,
+        "maxChannelError": 0,
+        "pixelThreshold": 16,
+        "changedPixelFraction": 0,
+        "withinThreshold": true
+      },
+      {
+        "file": "05-mobile-ready.png",
+        "width": 390,
+        "height": 844,
+        "maeRGB": 0,
+        "maxChannelError": 0,
+        "pixelThreshold": 16,
+        "changedPixelFraction": 0,
+        "withinThreshold": true
+      },
+      {
+        "file": "06-mobile-workshop.png",
+        "width": 390,
+        "height": 844,
+        "maeRGB": 0,
+        "maxChannelError": 0,
+        "pixelThreshold": 16,
+        "changedPixelFraction": 0,
+        "withinThreshold": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "id": "huochegame",
+      "passed": true,
+      "url": "http://127.0.0.1:61384/cloudline.html",
+      "checks": [
+        "production starts, accepts W and pauses",
+        "independent file:// production loads and starts",
+        "visible canvas, no page errors, missing assets or external requests"
+      ],
+      "errors": [],
+      "remote": [],
+      "failed": [],
+      "scope": "New output from installed ZIP; original production bytes, no dependencies installed in this output."
+    },
+    {
+      "id": "wangzhegame",
+      "passed": true,
+      "url": "http://127.0.0.1:61485/",
+      "checks": [
+        "untouched dist real W moves drawn hero position",
+        "native shop opens",
+        "C updates controls",
+        "visible canvas, no page errors, missing assets or external requests"
+      ],
+      "errors": [],
+      "remote": [],
+      "failed": [],
+      "scope": "New output from installed ZIP; original production bytes, no dependencies installed in this output."
+    }
+  ]
+}

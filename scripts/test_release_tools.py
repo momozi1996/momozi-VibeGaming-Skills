@@ -10,7 +10,7 @@ import tempfile
 import unittest
 import zipfile
 sys.dont_write_bytecode = True
-from audit_packages import ROOT, check_package, safe_member, sha256
+from audit_packages import ROOT, check_package, safe_member, sha256, markdown_links, release_content_errors
 
 class ReleaseTests(unittest.TestCase):
     def setUp(self):
@@ -31,6 +31,39 @@ class ReleaseTests(unittest.TestCase):
         for name,data in files.items():
             target = self.root/'skills'/name;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(data)
         return row
+
+    def test_nested_and_root_guide_links(self):
+        for name in ['README.md', 'CONTRIBUTING.md', 'SECURITY.md', 'LICENSE.md']:
+            (self.root/name).write_text('# Test\n')
+        docs = self.root/'docs/images'; docs.mkdir(parents=True)
+        (docs/'README.md').write_text('[Missing image](gone.png)\n')
+        (self.root/'extra-guide.md').write_text('[Missing guide](gone.md)\n')
+        failures = markdown_links(self.root)
+        self.assertTrue(any('docs/images/README.md' in f for f in failures))
+        self.assertTrue(any('extra-guide.md' in f for f in failures))
+        (docs/'gone.png').write_bytes(b'fixture')
+        (self.root/'gone.md').write_text('exists')
+        self.assertEqual(markdown_links(self.root), [])
+
+    def test_existing_local_report_not_a_distribution_link(self):
+        for name in ['README.md', 'CONTRIBUTING.md', 'SECURITY.md', 'LICENSE.md']:
+            (self.root/name).write_text('# Test\n')
+        local = self.root/'verification/report.json'
+        local.parent.mkdir(); local.write_text('{}')
+        (self.root/'README.md').write_text('[Local report](verification/report.json)')
+        self.assertTrue(any('not distributed' in f for f in markdown_links(self.root)))
+
+    def test_release_refuses_dependency_garbage(self):
+        name = 'scripts/node_modules/accidental.js'
+        p = self.root/name; p.parent.mkdir(parents=True); p.write_text('test')
+        self.assertTrue(release_content_errors(self.root, [name]))
+        self.assertTrue(release_content_errors(self.root, ['../outside']))
+
+    def test_release_refuses_symlinks(self):
+        target = self.root/'real.txt'; target.write_text('data')
+        alias = self.root/'alias.txt'; alias.symlink_to(target)
+        self.assertTrue(release_content_errors(self.root, ['alias.txt']))
+        self.assertEqual(release_content_errors(self.root, ['real.txt']), [])
 
     def test_safe_paths(self):
         for name in ['../escape','testgame/../../escape','/testgame/x','testgame\\escape','C:/testgame/a','testgame//a','testgame/./a']:

@@ -1,0 +1,733 @@
+{
+  "createdAt": "2026-09-21T08:24:56.462Z",
+  "sourceProject": "assets/project (byte-identical restored copy)",
+  "browser": "153.0.8010.50",
+  "models": [
+    {
+      "file": "world.glb",
+      "meshes": 32,
+      "vertices": 113075,
+      "animationClips": 0,
+      "bytes": 6319656
+    },
+    {
+      "file": "weapon-rifle.glb",
+      "meshes": 58,
+      "vertices": 15186,
+      "animationClips": 0,
+      "bytes": 689796
+    },
+    {
+      "file": "weapon-pistol.glb",
+      "meshes": 18,
+      "vertices": 4156,
+      "animationClips": 0,
+      "bytes": 205640
+    },
+    {
+      "file": "weapon-sniper.glb",
+      "meshes": 65,
+      "vertices": 16214,
+      "animationClips": 0,
+      "bytes": 637112
+    },
+    {
+      "file": "soldier.glb",
+      "meshes": 77,
+      "vertices": 19386,
+      "animationClips": 0,
+      "bytes": 899548
+    }
+  ],
+  "textures": [
+    {
+      "file": "textures/texture-000.png",
+      "width": 512,
+      "height": 512,
+      "repeat": [
+        14,
+        14
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-001.png",
+      "width": 512,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-002.png",
+      "width": 512,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-003.png",
+      "width": 512,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-004.png",
+      "width": 512,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-005.png",
+      "width": 512,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-006.png",
+      "width": 512,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-007.png",
+      "width": 512,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-008.png",
+      "width": 512,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-009.png",
+      "width": 512,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-010.png",
+      "width": 512,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-011.png",
+      "width": 512,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-012.png",
+      "width": 512,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-013.png",
+      "width": 512,
+      "height": 512,
+      "repeat": [
+        2,
+        2
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "world",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-014.png",
+      "width": 512,
+      "height": 512,
+      "repeat": [
+        2,
+        2
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "world",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-015.png",
+      "width": 512,
+      "height": 512,
+      "repeat": [
+        2,
+        2
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "world",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-016.png",
+      "width": 512,
+      "height": 512,
+      "repeat": [
+        2,
+        2
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "world",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-017.png",
+      "width": 512,
+      "height": 512,
+      "repeat": [
+        2,
+        2
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "world",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-018.png",
+      "width": 512,
+      "height": 512,
+      "repeat": [
+        2,
+        2
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "world",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "world",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-019.png",
+      "width": 256,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "weapon-rifle",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-rifle",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-rifle",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-rifle",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-020.png",
+      "width": 256,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "weapon-rifle",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-rifle",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-021.png",
+      "width": 256,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "weapon-rifle",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-rifle",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-rifle",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-rifle",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-pistol",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-pistol",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-sniper",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-sniper",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-sniper",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "weapon-sniper",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    },
+    {
+      "file": "textures/texture-022.png",
+      "width": 256,
+      "height": 256,
+      "repeat": [
+        1,
+        1
+      ],
+      "colorSpace": "srgb",
+      "uses": [
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "map",
+          "materialType": "MeshStandardMaterial"
+        },
+        {
+          "group": "soldier",
+          "slot": "bumpMap",
+          "materialType": "MeshStandardMaterial"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Original source remains authoritative.",
+    "GLBs are static exports. No skeletal animations or AnimationClips exist in this project.",
+    "world.glb excludes main.js sky/fog/distant ridges/render lights. Dynamic renderer settings are documented separately.",
+    "Original audio is WebAudio synthesis in audio.js, not WAV samples.",
+    "Texture slots may share a PNG and repeat values are recorded."
+  ],
+  "errors": []
+}

@@ -1,0 +1,846 @@
+{
+  "schema": 1,
+  "scope": "Complete standalone skill; excludes this manifest. Upstream reference project preserved.",
+  "files": {
+    "SKILL.md": {
+      "bytes": 5412,
+      "sha256": "8e25e8bf93d78f431c2441d844dd7b2c694b69f99e93529385cb8b7c78e30863"
+    },
+    "agents/openai.yaml": {
+      "bytes": 363,
+      "sha256": "734c4b0719a7b9ddab8071aa11e28c1ced8ef2aff53293b87863b36630a9ddf2"
+    },
+    "assets/reference-manifest.json": {
+      "bytes": 36430,
+      "sha256": "426b339389a59ff0feb478607975ad3d0a30da9e6486bafbd4d87eaa875e7c2c"
+    },
+    "assets/reference-project/.gitignore": {
+      "bytes": 24,
+      "sha256": "6c7d15d2ab1a0b51ebcae7e88b9ad01f0713d0833bc2dbe8f3bcc7a81b66b344"
+    },
+    "assets/reference-project/ASSETS.md": {
+      "bytes": 1540,
+      "sha256": "af499c9a8db04a3d048ad2572bfbc1953d0cacc9232e39a87d21ebd0f6853c0e"
+    },
+    "assets/reference-project/PLAN.md": {
+      "bytes": 2888,
+      "sha256": "dee37dbaece6c4b3c4df5f0d003f54e4d8cbee2efbfd2ba58e4acb0be5029a7f"
+    },
+    "assets/reference-project/PROGRESS.md": {
+      "bytes": 5261,
+      "sha256": "106bcae12b92b415b9977f0b7b54a33940d93c6164b71cf420effd18b23199a0"
+    },
+    "assets/reference-project/README.md": {
+      "bytes": 6387,
+      "sha256": "d85d7969c44e74414fad21d8911d8825fed3998bb08cc76f67e47fef6ef10941"
+    },
+    "assets/reference-project/artifacts/browser-report.json": {
+      "bytes": 948,
+      "sha256": "36e506df1645b8709de6ca70e1b1e74aae0d105bf6d26a4975f7e045bb1edada"
+    },
+    "assets/reference-project/artifacts/build-report.txt": {
+      "bytes": 700,
+      "sha256": "b645c36797c891f3f10c771e20f84b9ea2ffa4a84387b0d822d3488028a62bd1"
+    },
+    "assets/reference-project/artifacts/combat.png": {
+      "bytes": 1864877,
+      "sha256": "afd6450bd0fe3752dd48dedd5c88b9ed5ef999978388055aa90125153a3f751e"
+    },
+    "assets/reference-project/artifacts/controls/before-fix-source.zip": {
+      "bytes": 33468,
+      "sha256": "cf6967bd0765ded516c99f128c8ec46a450ea59015127ca721093d220ee93015"
+    },
+    "assets/reference-project/artifacts/controls/before-fix.json": {
+      "bytes": 929,
+      "sha256": "ebb66394ae89655cd066d25257f19a8b8da40fef32a56dd8d4d0547cdce91e2b"
+    },
+    "assets/reference-project/artifacts/controls/browser-report.json": {
+      "bytes": 5143,
+      "sha256": "29c9ccbdfd04325d907f32800f5e550006eabf13fae29c2d9427a638dea018c7"
+    },
+    "assets/reference-project/artifacts/controls/build-report.txt": {
+      "bytes": 700,
+      "sha256": "b645c36797c891f3f10c771e20f84b9ea2ffa4a84387b0d822d3488028a62bd1"
+    },
+    "assets/reference-project/artifacts/controls/fixed-game.png": {
+      "bytes": 1934067,
+      "sha256": "e337bbd238d73006ceac5575c62b01e51a6bdb233e0290b48ae6ca17545de94a"
+    },
+    "assets/reference-project/artifacts/controls/production-final.png": {
+      "bytes": 1929772,
+      "sha256": "087ad775c9bb00caa656faaf4f5a678d329579b2d163a15efb876c52a60e040a"
+    },
+    "assets/reference-project/artifacts/controls/production-movement.png": {
+      "bytes": 1922174,
+      "sha256": "c97a72250fc1cef7a83afd34ca54a2775ccedbc8feba4391a2dbfb85eca24687"
+    },
+    "assets/reference-project/artifacts/controls/production-report.json": {
+      "bytes": 1177,
+      "sha256": "0938b5831fe9c9c7bc81d807f57a28395ee9701afcee3a5ca0b6fb976f7d02e7"
+    },
+    "assets/reference-project/artifacts/controls/rules-report.txt": {
+      "bytes": 1969,
+      "sha256": "8d485c88b24eb1d596a0e21e1d429cea0c8fc9c8ddd7ba9c5e69968e215b2c57"
+    },
+    "assets/reference-project/artifacts/expected-resource-error.png": {
+      "bytes": 14593,
+      "sha256": "57956582e3d8fcb45a90a41b6ea38b78c8a06af3abd7032084d556dfc343efde"
+    },
+    "assets/reference-project/artifacts/fault-report.json": {
+      "bytes": 257,
+      "sha256": "2fe182e16949a704590429930a3c47ee6deec0f2c0f67e7e6a7e5080f9bf8baa"
+    },
+    "assets/reference-project/artifacts/menu.png": {
+      "bytes": 1359541,
+      "sha256": "0c7978d5d79323a6079242716189fa25a6dbbaa62cbf9c35cd906847afb046ac"
+    },
+    "assets/reference-project/artifacts/mid.png": {
+      "bytes": 1468765,
+      "sha256": "a711e4b90d32e17f32cc3d75a0230b3d9fa0e5d8373b1917ae54ba801bb01362"
+    },
+    "assets/reference-project/artifacts/natural-match-report.json": {
+      "bytes": 935,
+      "sha256": "8f20b2ed98e7e93585d17b74c2fcdb192134632aacbe1635c6bda31c5909404a"
+    },
+    "assets/reference-project/artifacts/pause.png": {
+      "bytes": 1063117,
+      "sha256": "ceda572bb632e7ab98343663191d5046f814579e1d9559d33dbb234160af520f"
+    },
+    "assets/reference-project/artifacts/production-game.png": {
+      "bytes": 1932010,
+      "sha256": "599c8101cd14fa85a846d64ce5d4d2adccb3504035d5eed239b028c732a07728"
+    },
+    "assets/reference-project/artifacts/production-menu.png": {
+      "bytes": 1359541,
+      "sha256": "0c7978d5d79323a6079242716189fa25a6dbbaa62cbf9c35cd906847afb046ac"
+    },
+    "assets/reference-project/artifacts/production-pause.png": {
+      "bytes": 1061688,
+      "sha256": "83abdf7ea91a82310cf81c001d2b462002eec953a4491c40e83a3b7e679109de"
+    },
+    "assets/reference-project/artifacts/production-report.json": {
+      "bytes": 283,
+      "sha256": "2396f89de655e1cd826d09fb4db5f057554baa50392be6f02e1074122667f51b"
+    },
+    "assets/reference-project/artifacts/production-shop.png": {
+      "bytes": 1263991,
+      "sha256": "b7ab8797d979f0417708152027b9eb2d228661dd7564cf69454c3843c68dc124"
+    },
+    "assets/reference-project/artifacts/rules-report.txt": {
+      "bytes": 1969,
+      "sha256": "8d485c88b24eb1d596a0e21e1d429cea0c8fc9c8ddd7ba9c5e69968e215b2c57"
+    },
+    "assets/reference-project/artifacts/shop.png": {
+      "bytes": 1265114,
+      "sha256": "aefbc254de5ba1f709483a54e726825aa2628e59f0ba9ddf7db5df3a5f1e7c32"
+    },
+    "assets/reference-project/artifacts/soak-report.json": {
+      "bytes": 1274,
+      "sha256": "c11f5f22f58479c6fb2d477963857e339e9ad43a977ca0923476cbafaa78e06c"
+    },
+    "assets/reference-project/artifacts/spawn.png": {
+      "bytes": 1931905,
+      "sha256": "992d41131d6ee34231c47dc4cbcc77b28e562d6c54847d8de22aa4d104166a33"
+    },
+    "assets/reference-project/artifacts/verification-summary.json": {
+      "bytes": 9733,
+      "sha256": "7a41c61e51ed1028df057f803ede31ce858224be35101b41ff04380825422140"
+    },
+    "assets/reference-project/artifacts/victory.png": {
+      "bytes": 1050721,
+      "sha256": "2da471323f6ab7e1497a933dc086adeed3c178c44f8e76e6090821a141c4bbb7"
+    },
+    "assets/reference-project/dist/assets/AlphaStrike.png": {
+      "bytes": 4893,
+      "sha256": "dd7d81c33bd1d35781a1f28813f649fa94b9d99fe099f512bf156c40dc22e7cf"
+    },
+    "assets/reference-project/dist/assets/Annie-splash.jpg": {
+      "bytes": 189787,
+      "sha256": "edad0269013114402d1d829b42ec052b9f9b8171dea19b1f1624c3ebab9a45f2"
+    },
+    "assets/reference-project/dist/assets/Annie.json": {
+      "bytes": 14075,
+      "sha256": "f7ec16ef4c1ec8df2e745ded9ce5b0a47e377e46939fa7e7e36f4761c34459c6"
+    },
+    "assets/reference-project/dist/assets/Annie.png": {
+      "bytes": 30267,
+      "sha256": "97720fcc698033b18382e7475800d4aac6c436712d997d99df4a0ae99f6829e2"
+    },
+    "assets/reference-project/dist/assets/AnnieE.png": {
+      "bytes": 6674,
+      "sha256": "cf59314df90fee0237dd006f2a89b811b36acbce93de40466382b287d455def3"
+    },
+    "assets/reference-project/dist/assets/AnnieQ.png": {
+      "bytes": 5062,
+      "sha256": "f45bc34137ab2bee08ca0362b21bf665c09aae0614741c4cb6f40c89e1668d9a"
+    },
+    "assets/reference-project/dist/assets/AnnieR.png": {
+      "bytes": 6140,
+      "sha256": "609820533a2135f12f2038a31a66df4eff9fdb861ce06e2b25b8d92fa72df63e"
+    },
+    "assets/reference-project/dist/assets/AnnieW.png": {
+      "bytes": 5291,
+      "sha256": "0ffedf98f614496b2d609829a8ea09cd6e4a70d343907b0bdfcd366e17e82451"
+    },
+    "assets/reference-project/dist/assets/Ashe-splash.jpg": {
+      "bytes": 155309,
+      "sha256": "2c8ca3fcf121d7c8fe88bfe88f07062ee3a7bbc44674e95e0105d9bacdc09035"
+    },
+    "assets/reference-project/dist/assets/Ashe.json": {
+      "bytes": 16326,
+      "sha256": "e0a10a2c7336101a9c17f423672fc0f95df2701c80ac5863c3ef60f648ff7004"
+    },
+    "assets/reference-project/dist/assets/Ashe.png": {
+      "bytes": 32121,
+      "sha256": "423666bdb0685355be4576f78eb6406fd49469b4f6e9f780f1c5eb4349fed91f"
+    },
+    "assets/reference-project/dist/assets/AsheQ.png": {
+      "bytes": 6683,
+      "sha256": "ceb72f8ca8ef01c5ea8249599f956c5f5fa7eb5a41e69b9bfb3b994ba1abd6b4"
+    },
+    "assets/reference-project/dist/assets/AsheSpiritOfTheHawk.png": {
+      "bytes": 5806,
+      "sha256": "94e8e9dd059f9d8615d02da2d6d3430fa20afc938a4baba66a6cfc91d9646506"
+    },
+    "assets/reference-project/dist/assets/EnchantedCrystalArrow.png": {
+      "bytes": 6449,
+      "sha256": "c26d0583a45c36b3a18b118d92ae1ae3534dae529a052d7c1fa41a9ea613f038"
+    },
+    "assets/reference-project/dist/assets/Garen-splash.jpg": {
+      "bytes": 196726,
+      "sha256": "b3b793811a9df402434dc5250d1f9d4c9b7fe0931412d2a719feaed1e283974e"
+    },
+    "assets/reference-project/dist/assets/Garen.json": {
+      "bytes": 13028,
+      "sha256": "6f907bcf7d38ecf1a17f6c4f24a444e89514584384b6e711a2b7aee6de2c5fc7"
+    },
+    "assets/reference-project/dist/assets/Garen.png": {
+      "bytes": 30705,
+      "sha256": "53018603962e1867b391071f159bb4c60d57919422585c33bfd36551e97f3752"
+    },
+    "assets/reference-project/dist/assets/GarenE.png": {
+      "bytes": 6473,
+      "sha256": "87526f9005c608b7b776128fc4526b28f615b782c3429c3d6bc200209c25f2da"
+    },
+    "assets/reference-project/dist/assets/GarenQ.png": {
+      "bytes": 6105,
+      "sha256": "5ba32b3c14ed850b447a6cb54cf243144823e1ac61cf071ed9920cd26700ff8d"
+    },
+    "assets/reference-project/dist/assets/GarenR.png": {
+      "bytes": 5230,
+      "sha256": "82031c7b445c6bced255fcc91b9a8570a8215f96092c766cb1a0e519cac5e949"
+    },
+    "assets/reference-project/dist/assets/GarenW.png": {
+      "bytes": 5947,
+      "sha256": "4b653d35ceedddc2fc715e934307114c567c92aebd5b34708bdc5c077ce410eb"
+    },
+    "assets/reference-project/dist/assets/Highlander.png": {
+      "bytes": 6238,
+      "sha256": "0e56c7df1cc9ad719c4c1004ce7307567d428b7746bbb5b6c79076fc49696a88"
+    },
+    "assets/reference-project/dist/assets/Lux-splash.jpg": {
+      "bytes": 196519,
+      "sha256": "d148fbcd3985d2f46f928a6ec65cca3c4f3d088692926cb5004352de73636e2e"
+    },
+    "assets/reference-project/dist/assets/Lux.json": {
+      "bytes": 15354,
+      "sha256": "3d6e7589b9777cdf6b53d13abf44892bccd77a8d19860a4bbc71b914bafcf787"
+    },
+    "assets/reference-project/dist/assets/Lux.png": {
+      "bytes": 29188,
+      "sha256": "64639bea2aa7d622dd07287de7a7820950e567f0993c7dcc422e1e699fd743fd"
+    },
+    "assets/reference-project/dist/assets/LuxLightBinding.png": {
+      "bytes": 6820,
+      "sha256": "06abdcb3edede637b6fd076e69381f2ff538a30c788c3ec857d4834742c2b424"
+    },
+    "assets/reference-project/dist/assets/LuxLightStrikeKugel.png": {
+      "bytes": 6567,
+      "sha256": "c5900b892f0065d9b19ce4d584b7633c23235dbfd0bf55cb7444fe0162fa0138"
+    },
+    "assets/reference-project/dist/assets/LuxPrismaticWave.png": {
+      "bytes": 6679,
+      "sha256": "9eec398494b60cb908ca2a5635463ad3ee63bce31521a7a3ce657dbc2c6627e2"
+    },
+    "assets/reference-project/dist/assets/LuxR.png": {
+      "bytes": 5520,
+      "sha256": "392a1ed2da41f165ae79c2c3e00b8796ff017f6ce9d55e37d401d63606cb2a86"
+    },
+    "assets/reference-project/dist/assets/MasterYi-splash.jpg": {
+      "bytes": 190829,
+      "sha256": "bf7678dc3b32abfd06bb5810274959e88d59234f7da0573ff67f3e864944a42f"
+    },
+    "assets/reference-project/dist/assets/MasterYi.json": {
+      "bytes": 15994,
+      "sha256": "a974c6f47dc761bbaf7ec8fcce69f8fe3782314cc1674a0e54c497b7cb710991"
+    },
+    "assets/reference-project/dist/assets/MasterYi.png": {
+      "bytes": 29421,
+      "sha256": "1c23534926a7956a260591fb3cee8f38cb6de3d9d4f064fe93fb88c8f76b1b66"
+    },
+    "assets/reference-project/dist/assets/Meditate.png": {
+      "bytes": 6124,
+      "sha256": "b7464d80adfefdbf9002ee0d97c4210299f97757e8df1910aa394f0b5ee39056"
+    },
+    "assets/reference-project/dist/assets/Volley.png": {
+      "bytes": 6241,
+      "sha256": "30e0daa99574f031aec984ac0bf27c0283e24b59d923276af8e9cb0e30c59a95"
+    },
+    "assets/reference-project/dist/assets/WujuStyle.png": {
+      "bytes": 5924,
+      "sha256": "927c1152295f5e7731a89eef0784f20633dd35523d07c0592e122c265aac39c7"
+    },
+    "assets/reference-project/dist/assets/champions.json": {
+      "bytes": 81050,
+      "sha256": "2ea62e2b71f07f4d06362d1da222cd1e649b9b794451fd1f58affdcc588016ce"
+    },
+    "assets/reference-project/dist/assets/index-DE2a-eN1.js": {
+      "bytes": 80943,
+      "sha256": "6089b9e425f61203a8734b7afbe3bbc6b0aaa482607e76672fe50c7af896e09e"
+    },
+    "assets/reference-project/dist/assets/item-1001.png": {
+      "bytes": 4537,
+      "sha256": "f2b2a8ba7ae715c8906d3037d38778aa545f3d0740091640484aa3d126396ad0"
+    },
+    "assets/reference-project/dist/assets/item-1028.png": {
+      "bytes": 4070,
+      "sha256": "90f702e7d757914c96e546ae4076b624800dafc140edffac70733f104684b412"
+    },
+    "assets/reference-project/dist/assets/item-1029.png": {
+      "bytes": 5078,
+      "sha256": "3b89234b2be140f17b06a92297abdc54ce23e6034b6b80335d612fac3d20720d"
+    },
+    "assets/reference-project/dist/assets/item-1036.png": {
+      "bytes": 5334,
+      "sha256": "c57b71ae65b3b38241f8ed97fe6fb5ae78db5a82002be392d91ebb6f5ffde8af"
+    },
+    "assets/reference-project/dist/assets/item-1042.png": {
+      "bytes": 4228,
+      "sha256": "b62b8823a2728891fa67c83054f8ae1d2f7656424b84b5288a5900529cd8a264"
+    },
+    "assets/reference-project/dist/assets/item-1052.png": {
+      "bytes": 5490,
+      "sha256": "5b6d009e518f50c73db3b4a7442d3bff0928fb2ea527babd77140ce817562e8a"
+    },
+    "assets/reference-project/dist/assets/item-2003.png": {
+      "bytes": 4964,
+      "sha256": "4ef383b62d2631f0e224cc1a4020faf785e56c5ce5cbf01ae63a79840b96deaf"
+    },
+    "assets/reference-project/dist/assets/item-3031.png": {
+      "bytes": 7104,
+      "sha256": "39382e1bef39a48d14e6d37e52e9d02068df9153ca60c2bcca033dd276fae5df"
+    },
+    "assets/reference-project/dist/assets/item-3089.png": {
+      "bytes": 6981,
+      "sha256": "ad77331bb9a325db9536f5614f3ca3516e24279406123f2892eb33ee419d369b"
+    },
+    "assets/reference-project/dist/assets/manifest.json": {
+      "bytes": 14110,
+      "sha256": "1ccee151d5a083f829e4444afb5e37e0844939e849615647089c004a074e9fa7"
+    },
+    "assets/reference-project/dist/assets/textures/bark.jpg": {
+      "bytes": 210157,
+      "sha256": "f832491230b56b7cf95ecb3814bdff7605692869b3fcec219b0aa0f5194c134d"
+    },
+    "assets/reference-project/dist/assets/textures/chainmail.jpg": {
+      "bytes": 155409,
+      "sha256": "dae4980226a469150cbd1b3e47272599066123adb6cbff108242f1f92d00d725"
+    },
+    "assets/reference-project/dist/assets/textures/cloth.jpg": {
+      "bytes": 56712,
+      "sha256": "88381a697326c692ae33f6d746c8971b519986c141bc0a5b2585a06b07c23a13"
+    },
+    "assets/reference-project/dist/assets/textures/gold.jpg": {
+      "bytes": 49003,
+      "sha256": "c3ebd35b4e97d193e66da4e71f65be3ef059f18e46bac84d9021a73fc74b0ce4"
+    },
+    "assets/reference-project/dist/assets/textures/ground-normal.jpg": {
+      "bytes": 664079,
+      "sha256": "8eeb31a9982d977f700f9fd4339a00c2f9112b3578db5aa01ce8731b0b5acb0e"
+    },
+    "assets/reference-project/dist/assets/textures/ground.jpg": {
+      "bytes": 649169,
+      "sha256": "d00ca2613ab5f052ce34c84920b952e866fb12bf55dba7cd5f3c1711c4f7b38f"
+    },
+    "assets/reference-project/dist/assets/textures/limestone-normal.jpg": {
+      "bytes": 79019,
+      "sha256": "3d2aacdc93a9e9b5e6fb719ed09854e932e4bbf1ca6c1f6a321fbbacd3fb652a"
+    },
+    "assets/reference-project/dist/assets/textures/limestone.jpg": {
+      "bytes": 291737,
+      "sha256": "bed592a30165124cf1d633735c26c7596901d6dcd05e5935f5cc353e96d376f9"
+    },
+    "assets/reference-project/dist/assets/textures/manifest.json": {
+      "bytes": 3778,
+      "sha256": "07f2430c802494f91810a5a56900d0a88eeedf36b0b003f9b199d6655c741e8d"
+    },
+    "assets/reference-project/dist/assets/textures/path.jpg": {
+      "bytes": 474238,
+      "sha256": "cfe29eeb191e461239ba792e511c1d9a1472dae02c0584534ef5c5dad40a394b"
+    },
+    "assets/reference-project/dist/assets/textures/rock-normal.jpg": {
+      "bytes": 328595,
+      "sha256": "5107091b2ee180acd1000df45021670dd91d30aa9ddca22038b759c9e6f491fe"
+    },
+    "assets/reference-project/dist/assets/textures/rock.jpg": {
+      "bytes": 189285,
+      "sha256": "d9b0be507fefb2f0246cb4d163af3fa7208f380edf810eac2714918eec8e35c1"
+    },
+    "assets/reference-project/dist/assets/textures/steel.jpg": {
+      "bytes": 48874,
+      "sha256": "44009f05395f3aa01d4977dc6e7b436882fcc6f64d6b87a984dc8ecaf2fa5182"
+    },
+    "assets/reference-project/dist/assets/three-DNG60NWy.js": {
+      "bytes": 514908,
+      "sha256": "011cca2cc72ed89f5da79588222d0a7155fbe625751c9ff8b9fde78c760ebccd"
+    },
+    "assets/reference-project/dist/index.html": {
+      "bytes": 783,
+      "sha256": "213e8df067d794cc72c6e01b4f3fb4b7046fa6d024fd57876535636b5c5e65bb"
+    },
+    "assets/reference-project/docs/FIDELITY.md": {
+      "bytes": 4550,
+      "sha256": "dd92854e29acea1dcc4af040fd51264fad4d0d16f0b59edfad2a3f5e71cfb244"
+    },
+    "assets/reference-project/docs/licenses/THREE-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "assets/reference-project/docs/licenses/texture-assets-license.md": {
+      "bytes": 1410,
+      "sha256": "843053626271b4615b18a111129a141fd1a9916836259f43f950fdd89e5e10c7"
+    },
+    "assets/reference-project/docs/licenses/upstream-asset-manifest.json": {
+      "bytes": 24493,
+      "sha256": "711e23d36851da4cc6fdcefb7f0301bce781dd5f64152789ef16833732077d17"
+    },
+    "assets/reference-project/docs/licenses/upstream-evidence/ambientcg-license.html": {
+      "bytes": 34106,
+      "sha256": "60138e09b277c89977841462634b36e99d7bae5b77174777813502069c59461c"
+    },
+    "assets/reference-project/docs/licenses/upstream-evidence/forest-ambience.html": {
+      "bytes": 37527,
+      "sha256": "0c4c17a53ce77032088b65ac30729b29f2eb028b3e9f477a88957149fbf954c0"
+    },
+    "assets/reference-project/docs/licenses/upstream-evidence/kenney-impact.html": {
+      "bytes": 16606,
+      "sha256": "2689be9c7d2d48b1d6c7d9836570391fa6947590eaf260291697053d9f86b354"
+    },
+    "assets/reference-project/docs/licenses/upstream-evidence/kenney-rpg.html": {
+      "bytes": 16768,
+      "sha256": "51fdf514e0401f83261a8ab99f182acb321cef53e379035154ca3cd7589445e4"
+    },
+    "assets/reference-project/docs/licenses/upstream-evidence/polyhaven-license.html": {
+      "bytes": 72336,
+      "sha256": "f530abb18e6317a9b0f2a128b94150e372c8456d7491a14e4860c4ed5f5fe69a"
+    },
+    "assets/reference-project/docs/licenses/upstream-evidence/verification.json": {
+      "bytes": 3613,
+      "sha256": "9b883f7e02b50ca0c7cfc7fafc29f79d4780e79c4f09215f1dcdd5b3607253bc"
+    },
+    "assets/reference-project/docs/licenses/upstream-evidence/wolf.html": {
+      "bytes": 29009,
+      "sha256": "4478adbb4636b7eef928fb4cbb2555fa60189199cd00eab6510b01af55dee002"
+    },
+    "assets/reference-project/download_assets.py": {
+      "bytes": 1576,
+      "sha256": "8988d9df46fa83a251807f57c250c47cec670595cb58059fdd742b35be4f1372"
+    },
+    "assets/reference-project/index.html": {
+      "bytes": 679,
+      "sha256": "a55d62aba1b97d8ae010f4d0db8907aac391969b51f5b651c782a190bc14acf9"
+    },
+    "assets/reference-project/package-lock.json": {
+      "bytes": 37538,
+      "sha256": "c6cb31677eac6818eb11e965f086fc5bc1c6e3781333675de26183b7e5642f6b"
+    },
+    "assets/reference-project/package.json": {
+      "bytes": 791,
+      "sha256": "abaa4ab70d34eb24cb89dae9dc2da7c2442c2e2bf2271ab114f2ef54c03015e8"
+    },
+    "assets/reference-project/public/assets/AlphaStrike.png": {
+      "bytes": 4893,
+      "sha256": "dd7d81c33bd1d35781a1f28813f649fa94b9d99fe099f512bf156c40dc22e7cf"
+    },
+    "assets/reference-project/public/assets/Annie-splash.jpg": {
+      "bytes": 189787,
+      "sha256": "edad0269013114402d1d829b42ec052b9f9b8171dea19b1f1624c3ebab9a45f2"
+    },
+    "assets/reference-project/public/assets/Annie.json": {
+      "bytes": 14075,
+      "sha256": "f7ec16ef4c1ec8df2e745ded9ce5b0a47e377e46939fa7e7e36f4761c34459c6"
+    },
+    "assets/reference-project/public/assets/Annie.png": {
+      "bytes": 30267,
+      "sha256": "97720fcc698033b18382e7475800d4aac6c436712d997d99df4a0ae99f6829e2"
+    },
+    "assets/reference-project/public/assets/AnnieE.png": {
+      "bytes": 6674,
+      "sha256": "cf59314df90fee0237dd006f2a89b811b36acbce93de40466382b287d455def3"
+    },
+    "assets/reference-project/public/assets/AnnieQ.png": {
+      "bytes": 5062,
+      "sha256": "f45bc34137ab2bee08ca0362b21bf665c09aae0614741c4cb6f40c89e1668d9a"
+    },
+    "assets/reference-project/public/assets/AnnieR.png": {
+      "bytes": 6140,
+      "sha256": "609820533a2135f12f2038a31a66df4eff9fdb861ce06e2b25b8d92fa72df63e"
+    },
+    "assets/reference-project/public/assets/AnnieW.png": {
+      "bytes": 5291,
+      "sha256": "0ffedf98f614496b2d609829a8ea09cd6e4a70d343907b0bdfcd366e17e82451"
+    },
+    "assets/reference-project/public/assets/Ashe-splash.jpg": {
+      "bytes": 155309,
+      "sha256": "2c8ca3fcf121d7c8fe88bfe88f07062ee3a7bbc44674e95e0105d9bacdc09035"
+    },
+    "assets/reference-project/public/assets/Ashe.json": {
+      "bytes": 16326,
+      "sha256": "e0a10a2c7336101a9c17f423672fc0f95df2701c80ac5863c3ef60f648ff7004"
+    },
+    "assets/reference-project/public/assets/Ashe.png": {
+      "bytes": 32121,
+      "sha256": "423666bdb0685355be4576f78eb6406fd49469b4f6e9f780f1c5eb4349fed91f"
+    },
+    "assets/reference-project/public/assets/AsheQ.png": {
+      "bytes": 6683,
+      "sha256": "ceb72f8ca8ef01c5ea8249599f956c5f5fa7eb5a41e69b9bfb3b994ba1abd6b4"
+    },
+    "assets/reference-project/public/assets/AsheSpiritOfTheHawk.png": {
+      "bytes": 5806,
+      "sha256": "94e8e9dd059f9d8615d02da2d6d3430fa20afc938a4baba66a6cfc91d9646506"
+    },
+    "assets/reference-project/public/assets/EnchantedCrystalArrow.png": {
+      "bytes": 6449,
+      "sha256": "c26d0583a45c36b3a18b118d92ae1ae3534dae529a052d7c1fa41a9ea613f038"
+    },
+    "assets/reference-project/public/assets/Garen-splash.jpg": {
+      "bytes": 196726,
+      "sha256": "b3b793811a9df402434dc5250d1f9d4c9b7fe0931412d2a719feaed1e283974e"
+    },
+    "assets/reference-project/public/assets/Garen.json": {
+      "bytes": 13028,
+      "sha256": "6f907bcf7d38ecf1a17f6c4f24a444e89514584384b6e711a2b7aee6de2c5fc7"
+    },
+    "assets/reference-project/public/assets/Garen.png": {
+      "bytes": 30705,
+      "sha256": "53018603962e1867b391071f159bb4c60d57919422585c33bfd36551e97f3752"
+    },
+    "assets/reference-project/public/assets/GarenE.png": {
+      "bytes": 6473,
+      "sha256": "87526f9005c608b7b776128fc4526b28f615b782c3429c3d6bc200209c25f2da"
+    },
+    "assets/reference-project/public/assets/GarenQ.png": {
+      "bytes": 6105,
+      "sha256": "5ba32b3c14ed850b447a6cb54cf243144823e1ac61cf071ed9920cd26700ff8d"
+    },
+    "assets/reference-project/public/assets/GarenR.png": {
+      "bytes": 5230,
+      "sha256": "82031c7b445c6bced255fcc91b9a8570a8215f96092c766cb1a0e519cac5e949"
+    },
+    "assets/reference-project/public/assets/GarenW.png": {
+      "bytes": 5947,
+      "sha256": "4b653d35ceedddc2fc715e934307114c567c92aebd5b34708bdc5c077ce410eb"
+    },
+    "assets/reference-project/public/assets/Highlander.png": {
+      "bytes": 6238,
+      "sha256": "0e56c7df1cc9ad719c4c1004ce7307567d428b7746bbb5b6c79076fc49696a88"
+    },
+    "assets/reference-project/public/assets/Lux-splash.jpg": {
+      "bytes": 196519,
+      "sha256": "d148fbcd3985d2f46f928a6ec65cca3c4f3d088692926cb5004352de73636e2e"
+    },
+    "assets/reference-project/public/assets/Lux.json": {
+      "bytes": 15354,
+      "sha256": "3d6e7589b9777cdf6b53d13abf44892bccd77a8d19860a4bbc71b914bafcf787"
+    },
+    "assets/reference-project/public/assets/Lux.png": {
+      "bytes": 29188,
+      "sha256": "64639bea2aa7d622dd07287de7a7820950e567f0993c7dcc422e1e699fd743fd"
+    },
+    "assets/reference-project/public/assets/LuxLightBinding.png": {
+      "bytes": 6820,
+      "sha256": "06abdcb3edede637b6fd076e69381f2ff538a30c788c3ec857d4834742c2b424"
+    },
+    "assets/reference-project/public/assets/LuxLightStrikeKugel.png": {
+      "bytes": 6567,
+      "sha256": "c5900b892f0065d9b19ce4d584b7633c23235dbfd0bf55cb7444fe0162fa0138"
+    },
+    "assets/reference-project/public/assets/LuxPrismaticWave.png": {
+      "bytes": 6679,
+      "sha256": "9eec398494b60cb908ca2a5635463ad3ee63bce31521a7a3ce657dbc2c6627e2"
+    },
+    "assets/reference-project/public/assets/LuxR.png": {
+      "bytes": 5520,
+      "sha256": "392a1ed2da41f165ae79c2c3e00b8796ff017f6ce9d55e37d401d63606cb2a86"
+    },
+    "assets/reference-project/public/assets/MasterYi-splash.jpg": {
+      "bytes": 190829,
+      "sha256": "bf7678dc3b32abfd06bb5810274959e88d59234f7da0573ff67f3e864944a42f"
+    },
+    "assets/reference-project/public/assets/MasterYi.json": {
+      "bytes": 15994,
+      "sha256": "a974c6f47dc761bbaf7ec8fcce69f8fe3782314cc1674a0e54c497b7cb710991"
+    },
+    "assets/reference-project/public/assets/MasterYi.png": {
+      "bytes": 29421,
+      "sha256": "1c23534926a7956a260591fb3cee8f38cb6de3d9d4f064fe93fb88c8f76b1b66"
+    },
+    "assets/reference-project/public/assets/Meditate.png": {
+      "bytes": 6124,
+      "sha256": "b7464d80adfefdbf9002ee0d97c4210299f97757e8df1910aa394f0b5ee39056"
+    },
+    "assets/reference-project/public/assets/Volley.png": {
+      "bytes": 6241,
+      "sha256": "30e0daa99574f031aec984ac0bf27c0283e24b59d923276af8e9cb0e30c59a95"
+    },
+    "assets/reference-project/public/assets/WujuStyle.png": {
+      "bytes": 5924,
+      "sha256": "927c1152295f5e7731a89eef0784f20633dd35523d07c0592e122c265aac39c7"
+    },
+    "assets/reference-project/public/assets/champions.json": {
+      "bytes": 81050,
+      "sha256": "2ea62e2b71f07f4d06362d1da222cd1e649b9b794451fd1f58affdcc588016ce"
+    },
+    "assets/reference-project/public/assets/item-1001.png": {
+      "bytes": 4537,
+      "sha256": "f2b2a8ba7ae715c8906d3037d38778aa545f3d0740091640484aa3d126396ad0"
+    },
+    "assets/reference-project/public/assets/item-1028.png": {
+      "bytes": 4070,
+      "sha256": "90f702e7d757914c96e546ae4076b624800dafc140edffac70733f104684b412"
+    },
+    "assets/reference-project/public/assets/item-1029.png": {
+      "bytes": 5078,
+      "sha256": "3b89234b2be140f17b06a92297abdc54ce23e6034b6b80335d612fac3d20720d"
+    },
+    "assets/reference-project/public/assets/item-1036.png": {
+      "bytes": 5334,
+      "sha256": "c57b71ae65b3b38241f8ed97fe6fb5ae78db5a82002be392d91ebb6f5ffde8af"
+    },
+    "assets/reference-project/public/assets/item-1042.png": {
+      "bytes": 4228,
+      "sha256": "b62b8823a2728891fa67c83054f8ae1d2f7656424b84b5288a5900529cd8a264"
+    },
+    "assets/reference-project/public/assets/item-1052.png": {
+      "bytes": 5490,
+      "sha256": "5b6d009e518f50c73db3b4a7442d3bff0928fb2ea527babd77140ce817562e8a"
+    },
+    "assets/reference-project/public/assets/item-2003.png": {
+      "bytes": 4964,
+      "sha256": "4ef383b62d2631f0e224cc1a4020faf785e56c5ce5cbf01ae63a79840b96deaf"
+    },
+    "assets/reference-project/public/assets/item-3031.png": {
+      "bytes": 7104,
+      "sha256": "39382e1bef39a48d14e6d37e52e9d02068df9153ca60c2bcca033dd276fae5df"
+    },
+    "assets/reference-project/public/assets/item-3089.png": {
+      "bytes": 6981,
+      "sha256": "ad77331bb9a325db9536f5614f3ca3516e24279406123f2892eb33ee419d369b"
+    },
+    "assets/reference-project/public/assets/manifest.json": {
+      "bytes": 14110,
+      "sha256": "1ccee151d5a083f829e4444afb5e37e0844939e849615647089c004a074e9fa7"
+    },
+    "assets/reference-project/public/assets/textures/bark.jpg": {
+      "bytes": 210157,
+      "sha256": "f832491230b56b7cf95ecb3814bdff7605692869b3fcec219b0aa0f5194c134d"
+    },
+    "assets/reference-project/public/assets/textures/chainmail.jpg": {
+      "bytes": 155409,
+      "sha256": "dae4980226a469150cbd1b3e47272599066123adb6cbff108242f1f92d00d725"
+    },
+    "assets/reference-project/public/assets/textures/cloth.jpg": {
+      "bytes": 56712,
+      "sha256": "88381a697326c692ae33f6d746c8971b519986c141bc0a5b2585a06b07c23a13"
+    },
+    "assets/reference-project/public/assets/textures/gold.jpg": {
+      "bytes": 49003,
+      "sha256": "c3ebd35b4e97d193e66da4e71f65be3ef059f18e46bac84d9021a73fc74b0ce4"
+    },
+    "assets/reference-project/public/assets/textures/ground-normal.jpg": {
+      "bytes": 664079,
+      "sha256": "8eeb31a9982d977f700f9fd4339a00c2f9112b3578db5aa01ce8731b0b5acb0e"
+    },
+    "assets/reference-project/public/assets/textures/ground.jpg": {
+      "bytes": 649169,
+      "sha256": "d00ca2613ab5f052ce34c84920b952e866fb12bf55dba7cd5f3c1711c4f7b38f"
+    },
+    "assets/reference-project/public/assets/textures/limestone-normal.jpg": {
+      "bytes": 79019,
+      "sha256": "3d2aacdc93a9e9b5e6fb719ed09854e932e4bbf1ca6c1f6a321fbbacd3fb652a"
+    },
+    "assets/reference-project/public/assets/textures/limestone.jpg": {
+      "bytes": 291737,
+      "sha256": "bed592a30165124cf1d633735c26c7596901d6dcd05e5935f5cc353e96d376f9"
+    },
+    "assets/reference-project/public/assets/textures/manifest.json": {
+      "bytes": 3778,
+      "sha256": "07f2430c802494f91810a5a56900d0a88eeedf36b0b003f9b199d6655c741e8d"
+    },
+    "assets/reference-project/public/assets/textures/path.jpg": {
+      "bytes": 474238,
+      "sha256": "cfe29eeb191e461239ba792e511c1d9a1472dae02c0584534ef5c5dad40a394b"
+    },
+    "assets/reference-project/public/assets/textures/rock-normal.jpg": {
+      "bytes": 328595,
+      "sha256": "5107091b2ee180acd1000df45021670dd91d30aa9ddca22038b759c9e6f491fe"
+    },
+    "assets/reference-project/public/assets/textures/rock.jpg": {
+      "bytes": 189285,
+      "sha256": "d9b0be507fefb2f0246cb4d163af3fa7208f380edf810eac2714918eec8e35c1"
+    },
+    "assets/reference-project/public/assets/textures/steel.jpg": {
+      "bytes": 48874,
+      "sha256": "44009f05395f3aa01d4977dc6e7b436882fcc6f64d6b87a984dc8ecaf2fa5182"
+    },
+    "assets/reference-project/src/config.js": {
+      "bytes": 4684,
+      "sha256": "2d88cf7e47167efb5785c26a4c1d2288d234939030d54c0f280cd1880d34fed8"
+    },
+    "assets/reference-project/src/controls.js": {
+      "bytes": 8805,
+      "sha256": "ac8ae0a6451b0efbe3ac505b837d9f31898f4448964b73c781dcb41578766256"
+    },
+    "assets/reference-project/src/main.js": {
+      "bytes": 7852,
+      "sha256": "83ddd0ad77c0adfa6ded657738fdc57b2f31a2fad9bf74861af0da4f28b92dc5"
+    },
+    "assets/reference-project/src/simulation.js": {
+      "bytes": 22906,
+      "sha256": "76e31cbee697ed0d4a4a83f67805fde502e0754056f6ad654436eb3e2c12295c"
+    },
+    "assets/reference-project/src/ui.js": {
+      "bytes": 22347,
+      "sha256": "28e0e67a54a248fc6802650c5a9f13e11413da01015463f91a06991cc2999e2c"
+    },
+    "assets/reference-project/src/world.js": {
+      "bytes": 24301,
+      "sha256": "c1760d0df32b8cd6a01418c843527643ccb6c930976bac1e447da33c241b35a1"
+    },
+    "assets/reference-project/tests/acceptance-map.md": {
+      "bytes": 2649,
+      "sha256": "0e34f72558fa2f3ec3beedb8c25c1b9bf80fec7672dc8460d6f9d2b945a64571"
+    },
+    "assets/reference-project/tests/browser.mjs": {
+      "bytes": 6206,
+      "sha256": "6e3c7a15b8eeb16c0fbd46ba206e3e5c5e771e5b58d8de129dc3427eacc1a961"
+    },
+    "assets/reference-project/tests/controls-browser.mjs": {
+      "bytes": 12681,
+      "sha256": "24b1cb621f94d806f7694ec69de574657eaad7418cd765978ce16cb9af4136aa"
+    },
+    "assets/reference-project/tests/controls-production.mjs": {
+      "bytes": 3793,
+      "sha256": "b59e2d8ae3c8d4685371a819a181e33a391c742de2d07e7952d3e7ca9f9d3556"
+    },
+    "assets/reference-project/tests/controls.test.js": {
+      "bytes": 2705,
+      "sha256": "78072e8ecf4400b29dc1a94299279a73da52b4059f3edc7d4d9dc29af7d3bd31"
+    },
+    "assets/reference-project/tests/fault.mjs": {
+      "bytes": 997,
+      "sha256": "e1f8d22a388d24ff4e62c4816f07da1936b6b8db3db6f7dfea6bc0a5086b35ca"
+    },
+    "assets/reference-project/tests/natural-match.mjs": {
+      "bytes": 893,
+      "sha256": "de50c3fd7223dfd26b8acb3f8a5f387d26a6110c5f5969feb3dc37465bbb7a97"
+    },
+    "assets/reference-project/tests/production.mjs": {
+      "bytes": 1690,
+      "sha256": "806f5a67a0a1cb34ccb869832835b963b80e96c0ef86c4e4b2c535ff83ad10d2"
+    },
+    "assets/reference-project/tests/repro-controls.mjs": {
+      "bytes": 909,
+      "sha256": "297b5f2d3cecbfefa2c32e487316184514faf8242a78e5440c1b615135948324"
+    },
+    "assets/reference-project/tests/rules.test.js": {
+      "bytes": 5146,
+      "sha256": "1b58ed6270dda96a14ae5d757971887b78bea2ffd1e2f365d4d031026e402d0d"
+    },
+    "assets/reference-project/tests/soak.mjs": {
+      "bytes": 827,
+      "sha256": "05c105a7ca846fc243d30952402329aac59d5df9db0170148f56051750730ee5"
+    },
+    "assets/reference-project/vite.config.js": {
+      "bytes": 157,
+      "sha256": "7c8da60a478fa771c083a9832f4b6daafc2ce8fe936ca28d7d1518a9b56a4d91"
+    },
+    "assets/reference-project/启动游戏.command": {
+      "bytes": 599,
+      "sha256": "d4f85346f6d6a201ecf3a3027021f96c369b5490ff9b2ac6379584eab5f4bdf1"
+    },
+    "references/acceptance.md": {
+      "bytes": 4102,
+      "sha256": "745888bc64ecff3830b1c602fc77dd9a891af323de887fba31706b4597fa57e0"
+    },
+    "references/architecture.md": {
+      "bytes": 4882,
+      "sha256": "581e64d583d164a329a813919a95764f86352df64ae387994be40aa44ce9d7a8"
+    },
+    "references/assets-and-rights.md": {
+      "bytes": 2767,
+      "sha256": "6d5a8b410b952abf02aa17052edd790bfb93719360592e927bfc44ae7cf101bf"
+    },
+    "references/controls.md": {
+      "bytes": 3518,
+      "sha256": "15cb03ea3a76742dbb2a253a417badb282961d71e9f2b210f606647443cb24c8"
+    },
+    "references/game-contract.json": {
+      "bytes": 115172,
+      "sha256": "d76d628466c9454be1bbbf6bafc30ae4caecc28f12fdefa49d441a9b0aa6c29f"
+    },
+    "references/mechanics.md": {
+      "bytes": 7258,
+      "sha256": "8032ef7799875305fd7cfc38f93b32d6eba3d4a058b2db36617ebf7bcf5ec3fe"
+    },
+    "references/provenance.md": {
+      "bytes": 1299,
+      "sha256": "6afe50eb0118b6cde12b5433ea21887fd650bf0668c5bdc9d356439f917875eb"
+    },
+    "references/remix-guide.md": {
+      "bytes": 3277,
+      "sha256": "c4e88a783dfd4b4458e66757dbfc68444e25719400683f4fa9caa10136b0fbff"
+    },
+    "references/runtime.md": {
+      "bytes": 4082,
+      "sha256": "dc2ac76965c3f04c9b4e0604fdf4c9e8d25420c1b83c29cfcee85d95866865d1"
+    },
+    "references/version-contract.md": {
+      "bytes": 2802,
+      "sha256": "1ab1a0554215a0ca7eed523fe0c10a3152cd5f2c5a42215e6efcc449763d7408"
+    },
+    "references/visuals.md": {
+      "bytes": 5281,
+      "sha256": "4e19b71feaaa1b556c00c14c74aea56e5c4e136f5bb0147e668bca8d95d45e30"
+    },
+    "references/workflow.md": {
+      "bytes": 4187,
+      "sha256": "443182659f227d7654e803e9fa4b47543ef633072e3af8af55ae826ef9213ba6"
+    },
+    "scripts/check.py": {
+      "bytes": 9149,
+      "sha256": "bc8101775c676c8b0826dad987e86d9ceb477cef219d07314b8f03b995d10410"
+    },
+    "scripts/game.py": {
+      "bytes": 3870,
+      "sha256": "27d7b2de261da1c7310830f7d2787d258d8040c2c8cb4fde13a6d3b5683b1c2e"
+    },
+    "scripts/reproduce.py": {
+      "bytes": 4431,
+      "sha256": "8a91f3303e9144cdddbd2b81bd6738d844a72e1111aa893c56762689245256e8"
+    },
+    "scripts/selftest.py": {
+      "bytes": 3926,
+      "sha256": "c5832d25925e2c44fa9a31c40c85f7dee5b6be0fd2322653b689d7bd69b31dbd"
+    },
+    "scripts/start-demo.py": {
+      "bytes": 1243,
+      "sha256": "2c1c1ec499760a037d41524cbaa530246ae1ca013a19e80b8fdc8b9b118b9e0e"
+    },
+    "scripts/test_game.py": {
+      "bytes": 2407,
+      "sha256": "8433155908600969bb03f3f98f95832de7e0a0dda5013b0f2350e643fbd0c761"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "added": [
+    "docs/FREEZE-REVIEW-2026.09.18.md",
+    "docs/images/game-skill-cover.jpg"
+  ],
+  "removed": [],
+  "changed": [
+    ".github/ISSUE_TEMPLATE/bug_report.md",
+    "CHANGELOG.md",
+    "README.md",
+    "allGame-使用说明.md",
+    "allGame-验证报告.md",
+    "docs/FREEZE-REVIEW.md",
+    "docs/PUBLISHING.md",
+    "docs/RIGHTS.md",
+    "docs/images/README.md",
+    "packages.json",
+    "quanwangGame-使用说明.md",
+    "scripts/audit_packages.py",
+    "scripts/test_release_tools.py",
+    "yimoGame-使用说明.md",
+    "使用说明.md",
+    "创作游戏-使用说明.md",
+    "验证报告.md"
+  ]
+}

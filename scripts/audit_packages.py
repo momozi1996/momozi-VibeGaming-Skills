@@ -91,7 +91,10 @@ def check_package(row, root=ROOT, compare_source=True):
 def markdown_links(root):
     """Check maintained navigation, not frozen upstream manuals/historical reports."""
     paths = [root/'README.md', root/'CONTRIBUTING.md', root/'SECURITY.md', root/'LICENSE.md']
-    paths += list((root/'docs').glob('*.md'))
+    paths += sorted(root.glob('*.md'))
+    paths += sorted((root/'docs').rglob('*.md'))
+    paths += sorted((root/'.github').rglob('*.md'))
+    paths = list(dict.fromkeys(paths))
     failures = []
     for p in paths:
         if not p.is_file():
@@ -104,8 +107,16 @@ def markdown_links(root):
                 continue
             from urllib.parse import unquote
             target = unquote(link.split('#', 1)[0])
-            if target and not (p.parent / target).exists():
-                failures.append(p.relative_to(root).as_posix() + ': ' + link)
+            if target:
+                resolved = (p.parent / target).resolve()
+                if not resolved.exists():
+                    failures.append(p.relative_to(root).as_posix() + ': ' + link)
+                elif not resolved.is_relative_to(root.resolve()):
+                    failures.append(p.relative_to(root).as_posix() + ': outside repository: ' + link)
+                else:
+                    rel = resolved.relative_to(root.resolve())
+                    if rel.parts and rel.parts[0] in {'.git', 'verification', 'playable-games', 'release-staging'}:
+                        failures.append(p.relative_to(root).as_posix() + ': not distributed: ' + link)
     return failures
 
 def release_paths(root):
@@ -124,20 +135,41 @@ def release_paths(root):
                 files.add(p.relative_to(root).as_posix())
     return sorted(files)
 
+def release_content_errors(root, names):
+    """Refuse accidental dependency/cache or symlink inclusion before sealing/export."""
+    errors = []
+    forbidden = {'.git', 'node_modules', '__pycache__', '.DS_Store'}
+    for name in names:
+        rel = PurePosixPath(name)
+        if rel.is_absolute() or '..' in rel.parts or '\\' in name:
+            errors.append('Unsafe release path: ' + name)
+            continue
+        p = root / name
+        if forbidden.intersection(rel.parts):
+            errors.append('Unwanted release content: ' + name)
+        if any((root / Path(*rel.parts[:i])).is_symlink() for i in range(1, len(rel.parts) + 1)):
+            errors.append('Symlink in release path: ' + name)
+        if not p.is_file():
+            errors.append('Release file missing: ' + name)
+    return errors
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=ROOT)
     parser.add_argument('--report', type=Path)
-    parser.add_argument('--check-lock', action='store_true')
-    parser.add_argument('--write-lock', action='store_true', help='Maintainer only: explicitly establish a new candidate file inventory')
+    lock_mode = parser.add_mutually_exclusive_group()
+    lock_mode.add_argument('--check-lock', action='store_true')
+    lock_mode.add_argument('--write-lock', action='store_true', help='Maintainer only: explicitly establish a new candidate file inventory')
     args = parser.parse_args()
     root = args.root.resolve()
     data = catalog(root)
     results = [check_package(row, root) for row in data['packages']]
     errors = markdown_links(root)
+    release_names = release_paths(root)
+    errors += release_content_errors(root, release_names)
     ids = [p['id'] for p in data['packages']]
-    if len(set(ids)) != len(ids) or len(ids) != 9:
-        errors.append('Expected 9 unique catalog entries')
+    if len(set(ids)) != len(ids) or len(ids) != 12:
+        errors.append('Expected 12 unique catalog entries')
     entries = {p.name for p in (root/'skills').iterdir() if p.name != '.DS_Store'}
     if entries != set(ids):
         errors.append('Unexpected/missing skills entry: ' + repr(sorted(entries ^ set(ids))))
@@ -153,7 +185,7 @@ def main():
             old = json.loads(lock.read_text(encoding='utf-8'))
             if old['release'] != data['release']: errors.append('Release name differs')
             expected = old['files']
-            if set(release_paths(root)) != set(expected): errors.append('Release file set differs from freeze manifest')
+            if set(release_names) != set(expected): errors.append('Release file set differs from freeze manifest')
             for name, meta in expected.items():
                 p = root/name
                 if not p.is_file() or p.is_symlink() or p.stat().st_size != meta['bytes'] or sha256(p) != meta['sha256']:
@@ -162,7 +194,7 @@ def main():
     if args.write_lock:
         if not ok: errors.append('Refusing to seal a failing audit')
         else:
-            content = {name:{'bytes':(root/name).stat().st_size,'sha256':sha256(root/name)} for name in release_paths(root)}
+            content = {name:{'bytes':(root/name).stat().st_size,'sha256':sha256(root/name)} for name in release_names}
             lock.write_text(json.dumps({'schema':1,'release':data['release'],'status':data['status'],
                 'scope':'Intentional release files; excludes .git, local verification, generated playable-games, and this manifest. Not a legal approval or signature.',
                 'files':content},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

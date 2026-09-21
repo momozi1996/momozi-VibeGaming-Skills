@@ -1,6 +1,6 @@
 # 冻结与公开发布流程
 
-当前版本：`2026.09.18-rc1`。可以建立经过校验的**私有候选快照**；尚未具备“整仓公开开源正式发布”的条件。详见 [审查结论](FREEZE-REVIEW.md) 和 [权利清单](RIGHTS.md)。
+当前版本：`2026.09.21-rc4`。可以建立经过校验的**私有候选快照**；尚未具备“整仓公开开源正式发布”的条件。详见 [审查结论](FREEZE-REVIEW.md) 和 [权利清单](RIGHTS.md)。
 
 ## 1. 先区分三件事
 
@@ -22,25 +22,25 @@ python3 scripts/audit_packages.py --write-lock
 python3 scripts/audit_packages.py --check-lock
 ```
 
-`packages.json`固定9包的ID、大小及ZIP SHA-256；`release-manifest.json`记录发行集每个文件的大小及SHA-256，自身不递归纳入。不是数字签名。改一个文件就必须显示差异，不能为了变绿直接重写所有校验。
+`packages.json`固定12包的ID、大小及ZIP SHA-256；`release-manifest.json`记录发行集每个文件的大小及SHA-256，自身不递归纳入。不是数字签名。改一个文件就必须显示差异，不能为了变绿直接重写所有校验。
 
 各skill还有自己的清单：只改根文档不应改游戏包。修改skill时须先生成并校验新的skill manifest，再重打相应ZIP、更新sidecar和packages.json，说明版本与内容差异。
 
 ## 3. 导出不带垃圾和Git历史的目录
 
 ```bash
-python3 scripts/export_release.py --out ../game-skill-packages-2026.09.18-rc1
+python3 scripts/export_release.py --out ../game-skill-packages-2026.09.21-rc4
 # 再在导出目录执行
 python3 scripts/audit_packages.py --check-lock
 ```
 
-输出必须是包外尚不存在的目录。保留九个完整ZIP、完整skill、根文档、脚本、CI、预览与清单；**不复制`.git`、verification、playable-games、node_modules和临时文件**。不使用`git archive`或`git ls-files`来推断当前发行集，避免丢掉新文件/被内层.gitignore忽略的必需dist。
+输出必须是包外尚不存在的目录。保留十二个完整ZIP、完整skill、根文档、脚本、CI、预览与清单；**不复制`.git`、verification、playable-games、node_modules和临时文件**。不使用`git archive`或`git ls-files`来推断当前发行集，避免丢掉新文件/被内层.gitignore忽略的必需dist。
 
-干净导出约0.9GB，是完整skill与其ZIP同时保留的有意重复；用户只需取一个ZIP。体积大不等于还有依赖垃圾。导出不会自动脱敏或改变有争议资产，故仍是私有候选。
+干净导出约1.03GB（十进制），是完整skill与其ZIP同时保留的有意重复；用户只需取一个ZIP。体积大不等于还有依赖垃圾。导出不会自动脱敏或改变有争议资产，故仍是私有候选。
 
 ## 4. Git历史：不能只加.gitignore就算清干净
 
-审查前Git跟踪43,900路径，其中41,808在node_modules；本机verification合计约1.5GB。新的`.gitignore`对**已跟踪文件/历史提交不生效**。
+2026-09-21复核时Git索引跟踪51,857路径，其中48,107在node_modules，50,316在verification（后两项有重叠）；本机verification约1.65GB。新的`.gitignore`对**已跟踪文件/历史提交不生效**。
 
 推荐在公开权利/隐私问题处理完后，使用上面的干净导出建立一个**新的发布仓库**，保留原仓库做私有备份。这样不改写用户旧历史，也不把旧日志/依赖带到公开仓库。
 
@@ -66,7 +66,7 @@ GitHub官方说明：普通Git超过50MiB警告，超过100MiB阻止；GitHub Re
 
 本次已配置`.gitattributes`，将上述三个路径声明为LFS对象，并关闭文本换行转换以保护冻结字节。**配置不是已经上传LFS实体**，需要维护者确认LFS额度和使用方式；不要把缓存删掉后仍称独立离线大包。
 
-推荐公开渠道：Git保存经授权/脱敏后的完整源码（大缓存用LFS），九份ZIP＋SHA-256作为Release附件，下载者不用克隆所有包。若选择不在Git保留ZIP，须同时调整清单、校验/CI流程与README下载链接并建立新候选；不要只删文件。
+推荐公开渠道：Git保存经授权/脱敏后的完整源码（大缓存用LFS），十二份ZIP＋SHA-256作为Release附件，下载者不用克隆所有包。若选择不在Git保留ZIP，须同时调整清单、校验/CI流程与README下载链接并建立新候选；不要只删文件。
 
 ### 在干净新仓库中正确暂存（授权后手动执行）
 
@@ -94,7 +94,7 @@ git diff --cached --stat
 - [ ] 干净Git历史、LFS实体和所有必需dist/source-cache可从新克隆恢复。
 - [ ] CI在真实远端运行通过（本次只本地校验，不伪造徽章）。
 - [ ] 在全新环境下载一个Release ZIP，单包安装、触发、生成、启动成功。
-- [ ] 九包目录表、版本、ZIP哈希、许可、限制与变更记录一致。
+- [ ] 十二包目录表、版本、ZIP哈希、许可、限制与变更记录一致。
 - [ ] 将仓库状态从私有候选改为实际公开发行，建立真实Release链接和维护/安全联系渠道。
 
 CI执行的是包与清单一致性，不是上述法律/隐私/玩法门槛的自动替代。

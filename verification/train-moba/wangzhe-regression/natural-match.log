@@ -1,0 +1,5 @@
+{ seconds: 300, kills: [ 4, 15 ], towers: [ 0, 3 ], entities: 124 }
+{ seconds: 600, kills: [ 7, 24 ], towers: [ 1, 5 ], entities: 137 }
+{ seconds: 900, kills: [ 12, 33 ], towers: [ 1, 8 ], entities: 140 }
+{ seconds: 1200, kills: [ 18, 45 ], towers: [ 3, 10 ], entities: 168 }
+ended 1 1297.899999999915

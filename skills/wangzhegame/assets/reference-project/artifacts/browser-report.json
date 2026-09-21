@@ -1,0 +1,29 @@
+{
+  "results": [
+    "Exactly one visible canvas, no HTML HUD / controls",
+    "Hero card selection via canvas hit test",
+    "Start produces 5v5 state",
+    "Shop click deducts gold and equips item",
+    "Real right click moves player in world",
+    "Real skill-1 key consumes cooldown",
+    "Pause freezes simulation",
+    "Blur pauses and releases held input",
+    "Army spawns on all three lanes",
+    "Death enters respawn countdown",
+    "Respawn returns a living player",
+    "Nexus kill transitions to victory",
+    "Restart resets match state",
+    "No JavaScript or HTTP errors"
+  ],
+  "errors": [],
+  "bad": [],
+  "perf": {
+    "frames": 91,
+    "medianMs": 16.700000047683716,
+    "p95Ms": 18.5,
+    "renderer": "WebKit WebGL"
+  },
+  "viewport": "1600x1000",
+  "browser": "153.0.8010.50",
+  "notes": "Movement and hotkeys use real input; combat, death, victory use explicit fixture setup. Not a full natural-match or LoL parity test."
+}

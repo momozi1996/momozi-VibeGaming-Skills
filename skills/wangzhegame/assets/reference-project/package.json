@@ -1,0 +1,26 @@
+{
+  "name": "rift-forge",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4411 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4412 --strictPort",
+    "test": "node --test tests/*.test.js",
+    "test:browser": "node tests/browser.mjs",
+    "test:production": "node tests/production.mjs",
+    "test:fault": "node tests/fault.mjs",
+    "test:soak": "node tests/soak.mjs",
+    "test:match": "node tests/natural-match.mjs",
+    "test:controls": "node tests/controls-browser.mjs",
+    "test:controls-production": "node tests/controls-production.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "vite": "6.3.5",
+    "playwright": "1.55.0"
+  }
+}

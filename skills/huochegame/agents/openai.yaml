@@ -1,0 +1,4 @@
+interface:
+  display_name: "huocheGame · 云间慢行"
+  short_description: "完整生成云海电车游戏，含离线成品、停站换客、工坊改装与场景创作经验"
+  default_prompt: "使用 $huochegame 在新目录完整复刻CLOUDLINE云间慢行，直接恢复并启动，保留驾驶、停站、换客和工坊效果，不只做主页。"

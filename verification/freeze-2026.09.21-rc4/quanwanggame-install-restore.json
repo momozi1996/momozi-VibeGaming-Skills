@@ -1,0 +1,90 @@
+[
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-B",
+      "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages/scripts/install_skill.py",
+      "--skill",
+      "quanwanggame",
+      "--skills-dir",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills"
+    ],
+    "cwd": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages",
+    "exit": 0,
+    "stdout": "Installed complete skill: /private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills/quanwanggame\nRefresh your agent skill list, then use $quanwanggame in chat. No game or global dependency was executed.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-B",
+      "/Users/jyxc-dz-0100378/.stepcode/codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills/quanwanggame"
+    ],
+    "cwd": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages",
+    "exit": 0,
+    "stdout": "Skill is valid!\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-B",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills/quanwanggame/scripts/game.py",
+      "verify"
+    ],
+    "cwd": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages",
+    "exit": 0,
+    "stdout": "PASS: 264 package files intact\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-B",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills/quanwanggame/scripts/game.py",
+      "create",
+      "--out",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/quanwanggame"
+    ],
+    "cwd": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages",
+    "exit": 0,
+    "stdout": "PASS: 264 package files intact\nCreated /private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/quanwanggame\nVerified and copied 122 files. No npm install was performed.\nPreview: python3 \"/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/quanwanggame/start-demo.py\"\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-B",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills/quanwanggame/scripts/game.py",
+      "create",
+      "--out",
+      "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/quanwanggame"
+    ],
+    "cwd": "/Users/jyxc-dz-0100378/TESTBMK/game-skill-packages",
+    "exit": 1,
+    "stdout": "PASS: 264 package files intact\n",
+    "stderr": "Refusing existing destination: /private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/quanwanggame. Choose a new path; no files were overwritten.\nERROR: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/skills/quanwanggame/scripts/materialize.py', '--dest', '/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/quanwanggame']' returned non-zero exit status 1.\n"
+  },
+  {
+    "command": [
+      "npm",
+      "test"
+    ],
+    "cwd": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/quanwanggame",
+    "exit": 0,
+    "stdout": "\n> neon-impact@1.0.0 test\n> tsx --test tests/*.test.ts\n\n✔ ava: native-resolution, tightly packed textures have no overlaps or lost margins (3.315167ms)\n✔ ava: animation startup / contact / recovery use exact combat ages (0.641625ms)\n✔ ava: idle ping-pong includes descending frames (0.125667ms)\n✔ ren: native-resolution, tightly packed textures have no overlaps or lost margins (2.947333ms)\n✔ ren: animation startup / contact / recovery use exact combat ages (0.143083ms)\n✔ ren: idle ping-pong includes descending frames (0.03825ms)\n✔ startup: 4 non-hitting ticks, first active tick 5 (1.368292ms)\n✔ one attack cannot damage repeatedly across active frames (0.47125ms)\n✔ simultaneous attacks trade; no P1 update advantage (1.578042ms)\n✔ whiff never damages (0.405291ms)\n✔ back direction blocks mids without chip (0.501958ms)\n✔ standing back cannot block a low attack (0.694541ms)\n✔ down-back blocks a low attack (0.190041ms)\n✔ hitstop freezes state age, still records inputs (0.096208ms)\n✔ connected light can cancel into special, whiff cannot (0.370083ms)\n✔ quarter-circle command mirrored by facing (0.252333ms)\n✔ expired motion is not a special (0.148584ms)\n✔ jump returns to ground without frame-rate timeouts (1.302042ms)\n✔ pushboxes separate against the arena corner (0.063834ms)\n✔ projectile can hit once, not repeatedly (0.355125ms)\n✔ KO awards round, first to two resolves a match (1.675042ms)\n✔ mirrored hitbox retains size and reflects around root (0.245375ms)\n✔ identical input traces produce identical states (2.791333ms)\n✔ rendered attack age is the exact collision age (no one-frame lead) (0.106417ms)\n✔ air attacks end when landing; no grounded floating kick (0.087209ms)\n✔ input buffering expires, held keys do not auto-retrigger (0.03275ms)\n✔ a command entered during heavy hitstop survives until cancel window (0.057334ms)\n✔ 30, 60 and 144Hz displays all execute 60 combat ticks per second (0.80575ms)\n✔ rendering frequency does not become attack frequency (0.144ms)\nℹ tests 29\nℹ suites 0\nℹ pass 29\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 747.6705\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "cwd": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/game-freeze4-pz0t9zm7/projects/quanwanggame",
+    "exit": 0,
+    "stdout": "\n> neon-impact@1.0.0 build\n> tsc --noEmit && vite build\n\nvite v6.4.1 building for production...\ntransforming...\n✓ 688 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                           0.56 kB │ gzip:   0.43 kB\ndist/assets/index-BFGEmbNu.css           14.65 kB │ gzip:   4.30 kB\ndist/assets/colorToUniform-CTw89vsI.js    4.16 kB │ gzip:   1.51 kB\ndist/assets/WebGPURenderer-BOtZnYFL.js   37.43 kB │ gzip:  10.32 kB\ndist/assets/browserAll-BW4AjV6Q.js       43.11 kB │ gzip:  11.32 kB\ndist/assets/SharedSystems-_MfXqvuE.js    51.32 kB │ gzip:  13.92 kB\ndist/assets/webworkerAll-LYfS_Dec.js     62.71 kB │ gzip:  17.67 kB\ndist/assets/WebGLRenderer-Bj_ua37T.js    63.50 kB │ gzip:  17.38 kB\ndist/assets/index-OSNXaq5Y.js           315.03 kB │ gzip: 102.00 kB\n✓ built in 2.04s\n",
+    "stderr": ""
+  }
+]

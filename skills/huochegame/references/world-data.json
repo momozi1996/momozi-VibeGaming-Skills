@@ -1,0 +1,421 @@
+{
+  "reference": "Extracted from bundled src/game.js; descriptive JSON, not an auto-generator",
+  "engine": "Three.js r160",
+  "rng": {
+    "seed": 19371,
+    "multiplier": 1664525,
+    "increment": 1013904223,
+    "modulus": 4294967296
+  },
+  "track": {
+    "points": [
+      [
+        -100,
+        26,
+        45
+      ],
+      [
+        -74,
+        26,
+        46
+      ],
+      [
+        -43,
+        29,
+        43
+      ],
+      [
+        -12,
+        39,
+        30
+      ],
+      [
+        22,
+        46,
+        0
+      ],
+      [
+        43,
+        44,
+        -32
+      ],
+      [
+        68,
+        34,
+        -58
+      ],
+      [
+        99,
+        33,
+        -64
+      ],
+      [
+        122,
+        33,
+        -49
+      ],
+      [
+        137,
+        38,
+        -17
+      ],
+      [
+        137,
+        48,
+        35
+      ],
+      [
+        113,
+        52,
+        80
+      ],
+      [
+        57,
+        45,
+        112
+      ],
+      [
+        -7,
+        29,
+        123
+      ],
+      [
+        -73,
+        20,
+        117
+      ],
+      [
+        -116,
+        24,
+        89
+      ],
+      [
+        -121,
+        26,
+        61
+      ]
+    ],
+    "closed": true,
+    "curveType": "centripetal",
+    "arcLengthDivisions": 5000,
+    "length": 725.0199003216975,
+    "stationDistances": [
+      0,
+      247.23178600969885
+    ],
+    "startDistance": 4,
+    "railOffsets": [
+      -1.12,
+      1.12
+    ],
+    "railsRadius": 0.09,
+    "sleepersStep": 1.55,
+    "sleepersSize": [
+      4.75,
+      0.24,
+      0.72
+    ],
+    "guardsOffset": [
+      -2.15,
+      2.15
+    ],
+    "guardHeight": 1.35,
+    "trestleStep": 19,
+    "overheadPoleStep": 36,
+    "wireHeight": 7.9
+  },
+  "islands": [
+    {
+      "id": "salt",
+      "position": [
+        -102,
+        24,
+        23
+      ],
+      "radius": 35
+    },
+    {
+      "id": "mango",
+      "position": [
+        99,
+        31,
+        -84
+      ],
+      "radius": 38
+    },
+    {
+      "id": "cloudworks",
+      "position": [
+        0,
+        -1.1,
+        0
+      ],
+      "radius": 19
+    }
+  ],
+  "houses": {
+    "salt": [
+      {
+        "position": [
+          -13.0,
+          0.6,
+          4.0
+        ],
+        "size": [
+          7.0,
+          8.0,
+          6.0
+        ],
+        "rotationY": 0.12,
+        "material": "M.plasterWhite"
+      },
+      {
+        "position": [
+          1.0,
+          0.6,
+          2.0
+        ],
+        "size": [
+          6.0,
+          6.8,
+          5.0
+        ],
+        "rotationY": -0.06,
+        "material": "M.plasterGold"
+      },
+      {
+        "position": [
+          12.0,
+          0.6,
+          -5.0
+        ],
+        "size": [
+          7.0,
+          9.0,
+          6.0
+        ],
+        "rotationY": -0.25,
+        "material": "M.plasterPink"
+      },
+      {
+        "position": [
+          -14.0,
+          0.6,
+          -10.0
+        ],
+        "size": [
+          6.0,
+          7.6,
+          6.0
+        ],
+        "rotationY": 0.04,
+        "material": "M.plaster"
+      },
+      {
+        "position": [
+          -2.0,
+          0.6,
+          -16.0
+        ],
+        "size": [
+          8.0,
+          9.0,
+          6.0
+        ],
+        "rotationY": 0.0,
+        "material": "M.plasterWhite"
+      },
+      {
+        "position": [
+          18.0,
+          0.6,
+          -17.0
+        ],
+        "size": [
+          5.5,
+          6.3,
+          5.0
+        ],
+        "rotationY": -0.3,
+        "material": "M.plasterGold"
+      }
+    ],
+    "mango": [
+      {
+        "position": [
+          -17.0,
+          0.6,
+          1.0
+        ],
+        "size": [
+          7.0,
+          8.5,
+          6.0
+        ],
+        "rotationY": 0.15,
+        "material": "M.plasterGold"
+      },
+      {
+        "position": [
+          -2.0,
+          0.6,
+          4.0
+        ],
+        "size": [
+          7.0,
+          7.5,
+          6.0
+        ],
+        "rotationY": -0.04,
+        "material": "M.plasterWhite"
+      },
+      {
+        "position": [
+          14.0,
+          0.6,
+          0.0
+        ],
+        "size": [
+          6.0,
+          9.0,
+          6.0
+        ],
+        "rotationY": -0.2,
+        "material": "M.plasterPink"
+      },
+      {
+        "position": [
+          -12.0,
+          0.6,
+          -13.0
+        ],
+        "size": [
+          7.0,
+          8.0,
+          6.0
+        ],
+        "rotationY": 0.1,
+        "material": "M.plaster"
+      },
+      {
+        "position": [
+          6.0,
+          0.6,
+          -14.0
+        ],
+        "size": [
+          8.0,
+          9.3,
+          7.0
+        ],
+        "rotationY": -0.2,
+        "material": "M.plasterWhite"
+      },
+      {
+        "position": [
+          24.0,
+          0.6,
+          -10.0
+        ],
+        "size": [
+          5.0,
+          6.0,
+          5.0
+        ],
+        "rotationY": -0.2,
+        "material": "M.plasterGold"
+      }
+    ]
+  },
+  "palette": {
+    "cream": "#f4deac",
+    "plaster": "#f0d7af",
+    "plasterPink": "#dca791",
+    "plasterGold": "#e6bf7b",
+    "plasterWhite": "#f4e5c8",
+    "roof": "#bb644e",
+    "roofLight": "#dc8561",
+    "roofDark": "#944f4d",
+    "stone": "#7b818b",
+    "rock": "#73777e",
+    "rockDark": "#5b6577",
+    "rockLight": "#92928c",
+    "grass": "#809879",
+    "grassLight": "#a1ad80",
+    "path": "#d1bd98",
+    "wood": "#92664b",
+    "woodLight": "#c6925c",
+    "woodDark": "#674f44",
+    "green": "#245d51",
+    "greenLight": "#49816a",
+    "greenDark": "#193e3e",
+    "leaf": "#528570",
+    "leafLight": "#89a275",
+    "leafDark": "#3b6c62",
+    "iron": "#49545c",
+    "rail": "#aca6a0",
+    "brass": "#d3a359",
+    "glow": "#ffd783",
+    "dark": "#324851",
+    "glass": "#99d9d0",
+    "orange": "#e9a362",
+    "pink": "#d29ca3",
+    "blue": "#668eaa",
+    "white": "#f7e8cb",
+    "skin": "#e4b389",
+    "skinDark": "#a97c5a",
+    "hair": "#64504a"
+  },
+  "uiIds": [
+    "scene",
+    "loading",
+    "hud",
+    "sound",
+    "view",
+    "help",
+    "pause",
+    "lineName",
+    "dist",
+    "destName",
+    "destZh",
+    "money",
+    "streak",
+    "weatherIcon",
+    "weatherLabel",
+    "locationTag",
+    "locationName",
+    "toast",
+    "subtitle",
+    "welcome",
+    "start",
+    "welcomeWorkshop",
+    "dockAction",
+    "doors",
+    "workshop",
+    "comfortText",
+    "comfortFill",
+    "fromStation",
+    "routeTrain",
+    "toStation",
+    "speed",
+    "speedAdvice",
+    "speedFill",
+    "passengers",
+    "condition",
+    "brake",
+    "power",
+    "workshopUI",
+    "upgrade1",
+    "part1Text",
+    "upgrade2",
+    "part2Text",
+    "upgradeFill",
+    "upgradeCaption",
+    "leaveWorkshop",
+    "modal",
+    "modalTitle",
+    "modalContent",
+    "resume",
+    "restart"
+  ]
+}

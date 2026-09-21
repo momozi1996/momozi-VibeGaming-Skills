@@ -1,0 +1,121 @@
+{
+  "browser": "153.0.8010.50",
+  "os": "darwin",
+  "viewport": "1440x1000 / 390x844",
+  "fixture": "Time-compressed 60Hz simulation controller for route completion; keyboard and pointer tests run in real browser time.",
+  "results": [
+    {
+      "name": "offline initial scene and no runtime errors",
+      "pass": true,
+      "detail": {
+        "length": 725.0199003216975,
+        "render": {
+          "frame": 52,
+          "calls": 432,
+          "triangles": 349379,
+          "points": 550,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "name": "real W input moves, release coasts, S brakes",
+      "pass": true,
+      "detail": {
+        "before": 0,
+        "power": 2.7191791231137445,
+        "coast": 3.4366272910656708,
+        "brake": 0
+      }
+    },
+    {
+      "name": "door cannot open in motion",
+      "pass": true
+    },
+    {
+      "name": "pause freezes simulation and releases input",
+      "pass": true
+    },
+    {
+      "name": "camera orbit and preset controls",
+      "pass": true
+    },
+    {
+      "name": "full Saltlight → Mango route, gentle arrival",
+      "pass": true,
+      "detail": {
+        "mode": "docked",
+        "comfort": 98.72837465316518,
+        "min": 92.83718099847955,
+        "ticks": 2028,
+        "misses": 0,
+        "dist": 247.23178600969885,
+        "remaining": 0,
+        "rough": 14.804826598359238
+      }
+    },
+    {
+      "name": "doors, boarding, +75 bonus, no repeated payout",
+      "pass": true,
+      "detail": {
+        "earned": 123,
+        "passengers": 14
+      }
+    },
+    {
+      "name": "full return route reaches Saltlight and increments streak",
+      "pass": true,
+      "detail": {
+        "mode": "docked",
+        "station": 0,
+        "comfort": 99.6711855563883,
+        "misses": 0,
+        "ticks": 3845
+      }
+    },
+    {
+      "name": "fast driving loses comfort and emergency stop denies bonus",
+      "pass": true,
+      "detail": {
+        "mode": "docked",
+        "comfort": 12,
+        "misses": 1,
+        "broken": true
+      }
+    },
+    {
+      "name": "restart resets journey but keeps earned currency",
+      "pass": true
+    },
+    {
+      "name": "workshop sequential parts, actual geometry and exit",
+      "pass": true
+    },
+    {
+      "name": "upgrade and wallet persist on reload",
+      "pass": true
+    },
+    {
+      "name": "blur pauses and clears held buttons",
+      "pass": true
+    },
+    {
+      "name": "malformed save is safely ignored",
+      "pass": true
+    },
+    {
+      "name": "mobile layout and pointer pedal release",
+      "pass": true
+    },
+    {
+      "name": "mobile workshop is operable",
+      "pass": true
+    },
+    {
+      "name": "all browser errors and external requests",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "external": []
+}

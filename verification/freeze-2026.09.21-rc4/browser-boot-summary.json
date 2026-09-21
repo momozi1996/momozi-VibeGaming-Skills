@@ -1,0 +1,247 @@
+{
+  "success": true,
+  "rows": [
+    {
+      "id": "maomao3dgame",
+      "family": null,
+      "url": "http://127.0.0.1:54982",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "ALOHA KART — 夏日猫猫大奖赛"
+    },
+    {
+      "id": "moshougame",
+      "family": null,
+      "url": "http://127.0.0.1:55106",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "visible": false
+        }
+      ],
+      "title": "北郡 · 经典之境 | Northshire"
+    },
+    {
+      "id": "allgame",
+      "family": "racing",
+      "url": "http://127.0.0.1:55407",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "ALOHA KART — 夏日猫猫大奖赛"
+    },
+    {
+      "id": "allgame",
+      "family": "adventure",
+      "url": "http://127.0.0.1:55680",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "visible": false
+        }
+      ],
+      "title": "北郡 · 经典之境 | Northshire"
+    },
+    {
+      "id": "survivorgame",
+      "family": null,
+      "url": "http://127.0.0.1:55870",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "月灯守夜人 · survivorGame"
+    },
+    {
+      "id": "towerdefensegame",
+      "family": null,
+      "url": "http://127.0.0.1:55960",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "灯火小径 · towerDefenseGame"
+    },
+    {
+      "id": "platformgame",
+      "family": null,
+      "url": "http://127.0.0.1:56014",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "云屿邮差 · platformGame"
+    },
+    {
+      "id": "farmgame",
+      "family": null,
+      "url": "http://127.0.0.1:56080",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "风物小园 · farmGame"
+    },
+    {
+      "id": "yimogame",
+      "family": null,
+      "url": "http://127.0.0.1:56149",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        },
+        {
+          "width": 310,
+          "height": 310,
+          "visible": true
+        }
+      ],
+      "title": "伊莫 · 风栖原野 | 可玩风格原型"
+    },
+    {
+      "id": "quanwanggame",
+      "family": null,
+      "url": "http://127.0.0.1:56185",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 720,
+          "visible": true
+        }
+      ],
+      "title": "NEON IMPACT / 霓虹对决"
+    },
+    {
+      "id": "csgame",
+      "family": null,
+      "url": "http://127.0.0.1:56259",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        },
+        {
+          "width": 240,
+          "height": 240,
+          "visible": false
+        }
+      ],
+      "title": "COUNTERLINE — Dust Protocol"
+    },
+    {
+      "id": "huochegame",
+      "family": null,
+      "url": "http://127.0.0.1:56288",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "CLOUDLINE · 云间慢行"
+    },
+    {
+      "id": "wangzhegame",
+      "family": null,
+      "url": "http://127.0.0.1:56308",
+      "passed": true,
+      "errors": [],
+      "blocked": [],
+      "http": [],
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 800,
+          "visible": true
+        }
+      ],
+      "title": "RIFT FORGE · 峡谷演武"
+    }
+  ],
+  "note": "Freshly restored/built projects served on isolated localhost ports, nonlocal requests blocked. Desktop boot/canvas smoke only, not full gameplay, all-model, real-phone or performance certification."
+}

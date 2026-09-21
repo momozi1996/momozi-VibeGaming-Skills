@@ -1,0 +1,60 @@
+{
+  "scope": "Every ordinary file hashed and symlink inventoried except .git and current evidence output; release files also decoded/parsed/scanned. Not legal/security certification.",
+  "inventoryFilesAndLinks": 52448,
+  "inventoryBytes": 2712484784,
+  "inventoryGroups": {
+    "(root)": 53,
+    "playable-games": 348,
+    "docs": 34,
+    "verification": 50476,
+    "scripts": 4,
+    ".github": 3,
+    "skills": 1530
+  },
+  "inventoryBytesByGroup": {
+    "(root)": 499885866,
+    "playable-games": 35420148,
+    "docs": 5314393,
+    "verification": 1649663606,
+    "scripts": 18364,
+    ".github": 1945,
+    "skills": 522180462
+  },
+  "symlinks": 51,
+  "releaseFiles": 1622,
+  "releaseBytes": 1027096581,
+  "imagesDecoded": 464,
+  "jsonParsed": 169,
+  "pythonParsed": 75,
+  "markdownChecked": 252,
+  "brokenLinks": [],
+  "historicMachinePathFiles": [
+    "skills/allgame/assets/kits/adventure/assets/golden/capture.json",
+    "skills/moshougame/assets/golden/capture.json",
+    "skills/yimogame/assets/reference-project/references/official-site.html",
+    "wangzheGame-交付记录.md"
+  ],
+  "secretPatternHits": [],
+  "unwantedReleaseFiles": [],
+  "over100MiB": [
+    {
+      "path": "quanwangGame.zip",
+      "bytes": 173200783
+    },
+    {
+      "path": "skills/yimogame/vendor/npm-cache.tar.gz",
+      "bytes": 140602813
+    },
+    {
+      "path": "yimoGame.zip",
+      "bytes": 171266327
+    }
+  ],
+  "git": {
+    "tracked": 51857,
+    "trackedNodeModules": 48107,
+    "trackedVerification": 50316,
+    "remotes": []
+  },
+  "errors": []
+}

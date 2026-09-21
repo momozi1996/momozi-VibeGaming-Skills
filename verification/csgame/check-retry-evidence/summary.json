@@ -1,0 +1,38 @@
+{
+  "startedAt": "2026-09-21T08:31:38.373Z",
+  "phases": [
+    {
+      "name": "unit",
+      "code": 0,
+      "timedOut": false,
+      "log": "unit.log"
+    },
+    {
+      "name": "build",
+      "code": 0,
+      "timedOut": false,
+      "log": "build.log"
+    },
+    {
+      "name": "development-server",
+      "url": "http://127.0.0.1:60655"
+    },
+    {
+      "name": "development",
+      "code": 1,
+      "timedOut": false,
+      "log": "development.log"
+    }
+  ],
+  "passed": false,
+  "notes": "Tests use the bundled immutable contracts, relocated to the candidate source. Browser fixtures are DEV-only; screenshots/reports are written outside the project. Platform, URL and page-before-browser cleanup adaptations do not remove assertions.",
+  "project": "/private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/csgame-package-aaeh345e/project",
+  "platform": "darwin",
+  "node": "v25.8.1",
+  "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "browserArgs": [
+    "--use-angle=metal"
+  ],
+  "error": "development failed\nPASS Menu renders without startup errors\nPASS Real deploy click captures pointer and starts active round\nPASS W input moves forward at bounded speed\nPASS Real pointer movement rotates view\nPASS Player cannot walk through solid facade\nPASS Central arch is walkable using real input\nPASS Crouch changes camera height; jump lands\nPASS World geometry occludes real bullet raycasts\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\ntrue !== false\n\n    at file:///private/var/folders/l8/h72qrnhj4zz59b1h_qb6rv940000gn/T/csgame-package-aaeh345e/check-retry/.runner/development.mjs:20:283 {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: true,\n  expected: false,\n  operator: 'strictEqual',\n  diff: 'simple'\n}\n{\n  phase: 'active',\n  paused: false,\n  player: {\n    x: 0,\n    z: 17,\n    y: 0,\n    vy: 0,\n    yaw: 0.0009571756508667018,\n    pitch: 0.06,\n    health: 100,\n    armor: 50,\n    moving: false,\n    crouched: false,\n    eye: 1.7\n  },\n  ct: 0,\n  t: 0,\n  round: 1,\n  reason: '',\n  kills: 0,\n  deaths: 0,\n  time: 39.734400000000164,\n  defuse: 0,\n  ammo: {\n    rifle: { mag: 23, reserve: 90 },\n    pistol: { mag: 12, reserve: 48 },\n    sniper: { mag: 5, reserve: 20 }\n  },\n  slot: 'rifle',\n  money: 2400,\n  bots: [\n    {\n      x: -6.107325287299649,\n      z: 9.076673117275131,\n      name: 'VIPER',\n      id: 0,\n      y: 0,\n      hp: 100,\n      alive: true,\n      yaw: 0.6566827258732684,\n      fire: 83.31730000000076,\n      path: [],\n      repath: 83.31730000000076,\n      alert: 0,\n      seen: false,\n      walk: 38.93130000000007,\n      death: 7.766400000000043\n    },\n    {\n      x: 12,\n      z: -7,\n      name: 'ROOK',\n      id: 1,\n      y: 0,\n      hp: 100,\n      alive: false,\n      yaw: -1.6814535479687922,\n      fire: 1.7000999999999997,\n      path: [],\n      repath: 0.10010000000000036,\n      alert: 0,\n      seen: false,\n      walk: 0,\n      death: 25.06569999999965\n    },\n    {\n      x: 2,\n      z: -20,\n      name: 'GHOST',\n      id: 2,\n      y: 0,\n      hp: 100,\n      alive: false,\n      yaw: -0.2662520491509254,\n      fire: 2.1001000000000003,\n      path: [],\n      repath: 0.40010000000000034,\n      alert: 0,\n      seen: false,\n      walk: 0,\n      death: 25.06569999999965\n    }\n  ],\n  shots: 7,\n  fps: 59.34326783594881\n}\n",
+  "finishedAt": "2026-09-21T08:33:07.492Z"
+}

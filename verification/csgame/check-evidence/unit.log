@@ -1,0 +1,36 @@
+✔ deployment starts a complete round with no elapsed objective time (4.528708ms)
+✔ all spawn positions have collision clearance (0.16675ms)
+✔ WASD follows camera orientation (1.862667ms)
+✔ diagonal movement has no speed boost (0.61925ms)
+✔ crouch and walk have distinct reduced movement speeds (0.734166ms)
+✔ collision blocks walls even at large displacement (0.361333ms)
+✔ central arch is actually passable (0.255667ms)
+✔ world boundary cannot be escaped (4.757791ms)
+✔ wall blocks LOS but central passage does not (0.718334ms)
+✔ A* finds clearance-safe routes between all bot spawns and player (6.14925ms)
+✔ jump leaves ground and lands without falling below it (0.236ms)
+✔ shooting consumes exactly one round and respects cooldown (0.241084ms)
+✔ empty, paused, and deployment states cannot fire (0.268916ms)
+✔ reload transfers ammo conservatively and refuses full magazines (0.237709ms)
+✔ limited reserves cannot create ammo (1.26975ms)
+✔ switching cancels reload without free ammo (0.273125ms)
+✔ headshots and kill rewards occur exactly once (0.094292ms)
+✔ eliminating all hostiles does not bypass bomb objective (0.09325ms)
+✔ defuse fails away from objective and progress resets on release or movement (0.229833ms)
+✔ five second defuse awards one CT point and one reward (0.212541ms)
+✔ expiration beats unfinished defuse and awards only one T point (0.075916ms)
+✔ armor absorbs damage and lethal damage resolves death once (0.05475ms)
+✔ pause freezes bomb, reload, movement, bots and round transitions (0.0605ms)
+✔ armory enforces funds, spawn radius and armor cap (1.58875ms)
+✔ new rounds reset transient state but preserve match stats/loadout (0.376792ms)
+✔ first to five enters match result instead of spawning round six (0.189083ms)
+✔ match restart clears statistics and previous equipment (0.048666ms)
+✔ bots navigate and damage only with unobstructed sight (6.6235ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 215.527625

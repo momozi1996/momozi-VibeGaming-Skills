@@ -1,0 +1,40 @@
+
+> counterline-three@1.0.0 test
+> node --test tests/*.test.js
+
+✔ deployment starts a complete round with no elapsed objective time (1.764167ms)
+✔ all spawn positions have collision clearance (0.139833ms)
+✔ WASD follows camera orientation (1.871458ms)
+✔ diagonal movement has no speed boost (0.569833ms)
+✔ crouch and walk have distinct reduced movement speeds (0.905292ms)
+✔ collision blocks walls even at large displacement (0.597625ms)
+✔ central arch is actually passable (0.635916ms)
+✔ world boundary cannot be escaped (0.601084ms)
+✔ wall blocks LOS but central passage does not (0.22425ms)
+✔ A* finds clearance-safe routes between all bot spawns and player (2.682792ms)
+✔ jump leaves ground and lands without falling below it (1.103792ms)
+✔ shooting consumes exactly one round and respects cooldown (0.645041ms)
+✔ empty, paused, and deployment states cannot fire (0.114666ms)
+✔ reload transfers ammo conservatively and refuses full magazines (0.424791ms)
+✔ limited reserves cannot create ammo (1.032375ms)
+✔ switching cancels reload without free ammo (1.136709ms)
+✔ headshots and kill rewards occur exactly once (0.5615ms)
+✔ eliminating all hostiles does not bypass bomb objective (0.226209ms)
+✔ defuse fails away from objective and progress resets on release or movement (0.268666ms)
+✔ five second defuse awards one CT point and one reward (0.215417ms)
+✔ expiration beats unfinished defuse and awards only one T point (0.075375ms)
+✔ armor absorbs damage and lethal damage resolves death once (0.059583ms)
+✔ pause freezes bomb, reload, movement, bots and round transitions (0.05775ms)
+✔ armory enforces funds, spawn radius and armor cap (0.106708ms)
+✔ new rounds reset transient state but preserve match stats/loadout (0.267417ms)
+✔ first to five enters match result instead of spawning round six (0.331041ms)
+✔ match restart clears statistics and previous equipment (0.040667ms)
+✔ bots navigate and damage only with unobstructed sight (4.448791ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 217.915375

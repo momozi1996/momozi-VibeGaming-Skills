@@ -19,4 +19,4 @@ about: 报告具体skill的安装、生成、启动或游戏问题
 ## 核对
 - [ ] 安装了完整skill目录，不是只有SKILL.md
 - [ ] 校验ZIP SHA-256
-- [ ] 通过HTTP服务打开，不是双击HTML
+- [ ] 按对应包说明启动（通常用HTTP；huochegame支持双击离线HTML）

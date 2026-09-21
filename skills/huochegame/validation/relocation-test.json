@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "context": "Copied standalone Skill without node_modules to unrelated temporary directory; no original workspace source paths used",
+  "checks": [
+    {
+      "command": "verify",
+      "pass": true
+    },
+    {
+      "command": "restore",
+      "pass": true
+    },
+    {
+      "command": "compare",
+      "pass": true
+    },
+    {
+      "command": "rebuild relocated exact and compare",
+      "pass": true
+    }
+  ]
+}

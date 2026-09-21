@@ -1,0 +1,17 @@
+PASS Production debug API absent
+PASS Production KeyW changes rendered hero position correctly
+PASS Production KeyS changes rendered hero position correctly
+PASS Production KeyA changes rendered hero position correctly
+PASS Production KeyD changes rendered hero position correctly
+PASS Production ArrowUp changes rendered hero position correctly
+PASS Production ArrowDown changes rendered hero position correctly
+PASS Production ArrowLeft changes rendered hero position correctly
+PASS Production ArrowRight changes rendered hero position correctly
+PASS Production left world click moves hero
+PASS Production right world click moves hero
+PASS Production skill key renders cooldown
+PASS Production shop opens and closes through real input
+PASS Production pause/resume buttons work
+PASS Production C switch updates native UI bindings
+PASS Production contains no HTML UI
+PASS No production runtime errors

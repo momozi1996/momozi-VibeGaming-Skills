@@ -1,0 +1,34 @@
+{
+  "changed": [
+    "CHANGELOG.md",
+    "README.md",
+    "docs/FREEZE-REVIEW.md"
+  ],
+  "added": [
+    "docs/images/README.md",
+    "docs/images/allgame-adventure.jpg",
+    "docs/images/allgame-racing.jpg",
+    "docs/images/farm-play.jpg",
+    "docs/images/farm-theme.jpg",
+    "docs/images/maomao-race.jpg",
+    "docs/images/maomao-select.jpg",
+    "docs/images/moshou-courtyard.jpg",
+    "docs/images/moshou-forest.jpg",
+    "docs/images/platform-play.jpg",
+    "docs/images/platform-theme.jpg",
+    "docs/images/quanwang-kick.png",
+    "docs/images/quanwang-select.png",
+    "docs/images/quanwang-special.png",
+    "docs/images/survivor-play.jpg",
+    "docs/images/survivor-theme.jpg",
+    "docs/images/tower-defense-play.jpg",
+    "docs/images/tower-defense-theme.jpg",
+    "docs/images/yimo-dex.jpg",
+    "docs/images/yimo-field.jpg",
+    "docs/images/yimo-linked.jpg"
+  ],
+  "removed": [],
+  "unchangedSkillFiles": 1138,
+  "unchangedZIPs": 9,
+  "linksPassed": true
+}

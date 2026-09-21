@@ -1,0 +1,4 @@
+import fs from 'node:fs';import {Match} from '../src/simulation.js';
+let data=JSON.parse(fs.readFileSync('public/assets/champions.json')),m=new Match(data,'Ashe','standard'),start=performance.now(),samples=[];
+for(let i=0;i<18000&&m.status==='playing';i++){m.step(.1);m.events=[];if(i%3000===2999){let s={seconds:Math.round(m.time),kills:[...m.kills],towers:[...m.towerKills],entities:m.entities.length};samples.push(s);console.log(s)}}
+let result={status:m.status,winner:m.winner,simulatedSeconds:m.time,wallSeconds:(performance.now()-start)/1000,samples,scope:'Unmodified standard match simulation with player idle, no forced damage/teleport/gold. dt=0.1; accelerated pure simulation, not browser real-time or precision parity evidence.'};fs.writeFileSync('artifacts/natural-match-report.json',JSON.stringify(result,null,2));console.log(result.status,result.winner,result.simulatedSeconds);

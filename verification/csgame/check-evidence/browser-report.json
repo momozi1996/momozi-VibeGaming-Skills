@@ -1,0 +1,37 @@
+{
+  "url": "http://127.0.0.1:58317",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "browser": "153.0.8010.50",
+  "checks": [
+    "Menu renders without startup errors",
+    "Real deploy click captures pointer and starts active round",
+    "W input moves forward at bounded speed",
+    "Real pointer movement rotates view",
+    "Player cannot walk through solid facade",
+    "Central arch is walkable using real input",
+    "Crouch changes camera height; jump lands",
+    "World geometry occludes real bullet raycasts",
+    "Real raycast headshot eliminates bot, awards money, and still requires bomb defuse",
+    "R reload transfers reserve ammo and updates HUD",
+    "Sidearm is truly semi-automatic, one shot per mouse press",
+    "Held scoreboard shows current stats and hides on key release",
+    "Pointer unlock pauses objective time and resume recaptures mouse",
+    "Armory charges correct price; sniper has actual scoped aim",
+    "Defuse requires held input and resets on interruption",
+    "Full five-second keyboard defuse wins round",
+    "Next round resets actors and ammo while preserving purchased primary",
+    "Bomb expiration produces a real losing round",
+    "Lethal damage produces death and an opponent point",
+    "First-to-five resolves match and shows result panel",
+    "Replay creates a clean new match",
+    "Blur clears held movement; resume does not leave sticky input",
+    "No browser errors or HTTP failures across full test"
+  ],
+  "errors": [],
+  "requests": [],
+  "observedRecentFps": 48.001280034134275,
+  "notes": "Deterministic DEV fixtures place actors and accelerate result scenarios; movement, shooting, reload, buying, defuse, pause and replay use real DOM/keyboard/mouse input."
+}

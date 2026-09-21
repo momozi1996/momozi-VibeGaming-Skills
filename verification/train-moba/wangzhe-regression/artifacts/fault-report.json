@@ -1,0 +1,8 @@
+{
+  "injected": "Garen.png request aborted",
+  "expectedErrors": [
+    "图像资源加载失败: Garen.png"
+  ],
+  "startupBlocked": true,
+  "notes": "Expected failure injection, not an unexplained normal-run error; native canvas error frame screenshot."
+}

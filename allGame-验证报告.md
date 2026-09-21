@@ -1,5 +1,7 @@
 # allGame 本次实测与独立打包报告
 
+> 历史验证记录：下文 `verification/` 路径指维护者本地档案，不随发行提供，故不作为下载链接。当前可查看的实机画面见 [README图库](README.md#看实际画面)，本版复核见 [冻结审查](docs/FREEZE-REVIEW.md)。
+
 日期：2026-09-16。环境：macOS、Node25.8.1、npm11.11.0、Chrome、Apple M3／ANGLE Metal。测试由本agent执行，没有调用其他厂商模型或另一个实现agent。
 
 ## 包与结构
@@ -32,18 +34,18 @@
 
 ## 证据
 
-- [打包与SHA报告](verification/allgame/package-report.json)
-- [源码目录工具自检](verification/allgame/selftest.json)
-- [最终ZIP独立解压48项自检](verification/allgame/zip-isolated-selftest.json)
-- [污染副本确实被检测](verification/allgame/isolated-corruption-detected.json)
-- [赛车完整调度报告](verification/allgame/racing-check/summary.json)
-- [赛车开发13组](verification/allgame/racing-check/development/report.json) · [生产13组](verification/allgame/racing-check/production/report.json)
-- [冒险完整调度报告](verification/allgame/adventure-check/summary.json)
-- [冒险分阶段汇总](verification/allgame/adventure-check/baseline/summary.json)
-- [冒险试玩18组](verification/allgame/adventure-check/baseline/screenshots/playthrough-report.json)
-- [边界9组](verification/allgame/adventure-check/baseline/screenshots/edge-report.json) · [生产6组](verification/allgame/adventure-check/baseline/screenshots/production-report.json)
-- [赛车通用probe](verification/allgame/racing-probe/report.json) · [冒险通用probe](verification/allgame/adventure-probe/report.json)
-- [手机赛车截图](verification/allgame/racing-probe/02-started.png) · [桌面冒险截图](verification/allgame/adventure-probe/02-started.png)
+- 打包与SHA报告（本地历史档案：`verification/allgame/package-report.json`）
+- 源码目录工具自检（本地历史档案：`verification/allgame/selftest.json`）
+- 最终ZIP独立解压48项自检（本地历史档案：`verification/allgame/zip-isolated-selftest.json`）
+- 污染副本确实被检测（本地历史档案：`verification/allgame/isolated-corruption-detected.json`）
+- 赛车完整调度报告（本地历史档案：`verification/allgame/racing-check/summary.json`）
+- 赛车开发13组（本地历史档案：`verification/allgame/racing-check/development/report.json`） · 生产13组（本地历史档案：`verification/allgame/racing-check/production/report.json`）
+- 冒险完整调度报告（本地历史档案：`verification/allgame/adventure-check/summary.json`）
+- 冒险分阶段汇总（本地历史档案：`verification/allgame/adventure-check/baseline/summary.json`）
+- 冒险试玩18组（本地历史档案：`verification/allgame/adventure-check/baseline/screenshots/playthrough-report.json`）
+- 边界9组（本地历史档案：`verification/allgame/adventure-check/baseline/screenshots/edge-report.json`） · 生产6组（本地历史档案：`verification/allgame/adventure-check/baseline/screenshots/production-report.json`）
+- 赛车通用probe（本地历史档案：`verification/allgame/racing-probe/report.json`） · 冒险通用probe（本地历史档案：`verification/allgame/adventure-probe/report.json`）
+- 手机赛车截图（本地历史档案：`verification/allgame/racing-probe/02-started.png`） · 桌面冒险截图（本地历史档案：`verification/allgame/adventure-probe/02-started.png`）
 
 ## 能力边界与未验证项
 

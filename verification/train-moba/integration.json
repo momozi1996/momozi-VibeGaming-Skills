@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "previousPackageFilesUnchanged": 1256,
+  "new": [
+    {
+      "id": "huochegame",
+      "baselineFiles": 29,
+      "baselineByteIdentical": true,
+      "installedFiles": 83,
+      "installByteIdentical": true,
+      "jsonParsed": 17,
+      "maintainedMarkdownChecked": 15,
+      "historicMachinePathFiles": 0
+    },
+    {
+      "id": "wangzhegame",
+      "baselineFiles": 189,
+      "baselineByteIdentical": true,
+      "installedFiles": 211,
+      "installByteIdentical": true,
+      "jsonParsed": 32,
+      "maintainedMarkdownChecked": 12,
+      "historicMachinePathFiles": 0
+    }
+  ],
+  "historicPaths": {
+    "huochegame": [],
+    "wangzhegame": []
+  },
+  "errors": []
+}

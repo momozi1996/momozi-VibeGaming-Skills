@@ -1,0 +1,4 @@
+interface:
+  display_name: "wangzheGame · 峡谷演武"
+  short_description: "完整生成单机五对五峡谷游戏，含英雄技能、兵线推塔、装备胜负与原生界面"
+  default_prompt: "使用 $wangzhegame 在新目录完整复刻RIFT FORGE v0.1.1，直接恢复并启动，保留五英雄、三路AI、技能装备和胜负，不只做菜单。"

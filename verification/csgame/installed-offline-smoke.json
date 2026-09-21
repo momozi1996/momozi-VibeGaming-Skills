@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "Complete project created and Python HTTP started without npm",
+    "Original production boots with no DEV API",
+    "Real deploy/pointer lock and shooting consume ammo",
+    "Reload restores magazine",
+    "Armory purchase and sniper scope work",
+    "Pause freezes countdown and returns to menu",
+    "No external asset requests, JS errors or HTTP failures"
+  ],
+  "errors": [],
+  "blockedExternal": [],
+  "source": "Isolated ZIP install, game.py play, original bundled dist, no project node_modules"
+}

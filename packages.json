@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "release": "2026.09.18-rc1",
+  "release": "2026.09.21-rc4",
   "status": "private-freeze-candidate-publication-blocked",
   "packages": [
     {
@@ -92,6 +92,36 @@
       "sha256": "5972dc1ce3e285899ad927bc27d06ba1ee4a12d6254d7604888cb5c1f61d7601",
       "bytes": 173200783,
       "guide": "quanwangGame-使用说明.md"
+    },
+    {
+      "id": "csgame",
+      "display_name": "CSGame",
+      "genre": "3D 单人战术FPS",
+      "directory": "skills/csgame",
+      "zip": "CSGame.zip",
+      "sha256": "7b15e63fdcba32b2fd218d22f9908ff66a944e342457ff2aaf6600ce82773e1f",
+      "bytes": 18334403,
+      "guide": "CSGame-使用说明.md"
+    },
+    {
+      "id": "huochegame",
+      "display_name": "huocheGame",
+      "genre": "3D群岛电车驾驶与工坊改装",
+      "directory": "skills/huochegame",
+      "zip": "huocheGame.zip",
+      "sha256": "1de66ee4a79d37c5e36ef8f14d064fffdaad669a0fc5993ffbe9c907d6ea79b1",
+      "bytes": 8198668,
+      "guide": "huocheGame-使用说明.md"
+    },
+    {
+      "id": "wangzhegame",
+      "display_name": "wangzheGame",
+      "genre": "3D单机5v5 MOBA",
+      "directory": "skills/wangzhegame",
+      "zip": "wangzheGame.zip",
+      "sha256": "b13adb777e1c8dde023d834d9c486ceff2049b3c07a824ee3a5b5c39c6cf6342",
+      "bytes": 30778287,
+      "guide": "wangzheGame-使用说明.md"
     }
   ]
 }

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1"
+    />
+    <meta name="theme-color" content="#294f50" />
+    <meta
+      name="description"
+      content="云间慢行 — 一辆电车，两座小岛，一段不必匆忙的旅程。离线可玩的 3D 云海电车小游戏。"
+    />
+    <title>CLOUDLINE · 云间慢行</title>
+    <style>
+      /*__CSS__*/
+    </style>
+  </head>
+  <body>
+    <div id="scene" aria-label="云海电车 3D 游戏"></div>
+    <div class="vignette"></div>
+    <div id="loading">
+      <div class="load-emblem">✧</div>
+      <b>CLOUDLINE</b><span>正在把云朵铺上轨道…</span>
+    </div>
+    <div id="hud">
+      <header>
+        <div class="brand">
+          <span class="brand-mark">⌁</span>
+          <div>CLOUDLINE<small>云 间 慢 行</small></div>
+        </div>
+        <div class="tools">
+          <button id="sound" title="声音 M" aria-label="切换声音">
+            ♫<span class="sound-dot"></span></button
+          ><button id="view" title="切换视角 V" aria-label="切换视角">◈</button
+          ><button id="help" title="驾驶指南" aria-label="驾驶指南">?</button
+          ><button id="pause" title="暂停 Esc" aria-label="暂停">Ⅱ</button>
+        </div>
+      </header>
+      <section class="destination">
+        <div class="eyebrow">
+          <span class="live-dot"></span
+          ><span id="lineName">01 &nbsp; THE COASTLINE</span>
+        </div>
+        <div class="destination-label">下一站 <span id="dist">— m</span></div>
+        <h1 id="destName">Mango Tide</h1>
+        <div class="destination-zh" id="destZh">芒果潮汐 · 海风与晚归的人</div>
+        <div class="wallet">
+          <span class="coin">✦</span><b id="money">240</b><i></i
+          ><span id="streak">连胜 ×0</span>
+        </div>
+      </section>
+      <div class="weather">
+        <span id="weatherIcon">☀</span>
+        <div id="weatherLabel">
+          海岸的黄昏<small>18:42 &nbsp; · &nbsp; 微风</small>
+        </div>
+      </div>
+      <div id="locationTag">
+        <span class="tiny-line"></span>
+        <div id="locationName">
+          Saltlight Terminus<small>盐光始发站 · 一场慢慢的旅行</small>
+        </div>
+      </div>
+      <div id="toast" role="status">
+        <span>✦</span>
+        <div></div>
+      </div>
+      <div id="subtitle" aria-live="polite"><strong></strong><span></span></div>
+      <section id="welcome" class="paper-card">
+        <div class="eyebrow">A LITTLE JOURNEY, ABOVE THE SEA</div>
+        <h2>把日子，开慢一点。</h2>
+        <p>海风正好，乘客已坐好。<br />握住动力，把这一车温柔送到下一座岛。</p>
+        <button id="start" class="primary">
+          启程 <span>W / 长按动力 &nbsp; →</span></button
+        ><button id="welcomeWorkshop" class="text-button">
+          先去 Oliver 的工坊 &nbsp; ↗
+        </button>
+      </section>
+      <div id="dockAction">
+        <button id="doors" class="primary">打开车门 <span>E</span></button
+        ><button id="workshop" class="secondary">⌘ &nbsp; Oliver 的工坊</button>
+      </div>
+      <section class="route-panel">
+        <div class="comfort-top">
+          <span>乘坐舒适度</span><b id="comfortText">舒适惬意 <em>100%</em></b>
+        </div>
+        <div class="comfort-track">
+          <div id="comfortFill"></div>
+          <span>✦</span>
+        </div>
+        <div class="route">
+          <span id="fromStation">Saltlight Terminus</span>
+          <div class="route-line"><i></i><b id="routeTrain">▰</b><i></i></div>
+          <span id="toStation">Mango Tide</span>
+        </div>
+      </section>
+      <footer>
+        <div class="speed-panel">
+          <div class="speed-row">
+            <strong id="speed">00</strong
+            ><span>km/h<small id="speedAdvice">缓缓出发</small></span>
+          </div>
+          <div class="speed-track"><i id="speedFill"></i><b></b></div>
+          <div class="speed-label">
+            <span>0</span><span>建议 24–34</span><span>60</span>
+          </div>
+        </div>
+        <div class="journey-stats">
+          <div>
+            <span class="stat-icon">♧</span
+            ><span
+              >车上乘客<strong id="passengers"
+                >12 <em>/ 16 人</em></strong
+              ></span
+            >
+          </div>
+          <i></i>
+          <div>
+            <span class="stat-icon wind">≈</span
+            ><span>实时路况<strong id="condition">平稳</strong></span>
+          </div>
+        </div>
+        <div class="pedals">
+          <button id="brake" aria-label="长按制动">
+            <kbd>S</kbd><span>制动<small>BRAKE</small></span
+            ><b>Ⅱ</b></button
+          ><button id="power" aria-label="长按动力">
+            <kbd>W</kbd><span>动力<small>POWER</small></span
+            ><b>↑</b>
+          </button>
+        </div>
+      </footer>
+      <div class="bottom-hint">
+        <span>← → 环顾 &nbsp; · &nbsp; V 视角 &nbsp; · &nbsp; E 车门</span
+        ><span>慢一点，也会到达。 &nbsp; ✧</span>
+      </div>
+    </div>
+    <div id="workshopUI">
+      <div class="workshop-label">
+        <div class="eyebrow">OLIVER'S HOMETOWN ISLAND</div>
+        <h1>Cloudworks<span>云上工坊</span></h1>
+        <p>给旧电车，一个新的远方。</p>
+      </div>
+      <section class="upgrade-card paper-card">
+        <div class="eyebrow">OLIVER CLOUDWORKS &nbsp; / &nbsp; 01</div>
+        <h2>一点手艺，很多心意。</h2>
+        <p>Oliver 已经备好了工具。<br />换上新叶片，再带上旅途的小小伙伴。</p>
+        <button id="upgrade1" class="upgrade-item">
+          <span class="part-icon">❋</span
+          ><span><b>炉火叶片</b><small id="part1Text">拆下旧部件</small></span
+          ><em>01 ↗</em>
+        </button>
+        <button id="upgrade2" class="upgrade-item" disabled>
+          <span class="part-icon">♧</span
+          ><span><b>小小伙伴</b><small id="part2Text">准备电车</small></span
+          ><em>02 ↗</em>
+        </button>
+        <div class="upgrade-progress"><i id="upgradeFill"></i></div>
+        <div id="upgradeCaption">第一回改装，Oliver 请客。</div>
+        <button id="leaveWorkshop" class="primary">
+          暂不改装，返回车站 <span>→</span>
+        </button>
+      </section>
+      <div class="workshop-caption">坐好，看工坊完成改装。</div>
+    </div>
+    <div id="modal" class="overlay" hidden>
+      <section class="modal-card">
+        <div class="eyebrow">TAKE YOUR TIME</div>
+        <h2 id="modalTitle">驾驶手册</h2>
+        <div id="modalContent"></div>
+        <button id="resume" class="primary">继续旅程 <span>→</span></button
+        ><button id="restart" class="text-button">重新开始本次旅程</button>
+      </section>
+    </div>
+    <script>
+      /*__THREE__*/
+    </script>
+    <script>
+      /*__GAME__*/
+    </script>
+  </body>
+</html>
