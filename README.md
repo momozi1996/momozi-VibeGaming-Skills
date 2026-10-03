@@ -1,4 +1,4 @@
-# momozi-VibeGaming · Skills
+# momozi · VibeGaming · Skills
 
 - VibeGaming · Game Skill Packages
 
