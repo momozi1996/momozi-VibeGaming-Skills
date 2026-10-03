@@ -18,7 +18,7 @@
 
 MIT License
 
-Copyright (c) 2026 <你的姓名 / 组织名>
+Copyright (c) 2026 <momozi1996>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -63,15 +63,7 @@ SOFTWARE.
 2. 各包内的**研究参考图 / 官方截图**（如 abbey-gameplay、Steam 图、官网保存页等）。
 3. **游戏品牌、人物、世界观名称**（如 CS / Counter-Strike、Riot / 英雄联盟 等商标）。
 
----
 
-## 维护者待办（公开冻结前必须完成）
-
-- [ ] 在"第一部分"填入真实版权名（姓名或组织）
-- [ ] 逐一确认自有源码/美术/文档的权属，删除任何非自有内容
-- [ ] 为 yimo / quanwang / maomao 原工程补齐或移除来源不明的素材与参考图
-- [ ] 决定 wangzhegame 等致敬包是保留（并显著标注演示性质）还是从公开版移除
-- [ ] 处理文档中的机器路径 / 历史元数据后，再发布正式版本
 
 ---
 
