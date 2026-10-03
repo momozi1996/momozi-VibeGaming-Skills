@@ -1,6 +1,8 @@
 # momozi · VibeGaming · Skills
 
 - VibeGaming · Game Skill Packages
+- <img width="1672" height="941" alt="VibeGaming 游戏技能包架构图" src="https://github.com/user-attachments/assets/f08ec552-c588-4b21-997c-d1ddc0941650" />
+
 
 **安装一个 skill，从完整工程出发，和 AI 一起做出真正能玩的游戏。**
 
