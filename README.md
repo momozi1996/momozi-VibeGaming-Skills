@@ -1,4 +1,6 @@
-# VibeGaming · Game Skill Packages
+# momozi-VibeGaming · Skills
+
+- VibeGaming · Game Skill Packages
 
 **安装一个 skill，从完整工程出发，和 AI 一起做出真正能玩的游戏。**
 
