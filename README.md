@@ -60,8 +60,8 @@ Agent会读取技能、生成独立项目并启动本地游戏。首次运行完
 | [towerDefenseGame.zip](towerDefenseGame.zip) | `towerdefensegame` / `$towerdefensegame` | 灯火小径；建塔、升级拆除、敌潮和胜负 | 0.8 MiB | [说明](创作游戏-使用说明.md) |
 | [platformGame.zip](platformGame.zip) | `platformgame` / `$platformgame` | 云屿邮差；三关、二段跳、收集、检查点、终点 | 0.6 MiB | [说明](创作游戏-使用说明.md) |
 | [farmGame.zip](farmGame.zip) | `farmgame` / `$farmgame` | 风物小园；种植、浇水、收获、订单、修缮、存档 | 0.8 MiB | [说明](创作游戏-使用说明.md) |
-| [yimoGame.zip](yimoGame.zip) | `yimogame` / `$yimogame` | 风栖原野；3D探索、捕捉、联结变身、委托完成 | 163.3 MiB | [说明](yimoGame-使用说明.md) |
-| [quanwangGame.zip](quanwangGame.zip) | `quanwanggame` / `$quanwanggame` | 霓虹对决；街机格斗、人机/双人/训练、必杀连击 | 165.2 MiB | [说明](quanwangGame-使用说明.md) |
+| [yimoGame.zip](bigfiles-split/README.md) | `yimogame` / `$yimogame` | 风栖原野；3D探索、捕捉、联结变身、委托完成 | 163.3 MiB · 分片 | [说明](yimoGame-使用说明.md) |
+| [quanwangGame.zip](bigfiles-split/README.md) | `quanwanggame` / `$quanwanggame` | 霓虹对决；街机格斗、人机/双人/训练、必杀连击 | 165.2 MiB · 分片 | [说明](quanwangGame-使用说明.md) |
 | [CSGame.zip](CSGame.zip) | `csgame` / `$csgame` | 3D单人战术FPS；AI射击、买枪、狙击、拆弹和回合胜负 | 17.5 MiB | [说明](CSGame-使用说明.md) |
 | [huocheGame.zip](huocheGame.zip) | `huochegame` / `$huochegame` | 3D电车驾驶；群岛线路、停站换客、奖励、工坊改装 | 7.8 MiB | [说明](huocheGame-使用说明.md) |
 | [wangzheGame.zip](wangzheGame.zip) | `wangzhegame` / `$wangzhegame` | 3D单机5v5 MOBA；五英雄、三路兵线、技能装备、推塔胜负 | 29.4 MiB | [说明](wangzheGame-使用说明.md) |
@@ -72,6 +72,14 @@ Agent会读取技能、生成独立项目并启动本地游戏。首次运行完
 
 
 ## 安装与更新
+
+> **大文件说明**：yimoGame 与 quanwangGame 因 GitHub 单文件 100MB 限制，
+> 以分片形式存放。安装前先执行：
+> ```bash
+> cd bigfiles-split && bash restore.sh   # 生成 .restored/ 并自动校验 SHA-256
+> ```
+> 再用还原出的 `.restored/yimoGame.zip`、`.restored/quanwangGame.zip` 继续安装。
+
 
 ### 方式一：安装独立 ZIP
 
@@ -623,10 +631,15 @@ python3 scripts/audit_packages.py --check-lock
 - [安全说明](SECURITY.md)：安装与本地执行边界、敏感问题处理。
 - [维护与发布](docs/PUBLISHING.md)：版本冻结、干净导出与公开分发检查。
 
+
 ## 使用许可
 
-**本仓库没有覆盖全部内容的统一开源授权；请按包、按资产确认许可。** 原工程源码、美术、字体、第三方依赖和游戏品牌分别适用各自权利说明。
+本仓库采用**分层授权**：
+- **自有代码与原创内容**：MIT License（详见 [LICENSE.md](LICENSE.md) 第一部分）。
+- **随包第三方内容**：按各自许可，使用前请阅读对应 `assets/**/LICENSE` 与
+  [逐包权利清单](docs/RIGHTS.md)。
+- **wangzhegame 等致敬包**：含 Riot 专有素材，仅供本地演示与学习，不含任何
+  官方授权，不可商用或再分发。
 
-尤其是 `wangzhegame` 含Riot专有图片与数据，部分其他包包含研究参考图片；素材完整不等于可以任意公开再分发或商用。现有许可与需确认事项见 [LICENSE.md](LICENSE.md) 和 [逐包权利清单](docs/RIGHTS.md)。
+开源不等于可任意商用：发布前请确认你使用的包与素材的授权范围。
 
-VibeGaming提供的是有限范围的浏览器游戏及创作起点，不是官方游戏客户端，也不承诺任何模型一次完成任意创意。你可以保留可玩的基础，再逐步把它做成自己的作品；发布前应完成相应代码与素材授权确认。
