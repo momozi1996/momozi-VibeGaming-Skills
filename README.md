@@ -1,8 +1,6 @@
 # momozi · VibeGaming · Skills
 
 - VibeGaming · Game Skill Packages
-- <img width="1672" height="941" alt="VibeGaming 游戏技能包架构图" src="https://github.com/user-attachments/assets/f08ec552-c588-4b21-997c-d1ddc0941650" />
-
 
 **安装一个 skill，从完整工程出发，和 AI 一起做出真正能玩的游戏。**
 
@@ -22,6 +20,13 @@ VibeGaming 是面向游戏创作者与 Code Agent 的独立游戏技能库。每
 - **独立安装、跨 Agent 使用**：只选一个包即可，不依赖其他skill或原始note。支持读取本地文件、执行命令的Code Agent；不支持技能发现时也可以直接读取 `SKILL.md`。
 
 > 当前版本：**`2026.09.21-rc4`（预发布）**。各包的运行前置和许可范围不同；请先查看[环境要求](#环境与离线能力)与[使用许可](#使用许可)。本项目不代表任何游戏厂商的官方客户端或授权。
+
+## 技术架构图
+
+- <img width="1672" height="941" alt="VibeGaming 游戏技能包架构图" src="https://github.com/user-attachments/assets/f08ec552-c588-4b21-997c-d1ddc0941650" />
+-<img width="1672" height="941" alt="霓虹风游戏技能技术架构信息图" src="https://github.com/user-attachments/assets/f4ab8865-b4fe-4183-a954-54755c00924f" />
+
+
 
 ## 快速开始
 
