@@ -24,7 +24,7 @@ VibeGaming 是面向游戏创作者与 Code Agent 的独立游戏技能库。每
 ## 技术架构图
 
 - <img width="1672" height="941" alt="VibeGaming 游戏技能包架构图" src="https://github.com/user-attachments/assets/f08ec552-c588-4b21-997c-d1ddc0941650" />
--<img width="1672" height="941" alt="霓虹风游戏技能技术架构信息图" src="https://github.com/user-attachments/assets/f4ab8865-b4fe-4183-a954-54755c00924f" />
+- <img width="1672" height="941" alt="霓虹风游戏技能技术架构信息图" src="https://github.com/user-attachments/assets/f4ab8865-b4fe-4183-a954-54755c00924f" />
 
 
 
